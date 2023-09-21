@@ -2,19 +2,50 @@ import { formatDate, getDate } from "./Date"
 import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import readingTime from "reading-time"
 
+import type { JSX } from "preact"
+import { formatDistanceToNow } from "date-fns"
+
+const TimeMeta = ({ value }: { value: Date }) => (
+  <time dateTime={formatDate(value)}>{formatDistanceToNow(value)} ago</time>
+)
+
 export default (() => {
   function ContentMetadata({ cfg, fileData }: QuartzComponentProps) {
     const text = fileData.text
     if (text) {
-      const segments: string[] = []
+      const segments: JSX.Element[] = []
       const { text: timeTaken, words: _words } = readingTime(text)
 
       if (fileData.dates) {
-        segments.push(formatDate(getDate(cfg, fileData)!))
+        if (fileData.dates.created) {
+          segments.push(
+            <span>
+              🌿 Planted <TimeMeta value={fileData.dates.created} />
+            </span>,
+          )
+        }
+
+        if (fileData.dates.modified) {
+          segments.push(
+            <span>
+              🧤 Last tended <TimeMeta value={fileData.dates.modified} />
+            </span>,
+          )
+        }
       }
 
-      segments.push(timeTaken)
-      return <p class="content-meta">{segments.join(", ")}</p>
+      segments.push(<span>⏲ {timeTaken}</span>)
+
+      return (
+        <p class="content-meta">
+          {segments.map((meta, idx) => (
+            <>
+              {meta}
+              {idx < segments.length - 1 ? <br /> : null}
+            </>
+          ))}
+        </p>
+      )
     } else {
       return null
     }
@@ -22,6 +53,11 @@ export default (() => {
 
   ContentMetadata.css = `
   .content-meta {
+    display:flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 10;
+
     margin-top: 0;
     color: var(--gray);
   }
