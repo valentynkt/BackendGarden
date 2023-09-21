@@ -6,6 +6,7 @@ lastTendedAt: 2023-09-20
 ---
 A [digital garden](https://maggieappleton.com/garden-history) is an online space at the intersection of a notebook and a blog, where digital gardeners share **seeds of thoughts** to be **cultivated in public**. Instead of polished articles displayed in reverse chronological order like a blog, a digital garden is more like a free form, work-in-progress wiki.
 ^e09057
+
 ## Relations to Zettelkasten
 
 There are different categories of notes in both [Zettelkasten](https://zettelkasten.de/posts/overview/) and digital gardening that can roughly translate to each other.
@@ -35,4 +36,4 @@ Tending to a seedling involves [[Ideas and knowledge on their own are not useful
 
 🌲 Once I feel like I have done my due diligence on an idea, it will graduate to an `#evergreen`. These notes I feel like are reasonably well thought-out ideas that I intend to keep around. But all ideas can be changed, merged, or deleted.
 
-History is kept with [git](https://github.com/chadly/quartz).
+History is kept with [git](https://github.com/chadly/garden).
