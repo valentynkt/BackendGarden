@@ -7,8 +7,8 @@ export const sharedPageComponents: SharedLayout = {
   header: [],
   footer: Component.Footer({
     links: {
-      License: "http://creativecommons.org/licenses/by/4.0/",
-      GitHub: "https://github.com/chadly/quartz",
+      "License: CC BY 4.0": "http://creativecommons.org/licenses/by/4.0/",
+      GitHub: "https://github.com/chadly/garden",
     },
   }),
 }
