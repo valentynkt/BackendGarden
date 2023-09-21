@@ -13,6 +13,8 @@ export default ((opts?: Options) => {
     return (
       <footer>
         <hr />
+        <div class="giscus"></div>
+        <hr />
         <ul>
           {Object.entries(links).map(([text, link]) => (
             <li>
