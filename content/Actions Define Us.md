@@ -3,8 +3,7 @@ tags: [evergreen]
 plantedAt: 2022-09-21
 lastTendedAt: 2022-09-22
 ---
-> The road to hell is paved with good intentions.
-
+![[2023-09-22_7 Things Steve Jobs Said That You Should Say Every Single Day - Inc.com#^a9328d35]]
 We are not [[Judging Ideas|defined by our thoughts]]. **What we do** is what defines **who we are**.
 
 > We aren’t defined by our intentions or our thoughts; we’re defined by what we do. Our actions.
