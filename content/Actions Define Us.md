@@ -5,7 +5,7 @@ lastTendedAt: 2022-09-22
 ---
 > The road to hell is paved with good intentions.
 
-We are not [[No bad thoughts in a Zettelkasten|defined by our thoughts]]. **What we do** is what defines **who we are**.
+We are not [[Judging Ideas|defined by our thoughts]]. **What we do** is what defines **who we are**.
 
 > We aren’t defined by our intentions or our thoughts; we’re defined by what we do. Our actions.
 > That’s counterintuitive to what society has been saying for years, especially since phrases and mentalities like, “Don’t judge me,” and “Really, I’m a good person, especially compared to that other guy…” became popular.
@@ -21,4 +21,4 @@ We all [[How I deal with ADHD|have challenges]] we must overcome to understand a
 > It’s not who you are underneath, it's what you do that defines you.
 > - [Batman Begins](https://youtu.be/b24mxL5lpvg)
 
-Taking ownership of ourselves means [[No bad thoughts in a Zettelkasten|not judging our thoughts]] and instead [[One must understand their emotions to understand themselves|yearning to understand]] where they come from so that we can ultimately grow and become more in tune with [[Emotions deeply affect our thoughts, actions, and world view|what drives our behavior]].
+Taking ownership of ourselves means [[Judging Ideas|not judging our thoughts]] and instead [[One must understand their emotions to understand themselves|yearning to understand]] where they come from so that we can ultimately grow and become more in tune with [[Emotions deeply affect our thoughts, actions, and world view|what drives our behavior]].

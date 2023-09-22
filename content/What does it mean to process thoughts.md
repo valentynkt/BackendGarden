@@ -10,6 +10,6 @@ This necessarily means that processing one's thoughts means processing [[Emotion
 
 Emotions and feelings present a unique challenge in that in order to properly process them, the feelings need to be acknowledged, [[Emotional invalidation weakens our relationships|validated]], and [[Emotions need to be felt|felt]].
  
-Once the feelings are [[No bad thoughts in a Zettelkasten|accepted]], they can be processed using tools such as [[Journaling is an effective way to process our emotions|journaling]].
+Once the feelings are [[Judging Ideas|accepted]], they can be processed using tools such as [[Journaling is an effective way to process our emotions|journaling]].
  
 A [[Digital Gardening|Zettelkasten]], on the other hand, is effective at processing ideas.

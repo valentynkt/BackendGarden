@@ -8,6 +8,6 @@ lastTendedAt: 2022-09-26
 
 Since we [[We grow mentally ill due to unprocessed trauma|grow ill due to not being able to think about or confront certain aspects of ourselves]], psychotherapy's job is to make the patient feel comfortable enough to access the parts of themselves that are too painful.
 
-In order for this to work, it's important to feel safe enough to share whatever happens to enter one's mind. It is only through this [[No bad thoughts in a Zettelkasten|acceptance of all thoughts]] that we can learn to [[Accept yourself for who you are|accept ourselves]].
+In order for this to work, it's important to feel safe enough to share whatever happens to enter one's mind. It is only through this [[Judging Ideas|acceptance of all thoughts]] that we can learn to [[Accept yourself for who you are|accept ourselves]].
 
 [[Psychedelics can help with the goals of psychotherapy|Psychedelics are a tool that can enhance the experience]] and perhaps get past mental blocks more easily.

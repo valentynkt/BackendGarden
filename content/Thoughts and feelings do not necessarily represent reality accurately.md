@@ -12,4 +12,4 @@ When experiencing strong emotions (such as those that accompany [[Stages of Grie
 
 Instead, we should [[Know Thyself#How to get to know yourself|examine our thoughts]] to [[One must understand their emotions to understand themselves|understand them and ultimately ourselves]]. This will allow us to think rationally to judge our ideas fairly rather than succumbing to [[No rational emotional decision|emotional decision-making]].
 
-Despite emotional thoughts being irrational, it still makes sense to [[No bad thoughts in a Zettelkasten|capture]] and [[What does it mean to process thoughts|process them]]. The thoughts could be weeds that need to eventually be pruned, but we don't know that until we try to integrate the thoughts into our knowledge framework.
+Despite emotional thoughts being irrational, it still makes sense to [[Judging Ideas|capture]] and [[What does it mean to process thoughts|process them]]. The thoughts could be weeds that need to eventually be pruned, but we don't know that until we try to integrate the thoughts into our knowledge framework.
