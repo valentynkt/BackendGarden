@@ -1,7 +1,7 @@
 ---
-tags: [evergreen]
+tags:
+  - evergreen
 plantedAt: 2022-09-21
-lastTendedAt: 2022-09-22
 ---
 ![[2023-09-22_7 Things Steve Jobs Said That You Should Say Every Single Day - Inc.com#^a9328d35]]
 
