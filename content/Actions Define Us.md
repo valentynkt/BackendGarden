@@ -4,11 +4,12 @@ plantedAt: 2022-09-21
 lastTendedAt: 2022-09-22
 ---
 ![[2023-09-22_7 Things Steve Jobs Said That You Should Say Every Single Day - Inc.com#^a9328d35]]
-We are not [[Judging Ideas|defined by our thoughts]]. **What we do** is what defines **who we are**.
 
-> We aren’t defined by our intentions or our thoughts; we’re defined by what we do. Our actions.
-> That’s counterintuitive to what society has been saying for years, especially since phrases and mentalities like, “Don’t judge me,” and “Really, I’m a good person, especially compared to that other guy…” became popular.
-> - [[Our Actions Define Us|Adam]]
+[[Emotions deeply affect our thoughts, actions, and world view|Thoughts are powerful]]. They control our perspective controls our behavior and ultimately who we are
+
+We are not defined by our thoughts -- at least not without our own choice. The thoughts and ideas we choose to incorporate into the "story of us" are what ultimately define who we are.
+
+**What we do** is what defines **who we are**.
 
 While [[One must understand their emotions to understand themselves|discovering our inner selves]] is very important, it's important in the sense that it will help us understand *our actions*. It's important to *own our behavior*.
 

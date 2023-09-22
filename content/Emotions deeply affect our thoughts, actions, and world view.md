@@ -3,7 +3,6 @@ tags: [evergreen]
 plantedAt: 2022-09-15
 lastTendedAt: 2022-09-28
 ---
-
 Thoughts are our ideas and opinions about the world, often [[Emotions vs Feelings vs Thoughts|based on past emotional experiences]].
 
 [[Emotional reactions have many triggers]] that can cascade **recursively**. This emotional depth needs to be understood to [[One must understand their emotions to understand themselves|truly understand ourselves]].
