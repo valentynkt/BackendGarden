@@ -3,7 +3,9 @@ tags:
   - evergreen
 plantedAt: 2022-09-21
 ---
-![[2023-09-22_7 Things Steve Jobs Said That You Should Say Every Single Day - Inc.com#^a9328d35]]
+> [!quote]
+> Ideas without action aren’t ideas. They’re regrets.
+> - Steve Jobs
 
 [[Emotions deeply affect our thoughts, actions, and world view|Thoughts are powerful]]. They control our perspective of the world which impacts our behavior and ultimately who we are.
 
@@ -15,6 +17,6 @@ We all [[How I deal with ADHD|have challenges]] we must overcome to understand a
 
 > [!quote]
 > Good intentions are simply not enough. Our character is defined and our lives are determined not by what we want, say or think, but by what we do.
-> - [Michael Josephson](https://quotefancy.com/quote/1555003/Michael-Josephson-Good-intentions-are-simply-not-enough-Our-character-is-defined-and-our)
+> - Michael Josephson
 
 Taking ownership of ourselves means [[Judging Ideas|not judging our thoughts]] and instead [[One must understand their emotions to understand themselves|yearning to understand]] where they come from so that we can ultimately grow and become more in tune with [[Emotions deeply affect our thoughts, actions, and world view|what drives our behavior]].
