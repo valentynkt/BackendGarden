@@ -2,8 +2,9 @@
 tags:
   - evergreen
 plantedAt: 2022-09-15
-lastTendedAt: 2023-09-20
 ---
+![[2022-09-20_Zettelkasten Method- How to Take Smart Notes (A Beginner's Guide)#^d437d200]]
+
 This repository exists somewhere between a Zettelkasten and a [[Digital Gardening|digital garden]] and aids me in learning and producing knowledge.
 
 For me, maintaining this Zettelkasten is not so much about collecting facts or researching academic ideas.

@@ -1,10 +1,9 @@
 ---
-tags: [seedling]
+tags:
+  - seedling
 plantedAt: 2022-09-16
-lastTendedAt: 2022-09-22
 ---
-
-# For any kind of network, emergent behavior makes the sum greater than its parts
+For any kind of network of connected components, emergent behavior makes the sum greater than its parts.
 
 Connecting nodes together in meaningful ways creates a network where the [[Positive social connections keep us healthy|relationships between nodes]] provides more value than the nodes themselves.
 

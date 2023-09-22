@@ -3,9 +3,6 @@ tags: [evergreen]
 plantedAt: 2022-09-21
 lastTendedAt: 2022-09-22
 ---
-
-# Actions Define Us
-
 > The road to hell is paved with good intentions.
 
 We are not [[No bad thoughts in a Zettelkasten|defined by our thoughts]]. **What we do** is what defines **who we are**.
