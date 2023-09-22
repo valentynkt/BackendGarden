@@ -3,6 +3,8 @@ tags: [evergreen]
 plantedAt: 2022-09-21
 lastTendedAt: 2022-09-22
 ---
+test
+
 ![[2023-09-22_7 Things Steve Jobs Said That You Should Say Every Single Day - Inc.com#^a9328d35]]
 
 [[Emotions deeply affect our thoughts, actions, and world view|Thoughts are powerful]]. They control our perspective of the world which impacts our behavior and ultimately who we are.

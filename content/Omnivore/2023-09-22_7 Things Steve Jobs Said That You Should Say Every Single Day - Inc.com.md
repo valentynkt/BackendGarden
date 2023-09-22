@@ -11,5 +11,5 @@ lastTendedAt: 2023-09-22 05:41:36
 
 ## Highlights
 
-> Ideas without action aren't ideas. They're [regrets](https://www.inc.com/gary-vaynerchuk/askgaryvee-episode-154-do-not-live-on-regrets.html). [⤴️](https://omnivore.app/me/7-things-steve-jobs-said-that-you-should-say-every-single-day-in-18abc7acd42#a9328d35-3796-4e5b-90fc-f097e14649db)  ^a9328d35
-
+> Ideas without action aren't ideas. They're regrets. [⤴️](https://omnivore.app/me/7-things-steve-jobs-said-that-you-should-say-every-single-day-in-18abc7acd42#a9328d35-3796-4e5b-90fc-f097e14649db) 
+^a9328d35
