@@ -1,7 +1,8 @@
 ---
-tags: [movie,evergreen]
+tags:
+  - movie
+  - evergreen
 plantedAt: 2022-09-26
-lastTendedAt: 2022-09-26
 rating: ⭐⭐⭐⭐⭐
 ---
 
@@ -12,6 +13,6 @@ rating: ⭐⭐⭐⭐⭐
 
 It was very funny. I enjoyed it way more than Patton Oswald (which I tried to watch before this).
 
-He seems **real**, interacting with the audience, having **real emotions**. He goes from [[Comedy hides pain|comedy to some real sadness]] and gets teary-eyed at one point in the set.
+He seems **real**, interacting with the audience, having **real emotions**. He goes from [[Laughter is the emotional release of tension#Philosophical Implications|comedy to some real sadness]] and gets teary-eyed at one point in the set.
 
-I especially could relate to his anecdotes with his son and how his ex-wife and him are good co-parents. I felt like it gave me a model and hope that [[Despair and depression come from a lack of imagination|maybe I can find happiness and fulfillment]] if I [[202209131042 Connect with Carson|focus on the right things]].
+I especially could relate to his anecdotes with his son and how his ex-wife and him are good co-parents. I felt like it gave me a model and hope that [[Despair and depression come from a lack of imagination|maybe I can find happiness and fulfillment]] if I focus on the right things.

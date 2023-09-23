@@ -28,3 +28,9 @@ Humor is also heavily [[Laughter is based on aggression|based on aggression]] [[
 ## Philosophical Implications
 
 Comedy and tragedy (pain) are two sides of the same coin. They are [[Taoism Philosophy|yin and yang]]: can't have one without the other.
+
+The root of humor comes from a fear of humiliation. Self-deprecating humor anticipates criticism and tries to get ahead of it by leading the audience to take the "other side" -- realizing that the self-deprecation is an absurd inverse of reality -- violating audience expectations.
+
+> The connection between humor and psychological pain makes some sense. Laughter is connected to our sense (and fear) of humiliation.
+> 
+> — [[Relationship Between Humor and Sadness|Nicole Dean]]
