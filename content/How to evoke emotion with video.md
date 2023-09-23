@@ -9,6 +9,4 @@ Once the audience knows and empathizes with the character, you can use the story
 
 Emotions mess with [[Emotions deeply affect our thoughts, actions, and world view|how people percieve things]] and you can help the audience along their journey of experiencing emotions with motion/set/lighting/color/sound/music design and how the story is framed.
 
-You can also use irony/meta to have the audience experience something different outside of the character's experience.
-
-Humor: subvert expectations
+You can also use [[Humor is a benign violation of expectations|irony/meta]] to have the audience experience something different outside of the character's experience.

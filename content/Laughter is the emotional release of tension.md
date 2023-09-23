@@ -24,3 +24,7 @@ It involves a stereotypical and predictable set of characteristics:
 Laughter might be a way to [[Empathy builds relationships|communicate empathy]] and build [[Positive social connections keep us healthy|better relationships with others]]. The emotional response (laughter) is so familiar and makes it obvious to the comedian when their audience has *understood* their message.
 
 Humor is also heavily [[Laughter is based on aggression|based on aggression]] [[Aggression evolved from sexual selection evolutionary pressures|yielding selection pressure]].
+
+## Philosophical Implications
+
+Comedy and tragedy (pain) are two sides of the same coin. They are [[Taoism Philosophy|yin and yang]]: can't have one without the other.

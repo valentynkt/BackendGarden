@@ -14,7 +14,5 @@ host: kidshealth.org
 favicon: /content/dam/kidshealth/kh_thumbnail.png
 ```
 
-"for teens" — [[Comedy hides pain|lol]], because I am a child trying to understand myself.
-
 - [[Emotions deeply affect our thoughts, actions, and world view]]
 - [[Emotional Intelligence is our understanding of others]]
