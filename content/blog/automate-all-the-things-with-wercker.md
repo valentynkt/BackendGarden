@@ -8,7 +8,7 @@ tags:
 ---
 I recently decided to switch my site over from [Ghost](https://ghost.org/) to [Wintersmith](http://wintersmith.io/), a static site generator.
 
-> But, Chad, weren't you just [recently raving](user-experience-matters-more-than-you-think/) about how great Ghost was?
+> But, Chad, weren't you just [[user-experience-matters-more-than-you-think|recently raving]] about how great Ghost was?
 > <cite>Random Internet Person</cite>
 
 Why, yes, Random Internet Person, I was. Please allow me to explain before interrupting.
