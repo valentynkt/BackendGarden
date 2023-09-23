@@ -515,6 +515,17 @@
       "source": "/2012/08/what-you-get-with-git",
       "destination": "/blog/what-you-get-with-git",
       "permanent": true
+    },
+
+    {
+      "source": "/web-animation",
+      "destination": "https://github.com/chadly/chadly.net/blob/master/content/posts/web-animation/index.mdx",
+      "permanent": true
+    },
+    {
+      "source": "/trogdor",
+      "destination": "https://github.com/chadly/chadly.net/tree/master/src/trogdor",
+      "permanent": true
     }
   ]
 }
