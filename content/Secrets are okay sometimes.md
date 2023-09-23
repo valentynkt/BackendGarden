@@ -1,11 +1,8 @@
 ---
-tags: [seedling]
+tags:
+  - seedling
 plantedAt: 2022-09-22
-lastTendedAt: 2022-09-22
 ---
-
-# Secrets are okay sometimes
-
 > I’m not advocating for always disclosing all information to everyone all the time. That would be foolish. There are safe people and unsafe people to share with, and with that, not everyone always needs to know everything because most people don’t always have the right to know everything.
 > - [Adam](https://www.letsdigress.com/our-actions-define-us/)
 

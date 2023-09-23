@@ -1,9 +1,8 @@
 ---
-tags: [seedling]
+tags:
+  - seedling
 plantedAt: 2022-10-21
-lastTendedAt: 2022-10-21
 ---
-
 Need to tell a story. Humans love stories and [[Memory works better in story form|can remember more with stories]]. If the audience can relate to a character, they can begin to [[Empathy builds relationships|feel empathy]] for the character.
 
 Once the audience knows and empathizes with the character, you can use the story to evoke emotions in the character which should translate to the audience.

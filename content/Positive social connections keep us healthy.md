@@ -1,11 +1,8 @@
 ---
-tags: [evergreen]
+tags:
+  - evergreen
 plantedAt: 2022-09-15
-lastTendedAt: 2022-09-28
 ---
-
-# Positive social connections keep us healthy
-
 Positive social connections are important for our physical and mental well-being. They can provide emotional support, practical assistance, information and a sense of belonging.
 
 A deeper connection can be fostered by [[Empathy builds relationships|building empathy for someone]].
