@@ -1,16 +1,14 @@
 ---
 title: Automate All the Things with Wercker
 description: How I built my first site with Wintersmith.
-cover: ./automate-all-the-things.jpg
-date: 2013-12-18
-twitterId: "413469842264449024"
-redirect_from:
-  - /2013/12/automate-all-the-things-with-wercker
+plantedAt: 2013-12-18
+lastTendedAt: 2013-12-18
+tags:
+  - blog
 ---
-
 I recently decided to switch my site over from [Ghost](https://ghost.org/) to [Wintersmith](http://wintersmith.io/), a static site generator.
 
-> But, Chad, weren't you just [recently raving](/2013/10/user-experience-matters-more-than-you-think/) about how great Ghost was?
+> But, Chad, weren't you just [recently raving](user-experience-matters-more-than-you-think/) about how great Ghost was?
 > <cite>Random Internet Person</cite>
 
 Why, yes, Random Internet Person, I was. Please allow me to explain before interrupting.
@@ -25,7 +23,7 @@ Why not get the best of both worlds? A framework that allows me to be a web deve
 
 Static site generators have become very popular as of late -- [Jekyll](http://jekyllrb.com/) probably being the most popular since [Github Pages](http://pages.github.com/) uses it. I wanted to use one built on nodeJS though. Because, well&hellip;
 
-![it's node bitch](./node-bitch.jpg)
+![it's node bitch](node-bitch.jpg)
 
 Wintersmith allows you to create content pages in Markdown and have those merged into HTML templates. It supports a number of plugins for different templating engines. The default blog template Wintersmith ships with uses [Jade](http://jade-lang.com/). I quickly switched that to use [Handlebars](http://handlebarsjs.com/) because I don't hate myself.
 
@@ -50,7 +48,7 @@ Ah, Random Internet Person, you are wrong again.
 
 ## Wercker to the Rescue
 
-![automate all the things](./automate-all-the-things.jpg)
+![automate all the things](automate-all-the-things.jpg)
 
 [Wercker](http://wercker.com/) is a hosted <abbr title="Continuous Integration">CI</abbr> service that allows you to give it a build/deployment script that will automatically run everytime you push a change to a branch it is watching.
 
