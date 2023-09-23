@@ -2,10 +2,11 @@
 title: Configuring Beyond Compare with Git
 description: Configure Beyond Compare to work in Linux and Windows with directory diffing.
 plantedAt: 2014-05-29
-lastTendedAt:
+lastTendedAt: 2014-05-29
+tags:
+  - blog
 ---
-
-[Beyond Compare](http://www.scootersoftware.com/) has been my [favorite comparison tool for a while now](/2009/04/tortoise-svn-settings-for-beyond-compare-3/). It is cross-platform and makes diffs and 3-way merges very easy to understand and visualize.
+[Beyond Compare](http://www.scootersoftware.com/) has been my [[tortoise-svn-settings-for-beyond-compare-3|favorite comparison tool for a while now]]. It is cross-platform and makes diffs and 3-way merges very easy to understand and visualize.
 
 ## Configuring Beyond Compare 4
 
@@ -24,7 +25,7 @@ git config --global mergetool.bc trustExitCode true
 
 In order to get directory diffs working (e.g. `git difftool --dir-diff`), I had to tweak the settings a little bit. By default, git uses symlinks to do the directory diff and BC4 will not follow those by default yielding something that looks like this:
 
-![broken directory diff](./dir-diffs.png)
+![broken directory diff](dir-diffs.png)
 
 There are a couple of ways to fix this ([courtesy of StackOverflow](http://stackoverflow.com/a/35319884/316108)). The approach I like is updating Beyond Compare to follow the symlinks.
 

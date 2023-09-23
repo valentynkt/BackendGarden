@@ -3,6 +3,8 @@ title: Add a Developer Greeting in the Source of your Gatsby Site
 description: How to add HTML comments to a website in 2020.
 plantedAt: 2020-05-01
 lastTendedAt: 2020-05-01
+tags:
+  - blog
 ---
 > [!info] tl;dr
 > Just [show me the code](#the-solution)!

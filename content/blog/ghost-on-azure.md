@@ -3,6 +3,8 @@ title: Host Ghost 1.0 on Azure for Free
 description: The popular publishing platform working on Azure App Service.
 plantedAt: 2017-08-16
 lastTendedAt: 2017-08-16
+tags:
+  - blog
 ---
 This site now runs on [Ghost](https://ghost.org/) in [Azure](https://azure.microsoft.com/) hosted for free[^1]. Yes, this blog has officially become nothing but me switching blog engines and then writing about it, but hey, maybe someone finds it useful? 🤷
 
