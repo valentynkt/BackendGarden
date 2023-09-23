@@ -23,4 +23,6 @@ These are the things I'm currently thinking about:
 
 ## 📽️ Videos
 
+[youtube.com/@mind-llama](https://youtube.com/@mind-llama)
 ![[mind-llama.png]]
+
