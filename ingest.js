@@ -1,51 +1,43 @@
 import fs from 'fs';
 import path from 'path';
 
-// Define the paths to the input files
-const basePath = path.join(process.cwd(), 'base_urls.txt');
-const extraPath = path.join(process.cwd(), 'extra_urls.txt');
+// Read the urls.txt file
+const filePath = path.join(process.cwd(), 'urls.txt');
+const fileContent = fs.readFileSync(filePath, 'utf-8');
 
-// Read the content of the base_urls.txt file and split it into an array of URLs
-const baseUrls = fs.readFileSync(basePath, 'utf-8').split('\n').filter(Boolean);
-
-// Read the content of the extra_urls.txt file
-const extraContent = fs.readFileSync(extraPath, 'utf-8');
-
-// Split the extra_urls.txt content by blank lines to group URLs by destination
-const extraUrlGroups = extraContent.split('\n\n').filter(Boolean);
+// Split the file content by empty lines to get blocks
+const blocks = fileContent.split('\n\n');
 
 // Initialize the redirects array
 const redirects = [];
 
-// Process the base URLs
-for (const url of baseUrls) {
-  redirects.push({
-    source: url,
-    destination: `/blog${url}`,
-    permanent: true,
-  });
-}
-
-// Process the extra URL groups
-for (const group of extraUrlGroups) {
-  const urls = group.split('\n').filter(Boolean);
-  const destination = `/blog${urls[0].replace(/^\/post\/\d+\/\d+\//, '/').replace(/\.aspx$/, '')}`;
-  for (const url of urls) {
+// Process each block using for...of syntax
+for (const block of blocks) {
+  // Split the block by newline to get individual URLs
+  const urls = block.split('\n');
+  
+  // The first URL is the destination, the rest are sources
+  const destination = urls[0];
+  const sources = urls.slice(1);
+  
+  // Create redirect objects for each source using for...of syntax
+  for (const source of sources) {
     redirects.push({
-      source: url,
+      source,
       destination,
       permanent: true,
     });
   }
 }
 
-// Create the output JSON object
-const outputJson = {
+// Create the vercel.json object
+const vercelJson = {
   cleanUrls: true,
   redirects,
 };
 
-// Write the output JSON object to a file
-fs.writeFileSync(path.join(process.cwd(), 'vercel.json'), JSON.stringify(outputJson, null, 2));
+// Write the vercel.json file
+const outputFilePath = path.join(process.cwd(), 'vercel.json');
+fs.writeFileSync(outputFilePath, JSON.stringify(vercelJson, null, 2));
 
-console.log('Output JSON has been written to vercel.json');
+console.log('vercel.json has been written successfully.');
