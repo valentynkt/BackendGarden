@@ -1,5 +1,6 @@
 {
   "cleanUrls": true,
+  "trailingSlash": false,
   "redirects": [
     {
       "source": "/agile-software-development",
@@ -516,7 +517,6 @@
       "destination": "/blog/what-you-get-with-git",
       "permanent": true
     },
-
     {
       "source": "/web-animation",
       "destination": "https://github.com/chadly/chadly.net/blob/master/content/posts/web-animation/index.mdx",
