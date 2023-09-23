@@ -1,13 +1,11 @@
 ---
-id: 0c647962-288f-550f-8690-2887b8564593
 title: Live TV with Hauppauge WinTV-HVR2250 in Elementary OS
 description: Download a bunch of random drivers and firmware to get a TV card working in Linux.
-date: '2014-03-02'
-redirect_from:
-  - /2014/03/live-tv-in-linux
-  - /2014/03/live-tv-with-hauppauge-wintv-hvr2250-in-elementary-os
+plantedAt: 2014-03-02
+lastTendedAt: 2014-03-02
+tags:
+  - blog
 ---
-
 I've been using [elementary OS Luna](http://elementaryos.org/) lately, an Ubuntu derivative, and I really like it so far. It is very smooth and lightweight. Anyway, since I had to reinstall my OS, I've needed to setup all of my hardware again. Here is how I got my [WinTV-HVR2250](http://hauppauge.com/site/products/data_hvr2250.html) working.
 
 I followed the [guide on linuxtv.org](http://www.linuxtv.org/wiki/index.php/Hauppauge_WinTV-HVR-2200). Here are the steps that I ran to get my setup working.

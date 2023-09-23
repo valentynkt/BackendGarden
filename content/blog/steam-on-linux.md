@@ -1,11 +1,8 @@
 ---
-id: 433fd9dd-7035-57aa-a990-2e6dbdfff518
 title: Moving Steam Folder Out of Home in Linux
 description: You don't have to put your game files where Steam tells you to. Fight the power.
-date: '2014-03-01'
-redirect_from:
-  - /2014/03/steam-on-linux
-  - /2014/03/moving-steam-folder-out-of-home-in-linux
+plantedAt: 2014-03-01
+lastTendedAt:
 ---
 
 I like to switch distros from time to time and remembering all of my little system tweaks becomes...problematic over time. Hence, I am documenting this for myself. Maybe it will benefit you too, dear reader.

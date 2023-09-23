@@ -2,6 +2,8 @@
 title: Developing with Passion
 plantedAt: 2009-03-09
 lastTendedAt: 2009-03-09
+tags:
+  - blog
 ---
 I was going through my feed reader today catching up on some of the blogs I read and I came across [this post](http://devlicio.us/blogs/casey/archive/2009/03/29/job-satisfaction-and-making-the-world-a-better-place.aspx) from Casey Charlton. I was pretty astonished when I read it - this coming from [Mr. DDD](http://dddstepbystep.com/). Not only that, but this is the second reference I've seen to software developers not being happy with software development in the past few days:
 

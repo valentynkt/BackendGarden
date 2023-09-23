@@ -1,13 +1,11 @@
 ---
-id: cc6295c5-3b07-5888-a1ea-61288006f897
 title: Installing NVidia Drivers for GTX 650 Ti Boost in Ubuntu 14.04
 description: Watch someone struggle to update drivers in Linux.
-date: '2015-04-04'
-redirect_from:
-  - /2015/04/nvidia-drivers
-  - /2015/04/installing-nvidia-drivers-for-gtx-650-ti-boost-in-ubuntu-14-04
+plantedAt: 2015-04-04
+lastTendedAt: 2015-04-04
+tags:
+  - blog
 ---
-
 I was experiencing problems with banding in some games and during videos with the NVidia 331 drivers in Ubuntu. I decided to try the latest driver from NVidia for my card, (`346.47` as of right now).
 
 **Spoiler:** The latest driver solves the banding issues and is much more performant.

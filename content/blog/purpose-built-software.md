@@ -1,11 +1,11 @@
 ---
-id: 94965cd6-1e43-5c45-bb19-6274e1271a30
 title: Purpose-Built Software
 description: How I built my first site with Gatsby.
-date: '2019-01-03'
-twitterId: '1081285258207735808'
+plantedAt: 2019-01-03
+lastTendedAt: 2019-01-03
+tags:
+  - blog
 ---
-
 It's been [a little over a year](/ghost-on-azure/), so it's about that time where I switch the technology this site runs on. This time I went with the "modern stack" of [Gatsby](https://www.gatsbyjs.org/) & [Contentful](https://www.contentful.com/) to build the site and manage the content respectively.
 
 ### Y Tho?
