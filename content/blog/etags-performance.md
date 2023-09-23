@@ -1,11 +1,9 @@
 ---
-id: 4a004ef5-b2da-54d7-8589-363ea3f4edf5
 title: Why ETags Might Not Be Helping Your Site Performance
 description: How I disabled ETags to get better caching with Ghost.
-date: '2017-08-19'
-twitterId: '898951056557834240'
+plantedAt: 2017-08-19
+lastTendedAt: 2017-08-19
 ---
-
 I spent a lot of time trying to get the caching for this site right. I had [very specific goals in mind](/ghost-on-azure/#final-product) with the caching and I think I achieved them. But I had to disable [etags](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag) to do it.
 
 ## What do ETags do anyway?
