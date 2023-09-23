@@ -1,8 +1,9 @@
 ---
-tags: [seedling]
+tags:
+  - seedling
 plantedAt: 2023-01-30
-lastTendedAt: 2023-01-30
 ---
+## Davinci Resolve
 
 1. In the project settings, set the target loudness level to -14 LUFs
 2. During the edit, keep voiceover/dialogue, sound effects, memes, and music on separate tracks
