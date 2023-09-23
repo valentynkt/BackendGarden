@@ -1,7 +1,7 @@
 ---
 id: c8d32c79-3b0a-4db4-9972-113b234e97be
 plantedAt: 2023-09-23 07:02:00
-lastTendedAt: 2023-09-23 11:41:24
+lastTendedAt: 2023-09-23 11:42:00
 ---
 
 # Groundbreaking Study Uncovers Origin of “Conscious Awareness”
