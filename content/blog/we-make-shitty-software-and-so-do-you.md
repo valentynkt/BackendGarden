@@ -1,13 +1,10 @@
 ---
-id: 17ec72ea-29da-5dde-aafc-7bc9f9ca0dbd
 title: We make shitty software (and so do you!)
-date: '2009-07-09'
-twitterId: '2551590081'
-redirect_from:
-  - /post/2009/07/09/we-make-shitty-software-and-so-do-you.aspx
-  - /2009/07/we-make-shitty-software-and-so-do-you
+plantedAt: 2009-07-09
+lastTendedAt: 2009-07-09
+tags:
+  - blog
 ---
-
 I just ran across this [little gem](http://davenet.scripting.com/1995/09/03/wemakeshittysoftware) and it made me laugh:
 
 > An old software slogan at Living Videotext: "We Make Shitty Software… With Bugs!" It makes me laugh! We never ran this slogan in an ad. People wouldn't understand. But it's the truth. We make shitty software. And so do you!

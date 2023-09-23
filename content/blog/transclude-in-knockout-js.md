@@ -1,14 +1,11 @@
 ---
-id: bd2bc27d-b9b3-5059-bc75-9dea327215e6
 title: A Poor Man's Transclude in Knockout.js
 description: Trying to make Knockout a little more like Angular.
-date: '2013-12-13'
-redirect_from:
-  - /a-poor-mans-transclude-in-knockout-js
-  - /2013/12/a-poor-mans-transclude-in-knockout-js
-  - /2013/12/a-poor-man-s-transclude-in-knockout-js
+plantedAt: 2013-12-13
+lastTendedAt: 2013-12-13
+tags:
+  - blog
 ---
-
 If you've ever used [angular.js](http://angularjs.org/), you might have come across the transclude feature. From the [angular.js docs](http://docs.angularjs.org/guide/directive#creating-custom-directives_demo_creating-a-directive-that-wraps-other-elements):
 
 > Transclude makes the contents of a directive with this option have access to the scope outside of the directive rather than inside.

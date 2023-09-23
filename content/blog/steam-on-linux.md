@@ -2,9 +2,10 @@
 title: Moving Steam Folder Out of Home in Linux
 description: You don't have to put your game files where Steam tells you to. Fight the power.
 plantedAt: 2014-03-01
-lastTendedAt:
+lastTendedAt: 2014-03-01
+tags:
+  - blog
 ---
-
 I like to switch distros from time to time and remembering all of my little system tweaks becomes...problematic over time. Hence, I am documenting this for myself. Maybe it will benefit you too, dear reader.
 
 I have a large <abbr title="Solid State Drive">SSD</abbr> I use as my system disk and it annoys me greatly when [Steam](http://store.steampowered.com/) installs itself to my `home` folder. Yes, it is a larger disk, but I'd like to reap the benefits of my SSD (faster loading times) when playing games.

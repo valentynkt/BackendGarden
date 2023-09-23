@@ -1,17 +1,11 @@
 ---
-id: 287c6bb2-a271-558a-8475-886bd31eff95
 title: It's Tough Times Out There
 description: About that one time where I got laid off.
-date: '2009-03-09'
-twitterId: '1302604668'
-redirect_from:
-  - /post/2009/03/09/Its-Tough-Times-Out-There.aspx
-  - /its-tough-times-out-there
-  - /2009/03/it-s-tough-times-out-there
-  - /2009/03/its-tough-times-out-there
-  - /2009/03/tough-times-out-there
+plantedAt: 2009-03-09
+lastTendedAt: 2009-03-09
+tags:
+  - blog
 ---
-
 "Times are tough" -- I've heard that phrase ten thousand times in the past few months. I am so sick of hearing about the economy and how bad everything is. I feel like much of it is a self-fulfilling prophecy -  a vicious feedback cycle that is perpetuated by how much everyone talks about it _all-the-freaking-time_.
 
 Anyway, I was pulling into the parking lot at work this morning, and somebody on the radio said something to the effect of "I know times are tough, but…" and I shut the radio off right there. [STFUMF](http://www.urbandictionary.com/define.php?term=stfumf) - is what I thought to myself.  Maybe a little harsh, but hey, its my thoughts and I can get as angry as I want in my head. I am just desperately tired of hearing about the economy - especially that one phrase - "times are tough". Are times really that tough? My wife and I have not lived our lives any differently since the start of this recession. We still go out to eat, go see movies, and generally do what we want to do. I feel like I have been largely unaffected by this recession. These were my thoughts as I got out my car and headed into work.
