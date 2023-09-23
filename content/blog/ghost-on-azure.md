@@ -15,7 +15,7 @@ This site now runs on [Ghost](https://ghost.org/) in [Azure](https://azure.micro
 
 ## Background
 
-I used to run this site on [Ghost a few years ago](/user-experience-matters-more-than-you-think/) when it first came out. I [switched it to use a static site generator](/automate-all-the-things-with-wercker/) shortly after that mostly because I thought it would be a fun little project (also performance and security and all that nonsense).
+I used to run this site on [[user-experience-matters-more-than-you-think|Ghost a few years ago]] when it first came out. I [[automate-all-the-things-with-wercker|switched it to use a static site generator]] shortly after that mostly because I thought it would be a fun little project (also performance and security and all that nonsense).
 
 ### Why the Switch Back?
 
@@ -123,7 +123,7 @@ Navigate to _Deployment Options_ to choose your source:
 
 From there, I chose Github and filled in all my settings:
 
-![deployment-github](./deployment-github.png)
+![deployment-github](deployment-github.png)
 
 I set my repo up with a few branches for easier maintenance. The `ghost` branch is where I commit the [Ghost releases as they come out](https://github.com/TryGhost/Ghost/releases/latest) unchanged. The `azure` branch is where I made only the changes necessary to get it running on Azure. I rebase this branch off of `ghost` as new releases come out. I then create a separate branch for each site I deploy. e.g. I created a `chadlynet` branch for this site and I create other branches for family members that want their own sites. This way I can make theme customizations and tweaks to individual sites and rebase those changes off of the `azure` branch.
 
@@ -135,10 +135,8 @@ Once your site is deployed, you will want to set some environment variables. You
 
 Make sure to _Save_ after setting that setting.
 
-> ![info]
+> [!info]
 > You don't need to set the `NODE_ENV` as iisnode will set that to `production` for you automatically.
-
-</Alert>
 
 ### A Working Site
 
@@ -146,7 +144,7 @@ You should now have a working site at _yourname.azurewebsites.net_. You can star
 
 ## Azure CDN as a Reverse Proxy
 
-Technically, the [Azure CDN](https://azure.microsoft.com/en-us/services/cdn/) isn't free. But it is so cheap, that it is practically free. For the standard tier, as of this writing, it is $0.087 / GB. For my site, since I am only serving text and small images, it ends up costing me on average a little less than $0.07 / month. Trust me, your shitty blog, like mine, will also not be expensive. 😜
+Technically, the [Azure CDN](https://azure.microsoft.com/en-us/services/cdn/) isn't free. But it is so cheap, that it is practically free. For the standard tier, as of this writing, it is \$0.087 / GB. For my site, since I am only serving text and small images, it ends up costing me on average a little less than \$0.07 / month. Trust me, your shitty blog, like mine, will also not be expensive. 😜
 
 ### Static Site Performance
 
@@ -166,8 +164,7 @@ To setup the caching config for Ghost, you will need to edit the `config.product
 
 This tells Ghost to cache the frontend of the site (e.g. not the admin section at _/ghost_) at 72,000 seconds = 20 hours. By default, Ghost will set this number to zero. You will want to bump that number to whatever you are most comfortable with. The way I have it setup, when I write or edit a post, it may or may not show up for people depending on where they are for up to 20 hours. I am OK with that for the performance benefits it brings.
 
-There is a little more nuance to this [concerning ETags and things; more on that in another post](/etags-performance/).
-
+There is a little more nuance to this [[etags-performance|concerning ETags and things; more on that in another post]].
 ### Setup
 
 To setup the CDN, you will want to click on the _+ New_ icon and search for / choose CDN:
