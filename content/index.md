@@ -20,3 +20,7 @@ These are the things I'm currently thinking about:
 * [[Dilated Attention]]
 * [[Vesperance]]
 * [[How I deal with ADHD]]
+
+## 📽️ Videos
+
+![[mind-llama.png]]
