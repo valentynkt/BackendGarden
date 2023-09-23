@@ -6,6 +6,9 @@ lastTendedAt: 2009-03-09
 tags:
   - blog
 ---
+> [!warning] Archived Content
+> [github.com/chadly](https://github.com/chadly/chadly.net)
+
 "Times are tough" -- I've heard that phrase ten thousand times in the past few months. I am so sick of hearing about the economy and how bad everything is. I feel like much of it is a self-fulfilling prophecy -  a vicious feedback cycle that is perpetuated by how much everyone talks about it _all-the-freaking-time_.
 
 Anyway, I was pulling into the parking lot at work this morning, and somebody on the radio said something to the effect of "I know times are tough, but…" and I shut the radio off right there. [STFUMF](http://www.urbandictionary.com/define.php?term=stfumf) - is what I thought to myself.  Maybe a little harsh, but hey, its my thoughts and I can get as angry as I want in my head. I am just desperately tired of hearing about the economy - especially that one phrase - "times are tough". Are times really that tough? My wife and I have not lived our lives any differently since the start of this recession. We still go out to eat, go see movies, and generally do what we want to do. I feel like I have been largely unaffected by this recession. These were my thoughts as I got out my car and headed into work.

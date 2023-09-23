@@ -5,6 +5,9 @@ plantedAt: 2009-02-01
 lastTendedAt: 2009-02-01
 title: Agile Software Development
 ---
+> [!warning] Archived Content
+> [github.com/chadly](https://github.com/chadly/chadly.net)
+
 I just ran across this [video presentation](http://www.balsamiq.com/blog/?p=375) with software development advice from Jason Fried - from 37Signals. It's not really anything I haven't heard before, it is coming from an interesting perspective though. Here are some highlights and things that jumped out at me:
 
 ## Small Iterations

@@ -6,6 +6,9 @@ lastTendedAt: 2014-05-29
 tags:
   - blog
 ---
+> [!warning] Archived Content
+> [github.com/chadly](https://github.com/chadly/chadly.net)
+
 [Beyond Compare](http://www.scootersoftware.com/) has been my [[tortoise-svn-settings-for-beyond-compare-3|favorite comparison tool for a while now]]. It is cross-platform and makes diffs and 3-way merges very easy to understand and visualize.
 
 ## Configuring Beyond Compare 4

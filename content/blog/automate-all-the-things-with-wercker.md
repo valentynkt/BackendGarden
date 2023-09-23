@@ -6,6 +6,9 @@ lastTendedAt: 2013-12-18
 tags:
   - blog
 ---
+> [!warning] Archived Content
+> [github.com/chadly](https://github.com/chadly/chadly.net)
+
 I recently decided to switch my site over from [Ghost](https://ghost.org/) to [Wintersmith](http://wintersmith.io/), a static site generator.
 
 > But, Chad, weren't you just [[user-experience-matters-more-than-you-think|recently raving]] about how great Ghost was?

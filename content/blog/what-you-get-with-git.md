@@ -5,6 +5,9 @@ lastTendedAt: 2012-08-28
 tags:
   - blog
 ---
+> [!warning] Archived Content
+> [github.com/chadly](https://github.com/chadly/chadly.net)
+
 I recently broke down and decided to try and use Git for something. Practically every open source project I use has now moved to [GitHub](https://github.com/) and it was becoming hard to submit patches (or pull requests or whatever) without having a Git client on my machine.
 
 I decided to install [GitHub for Windows](http://windows.github.com/) since it is new and it is the thing I have [most recently heard about](http://haacked.com/archive/2012/05/21/introducing-github-for-windows.aspx). I was very pleased with my initial impressions with it – very nice UI and workflow. The two features I immediately found lacking were the lack of being able to define an external diff/conflict viewer and the inability to show a log on a particular file. However, I'm looking forward to future versions which I am sure things like that will be addressed. Besides for now, if the project is hosted on GitHub, it is easy enough to click the "view on github" link and see the history info there.

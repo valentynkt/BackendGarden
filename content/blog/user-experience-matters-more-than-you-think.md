@@ -6,6 +6,9 @@ lastTendedAt: 2013-10-18
 tags:
   - blog
 ---
+> [!warning] Archived Content
+> [github.com/chadly](https://github.com/chadly/chadly.net)
+
 So there is this [new blog engine](http://ghost.org/) in town that [maybe you have heard of](http://www.kickstarter.com/projects/johnonolan/ghost-just-a-blogging-platform)? If not, don't fret, I only heard about it when they made their [public release](http://blog.ghost.org/public-launch/) just a few days ago.
 
 Well, apparently, when the internet heard about this idea for a new blogging engine, it went insane. John O'Nolan convinced over 5000 people to give him over $300,000 with just a couple of pretty screenshots.

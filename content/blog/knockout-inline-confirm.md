@@ -6,6 +6,9 @@ lastTendedAt: 2014-02-02
 tags:
   - blog
 ---
+> [!warning] Archived Content
+> [github.com/chadly](https://github.com/chadly/chadly.net)
+
 The good old native confirmation dialog -- have you ever been writing a web app and found yourself using one of these?
 
 ![Are you really sure you want to do that? No, but really, think about it before you just quickly dismiss this popup without reading it.](confirm.png)

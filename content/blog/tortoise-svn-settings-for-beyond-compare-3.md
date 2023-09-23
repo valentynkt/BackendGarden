@@ -6,6 +6,9 @@ lastTendedAt: 2009-04-13
 tags:
   - blog
 ---
+> [!warning] Archived Content
+> [github.com/chadly](https://github.com/chadly/chadly.net)
+
 This is for future reference for me – for some reason this is a huge pain in the ass for me to find whenever I need it.
 
 Here is the official documentation on how to [integrate BC3 with TortoiseSVN](http://www.scootersoftware.com/support.php?c=kb_vcs.php).

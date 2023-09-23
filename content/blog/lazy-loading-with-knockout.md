@@ -5,6 +5,9 @@ tags:
   - blog
 lastTendedAt: 2012-09-12
 ---
+> [!warning] Archived Content
+> [github.com/chadly](https://github.com/chadly/chadly.net)
+
 I recently had the need to lazy load a list of items using Knockout JS. Luckily, this problem [has already been solved](http://www.knockmeout.net/2011/06/lazy-loading-observable-in-knockoutjs.html)…mostly. I suggest you go read that post for the concept behind how lazy loading with Knockout works in general.
 
 The part that was missing from that implementation for me was the Knockout array methods that are usually on an `observableArray`. E.g., when you do this using the code from the aforementioned post:

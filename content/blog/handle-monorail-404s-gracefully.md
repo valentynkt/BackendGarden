@@ -6,6 +6,9 @@ lastTendedAt: 2009-03-10
 tags:
   - blog
 ---
+> [!warning] Archived Content
+> [github.com/chadly](https://github.com/chadly/chadly.net)
+
 I need to display user-friendly 404 pages when a request is made for a controller that cannot be found. Monorail provides a built-in way to handle this. When faced with a request for a controller it cannot find, Monorail will look for a view named 404 in the rescues folder and render that. That is good enough for most people, I guess. It wasn't good enough for me. I needed my 404 view to use a layout (dynamically chosen based on some configuration settings) and to display some data.
 
 To give you an example of what I am talking about, consider an ecommerce site.  When someone requests a page that doesn't exist, you would want to show them a friendly error page that shows some featured products - some products that the user might be interested in. We don't want to turn the user away or show a sparsely populated page when our poor, unsuspecting user types a wrong URL.

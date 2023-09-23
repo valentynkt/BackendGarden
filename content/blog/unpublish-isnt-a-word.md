@@ -6,6 +6,9 @@ lastTendedAt: 2016-03-24
 tags:
   - blog
 ---
+> [!warning] Archived Content
+> [github.com/chadly](https://github.com/chadly/chadly.net)
+
 I, being a victim of the npmapocalypse, feel like I need to weigh in on the whole debacle. The community seems to be honing in on the idea that [micropackages](http://lucumr.pocoo.org/2016/3/24/open-source-trust-scaling/) and [microdependencies](http://www.haneycodes.net/npm-left-pad-have-we-forgotten-how-to-program/) are generally a bad thing. I disagree on principal with this sentiment but at the same time, think we've gone a little [off the deep end](https://www.npmjs.com/package/true).
 
 I, myself, would probably not write a one-function package or take a direct dependency on one. But, I also wouldn't write a leftpad function myself if I didn't have to. In my case I would probably just use [lodash](https://lodash.com/docs#padStart). I think packages, generally, should do one thing and one thing well. I just disagree on the scope of what that one thing is. Is the one thing string manipulation? Or is it specifically padding a string?

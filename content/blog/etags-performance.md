@@ -6,6 +6,9 @@ lastTendedAt: 2017-08-19
 tags:
   - blog
 ---
+> [!warning] Archived Content
+> [github.com/chadly](https://github.com/chadly/chadly.net)
+
 I spent a lot of time trying to get the caching for this site right. I had [very specific goals in mind](/ghost-on-azure/#final-product) with the caching and I think I achieved them. But I had to disable [etags](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag) to do it.
 
 ## What do ETags do anyway?

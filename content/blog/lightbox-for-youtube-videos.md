@@ -6,6 +6,9 @@ lastTendedAt: 2009-01-29
 tags:
   - blog
 ---
+> [!warning] Archived Content
+> [github.com/chadly](https://github.com/chadly/chadly.net)
+
 On one of my recent projects, I needed to embed YouTube videos on a page using a lightbox-type plugin.  Naturally, the first thing I do when confronted with something like this is to hit up Google.  I ended up finding a few different solutions.
 
 First off was [Videobox](http://videobox-lb.sourceforge.net/) - this is exactly what I wanted -- but ehh, it uses mootools.  Nothing against mootools, its a great little framework - but the whole site where this is going is already using jQuery.

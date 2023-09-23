@@ -5,6 +5,9 @@ lastTendedAt: 2009-07-09
 tags:
   - blog
 ---
+> [!warning] Archived Content
+> [github.com/chadly](https://github.com/chadly/chadly.net)
+
 I just ran across this [little gem](http://davenet.scripting.com/1995/09/03/wemakeshittysoftware) and it made me laugh:
 
 > An old software slogan at Living Videotext: "We Make Shitty Software… With Bugs!" It makes me laugh! We never ran this slogan in an ad. People wouldn't understand. But it's the truth. We make shitty software. And so do you!

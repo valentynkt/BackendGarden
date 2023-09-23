@@ -5,6 +5,9 @@ plantedAt: 2009-03-14
 lastTendedAt: 2009-03-14
 title: Asp.Net MVC and Sealed Classes
 ---
+> [!warning] Archived Content
+> [github.com/chadly](https://github.com/chadly/chadly.net)
+
 I just created a project from the Asp.Net MVC default template (yes, I am a little late to this game – sorry, I have been living happily with Monorail) and ran across this in the `AccountController` class:
 
 > The FormsAuthentication type is sealed and contains static members, so it is difficult to unit test code that calls its members. The interface and helper class below demonstrate how to create an abstract wrapper around such a type in order to make the AccountController code unit testable.

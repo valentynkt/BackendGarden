@@ -5,6 +5,9 @@ tags:
   - blog
 lastTendedAt: 2009-07-27
 ---
+> [!warning] Archived Content
+> [github.com/chadly](https://github.com/chadly/chadly.net)
+
 In case you haven't heard, NHibernate.Linq v1.0 has been released. This has been a long time in the making and Tuna has put the final touches on it to make it possible. You can get the binaries from the [NHibernate download area](http://sourceforge.net/projects/nhibernate/files/).
 
 Here are some informal release notes:

@@ -6,6 +6,9 @@ lastTendedAt: 2013-12-13
 tags:
   - blog
 ---
+> [!warning] Archived Content
+> [github.com/chadly](https://github.com/chadly/chadly.net)
+
 If you've ever used [angular.js](http://angularjs.org/), you might have come across the transclude feature. From the [angular.js docs](http://docs.angularjs.org/guide/directive#creating-custom-directives_demo_creating-a-directive-that-wraps-other-elements):
 
 > Transclude makes the contents of a directive with this option have access to the scope outside of the directive rather than inside.

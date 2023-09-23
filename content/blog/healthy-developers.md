@@ -6,6 +6,9 @@ lastTendedAt: 2014-02-10
 tags:
   - blog
 ---
+> [!warning] Archived Content
+> [github.com/chadly](https://github.com/chadly/chadly.net)
+
 > Start with the foundation.
 
 That's what any sane person will tell you when you go to build a building. It's common sense. You can't build a skyscraper on some weirdly shaped dirt -- you have to first lay a strong foundation.

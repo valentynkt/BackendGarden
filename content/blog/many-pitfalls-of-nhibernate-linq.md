@@ -5,6 +5,9 @@ lastTendedAt: 2009-08-26
 tags:
   - blog
 ---
+> [!warning] Archived Content
+> [github.com/chadly](https://github.com/chadly/chadly.net)
+
 Working with the [recently released NHibernate.Linq](/nhibernate-linq-1/) is not without its (many) pitfalls. In one of my current projects, we are using the specification pattern to build dynamic linq queries based off of persistable specification objects. This has led to more than one hair-pulling session on the limitations of the current NH Linq provider. For instance, did you know that this query will work just fine:
 
 ```csharp

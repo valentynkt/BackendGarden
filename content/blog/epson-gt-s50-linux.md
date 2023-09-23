@@ -6,6 +6,9 @@ lastTendedAt: 2014-02-16
 tags:
   - blog
 ---
+> [!warning] Archived Content
+> [github.com/chadly](https://github.com/chadly/chadly.net)
+
 I'm a bit anal when it comes to digitizing all of my important paperwork. Back when I was using Windows, I used to use Adobe Acrobat to scan all my documents into PDF. It was simple and easy. Turn scanner on, load document, click scan in Acrobat -- out pops a nice optimized OCRd PDF.
 
 In Mint, it _can_ be just as easy. It just took me a little bit to get my workflow setup with a different set of software.

@@ -6,6 +6,9 @@ lastTendedAt: 2020-05-01
 tags:
   - blog
 ---
+> [!warning] Archived Content
+> [github.com/chadly](https://github.com/chadly/chadly.net)
+
 > [!info] tl;dr
 > Just [show me the code](#the-solution)!
 
