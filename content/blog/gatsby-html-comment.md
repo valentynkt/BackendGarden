@@ -97,11 +97,11 @@ exports.onPreRenderHTML = ({ getHeadComponents, replaceHeadComponents }) => {
 
 This will add a `script` tag as the first element in your `head` with its content set to a JS comment. Although this works and has the benefit of being able to be packaged up into a plugin that can easily be reused across all of your sites, it isn't exactly what we want. If you open dev tools with this solution:
 
-![bad comment](./bad-comment.png "Where is my comment?")
+![bad comment](bad-comment.png "Where is my comment?")
 
 You don't see shit. Chrome doesn't expand the `head`, much less a random `script` by default. No developers are going to see it buried in there:
 
-![comment buried deep](./there-it-is.png "Ugh, there it is")
+![comment buried deep](there-it-is.png "Ugh, there it is")
 
 We really need the comment to be the first thing under `html` for anyone to see it when they first open their dev tools. Unfortunately, Gatsby's SSR APIs don't provide a mechanism to make that work.
 
@@ -175,7 +175,7 @@ There are a few things going on here. We take the default `html.js` component Ga
 
 After all of that, when we open dev tools, we are greeted with:
 
-![the comment where we want it](./sweet-relief.png "Ahh, sweet relief")
+![the comment where we want it](sweet-relief.png "Ahh, sweet relief")
 
 Ah ha! We done did it! It was a long road with lots of plot twists, but we got here. If you've read this far, you are now armed with the skills to add comments to websites. Feel free to add that bullet point to your résumé.
 
