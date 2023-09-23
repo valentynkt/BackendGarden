@@ -21,3 +21,6 @@ lastTendedAt: 2023-09-23 11:42:00
 
 > “The babies in our study have revealed something really profound: that there is action in the midst of inaction, and inaction in the midst of action. Both provide meaningful information to the infant exploring the world and its place in it,” said Kelso. “The coordination dynamics of movement and stillness jointly constitute the unity of the baby’s conscious awareness – that they can make things happen in the world. Intentionally.” [⤴️](https://omnivore.app/me/https-scitechdaily-com-groundbreaking-study-uncovers-origin-of-c-18ac1eafa22#f45f9d74-2ac6-489e-8d4a-d2126003f420)  ^f45f9d74
 
+## Ideas
+
+* [[Agency emerges from the relationship between entity and environment]]
