@@ -1,22 +1,10 @@
 ---
 tags:
   - blog
-plantedAt: 2009-09-23
-lastTendedAt: 2023-09-23
+plantedAt: 2009-02-01
+lastTendedAt: 2009-02-01
+title: Agile Software Development
 ---
----
-id: 7c4b4673-73de-5a60-b4c1-206afd47a59b
-title: Agilb
-date: '2009-02-01'
-cover: ./software_development.jpg
-twitterId: '1171310531'
-redirect_from:
-  - /post/2009/02/01/Agile-Software-Development-from-a-Business-Perspective.aspx
-  - /agile-software-development-from-a-business-perspective
-  - /2009/02/agile-software-development-from-a-business-perspective
-  - /2009/02/agile-software-development
----
-
 I just ran across this [video presentation](http://www.balsamiq.com/blog/?p=375) with software development advice from Jason Fried - from 37Signals. It's not really anything I haven't heard before, it is coming from an interesting perspective though. Here are some highlights and things that jumped out at me:
 
 ## Small Iterations
@@ -31,7 +19,7 @@ Functional specs don't work. They are abstractions of the software that you are 
 
 A lot of "red flag words" can lead to a project going awry. "Need" is a big one. Most of the time, the client has no idea what he actually _needs_ (see image below). Don't let the client/stakeholder steer you in the wrong direction.
 
-![software development](./software_development.jpg)
+![[software_development.jpg]]
 
 "Easy" is another one -- "oh just get this-and-this done, it should be easy." Or one that I have heard myself - "Why can't you just, you know, clickity-click it and get it done?" It leads to animosity and sets people up for failure. (I know my wife has experienced this first-hand at her job…)
 
