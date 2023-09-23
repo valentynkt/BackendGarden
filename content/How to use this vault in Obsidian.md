@@ -1,14 +1,8 @@
 ---
-tags: [evergreen]
+tags:
+  - evergreen
 plantedAt: 2022-09-24
-lastTendedAt: 2022-09-24
 ---
-
-# How to Use this Vault in Obsidian
-
-> [!WARNING]
-> You need to be viewing this in [Obsidian](https://obsidian.md/) for any of this to work. Follow the [[README|instructions on the homepage]] if you haven't yet.
-
 ## 🖥️ Useful Hotkeys in Obsidian
 
 ### Navigation
