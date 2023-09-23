@@ -1,9 +1,9 @@
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
 
 // Define the paths to the input files
-const basePath = path.join(__dirname, 'base_urls.txt');
-const extraPath = path.join(__dirname, 'extra_urls.txt');
+const basePath = path.join(process.cwd(), 'base_urls.txt');
+const extraPath = path.join(process.cwd(), 'extra_urls.txt');
 
 // Read the content of the base_urls.txt file and split it into an array of URLs
 const baseUrls = fs.readFileSync(basePath, 'utf-8').split('\n').filter(Boolean);
@@ -46,6 +46,6 @@ const outputJson = {
 };
 
 // Write the output JSON object to a file
-fs.writeFileSync(path.join(__dirname, 'output.json'), JSON.stringify(outputJson, null, 2));
+fs.writeFileSync(path.join(process.cwd(), 'vercel.json'), JSON.stringify(outputJson, null, 2));
 
-console.log('Output JSON has been written to output.json');
+console.log('Output JSON has been written to vercel.json');
