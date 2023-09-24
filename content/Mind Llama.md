@@ -104,6 +104,8 @@ Enjoys long-form content that delves deep into topics of interest, including per
 
 *Intersection between viewers' desires and information/entertainment the channel brings.*
 
+### Banner Tagline
+
 * Harness the power of your mind in the Age of Intelligence
 * Do more with less using AI
 * Harness your power of creation with AI
@@ -114,4 +116,6 @@ Enjoys long-form content that delves deep into topics of interest, including per
 * Harness AI for positive change in your life
 * Find your purpose in the Age of Intelligence
 * Be the change you want to see
-* 
+* Find your place in the Great Reset
+
+### Channel Desc
