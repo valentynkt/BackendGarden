@@ -110,4 +110,8 @@ Enjoys long-form content that delves deep into topics of interest, including per
 * Find meaning at the crossroads of biological and artificial intelligence
 * Learn to harness AI to live more fully
 * Find fulfillment in the Age of Intelligence
-* The old world is dying; the new struggles to be born. 
+* The old world is dying; the new struggles to be born. Find your place in it.
+* Harness AI for positive change in your life
+* Find your purpose in the Age of Intelligence
+* Be the change you want to see
+* 
