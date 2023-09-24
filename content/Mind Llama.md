@@ -131,6 +131,7 @@ Enjoys long-form content that delves deep into topics of interest, including per
 * Find your place in the Great Reset
 * Find your path in the Age of Intelligence
 * Forge your own path in Age of Intelligence
+* Thrive in the AI Revolution
 
 ### Channel Description
 
