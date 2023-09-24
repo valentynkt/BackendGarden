@@ -3,7 +3,7 @@ tags:
   - evergreen
 plantedAt: 2022-09-15
 ---
-The particular mode that allows one to step out of their procrastination tendencies is not one that happens by accident, but rather, it is **intentional**. This is a mode that is consciously invoked by a certain group of individuals who have a preference for working under circumstances that are **saturated with pressure**. These people possess an understanding that their motivation levels are significantly higher, and their quality of work becomes noticeably better when there is a [[ADHD Motivation|palpable sense of urgency]] attached to the tasks they are undertaking. 
+*Active procrastination* is a particular mode of procrastination that is characterized by **intentionality**. This is a mode that is consciously invoked by a [[How I deal with ADHD|certain group of individuals]] who have a preference for working under circumstances that are **saturated with pressure**. These people possess an understanding that their [[ADHD Motivation|motivation levels are significantly higher]], and their quality of work becomes noticeably better when there is a [[ADHD Motivation|palpable sense of urgency]] attached to the tasks they are undertaking. 
 
 Consider the following scenario: You are given a project or task that needs to be completed, however, the due date is not until two months away. With this ample time, you could potentially start working on it immediately, but you find yourself thinking, "I can complete this the night before it's due. So why should I bother starting on it right now?" 
 
