@@ -2,6 +2,7 @@
 tags:
   - evergreen
 plantedAt: 2023-09-20
+title: Mind Llama
 ---
 [youtube.com/@mind-llama](https://www.youtube.com/@mind-llama)
 
