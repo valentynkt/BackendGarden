@@ -5,12 +5,7 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  footer: Component.Footer({
-    links: {
-      "License: CC BY 4.0": "http://creativecommons.org/licenses/by/4.0/",
-      GitHub: "https://github.com/chadly/garden",
-    },
-  }),
+  footer: Component.Footer(),
 }
 
 // components for pages that display a single page (e.g. a single note)
