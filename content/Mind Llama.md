@@ -116,9 +116,10 @@ Enjoys long-form content that delves deep into topics of interest, including per
 * Find your purpose in the Age of Intelligence
 * Be the change you want to see
 * Find your place in the Great Reset
+* Find your path in the 4th Industrial Revolution
 
 ### Channel Description
 
-Philosophy & Ethics in the Age of Intelligence.
+Harness your power in the Age of Intelligence
 
 AI is the mirror in which we see the reflections of our own intelligence, ethics, and potential. It's not just about programming machines, but about understanding ourselves and our place in the universe in a world where machines understand us.
