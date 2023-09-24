@@ -1,13 +1,12 @@
 ---
-tags: [evergreen]
+tags:
+  - evergreen
 plantedAt: 2022-09-15
-lastTendedAt: 2022-09-28
 ---
+The particular mode that allows one to step out of their procrastination tendencies is not one that happens by accident, but rather, it is **intentional**. This is a mode that is consciously invoked by a certain group of individuals who have a preference for working under circumstances that are **saturated with pressure**. These people possess an understanding that their motivation levels are significantly higher, and their quality of work becomes noticeably better when there is a [[ADHD Motivation|palpable sense of urgency]] attached to the tasks they are undertaking. 
 
-# What is Active Procrastination?
+Consider the following scenario: You are given a project or task that needs to be completed, however, the due date is not until two months away. With this ample time, you could potentially start working on it immediately, but you find yourself thinking, "I can complete this the night before it's due. So why should I bother starting on it right now?" 
 
-This mode out of procrastination is **intentional**. It is invoked by people who prefer to work under pressure. They realize that they have more motivation and work better when there is a sense of urgency to what they are doing.
+This type of behavior is what sets it apart from other forms of procrastination, specifically [[Passive Procrastination|passive procrastination]]. The primary distinguishing feature lies in the intentionality of the action. While passive procrastination is often a result of a lack of motivation or focus, this mode is purposefully chosen because the individual **thrives under pressure**.
 
-> I can get this done the night before and it's due in two months. Why should I work on it now?
-
-This differs from [[Passive Procrastination|passive procrastination in intentionality]] and [[Active Procrastination Outcomes|outcome]].
+Furthermore, the [[Active Procrastination Outcomes|outcomes]] of this form of procrastination are also significantly different. Unlike passive procrastination, which often results in rushed, subpar work or missed deadlines, this mode of procrastination typically leads to high-quality work produced in a short amount of time. The sense of urgency and pressure acts as a catalyst, promoting efficiency and productivity. This is a testament to the **intentional nature** of this mode of procrastination and the positive results it can yield under the right circumstances.
