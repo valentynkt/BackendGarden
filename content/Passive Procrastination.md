@@ -3,19 +3,9 @@ tags:
   - evergreen
 plantedAt: 2022-09-15
 ---
-This mode out of procrastination is **unintentional**. It is characterized by what people normally think of when they think of "procrastination."
+*Passive procrastination* is not a deliberate choice, but rather, it is **unintentional**. This form of procrastination is typically what comes to mind for most individuals when they hear the term "procrastination." It is the quintessential representation of the habit, embodying the classic **avoidance behavior** that is all too often associated with the act of procrastinating.
 
-This is the "head-in-the-sand" approach where someone avoids thinking about the task that they dread.
-
-It is mentally draining since it's never actually taken off the procrastinator's mental plate.
-
-This differs from [[Active Procrastination|active procrastination in intentionality]] and [[Active Procrastination Outcomes|outcome]].
-
-
-
-The mode of procrastination is not a deliberate choice, but rather, it is **unintentional**. This form of procrastination is typically what comes to mind for most individuals when they hear the term "procrastination." It is the quintessential representation of the habit, embodying the classic **avoidance behavior** that is all too often associated with the act of procrastinating.
-
-When we refer to this form of procrastination, we often describe it as the "head-in-the-sand" approach. This metaphor effectively captures the essence of the behavior. It is as though the procrastinator, much like an ostrich, buries their head in the sand to avoid confronting the looming task that they dread. Instead of taking active steps to address and complete the task, they choose to ignore its existence, hoping that it will somehow disappear or resolve itself.
+When we refer to this form of procrastination, we often describe it as the "head-in-the-sand" approach. This metaphor effectively captures the essence of the behavior. Instead of taking active steps to address and complete the task, they choose to ignore its existence, hoping that it will somehow disappear or resolve itself.
 
 This behavior can have its roots in [[Emotions need to be felt|emotional avoidance]] or deeper [[ADHD Motivation|motivational issues]].
 
