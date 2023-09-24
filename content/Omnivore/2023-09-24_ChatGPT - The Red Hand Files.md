@@ -21,15 +21,21 @@ But, this is a very flimsy argument - spoken by someone who very clearly has not
 
 It's a _different_ kind of creative struggle - but underneath is still that same spiritual tug of war.
 
+---
+
 > It renders our participation in the act of creation as valueless and unnecessary. [⤴️](https://omnivore.app/me/nick-cave-the-red-hand-files-issue-248-i-work-in-the-music-indus-18ac97255a1#f2886632-0c96-48a3-8eda-8e9ca8532969)  ^f2886632
 
 that's not how it works
+
+---
 
 > ChatGPT’s intent is to eliminate the process of creation [⤴️](https://omnivore.app/me/nick-cave-the-red-hand-files-issue-248-i-work-in-the-music-indus-18ac97255a1#d761b4a3-404e-4df2-8e5c-ab2aa36b596b)  ^d761b4a3
 
 again, referring to ChatGPT, the thing "without a soul" as having intent implying agency
 
 which if were true, would negate the core of the entire thesis
+
+---
 
 > we find the resilience to do and make beautiful things, and this is where the meaning of life resides. [⤴️](https://omnivore.app/me/nick-cave-the-red-hand-files-issue-248-i-work-in-the-music-indus-18ac97255a1#724ef934-fdc6-4f16-82a1-11515a449bd1)  ^724ef934
 
