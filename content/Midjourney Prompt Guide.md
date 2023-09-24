@@ -4,7 +4,7 @@ plantedAt: 2023-03-11
 lastTendedAt: 2023-03-12
 ---
 
-These our tips for manually creating prompts for Midjourney. There is also another technique of [[GPT-4 Midjourney Prompting|using GPT-4 to generate ideal Midjourney prompts]].
+These our tips for manually creating prompts for Midjourney. There is also another technique of [[Midjourney|using GPT-4 to generate ideal Midjourney prompts]].
 
 ![[midjourney-example.png]]
 
