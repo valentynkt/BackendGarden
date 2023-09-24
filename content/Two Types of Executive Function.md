@@ -12,4 +12,4 @@ The hot system is activated "in the heat of the moment" while the cool one is ac
 
 It's easier to make better decisions when making use of the cool system.
 
-This is especially relevant for people with [[ADHD Executive Function|ADHD: an executive function disorder]].
+This is especially relevant for people with [[ADHD is an executive function disorder|ADHD: an executive function disorder]].

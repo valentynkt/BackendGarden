@@ -10,7 +10,7 @@ ADHD people find motivation in things that are stimulating and engaging to their
 * new or novel
 * personally interesting
 
-**This need for stimulation is not a choice**. It's the only way for an ADHD brain to "work" since [[ADHD Motivation|it can't otherwise connect the dopamine brain reward with an action]].
+**This need for stimulation is not a choice**. It's the only way for an ADHD brain to "work" since [[Finding motivation for someone with ADHD can be very difficult|it can't otherwise connect the dopamine brain reward with an action]].
 
 Other coping mechanisms, such as [[ADHD Stimulant Medication|stimulant medication]] and [[Excercise for ADHD motivation issues|exercise]] can help people with ADHD-based motivational issues.
 

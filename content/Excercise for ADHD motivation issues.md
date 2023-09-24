@@ -3,7 +3,7 @@ tags:
   - evergreen
 plantedAt: 2022-09-15
 ---
-Exercise increases dopamine in the brain, the same thing that [[ADHD Stimulant Medication|stimulant medications]] do to [[ADHD Motivation|provide motivation]] for brains affected by [[ADHD Executive Function|ADHD]].
+Exercise increases dopamine in the brain, the same thing that [[ADHD Stimulant Medication|stimulant medications]] do to [[Finding motivation for someone with ADHD can be very difficult|provide motivation]] for brains affected by [[ADHD is an executive function disorder|ADHD]].
 
 ----
 

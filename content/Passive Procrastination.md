@@ -7,7 +7,7 @@ plantedAt: 2022-09-15
 
 When we refer to this form of procrastination, we often describe it as the "head-in-the-sand" approach. This metaphor effectively captures the essence of the behavior. Instead of taking active steps to address and complete the task, they choose to ignore its existence, hoping that it will somehow disappear or resolve itself.
 
-This behavior can have its roots in [[Emotions need to be felt|emotional avoidance]] or deeper [[ADHD Motivation|motivational issues]].
+This behavior can have its roots in [[Emotions need to be felt|emotional avoidance]] or deeper [[Finding motivation for someone with ADHD can be very difficult|motivational issues]].
 
 On the surface, it might seem like the easy way out, but it actually proves to be mentally taxing over time. The reason for this is simple: even though the task is being outwardly ignored, it never truly leaves the procrastinator's mental sphere. It simply retreats into the subconscious where it remains, hovering like a dark cloud, constantly reminding them of its presence. This **perpetual state of stress and anxiety** is draining, creating a [[Journaling is an effective way to process our emotions|mental burden that is hard to shake off]].
 

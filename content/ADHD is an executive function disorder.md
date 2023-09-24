@@ -1,11 +1,8 @@
 ---
-tags: [evergreen]
+tags:
+  - evergreen
 plantedAt: 2022-09-15
-lastTendedAt: 2022-09-15
 ---
-
-# ADHD is an executive function disorder
-
 ![[Executive function error.png]]
 
 **executive function**: a set of cognitive processes that help us self-regulate so we can effectively plan, prioritize, and sustain effort toward our (long term) goals.
@@ -17,7 +14,7 @@ The cognitive processes that make up executive function are:
 - **Set Shifting**: switching between tasks with different cognitive demands
 - **Delay Aversion**: delaying immediate gratification to achieve long-term rewards
 
-This has ramifications for [[ADHD Motivation|motivation]] and makes ADHDers [[ADHD Immature|seem more immature]] to their neurotypical counterparts.
+This has ramifications for [[Finding motivation for someone with ADHD can be very difficult|motivation]] and makes ADHDers [[ADHD Immature|seem more immature]] to their neurotypical counterparts.
 
 ## Source
 

@@ -6,7 +6,7 @@ lastTendedAt: 2022-09-22
 
 # How I deal with ADHD
 
-ADHD is an [[ADHD Executive Function|executive function disorder]]. It is characterized by:
+ADHD is an [[ADHD is an executive function disorder|executive function disorder]]. It is characterized by:
 
 - low frustration tolerance
 - poor working memory

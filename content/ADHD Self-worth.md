@@ -6,7 +6,7 @@ lastTendedAt: 2022-09-22
 
 # ADHD can cause self-worth issues
 
-ADHD can lead to feelings of laziness and inadequacy due to ADHDers being [[ADHD Motivation|unable to find motivation]] to work on things they know are important.
+ADHD can lead to feelings of laziness and inadequacy due to ADHDers being [[Finding motivation for someone with ADHD can be very difficult|unable to find motivation]] to work on things they know are important.
 
 [[Procrastination|Constantly procrastinating]] and not knowing why leads people to fill in the blanks. If not examined, these ideas can come to define someone's [[Accept yourself for who you are|self-worth in a negative way]] leading to more motivation issues causing a vicious cycle.
 

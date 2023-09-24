@@ -8,4 +8,4 @@ lastTendedAt: 2022-09-20
 
 Medication of this class work due to the [[ADHD people need stimulation to find motivation|ADHD brain requiring stimulation]] to work properly.
 
-[[Excercise for ADHD motivation issues|Exercise]] is another way to deal with [[ADHD Motivation|motivational issues stemming from ADHD]].
+[[Excercise for ADHD motivation issues|Exercise]] is another way to deal with [[Finding motivation for someone with ADHD can be very difficult|motivational issues stemming from ADHD]].

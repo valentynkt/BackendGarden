@@ -1,14 +1,11 @@
 ---
-tags: [evergreen]
+tags:
+  - evergreen
 plantedAt: 2022-09-20
-lastTendedAt: 2022-09-20
 ---
-
-# Finding motivation for someone with ADHD can be very difficult
-
 ADHD brains work differently and don't properly connect an action with the dopamine response that makes them want to do the action.
 
-[Dr. Russell A. Barkley describes ADHD](https://youtu.be/OM0Xv0eVGtY?t=45) as primarily a **motivation-deficit disorder**. This is because [[ADHD Executive Function|ADHD affects executive function]].
+[Dr. Russell A. Barkley describes ADHD](https://youtu.be/OM0Xv0eVGtY?t=45) as primarily a **motivation-deficit disorder**. This is because [[ADHD is an executive function disorder|ADHD affects executive function]].
 
 *Motivation Bridge* is a nice way to visualize this.
 
@@ -17,7 +14,7 @@ For neurotypical people, motivation bridge is mostly intact with some small gaps
 
 
 ![[Motivation Bridge (ADHD).png]]
-For people with [[ADHD Executive Function|motivation-deficit disorder]], half of the metaphorical motivational bridge may be missing. This makes it very difficult for someone with ADHD to do something even though it may be just as important to them as it is for someone else without a motivational disorder.
+For people with [[ADHD is an executive function disorder|motivation-deficit disorder]], half of the metaphorical motivational bridge may be missing. This makes it very difficult for someone with ADHD to do something even though it may be just as important to them as it is for someone else without a motivational disorder.
 
 This causes ADHDers to [[ADHD Mundane Tasks|avoid mundane tasks]] and [[Procrastination|procrastinate on important tasks]].
 
