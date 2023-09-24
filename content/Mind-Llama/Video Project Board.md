@@ -1,12 +1,14 @@
 ---
 
 kanban-plugin: basic
+draft: "true"
 
 ---
 
 ## Idea
 
-- [ ] [[test]]
+- [ ] I built the matrix to see if Neo could escape
+- [ ] The AI breakthroughs you missed in 2023
 
 
 ## Writing
@@ -26,6 +28,6 @@ kanban-plugin: basic
 
 %% kanban:settings
 ```
-{"kanban-plugin":"basic"}
+{"kanban-plugin":"basic","new-note-folder":"Mind-Llama"}
 ```
 %%
