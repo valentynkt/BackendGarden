@@ -8,7 +8,7 @@ Not all those who wander are lost.
 
 ## 👋 Who am I?
 
-My name is Chad. The ideas here represent my understanding of the world. It is constantly changing as I learn more.
+My name is Chad. The ideas here represent my understanding of myself and the world. It is constantly changing as I learn more.
 
 Learn more in general about [[Why Zettelkasten|zettelkasten]].
 
@@ -17,6 +17,6 @@ Learn more in general about [[Why Zettelkasten|zettelkasten]].
 These are the things I'm currently thinking about:
 
 * [[Agency emerges from the relationship between entity and environment]]
-* [[Dilated Attention]]
 * [[Vesperance]]
+* [[Dilated Attention]]
 * [[How I deal with ADHD]]
