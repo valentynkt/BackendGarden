@@ -4,6 +4,8 @@ tags:
 plantedAt: 2023-09-20
 lastTendedAt: 2023-09-20
 ---
+![[mind-llama.png]]
+
 [youtube.com/@mind-llama](https://www.youtube.com/@mind-llama)
 
 Philosophy in the Age of Intelligence.
