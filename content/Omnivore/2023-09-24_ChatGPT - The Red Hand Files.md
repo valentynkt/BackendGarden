@@ -1,7 +1,7 @@
 ---
 id: 176d0580-4009-4704-b258-1d3b513606a7
 plantedAt: 2023-09-24 18:07:08
-lastTendedAt: 2023-09-24 18:18:03
+lastTendedAt: 2023-09-24 18:28:32
 ---
 
 # ChatGPT : The Red Hand Files
@@ -42,4 +42,16 @@ which if were true, would negate the core of the entire thesis
 agree, this doesn't change "because AI"
 
 art evolves
+
+---
+
+> but still the joy of creation exerts itself [⤴️](https://omnivore.app/me/nick-cave-the-red-hand-files-issue-248-i-work-in-the-music-indus-18ac97255a1#b11dc13f-a2bf-4ab0-81b1-888eba33268a)  ^b11dc13f
+
+AI is humanity's creation and I would argue is part of nature as well - just like everything in the universe
+
+it is an expression just like every other piece of art. it is an expression at a different level - an unfamiliar level to all of us.
+
+but it is still expression. it is still nature. and it is still meaningful.
+
+whether you create art with or without AI
 
