@@ -104,4 +104,5 @@ Enjoys long-form content that delves deep into topics of interest, including per
 
 *Intersection between viewers' desires and information/entertainment the channel brings.*
 
-Harness the power of your mind in the Age of Intelligence
+* Harness the power of your mind in the Age of Intelligence
+* Do more with less
