@@ -112,8 +112,9 @@ Enjoys long-form content that delves deep into topics of interest, including per
 * Explanations and Implications
 	* Thoughtful elucidations of [current/upcoming research](https://arxiv.org/)
 	* Prognostication given new tech paradigms
-* Policy Commentary
+* Philosophical Waxing
 	* Commentary on public debates
+	* Ethical impacts
 
 ### Banner Tagline
 
@@ -133,6 +134,10 @@ Enjoys long-form content that delves deep into topics of interest, including per
 
 ### Channel Description
 
-Harness the Power of your Intelligence with AI
+Find your footing in the 4th Industrial Revolution
+
+We are living through the Great Reset in which the paradigms on which our society is built is fundamentally changing. In this hyper fluid environment, it's easy to get lost and forget the reason for all of this change.
+
+We are here to build the world we always knew we could.
 
 AI is the mirror in which we see the reflections of our own intelligence, ethics, and potential. It's not just about programming machines, but about understanding ourselves and our place in the universe in a world where machines understand us.
