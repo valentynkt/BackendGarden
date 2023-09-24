@@ -100,9 +100,8 @@ To find a renewed sense of purpose and to embrace the changes in their life posi
 
 Enjoys long-form content that delves deep into topics of interest, including personal development, technology, and the future of work. They appreciate a thoughtful and well-researched approach to content creation.
 
-
 ## Value Proposition
 
 *Intersection between viewers' desires and information/entertainment the channel brings.*
 
-### Things I Know About
+Harness the power of your mind in the Age of Intelligence
