@@ -2,7 +2,6 @@
 tags:
   - evergreen
 plantedAt: 2023-09-20
-lastTendedAt: 2023-09-20
 ---
 ![[mind-llama.png]]
 
@@ -100,3 +99,10 @@ To find a renewed sense of purpose and to embrace the changes in their life posi
 #### Content Preferences
 
 Enjoys long-form content that delves deep into topics of interest, including personal development, technology, and the future of work. They appreciate a thoughtful and well-researched approach to content creation.
+
+
+## Value Proposition
+
+*Intersection between viewers' desires and information/entertainment the channel brings.*
+
+### Things I Know About
