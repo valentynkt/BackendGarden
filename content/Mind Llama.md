@@ -3,13 +3,10 @@ tags:
   - evergreen
 plantedAt: 2023-09-20
 ---
-![[mind-llama.png]]
-
 [youtube.com/@mind-llama](https://www.youtube.com/@mind-llama)
 
-Philosophy & Ethics in the Age of Intelligence.
 
-AI is the mirror in which we see the reflections of our own intelligence, ethics, and potential. It's not just about programming machines, but about understanding ourselves and our place in the universe in a world where machines understand us.
+![[mind-llama.png]]
 
 ## Target Audience
 
@@ -93,12 +90,14 @@ They prefer creators who have a calm demeanor and offer deep insights into perso
 ---
 #### Goals
 
-To find a renewed sense of purpose and to embrace the changes in their life positively. They are looking for content that encourages them to explore new avenues, learn new skills, and build a resilient mindset for the future.
+To find a renewed sense of purpose and to embrace the changes in their life and the world positively. They are looking for content that encourages them to explore new avenues, learn new skills, and build a resilient mindset for the future.
 
 ---
 #### Content Preferences
 
 Enjoys long-form content that delves deep into topics of interest, including personal development, technology, and the future of work. They appreciate a thoughtful and well-researched approach to content creation.
+
+---
 
 ## Value Proposition
 
@@ -118,4 +117,8 @@ Enjoys long-form content that delves deep into topics of interest, including per
 * Be the change you want to see
 * Find your place in the Great Reset
 
-### Channel Desc
+### Channel Description
+
+Philosophy & Ethics in the Age of Intelligence.
+
+AI is the mirror in which we see the reflections of our own intelligence, ethics, and potential. It's not just about programming machines, but about understanding ourselves and our place in the universe in a world where machines understand us.
