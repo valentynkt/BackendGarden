@@ -103,11 +103,17 @@ Enjoys long-form content that delves deep into topics of interest, including per
 
 *Intersection between viewers' desires and information/entertainment the channel brings.*
 
-### Audience Pain Points
-
-* 
-
 ### Video Types
+
+* Tutorials
+	* Image generation
+	* LLM Pipelines
+	* Multi-agent scenarios
+* Explanations and Implications
+	* Thoughtful elucidations of [current/upcoming research](https://arxiv.org/)
+	* Prognostication given new tech paradigms
+* Policy Commentary
+	* Commentary on public debates
 
 ### Banner Tagline
 
