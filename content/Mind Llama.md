@@ -8,7 +8,7 @@ lastTendedAt: 2023-09-20
 
 [youtube.com/@mind-llama](https://www.youtube.com/@mind-llama)
 
-Philosophy in the Age of Intelligence.
+Philosophy & Ethics in the Age of Intelligence.
 
 AI is the mirror in which we see the reflections of our own intelligence, ethics, and potential. It's not just about programming machines, but about understanding ourselves and our place in the universe in a world where machines understand us.
 
