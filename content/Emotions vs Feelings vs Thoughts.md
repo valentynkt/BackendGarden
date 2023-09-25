@@ -4,9 +4,6 @@ aliases: [Emotions are a physical response, Feelings are a mental association to
 plantedAt: 2022-09-15
 lastTendedAt: 2022-09-28
 ---
-
-# Emotions vs Feelings vs Thoughts
-
 Emotions are the physical response to a stimuli while feelings are the mental association or reaction to that physical state.
 
 > Emotions are considered as our bodies’ responses to external stimuli and feelings are mental associations and reactions to these emotions. The main difference between emotions and feelings is that **emotions are physical states whereas feelings are mental associations.**
