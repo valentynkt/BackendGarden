@@ -107,6 +107,7 @@ Enjoys long-form content that delves deep into topics of interest, including per
 ### Video Types
 
 * Tutorials
+	* Basic prompt engineering
 	* Image generation
 	* LLM Pipelines
 	* Multi-agent scenarios
