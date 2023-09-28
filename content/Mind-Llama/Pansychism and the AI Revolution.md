@@ -10,7 +10,7 @@ Connecting previous videos together in a way that makes sense to someone new.
 ## Thumbnail
 
 DMT Head on dark background with 
-
+![[thumb.png]]
 ## Title
 
 Why You Shouldn't Be Afraid of AI
