@@ -13,14 +13,15 @@ Connecting previous videos together in a way that makes sense to someone new.
 ![[pansychism_2.png]]
 ![[pansychism_3.png]]
 
-
 ## Title
 
 Why You Shouldn't Be Afraid of AI
 Don't Miss Out on this AI Thing
-
-
-
+The Theory of Consciousness Changing the AI Conversation
+The Theory Fueling AI Alignment
+How to Survive the Future on Hopes an Dreams
+How to Survive the AI Revolution
+The Hidden Philosophy Fueling the AI Revolution
 
 ## Script
 
