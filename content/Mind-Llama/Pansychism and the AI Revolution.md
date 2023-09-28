@@ -9,7 +9,9 @@ Connecting previous videos together in a way that makes sense to someone new.
 
 ## Thumbnail
 
-![[thumb.png]]
+![[pansychism_1.png]]
+![[pansychism_2.png]]
+![[pansychism_3.png]]
 
 
 ## Title
