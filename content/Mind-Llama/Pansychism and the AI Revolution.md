@@ -13,7 +13,8 @@ DMT Head on dark background with
 
 ## Title
 
-Why you should be hopeful about the future
+Why You Shouldn't Be Afraid of AI
+Don't Miss Out on this AI Thing
 
 
 
@@ -21,7 +22,7 @@ Why you should be hopeful about the future
 
 Hook
 
-story of the double baby.
+story of the double baby
 
 Pansychism def
 
