@@ -12,7 +12,7 @@ Connecting previous videos together in a way that makes sense to someone new.
 ![[pansychism_1.png]]
 ![[pansychism_2.png]]
 ![[pansychism_3.png]]
-
+![[panpsychism_zuck_1.png]]
 ## Title
 
 The Theory of Consciousness Changing the AI Conversation
