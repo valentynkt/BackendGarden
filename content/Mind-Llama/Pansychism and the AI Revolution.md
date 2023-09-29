@@ -7,12 +7,19 @@ draft: "true"
 ---
 Connecting previous videos together in a way that makes sense to someone new.
 
-## Thumbnail
+## Packaging
 
 ![[pansychism_1.png]]
 ![[pansychism_2.png]]
 ![[pansychism_3.png]]
+
+The Theory of Consciousness Changing the AI Conversation
+How to Survive the Future on Hopes and Dreams
+The HIDDEN Philosophy Fueling the AI Revolution
+
 ![[panpsychism_zuck_1.png]]
+![[panpsychism_zuck_2.png]]
+![[panpsychism_zuck_3.png]]
 ## Title
 
 The Theory of Consciousness Changing the AI Conversation
