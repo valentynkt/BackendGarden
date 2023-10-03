@@ -22,10 +22,13 @@ The HIDDEN Philosophy Fueling the AI Revolution
 ![[panpsychism_zuck_1.png]]
 ![[panpsychism_zuck_2.png]]
 ![[panpsychism_zuck_3.png]]
+![[panpsychism_zuck_4.png]]
 
 How to SURVIVE the Coming "Reality Reset"
 How to Live in a World with Multiple Simultaneous Realities
-Multiple Simultaneous Realities
+Your Multiversal Survival Guide
+How to Survive the Coming Reality Crisis
+Who Even Are You Anyway An
 
 
 ## Script
