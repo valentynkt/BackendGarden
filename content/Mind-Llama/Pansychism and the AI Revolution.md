@@ -24,6 +24,8 @@ The HIDDEN Philosophy Fueling the AI Revolution
 ![[panpsychism_zuck_3.png]]
 
 How to SURVIVE the Coming "Reality Reset"
+How to Live in a World with Multiple Simultaneous Realities
+Multiple Simultaneous Realities
 
 
 ## Script
