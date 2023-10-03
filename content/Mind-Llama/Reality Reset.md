@@ -27,4 +27,4 @@ You're Missing the Future. It's Happening NOW
 
 This Headset Does MUCH More Than You Think
 AI With VR Delivers MUCH More Than You Think
-A "Sense of Presence"
+
