@@ -64,7 +64,7 @@ They are developing an awareness for the [[Vesperance|ending of an era]] and not
 
 Grappling with a **diminished self-confidence** as they navigate a world that seems to be changing at a breakneck pace. They find themselves at a crossroads, yearning for a beacon of hope and a fresh perspective to guide their path forward.
 
-They feel like they **can't keep up** with the news much less understand the implications of all the tech breakthroughs. This fuels an intense FOMO which leaves them feeling lost in a sea of information that they want to understand.
+They feel like they **can't keep up** with the news much less understand the implications of all the tech breakthroughs. This fuels an **intense FOMO** which leaves them feeling lost in a sea of information that they want to understand.
 
 They are eager to **find a community of like-minded individuals**, a safe haven where they can share their insights, learn from others, and collectively work towards understanding and building a better future.
 
