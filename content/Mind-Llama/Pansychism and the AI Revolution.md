@@ -28,7 +28,7 @@ How to SURVIVE the Coming "Reality Reset"
 How to Live in a World with Multiple Simultaneous Realities
 Your Multiversal Survival Guide
 How to Survive the Coming Reality Crisis
-Who Even Are You Anyway An
+Who Even Are You Anyway?
 
 
 ## Script
