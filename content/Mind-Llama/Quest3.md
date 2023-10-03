@@ -12,6 +12,9 @@ Panpsychism and Quest 3
 ![[panpsychism_zuck_3.png]]
 ![[panpsychism_zuck_4.png]]
 ![[panpsychism_zuck_5.png]]
+![[panpsychism_subway_1.png]]
+![[panpsychism_subway_2.png]]
+![[panpsychism_subway_3.png]]
 
 * AI with VR Delivers a "Sense of Presence"
 * How to SURVIVE the Coming "Reality Split"
