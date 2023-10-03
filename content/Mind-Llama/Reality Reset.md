@@ -21,4 +21,4 @@ You Don't Have to Wait for the Next "Reality Reset"
 How to Distinguish Reality in 2023
 
 Tech Progress Is Accelerating Faster Than Anyone Can Keep Up With
-Everything You Missed 
+The Hidden AI Advancements Powering a "Reality Crisis"
