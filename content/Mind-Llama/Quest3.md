@@ -14,11 +14,10 @@ Panpsychism and Quest 3
 ![[panpsychism_zuck_5.png]]
 
 * AI with VR Delivers a "Sense of Presence"
-* How to SURVIVE the Coming "Reality Reset"
+* How to SURVIVE the Coming "Reality Split"
 * The Hidden AI Advancements Powering VR
 * This Headset Does MUCH More Than You Think
 * AI With VR Delivers MUCH More Than You Think
 * How the Metaverse is Encroaching Into Physical Reality
 * The Hidden AI Tech Helping VR Encroach Into Physical Reality
 * "A Sense of Presence" - Emergence at the Intersection of AI and VR
-
