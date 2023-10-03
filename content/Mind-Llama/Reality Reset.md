@@ -22,3 +22,7 @@ How to Distinguish Reality in 2023
 
 Tech Progress Is Accelerating Faster Than Anyone Can Keep Up With
 The Hidden AI Advancements Powering a "Reality Crisis"
+
+You're Missing the Future. It's Happening NOW
+
+This Headset Does MUCH More Than You Think
