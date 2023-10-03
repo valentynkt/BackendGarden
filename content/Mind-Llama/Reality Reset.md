@@ -36,4 +36,5 @@ AI and VR Fusion: Crafting a New Reality or Unveiling an Existing One?
 
 "A Sense of Presence" - Emergence at the Intersection of AI and VR
 
-"A Sense of Presence" - 
+Will the Metaverse Get Us to AGI Faster?
+The Key to AGI Hidden in the Metaverse
