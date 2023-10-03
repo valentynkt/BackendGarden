@@ -2,7 +2,6 @@
 tags:
   - script
 plantedAt: 2023-10-01
-lastTendedAt: 2023-10-03
 ---
 Panpsychism and Quest 3
 
@@ -16,7 +15,6 @@ AI with VR Delivers a "Sense of Presence"
 
 How to SURVIVE the Coming "Reality Reset"
 
-Tech Progress Is Accelerating Faster Than Anyone Can Keep Up With
 The Hidden AI Advancements Powering VR
 
 This Headset Does MUCH More Than You Think
