@@ -7,6 +7,8 @@ Panpsychism and Quest 3
 
 ## Thumb/Title
 
+[[Target Audience#^8fed9e|Target FOMO]]
+
 ![[panpsychism_zuck_1.png]]
 ![[panpsychism_zuck_2.png]]
 ![[panpsychism_zuck_3.png]]

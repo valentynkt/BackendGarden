@@ -54,8 +54,11 @@ They are developing an awareness for the [[Vesperance|ending of an era]] and not
 
 ---
 #### Challenges
+^8fed9e
 
-Grappling with a **diminished self-confidence** as they navigate a world that seems to be changing at a breakneck pace. They find themselves at a crossroads, yearning for a beacon of hope and a fresh perspective to guide their path forward.
+Most of all, Alyx seeks a **sense of control and autonomy** in a world amid global and personal changes that seem to come at a break-neck pace.
+
+Alyx feels **diminished self-confidence** in a world where they see the value in their skills quickly eroding away as AI infiltrates more and more of society. They find themselves at a crossroads, yearning for a beacon of hope and a fresh perspective to guide their path forward.
 
 They feel like they **can't keep up** with the news much less understand the implications of all the tech breakthroughs. This fuels an **intense FOMO** which leaves them feeling lost in a sea of information that they want to understand.
 
