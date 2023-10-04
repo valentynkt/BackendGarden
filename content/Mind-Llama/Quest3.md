@@ -21,6 +21,7 @@ Panpsychism and Quest 3
 ![[panpsychism_subway_2.png]]
 ![[panpsychism_subway_3.png]]
 ![[panpsychism_boardroom_1.png]]
+![[panpsychism_boardroom_2.jpg]]
 
 * Why You Should Pay Attention to the Metaverse
 * It's Time for You to Prepare for the Rise of the Metaverse
