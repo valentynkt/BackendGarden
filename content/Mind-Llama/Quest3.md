@@ -18,7 +18,7 @@ Panpsychism and Quest 3
 ![[panpsychism_boardroom_1.png]]
 
 * Why You Should Pay Attention to the Metaverse
-* How to Prepare for the Rise of the Metaverse
+* It's Time for You to Prepare for the Rise of the Metaverse
 * Are You Ready for the Future of Work?
 * The HIDDEN Truth About VR's Comeback
 * AI with VR Delivers a "Sense of Presence"
