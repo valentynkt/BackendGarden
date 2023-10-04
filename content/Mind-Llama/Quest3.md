@@ -18,6 +18,7 @@ Panpsychism and Quest 3
 ![[panpsychism_boardroom_1.png]]
 
 * Why You Should Pay Attention to the Metaverse
+* How to Prepare for the Rise of the Metaverse
 * Are You Ready for the Future of Work?
 * The HIDDEN Truth About VR's Comeback
 * AI with VR Delivers a "Sense of Presence"
@@ -28,4 +29,3 @@ Panpsychism and Quest 3
 * How the Metaverse is Encroaching Into Physical Reality
 * The Hidden AI Tech Helping VR Encroach Into Physical Reality
 * "A Sense of Presence" - Emergence at the Intersection of AI and VR
-
