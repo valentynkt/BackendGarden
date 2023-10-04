@@ -15,6 +15,7 @@ Panpsychism and Quest 3
 ![[panpsychism_subway_1.png]]
 ![[panpsychism_subway_2.png]]
 ![[panpsychism_subway_3.png]]
+![[panpsychism_boardroom_1.png]]
 
 * The HIDDEN Truth About VR's Comeback
 * AI with VR Delivers a "Sense of Presence"
