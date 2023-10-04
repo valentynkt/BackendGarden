@@ -17,6 +17,8 @@ Panpsychism and Quest 3
 ![[panpsychism_subway_3.png]]
 ![[panpsychism_boardroom_1.png]]
 
+* Why You Should Pay Attention to the Metaverse
+* Are You Ready for the Future of Work?
 * The HIDDEN Truth About VR's Comeback
 * AI with VR Delivers a "Sense of Presence"
 * How to SURVIVE the Coming "Reality Split"
