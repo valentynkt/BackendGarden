@@ -16,12 +16,13 @@ Panpsychism and Quest 3
 ![[panpsychism_subway_2.png]]
 ![[panpsychism_subway_3.png]]
 
-* Which Way Will You Go When Reality Splits?
+* The HIDDEN Truth About VR's Comeback
 * AI with VR Delivers a "Sense of Presence"
 * How to SURVIVE the Coming "Reality Split"
-* The Hidden AI Advancements Powering VR
+* The Hidden AI Advancements Powering the Rise of the Metaverse
 * This Headset Does MUCH More Than You Think
 * AI With VR Delivers MUCH More Than You Think
 * How the Metaverse is Encroaching Into Physical Reality
 * The Hidden AI Tech Helping VR Encroach Into Physical Reality
 * "A Sense of Presence" - Emergence at the Intersection of AI and VR
+
