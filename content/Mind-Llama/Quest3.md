@@ -5,10 +5,13 @@ plantedAt: 2023-10-01
 ---
 Panpsychism and Quest 3
 
-## Thumb/Title
+## Packaging
 
 [[Target Audience#^8fed9e|Target FOMO]]
 
+![[pansychism_1.png]]
+![[pansychism_2.png]]
+![[pansychism_3.png]]
 ![[panpsychism_zuck_1.png]]
 ![[panpsychism_zuck_2.png]]
 ![[panpsychism_zuck_3.png]]
@@ -31,3 +34,13 @@ Panpsychism and Quest 3
 * How the Metaverse is Encroaching Into Physical Reality
 * The Hidden AI Tech Helping VR Encroach Into Physical Reality
 * "A Sense of Presence" - Emergence at the Intersection of AI and VR
+
+### Script
+
+story of the double baby
+
+Pansychism def
+
+Fundamental ideas changing
+
+ideas -> AI -> mechanization of manifestation
