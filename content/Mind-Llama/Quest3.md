@@ -3,7 +3,7 @@ tags:
   - script
 plantedAt: 2023-10-01
 ---
-Panpsychism and Quest 3
+Quest 3 in the context of AI advancements
 
 ## Packaging
 
