@@ -24,8 +24,9 @@ Quest 3 in the context of AI advancements
 ![[quest3_3.jpg]]
 ![[quest3_4.jpg]]
 ![[quest3_context.png]]
+![[quest3_5.jpg]]
 
-* Why You Should Pay Attention to the Metaverse
+* Why You NEED to Pay Attention to the Metaverse
 * It's Time for You to Prepare for the Rise of the Metaverse
 * Are You Ready for the Future of Work?
 * The HIDDEN Truth About VR's Comeback
