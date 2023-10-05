@@ -9,9 +9,6 @@ Quest 3 in the context of AI advancements
 
 [[Target Audience#^8fed9e|Target FOMO]]
 
-![[pansychism_1.png]]
-![[pansychism_2.png]]
-![[pansychism_3.png]]
 ![[panpsychism_zuck_1.png]]
 ![[panpsychism_zuck_2.png]]
 ![[panpsychism_zuck_3.png]]
