@@ -22,6 +22,11 @@ Quest 3 in the context of AI advancements
 ![[panpsychism_subway_3.png]]
 ![[panpsychism_boardroom_1.png]]
 ![[panpsychism_boardroom_2.jpg]]
+![[quest3_1.jpg]]
+![[quest3_2.jpg]]
+![[quest3_3.jpg]]
+![[quest3_4.jpg]]
+![[quest3_context.png]]
 
 * Why You Should Pay Attention to the Metaverse
 * It's Time for You to Prepare for the Rise of the Metaverse
