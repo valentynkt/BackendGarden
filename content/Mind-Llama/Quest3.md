@@ -40,6 +40,8 @@ Quest 3 in the context of AI advancements
 
 ### Script
 
+The Metaverse, once the laughing stock of the tech industry, is making a comeback in a big way.
+
 story of the double baby
 
 Pansychism def
