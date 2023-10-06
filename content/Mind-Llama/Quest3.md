@@ -49,10 +49,14 @@ Quest 3 in the context of AI advancements
 
 The Metaverse, once the laughing stock of the tech industry, is making a comeback in a big way.
 
+they have the data
+
 story of the double baby
-
 Pansychism def
-
 Fundamental ideas changing
-
 ideas -> AI -> mechanization of manifestation
+
+spatial ai
+oculus insight
+SLAM
+
