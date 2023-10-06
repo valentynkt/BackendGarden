@@ -3,9 +3,7 @@ tags:
   - script
 plantedAt: 2023-10-01
 ---
-story of meta's VR to this point: quest to quest3
-comparing to Apple Vision Pro
-slap some panpsychism in 
+AI in Quest 3
 
 ## Packaging
 
@@ -46,20 +44,14 @@ slap some panpsychism in
 * How the Metaverse is Encroaching Into Physical Reality
 * The Hidden AI Tech Helping VR Encroach Into Physical Reality
 * "A Sense of Presence" - Emergence at the Intersection of AI and VR
+* Meta Used AI For This?
 
 ### Script
 
-The Metaverse, once the laughing stock of the tech industry, is making a comeback in a big way.
 
-they have the data
 
-story of the double baby
-Pansychism def
-Fundamental ideas changing
-ideas -> AI -> mechanization of manifestation
-
-spatial ai
 oculus insight
+spatial ai
 SLAM
 
 
