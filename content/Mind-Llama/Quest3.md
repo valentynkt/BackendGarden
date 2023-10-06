@@ -3,7 +3,9 @@ tags:
   - script
 plantedAt: 2023-10-01
 ---
-Quest 3 in the context of AI advancements
+story of meta's VR to this point: quest to quest3
+comparing to Apple Vision Pro
+slap some panpsychism in 
 
 ## Packaging
 
@@ -59,4 +61,8 @@ ideas -> AI -> mechanization of manifestation
 spatial ai
 oculus insight
 SLAM
+
+
+
+
 
