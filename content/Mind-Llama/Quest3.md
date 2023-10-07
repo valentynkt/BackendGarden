@@ -45,8 +45,13 @@ AI in Quest 3
 
 ### Script
 
-> I don't know if people can see this, but this is incredible. The realism here is incredible.
+> This is incredible. The realism here is incredible.
 > - Lex Clip
+
+By 2025, ev
+
+> Lex: And it doesn't feel akward to be really close to you.
+> Zuck: No it does. I actually moved you back. You were like right here (gestures with hands).
 
 
 
