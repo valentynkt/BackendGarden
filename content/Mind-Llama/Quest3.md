@@ -45,7 +45,10 @@ AI in Quest 3
 
 ### Script
 
+> I don't know if people can see this, but this is incredible. The realism here is incredible.
+> - Lex Clip
 
+Zuck's Metaverse has 
 
 oculus insight
 spatial ai
