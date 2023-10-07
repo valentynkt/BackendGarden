@@ -7,8 +7,6 @@ AI in Quest 3
 
 ## Packaging
 
-[[Target Audience#^8fed9e|Target FOMO]]
-
 ![[panpsychism_zuck_1.png]]
 ![[panpsychism_zuck_2.png]]
 ![[panpsychism_zuck_3.png]]
@@ -44,7 +42,6 @@ AI in Quest 3
 * How the Metaverse is Encroaching Into Physical Reality
 * The Hidden AI Tech Helping VR Encroach Into Physical Reality
 * "A Sense of Presence" - Emergence at the Intersection of AI and VR
-* Meta Used AI For This?
 
 ### Script
 
