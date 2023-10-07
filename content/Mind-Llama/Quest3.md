@@ -45,7 +45,7 @@ AI in Quest 3
 
 ### Script
 
-Everyone you know will own a spatial computing device by 2025.
+
 
 > This is incredible. The realism here is incredible.
 > - Lex Clip
