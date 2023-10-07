@@ -48,7 +48,9 @@ AI in Quest 3
 > This is incredible. The realism here is incredible.
 > - Lex Clip
 
-By 2025, ev
+
+
+If you don't already own a VR headset, you will by next year. The VR market is growing by 18% year-over-year with applications in 
 
 > Lex: And it doesn't feel akward to be really close to you.
 > Zuck: No it does. I actually moved you back. You were like right here (gestures with hands).
