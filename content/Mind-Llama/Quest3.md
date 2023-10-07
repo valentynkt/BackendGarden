@@ -45,11 +45,12 @@ AI in Quest 3
 
 ### Script
 
+Everyone you know will own a spatial computing device by 2025.
+
 > This is incredible. The realism here is incredible.
 > - Lex Clip
 
-
-
+And if you understand *why* that's true, you'll be ahead of
 
 If you don't already own a VR headset, you will by next year. The VR market is growing by 18% year-over-year with applications in 
 
