@@ -12,6 +12,7 @@ draft: "true"
 - [ ] If AI tech giants were honest (we know everything about you and own you)
 - [ ] You're using ChatGPT Wrong
 - [ ] 5 Incredible Life Hacks using AI
+- [ ] How to spot a fake<br>typical artifacts in AI image generation.<br>review of stable diffusion showing the process
 
 
 ## Writing
