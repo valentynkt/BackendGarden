@@ -19,7 +19,11 @@ Autogen Tutorial
 > In the blink of an eye, the world races forward, leaving us clutching the memories of a time we didn't realize was already gone.
 > - GPT-4
 
-Your ability to get something useful out of large language models up until this point has mostly come down to your ability to engineer a prompt or a series of prompts.
+The rapidly expanding idea of prompt engineering is now giving way to Prompt Orchestration.
+
+Up until recently, your ability to get something useful out of a large language model largely depended on your ability to prompt it: prompt engineering.
+
+After prompt engineering, you can optimize your results by From crafting single prompts to crafting series of prompts
 
 But Microsoft wants you to think even bigger:  Prompt Orchestration?
 
