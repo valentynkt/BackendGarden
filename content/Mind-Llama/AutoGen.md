@@ -19,6 +19,10 @@ Autogen Tutorial
 > In the blink of an eye, the world races forward, leaving us clutching the memories of a time we didn't realize was already gone.
 > - GPT-4
 
+The ability to effective prompt a large language model mostly comes down to your ability to communicate what you actually want - not so different from talking with humans.
+
+
+
 GPT-4 can do a lot of amazing things if it's prompted properly: something called prompt engineering. But multi-agent models take this idea to a whole new level to the point where all you are doing as a human is directing an organization: prompt orchestration.
 
 Up unto this point, your ability to use AI has mostly been limited by your ability to engineer your prompts. Microsoft AutoGen 
