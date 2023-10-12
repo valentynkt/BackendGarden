@@ -19,7 +19,13 @@ Autogen Tutorial
 > In the blink of an eye, the world races forward, leaving us clutching the memories of a time we didn't realize was already gone.
 > - GPT-4
 
-The ability to effective prompt a large language model mostly comes down to your ability to communicate what you actually want - not so different from talking with humans.
+Your ability to get something useful out of large language models up until this point has mostly come down to your ability to engineer a prompt or a series of prompts.
+
+But Microsoft wants you to think even bigger:  Prompt Orchestration?
+
+With their release of the AutoGen framework, it makes it possible for you to build
+
+comes down to your ability to communicate what you actually want - not so different from talking with humans.
 
 
 
