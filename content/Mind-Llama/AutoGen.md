@@ -39,14 +39,14 @@ I find the best way I learn is by doing. So, we're going to create an app today 
 
 It's hard keeping up with all of the AI news. It's like a firehose of information every single day.
 
-So, I'm going to create for myself a little news organization in a box. It will have 
+So, I'm going to create for myself a little news organization in a box. It will feature multiple agents working together to digest the information, store the data into long-term memory, analyze the data for trends, to eventually give the user only the most pertinent information they care about.
 
-We're going to create the agents and LLM workflow today.
-2. Then we're going to give the agents access to trending youtube data.
+
+1. [ ] Explain Setup: basic python app
+	1. code is available
+2. [ ] scaffold the agents
+	1. show doing it with Continue in Code
 3. 
-
-
-
 
 ## Video Description
 ## Result
