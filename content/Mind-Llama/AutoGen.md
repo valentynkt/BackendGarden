@@ -31,8 +31,18 @@ AutoGen allows you to easily create multi-agent applications that can be hyper-o
 
 This applies to software engineers and non-technical people too, because the way these things are programmed now, it's largely with just uh, ya know ... *human* words.
 
-1. We're going to create the agents and LLM workflow today.
-2. Then we're going to give the agent
+Let me teleport back to my computer.
+
+LIVE
+
+I find the best way I learn is by doing. So, we're going to create an app today that is going to make my life immensely easier.
+
+It's hard keeping up with all of the AI news. It's like a firehose of information every single day.
+
+So, I'm going to create for myself a little news organization in a box. It will have 
+
+We're going to create the agents and LLM workflow today.
+2. Then we're going to give the agents access to trending youtube data.
 3. 
 
 
