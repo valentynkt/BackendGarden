@@ -31,7 +31,7 @@ AutoGen allows you to easily create multi-agent applications that can be hyper-o
 
 This applies to software engineers and non-technical people too, because the way these things are programmed now, it's largely with just uh, ya know ... *human* words.
 
-I'm going to dive into
+1. 
 
 
 
