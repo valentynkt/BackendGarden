@@ -22,13 +22,15 @@ Welcome to an era where the power of Artificial Intelligence isn't just a concep
 
 > XKCD visual
 
-This moment is an opportunity. So many doors are now unlocked to the average person. If there ever was a time to start that business you've always wanted to start, write that book, chase that dream, embrace the adventure you've always envisioned for yourself, the world has never been more ripe for it.
+This moment is an opportunity. So many doors are now unlocked for the average person. If there ever was a time to start that business you've always wanted to start, write that book, chase that dream, embrace the adventure you've always envisioned for yourself, the world has never been more ripe for it.
 
-And to help me convince you of that, I have the privilege of chatting with Adela Baker today, a remarkable ADHD coach. Through her coaching, Adela empowers individuals to unlock their potential and embrace the opportunities this modern era presents. Together, we're going to explore today how *you* can leverage your unique abilities in a world where AI is not just a tool, but a companion in realizing your aspirations.
+And to drive this point home, I have the privilege of chatting with Adela Baker today, a remarkable ADHD coach. Through her coaching, Adela empowers individuals to unlock their potential and embrace the opportunities this modern era presents. Together, we're going to explore today how _you_ can leverage your unique abilities in a world where AI is not just a tool, but a companion in realizing your aspirations.
 
-> adela on screen
+> Adela on screen
 
-* how coaching different from therapy?
+- What sets coaching apart from therapy, and how can it propel you forward in seizing the opportunities that lie ahead?
+
+### Overcome Challenges
 
 * ADHD challenges
 * example show & tell
@@ -37,10 +39,10 @@ And to help me convince you of that, I have the privilege of chatting with Adela
 * notes on meetings and action items
 * reply to an email from 2 months ago
 
-part 2- ADHD strengths and how to leverage them in the age of AI
+### Amplify Strengths
 
 jobs that might become obsolete- copy editor, coder, graphic designer, secretary
-
 How does ADHD brain think differently and how to use that in the age of AI?
+
 ## Video Description
 ## Result
