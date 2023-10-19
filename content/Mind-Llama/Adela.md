@@ -14,16 +14,33 @@ objective: give people examples and scenarios for how they can improve their liv
 
 ## Title
 
-## Script
+## Outline
+
+### Intro
 
 Welcome to an era where the power of Artificial Intelligence isn't just a concept, but a reality that can be harnessed by anyone. We're navigating through a pivotal moment in history, where what was previously impossible is now an everyday occurrence.
 
 > XKCD visual
 
+This moment is an opportunity. So many doors are now unlocked to the average person. If there ever was a time to start that business you've always wanted to start, write that book, chase that dream, embrace the adventure you've always envisioned for yourself, the world has never been more ripe for it.
 
-Now is the moment to take the leap, chase that dream, and embrace the venture you've always envisioned. The world is more than ready to receive the unique value you bring to the table.
+And to help me convince you of that, I have the privilege of chatting with Adela Baker today, a remarkable ADHD coach. Through her coaching, Adela empowers individuals to unlock their potential and embrace the opportunities this modern era presents. Together, we're going to explore today how *you* can leverage your unique abilities in a world where AI is not just a tool, but a companion in realizing your aspirations.
 
-In today’s live stream, I have the privilege of chatting with Adela Baker, a remarkable ADHD coach. Through her insightful coaching, Adela empowers individuals to unlock their potential and embrace the opportunities this modern era presents. Together, we'll explore how you can leverage your unique abilities in a world where AI is not just a tool, but a companion in realizing your aspirations.
+> adela on screen
 
+* how coaching different from therapy?
+
+* ADHD challenges
+* example show & tell
+* scheduling multiple projects
+* invitation to a part
+* notes on meetings and action items
+* reply to an email from 2 months ago
+
+part 2- ADHD strengths and how to leverage them in the age of AI
+
+jobs that might become obsolete- copy editor, coder, graphic designer, secretary
+
+How does ADHD brain think differently and how to use that in the age of AI?
 ## Video Description
 ## Result
