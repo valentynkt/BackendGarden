@@ -16,7 +16,7 @@ objective: give people examples and scenarios for how they can improve their liv
 
 ## Script
 
-
+You aren't taking advantage of AI like you should be. We are living through a profound transition in human history where things that were previously impossible are now commonplace (XKCD comic).
 
 ## Video Description
 ## Result
