@@ -1,0 +1,3 @@
+[submodule "content/journal"]
+	path = content/journal
+	url = git@github.com:chadly/journal.git
