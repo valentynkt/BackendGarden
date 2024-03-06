@@ -1,6 +1,7 @@
 ---
 title: Welcome
 plantedAt: 2022-09-08
+tags: [evergreen]
 ---
 Not all those who wander are lost.
 
