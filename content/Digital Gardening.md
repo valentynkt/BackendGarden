@@ -2,7 +2,6 @@
 tags:
   - evergreen
 plantedAt: 2022-09-20
-lastTendedAt: 2023-09-20
 ---
 A [digital garden](https://maggieappleton.com/garden-history) is an online space at the intersection of a notebook and a blog, where digital gardeners share **seeds of thoughts** to be **cultivated in public**. Instead of polished articles displayed in reverse chronological order like a blog, a digital garden is more like a free form, work-in-progress wiki.
 ^e09057
