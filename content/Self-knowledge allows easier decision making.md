@@ -17,4 +17,4 @@ Understanding [[Emotions deeply affect our thoughts, actions, and world view|how
 > We all speak two languages: the language of the heart and that of the head. If they are aligned it is easy to make a decision. But if they aren’t it just depends on your mood what you think is right or wrong.
 > - [[3 main reasons why it is helpful to know yourself|Dr. Mariette Jansen]]
 
-We can be deliberate with our choices and [[202209281112 What do I really want|avoid falling into a life]] that we didn't mean to.
+We can be deliberate with our choices and [[2022-09-28 What do I really want|avoid falling into a life]] that we didn't mean to.
