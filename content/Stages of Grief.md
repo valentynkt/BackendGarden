@@ -3,9 +3,6 @@ tags: [evergreen]
 plantedAt: 2022-09-20
 lastTendedAt: 2022-09-21
 ---
-
-# We experience grief in stages
-
 The [five stages of grief](https://grief.com/the-five-stages-of-grief/) are:
 - Denial
 - Anger

@@ -3,9 +3,6 @@ tags: [evergreen]
 plantedAt: 2022-09-20
 lastTendedAt: 2022-09-28
 ---
-
-# Relationship rupture causes grief similar to death
-
 A breakup, typically characterized as a psychological issue, is also physiologically traumatic event.  [[Stages of Grief|Grief]] is a common emotional response to death as well as the ending of a meaningful relationship.
 
 The relationship rupture affects the limbic system more than any other system. Since the [[Limbic System Controls Emotion|limbic system controls emotion]], [[Emotions vs Feelings vs Thoughts|physical emotional reactions]] can lead to a full-system somatic shock. Cardiovascular function, hormone levels, and immune response are all disrupted leading to possible disease.
