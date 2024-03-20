@@ -1,12 +1,10 @@
 ---
-tags: [evergreen]
-aliases: [Connecting ideas together] 
+tags:
+  - evergreen
+aliases:
+  - Connecting ideas together
 plantedAt: 2022-09-20
-lastTendedAt: 2022-09-21
 ---
-
-# Ideas and knowledge on their own are not useful
-
 The value in ideas and knowledge come from understanding how they fit together.
 
 [[Ideas are Fragile|Ideas start out as fragile]] and fleeting. They need to be nurtured and connected to other ideas to truly thrive.

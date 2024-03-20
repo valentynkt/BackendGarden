@@ -1,12 +1,11 @@
 ---
-aliases: [Daoism,Yin Yang]
-tags: [evergreen]
+aliases:
+  - Daoism
+  - Yin Yang
+tags:
+  - evergreen
 plantedAt: 2022-09-17
-lastTendedAt: 2022-09-22
 ---
-
-# Philosophy of Taoism
-
 tl;dr: everything in the universe is connected and nothing makes sense by itself (out of context).
 
 ---
