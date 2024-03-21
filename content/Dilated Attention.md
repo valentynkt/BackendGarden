@@ -34,7 +34,7 @@ With an expanded attention field, there's a risk of the model considering irrele
 
 ### Depth Over Breadth
 
-An [[How I deal with ADHD|ADHD person]] can [[hyperfocus]] to the point where there attention becomes intense and granular. They might notice details that others overlook and can delve deep into tasks or topics.
+An [[ADHD|ADHD person]] can [[hyperfocus]] to the point where there attention becomes intense and granular. They might notice details that others overlook and can delve deep into tasks or topics.
 
 Dilated Attention allows Longnet to focus on specific tokens of a sequence with greater intensity, especially when capturing long-range dependencies. This means the model can pick up on nuanced relationships in the data that might be missed by other models with shorter context windows.
 

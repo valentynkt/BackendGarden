@@ -13,7 +13,7 @@ But thoughts are not what define us -- at least not if we can make conscious cho
 
 While [[One must understand their emotions to understand themselves|discovering our inner selves]] is very important, it's important in the sense that it will help us understand *our actions*. It's important to *own our behavior*.
 
-We all [[How I deal with ADHD|have challenges]] we must overcome to understand and take full responsibility for ourselves. These obstacles are **not our fault**, but they *are* our **responsibility**. How we [[Positive social connections keep us healthy|relate to others]] and [[Accept yourself for who you are|ourselves]] matters.
+We all [[ADHD|have challenges]] we must overcome to understand and take full responsibility for ourselves. These obstacles are **not our fault**, but they *are* our **responsibility**. How we [[Positive social connections keep us healthy|relate to others]] and [[Accept yourself for who you are|ourselves]] matters.
 
 > [!quote]
 > Good intentions are simply not enough. Our character is defined and our lives are determined not by what we want, say or think, but by what we do.

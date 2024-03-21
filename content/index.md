@@ -20,4 +20,4 @@ These are the things I'm currently thinking about:
 * [[Agency emerges from the relationship between entity and environment]]
 * [[Vesperance]]
 * [[Dilated Attention]]
-* [[How I deal with ADHD]]
+* [[ADHD]]
