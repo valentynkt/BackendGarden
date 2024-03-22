@@ -1,7 +1,7 @@
 ---
-tags: [seedling]
+tags:
+  - seedling
 plantedAt: 2024-03-22
-lastTendedAt: 2024-03-22
 ---
 Conventional wisdom tells us that the path to great accomplishments begins by setting ambitious goals and pursuing them with unwavering determination. Yet, this [[Objectives Are a False Compass|objective-driven approach can paradoxically hinder true innovation and breakthrough discoveries]].
 
@@ -28,7 +28,3 @@ Instead, the treasures of innovation reveal themselves through an exploratory pr
 Crucially, this approach celebrates **diversity of thought and approach**. Disunity and differing perspectives, rather than being obstacles, become engines propelling exploration along divergent avenues of inquiry. Fields like science and research should be structured to cultivate this fertile dissonance.
 
 In essence, the ethos of discovery rejects the myth of the elusive "magic bullet" objective in favor of the tenacious, open-minded treasure hunter – one who collects insights and experiences as stepping stones toward an open future brimming with unrealized potential. For it is only by surrendering our desperate grasp on predefined ambitions that we can embrace the uncertain path to genuine achievement.
-
----
-
-Reference: [[Why Greatness Cannot Be Planned]]

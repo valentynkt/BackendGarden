@@ -1,7 +1,7 @@
 ---
-tags: [seedling]
+tags:
+  - seedling
 plantedAt: 2024-03-22
-lastTendedAt: 2024-03-22
 ---
 Since [[Objectives Are a False Compass|optimizing for ambitious objectives does not work]], we must [[Achievement Is a Process of Discovery|embrace the process of discovery]] when attempting to achieve ambitious goals.
 
@@ -18,7 +18,3 @@ Moreover, the novelties uncovered through this wandering inevitably shed new lig
 By letting go of the siren song of narrow ambition, we can better navigate the "wild borderland between the known and unknown" - that twilight realm where the most remarkable discoveries await.
 
 Ironically, it is the [[Optimism Is a Strategy to Navigate Challenges|willingness to embrace uncertainty]] that unlocks access to the richest veins of innovation. Surrendering to novelty may be our surest path to revolutionary ideas that can reshape technology, science, and society itself.
-
----
-
-Reference: [[Why Greatness Cannot Be Planned]]

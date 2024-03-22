@@ -1,7 +1,6 @@
 ---
 tags:
   - evergreen
-  - hub
 aliases:
   - Temet Nosce
 plantedAt: 2022-09-15

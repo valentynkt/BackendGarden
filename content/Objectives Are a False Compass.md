@@ -1,7 +1,7 @@
 ---
-tags: [seedling]
+tags:
+  - seedling
 plantedAt: 2024-03-22
-lastTendedAt: 2024-03-22
 ---
 Objectives often come with the promise of guiding us toward a desired outcome. However, **many objectives are deceptive** paradoxically leading us further away from achieving an objective while making it seem like we are getting closer.
 
@@ -17,7 +17,3 @@ Think of a [[Chinese Finger Trap]] where as one pulls their fingers out of the t
 However, to actually achieve freedom from the trap, one must paradoxically move toward becoming less free (drawing the fingers inward) in order to loosen the trap so that the fingers can then be withdrawn. This highlights the [[Achievement Is a Process of Discovery|importance of experimentation and discovery in achievement]] over determination and brute-force.
 
 This simple puzzle serves as a metaphor for the deception that lies at the heart of grand objectives throughout our society.
-
----
-
-Reference: [[Why Greatness Cannot Be Planned]]

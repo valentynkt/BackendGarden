@@ -1,10 +1,8 @@
 ---
 tags:
-  - seedling
-  - hub
+  - evergreen
 plantedAt: 2022-09-20
 ---
-
 ADHD is an [[ADHD is an executive function disorder|executive function disorder]]. It is characterized by:
 
 - low frustration tolerance
