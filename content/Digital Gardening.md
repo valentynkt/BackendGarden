@@ -19,7 +19,7 @@ I stole ideas from both, put them in the idea blender, and came up with a bag of
 
 ## Idea Journey
 
-🍃 I use the daily note in `journal/` for fleeting ideas that get tagged `#daily`. These ideas [[Fleeting Ideas Shouldn't Hang Around|come and go quick]] so it's important to have a quick way to capture the idea. I use [Google Recorder](https://recorder.google.com/) on my phone when not in front of a PC.
+🍃 I use the daily note in `journal/` for fleeting ideas that get tagged `#daily`. These ideas [[Fleeting Ideas Shouldn't Hang Around|come and go quick]] so it's important to have a quick way to capture the idea. I use a voice recorder when not in front of a PC.
 
 - `CTRL + N` on desktop [Obsidian](https://obsidian.md/)
 
@@ -33,6 +33,6 @@ Tending to a seedling involves [[Ideas and knowledge on their own are not useful
 * or if it leads me to another thought tangent
 	* connecting infinite ideas together in infinite ways... 🤯
 
-🌲 Once I feel like I have done my due diligence on an idea, it will graduate to an `#evergreen`. These notes I feel like are reasonably well thought-out ideas that I intend to keep around. But all ideas can be changed, merged, or deleted.
+🌲 Once an idea feels more fleshed out, it graduates to `#evergreen`. These notes I feel like are reasonably well thought-out ideas that I intend to keep around. But all ideas can be changed, merged, or deleted.
 
 History is kept with [git](https://github.com/chadly/garden).
