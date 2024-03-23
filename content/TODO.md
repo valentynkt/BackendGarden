@@ -2,13 +2,13 @@
 
 This [Zettelkasten](https://zettelkasten.de/posts/overview/) is [[Digital Gardening|always a work-in-progress]]. These are my [[Fleeting Ideas Shouldn't Hang Around|fleeting thoughts and references]] to interesting ideas or feelings that I haven't processed yet.
 
-### 🍃 Fleeting Ideas
+### 🍃 Fleeting/Seed Ideas
 
 These ideas just floated by and I captured them:
 
 ```dataview
 table file.day as "Date"
-from #fleeting and -"templates" sort file.day
+from #seed and -"templates" and -"templater" sort file.day desc
 ```
 
 ### 🌱 Seedling Ideas
