@@ -1,21 +1,31 @@
 ---
-tags: [evergreen]
-aliases: [Emotions are a physical response, Feelings are a mental association to emotion, Thoughts are similar to feelings]
+tags:
+  - evergreen
+aliases:
+  - Emotions are a physical response
+  - Feelings are a mental association to emotion
+  - Thoughts are similar to feelings
 plantedAt: 2022-09-15
-lastTendedAt: 2022-09-28
+lastTendedAt: 2024-04-03
 ---
-Emotions are the physical response to a stimuli while feelings are the mental association or reaction to that physical state.
+*Emotions*, *feelings*, and *thoughts* are often used interchangeably in everyday conversation, but they are distinct concepts with important differences.
 
-> Emotions are considered as our bodies’ responses to external stimuli and feelings are mental associations and reactions to these emotions. The main difference between emotions and feelings is that **emotions are physical states whereas feelings are mental associations.**
-> 	- [[Difference between emotions, thoughts, and feelings]]
+### Emotions vs Feelings
 
-A feeling originates from the brain and are very similar to thoughts.
+Emotions are the physical responses to stimuli, while feelings are the mental associations or reactions to those physical states. In other words, emotions are considered our bodies' responses to external stimuli, and feelings are mental associations and reactions to these emotions. The main difference between emotions and feelings is that **emotions are physical states**, whereas **feelings are mental associations**.
 
-> The main difference between thoughts and feelings is that thoughts are our ideas, [perceptions](https://pediaa.com/difference-between-perception-and-perspective/), or [opinions](https://pediaa.com/difference-between-fact-and-opinion/) about the world around us, whereas feelings are our reactions to [emotions](https://pediaa.com/difference-between-emotions-and-feelings/) or [sensations](https://pediaa.com/difference-between-sensation-and-perception/#Sensation).
-> - [[Difference between emotions, thoughts, and feelings]]
+### Thoughts vs Feelings
 
-The terms *emotion* and *feeling* are often used interchangeably in vernacular. Typically, when people talk about their emotions, they are talking about their *feelings* associated with an *emotion*.
+Thoughts are our ideas, perceptions, or opinions about the world around us, whereas feelings are our reactions to emotions or sensations. The main difference between thoughts and feelings is that **thoughts originate from the brain** and are similar to ideas, while **feelings are mental reactions** to **physical emotions or sensations**.
 
-Our emotional responses can sometimes get a bad rap. Historically, popular culture tends to regard emotions as something of a messy human characteristic that should be avoided (see Spoc in [[movies_tv/Star Trek|Star Trek]] who is [[Emotions are irrational|logical]]: avoiding emotions [[Emotions need to be felt|rather than feeling them]]).
+### Popular Culture
 
-Emotions, however, [[Evolutionary advantages of emotions|have many evolutionary advantages]] and the [[Jo Koy Stand-up (2022)|zeitgeist is shifting]] on this topic. If one can [[Emotions deeply affect our thoughts, actions, and world view|understand how their emotions affect them]], they can mitigate the negative effects and enjoy the positive effects.
+In vernacular, the terms *emotion* and *feeling* are often used interchangeably. Typically, when people talk about their emotions, they are referring to their feelings associated with an emotion.
+
+Historically, popular culture has tended to regard emotions as a messy human characteristic that should be avoided. For example, Vulcans in Star Trek are known for their [[Emotions are irrational|logical approach]], avoiding emotions [[Emotions need to be felt|rather than feeling them]].
+
+### The Importance of Emotions
+
+Despite the negative perception of emotions in some contexts, they [[Evolutionary advantages of emotions|have many evolutionary advantages]]. The zeitgeist is shifting on this topic, recognizing the importance of understanding and embracing emotions.
+
+If one can [[Emotions deeply affect our thoughts, actions, and world view|understand how their emotions affect them]], they can mitigate the negative effects and enjoy the positive effects. By acknowledging and processing emotions, individuals can gain a deeper understanding of themselves and improve their overall well-being.
