@@ -2,6 +2,7 @@
 tags:
   - seedling
 plantedAt: 2022-09-16
+lastTendedAt: 2024-03-22
 ---
 For any kind of network of connected components, emergent behavior makes the sum greater than its parts.
 

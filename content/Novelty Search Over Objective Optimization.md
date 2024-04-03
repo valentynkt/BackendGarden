@@ -2,6 +2,7 @@
 tags:
   - seedling
 plantedAt: 2024-03-22
+lastTendedAt: 2024-03-23
 ---
 Since [[Objectives Are a False Compass|optimizing for ambitious objectives does not work]], we must [[Achievement Is a Process of Discovery|embrace the process of discovery]] when attempting to achieve ambitious goals.
 

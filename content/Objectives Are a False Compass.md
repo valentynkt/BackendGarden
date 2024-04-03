@@ -2,6 +2,7 @@
 tags:
   - seedling
 plantedAt: 2024-03-22
+lastTendedAt: 2024-03-22
 ---
 Objectives often come with the promise of guiding us toward a desired outcome. However, **many objectives are deceptive** paradoxically leading us further away from achieving an objective while making it seem like we are getting closer.
 

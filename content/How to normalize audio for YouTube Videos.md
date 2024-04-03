@@ -2,6 +2,7 @@
 tags:
   - seedling
 plantedAt: 2023-01-30
+lastTendedAt: 2024-03-22
 ---
 ## Davinci Resolve
 

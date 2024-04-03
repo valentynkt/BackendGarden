@@ -2,12 +2,13 @@
 tags:
   - evergreen
 plantedAt: 2022-09-29
+lastTendedAt: 2024-04-03
 ---
 Laughter is an [[Emotions vs Feelings vs Thoughts|emotional response]] to emotional tension built-up from the [[Humor is a benign violation of expectations|benign violation of expectations]].
 
 > When a comedian tells a story, he deliberately sets out to create a certain tension in his listeners, which mounts as the narrative progresses. But it never reaches its expected climax. The punch line, or point, acts as a verbal guillotine that cuts across the logical development of the story; it debunks the audience’s dramatic expectations. The tension that was felt becomes suddenly redundant and is exploded in laughter.
 > 
-> — [[Humor Encyclopedia Britannica|Encyclopedia Britannica]]
+> — Encyclopedia Britannica
 
 Laughter disposes of the emotive excitations that have become pointless (due to the violated expectation) and need to be released across the physiological channels of "least resistance."
 
@@ -19,18 +20,6 @@ It involves a stereotypical and predictable set of characteristics:
 - altered breathing
 - it is associated with irrepressible noises
 
-## Evolutionary Perspective
+---
 
-Laughter might be a way to [[Empathy builds relationships|communicate empathy]] and build [[Positive social connections keep us healthy|better relationships with others]]. The emotional response (laughter) is so familiar and makes it obvious to the comedian when their audience has *understood* their message.
-
-Humor is also heavily [[Laughter is based on aggression|based on aggression]] [[Aggression evolved from sexual selection evolutionary pressures|yielding selection pressure]].
-
-## Philosophical Implications
-
-Comedy and tragedy (pain) are two sides of the same coin. They are [[Taoism Philosophy|yin and yang]]: can't have one without the other.
-
-The root of humor comes from a fear of humiliation. Self-deprecating humor anticipates criticism and tries to get ahead of it by leading the audience to take the "other side" -- realizing that the self-deprecation is an absurd inverse of reality -- violating audience expectations.
-
-> The connection between humor and psychological pain makes some sense. Laughter is connected to our sense (and fear) of humiliation.
-> 
-> — [[Relationship Between Humor and Sadness|Nicole Dean]]
+Laughter might be a way to [[Empathy builds relationships|communicate empathy]] and build [[Laughter helps bond people together|better relationships with others]]. The emotional response (laughter) is so familiar and makes it obvious to the comedian when their audience has *understood* their message.
