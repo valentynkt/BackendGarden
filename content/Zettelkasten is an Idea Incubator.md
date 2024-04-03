@@ -2,7 +2,7 @@
 tags:
   - seedling
 plantedAt: 2024-03-19
-lastTendedAt: 2024-04-03T08:39:53-05:00
+lastTendedAt: 2024-04-03
 ---
 The concept of Zettelkasten as an "idea incubator" magnificently captures the essence of what made Niklas Luhmann's methodology so effective and enduring. This system transcends mere note-taking or information storage; it is a dynamic process that fosters the germination, development, and interconnection of ideas, much like an incubator nurtures the growth and development of organisms.
 
