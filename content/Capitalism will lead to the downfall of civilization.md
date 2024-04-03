@@ -2,6 +2,7 @@
 tags:
   - seedling
 plantedAt: 2022-09-26
+lastTendedAt: 2024-03-22
 ---
 We cannot do big things in the public sector due to the [[America is late-stage capitalism|plutocracy we live in]].
 

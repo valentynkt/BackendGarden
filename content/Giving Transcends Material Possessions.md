@@ -2,6 +2,7 @@
 tags:
   - seedling
 plantedAt: 2024-03-22
+lastTendedAt: 2024-03-22
 ---
 While material gifts can be a form of giving, true giving transcends physical possessions. Giving of one's
 

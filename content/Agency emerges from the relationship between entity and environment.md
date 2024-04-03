@@ -2,6 +2,7 @@
 tags:
   - seedling
 plantedAt: 2023-09-23
+lastTendedAt: 2024-03-22
 ---
 Agency forms as an emergent characteristic from the relationship of dynamic systems and their environment. It very much depends on the entity expanding their conscious field to encapsulate themselves *with* their environment.
 

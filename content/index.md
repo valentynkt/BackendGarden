@@ -20,5 +20,6 @@ Learn more in general about [[Why Zettelkasten|zettelkasten]].
 These are the things I'm currently thinking about:
 
 * [[Comedy and tragedy are two sides of the same coin]]
+* [[Achievement Is a Process of Discovery]]
 * [[Agency emerges from the relationship between entity and environment]]
 * [[Vesperance]]
