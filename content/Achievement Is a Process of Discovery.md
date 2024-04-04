@@ -2,7 +2,7 @@
 tags:
   - seedling
 plantedAt: 2024-03-22
-lastTendedAt: 2024-03-22
+lastTendedAt: 2024-04-04
 ---
 Conventional wisdom tells us that the path to great accomplishments begins by setting ambitious goals and pursuing them with unwavering determination. Yet, this [[Objectives Are a False Compass|objective-driven approach can paradoxically hinder true innovation and breakthrough discoveries]].
 

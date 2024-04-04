@@ -1,16 +1,30 @@
 ---
-lastTendedAt: 2024-04-03
+lastTendedAt: 2024-04-04
 ---
 > [!INFO]
 > This is the homepage for [Obsidian](https://obsidian.md/). [Download this repository](https://github.com/chadly/zettelkasten/archive/refs/heads/master.zip), install Obsidian, and open the downloaded folder as the vault.
 
 [[How to use this vault in Obsidian|Learn how to navigate]] after you open this vault in Obsidian.
 
-## 🧠 Top of Mind
+## 💎 Core Values
 
-These are entry points into my thoughts.  They are only **guidelines** for entry points that *I* think are interesting or relevant to me *at the moment*. They can, do, and will change.
+```dataview
+TABLE
+lastTendedAt as "Last Tended At"
+FROM #value
+sort lastTendedAt desc
+```
 
-Once you dive into a thought, the idea is to follow that trail wherever it may lead.
+## 🎯 Goals
+
+```dataview
+TABLE
+	values as "Values",
+	lastTendedAt as "Last Tended At",
+	complete as "Complete"
+FROM #goal
+sort lastTendedAt desc
+```
 
 ## 🔀 Other Entry Points
 
