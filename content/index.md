@@ -3,7 +3,7 @@ title: Welcome
 plantedAt: 2022-09-08
 tags:
   - evergreen
-lastTendedAt: 2024-04-03
+lastTendedAt: 2024-04-05
 ---
 Not all those who wander are lost.
 
@@ -20,6 +20,7 @@ Learn more in general about [[Why Zettelkasten|zettelkasten]].
 These are the things I'm currently thinking about:
 
 * [[Comedy and tragedy are two sides of the same coin]]
+* [[The Opposable Mind Guards Against Cognitive Biases]]
 * [[Achievement Is a Process of Discovery]]
 * [[Agency emerges from the relationship between entity and environment]]
 * [[Vesperance]]
