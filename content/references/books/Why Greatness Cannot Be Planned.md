@@ -1,12 +1,12 @@
 ---
 tags: pollinator
 plantedAt: 2024-04-05
-lastTendedAt: 2024-04-04 12:34:53.496161+00:00
+lastTendedAt: 2024-04-06
 ---
 ![rw-book-cover](https://readwise-assets.s3.amazonaws.com/media/uploaded_book_covers/profile_1265828/61PPmbZPGxL._SL1245_.jpg)
 
-[Why Greatness Cannot Be Planned]()
-By [[people/Kenneth O. Stanley and Joel Lehman]]
+[Why Greatness Cannot Be Planned](https://www.goodreads.com/en/book/show/25670869)
+By [[people/Kenneth O. Stanley]] and [[people/Joel Lehman]]
 
 The document "Why Greatness Cannot Be Planned" delves into the concept that innovation and discovery are often hindered by rigid objectives, emphasizing the importance of novelty and exploration without predefined goals. It discusses how the pursuit of novelty and interesting paths can lead to unexpected breakthroughs, challenging the common belief that progress requires clear objectives. By highlighting the limitations of both objective-driven and non-objective approaches, the document suggests that a balance between the two may be necessary for tackling ambitious challenges and fostering creativity. Ultimately, it advocates for embracing uncertainty and open-minded exploration to unlock new possibilities and avoid stagnation in the quest for innovation.
 
@@ -611,6 +611,98 @@ Relate gravity to law of attraction
 > Evolution is the ultimate treasure hunter, searching for nothing and finding everything as it spills through the space of all possible organisms. It’s the world’s most prolific inventor.
 > 
 >  ([View Highlight](https://read.readwise.io/read/01ht0n7nf4a20y8qnnvxa7yadn))
+
+
+---
+
+### New highlights added April 6, 2024 at 9:56 AM
+> So the twist is that the field of AI is itself a search for algorithms, and AI researchers are themselves experts on thinking about searching. In other words, AI researchers are searching for algorithms that search.
+> 
+>  ([View Highlight](https://read.readwise.io/read/01htsw3bbqrwhz400j9be7xkgz))
+
+
+---
+
+> We can think of the gradients followed by AI researchers as the information they use to decide which algorithms are the best. A technical term for a rule of thumb that guides search is a heuristic.
+> 
+>  ([View Highlight](https://read.readwise.io/read/01htswm1xeyh2q5jmt0bm44cq5))
+
+
+---
+
+> While no one can be sure which heuristics will work the best for getting to high-level AI, the AI community has settled upon two in particular. The first, which we’ll call the experimentalist heuristic, follows the rule of thumb that an algorithm’s promise is given by how well it performs.
+> 
+>  ([View Highlight](https://read.readwise.io/read/01htswnm48yjja1dvsnc4ehzhc))
+
+
+---
+
+> Besides the experimentalist heuristic, the second main gradient in AI research is the theoretical heuristic. This heuristic suggests that algorithms are better if they can be proven to have desirable properties.
+> 
+>  ([View Highlight](https://read.readwise.io/read/01htswp48ewtmy2cg47g2yqqtw))
+
+
+---
+
+> Importantly, these two heuristics hold a profound sway over the field. Even if you don’t like them or have your own philosophy, you won’t publish many of your ideas without respecting them.
+> 
+>  ([View Highlight](https://read.readwise.io/read/01htswpwsq05ksjkgnwhhvaam6))
+
+
+---
+
+> It would be one thing if criticisms about performance were just criticisms—and not a standard reason for rejection. But because performance is so widely accepted as a filter for new ideas, it becomes a classic deceptive objective function.
+> 
+>  ([View Highlight](https://read.readwise.io/read/01htswyxq5ghx23k3htbt75mj6))
+
+
+---
+
+> So the experimentalist heuristic is short-sighted: It judges Weird for its present value rather than the value of the future it opens up for AI research.
+> 
+>  ([View Highlight](https://read.readwise.io/read/01htsx1esj288207trpgvzgznq))
+
+
+---
+
+> It may be inconvenient, but what makes for a good stepping stone is more slippery than we’d like.
+> 
+>  ([View Highlight](https://read.readwise.io/read/01htsx4rs22ksg32cmz5qbc095))
+
+
+---
+
+> While a theorist might respond that the benefit of the theorem is that any future algorithm that honors the same assumptions will inherit the same guarantees, this fact is not necessarily good news for encouraging the exploration of new ideas. It means that the community becomes restricted only to those algorithms that honor the same growing set of assumptions, blinding the meta-search to every path forward that breaks the assumptions. In the end, the effect is less exploration—the objective paradox takes it hold.
+> 
+>  ([View Highlight](https://read.readwise.io/read/01htsxp8m5q36mxygf5b62w51q))
+
+
+---
+
+> The algorithms that are remembered, just as with all human inventions, are those that lay the foundation for future trailblazers. They lead to creating new algorithms and perhaps even entirely new fields.
+> 
+>  ([View Highlight](https://read.readwise.io/read/01htsy35mvj630kezy1xphemdb))
+
+
+---
+
+> If we can only think objectively, then we aren’t thinking much at all. There’s no substitute for using our minds because science can’t provide a fixed method to discover the next great idea. The greatest ideas are unlike those that came before them. Every stepping stone has a unique story of discovery. And every human being who found one has a story too.
+> 
+>  ([View Highlight](https://read.readwise.io/read/01htsyd25emp49pdkf0z4r7kw6))
+
+
+---
+
+> In case it’s hard to think of alternatives to arguing about performance or guarantees, there are in fact many other important clues we can consider: inspiration, elegance, potential to provoke further creativity, thought-provoking construction, challenge to the status quo, novelty, analogy to nature, beauty, simplicity, and imagination.
+> 
+>  ([View Highlight](https://read.readwise.io/read/01htsygnzgshs6qc3f0f7e86zk))
+
+
+---
+
+> Anyone can say that performance should improve, but who has the courage to see the beauty of an idea? We could use a few more brave experts like that.
+> 
+>  ([View Highlight](https://read.readwise.io/read/01htsyhpxrphvyc11jxnp9pgxh))
 
 
 ---
