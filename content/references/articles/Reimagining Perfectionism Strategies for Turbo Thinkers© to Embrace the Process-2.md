@@ -1,12 +1,12 @@
 ---
 tags: pollinator
 plantedAt: 2024-04-05
-lastTendedAt: 2024-03-21 14:36:39.227075+00:00
+lastTendedAt: 2024-04-10
 ---
 ![rw-book-cover](https://readwise-assets.s3.amazonaws.com/static/images/article3.5c705a01b476.png)
 
-[Reimagining Perfectionism: Strategies for Turbo Thinkers© to Embrace the Process]()
-By [[people/Mind Coach]]
+Reimagining Perfectionism: Strategies for Turbo Thinkers© to Embrace the Process
+By [[Adela Baker]]
 
 The document provides strategies for Turbo Thinkers© to reframe perfectionism and embrace the creative process effectively. It highlights the importance of viewing procrastination as valuable thinking time and encourages experimentation and learning from mistakes. Turbo Thinkers© are advised to define what level of perfection is sufficient for the task at hand and to simplify their approach by focusing on the core purpose. By adopting these strategies, individuals can experience more positive emotions, enhance performance, build stronger relationships, and improve self-regulation.
 
