@@ -12,7 +12,7 @@ The [five stages of grief](https://grief.com/the-five-stages-of-grief/) are:
 
 These stages are non-linear and anyone can experience one or all of them at anytime. It could be suddenly and long after you thought you've accepted the loss.
 
-Grief can cause deep pain from intense feelings. [[Thoughts and feelings do not necessarily represent reality accurately|Thoughts during this time]] should be judged carefully.
+Grief can cause deep pain from intense feelings. [[Emotions deeply affect our thoughts, actions, and world view|Thoughts during this time]] should be judged carefully.
 
 > Grief is the natural reaction to loss. Grief is both a universal and a personal experience. Individual experiences of grief vary and are influenced by the nature of the loss.
 > Experts advise those grieving to realize they can't control the process and to prepare for varying stages of grief.

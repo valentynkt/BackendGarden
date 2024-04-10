@@ -63,7 +63,7 @@ TODO
 
 ---
 
-Due to our [[Emotions deeply affect our thoughts, actions, and world view|complex emotional depth]] that seems to define [[Actions Define Us|every aspect of our character]], it's important to fully understand our emotions to [[One must understand their emotions to understand themselves|understand and know ourselves]].
+Due to our [[Emotions deeply affect our thoughts, actions, and world view|complex emotional depth]] that seems to define [[Actions Define Us|every aspect of our character]], it's important to fully understand our emotions to [[Understanding Emotions is Key to Self-Knowledge|understand and know ourselves]].
 
 [[Emotions need to be felt|Emotions need to be felt]] to fully understand our thoughts, actions, and ultimately yourself.
 

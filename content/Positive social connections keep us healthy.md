@@ -14,7 +14,7 @@ The converse is also true: [[Social isolation leads to mental and physiological 
 
 ### Regulating and Stabilizing the Limbic System
 
-Relationships impact our [[Limbic System Controls Emotion|limbic systems]] to the point that a healthy relationship can help both parties [regulate and stabilize their emotions](https://www.themarginalian.org/2022/09/06/general-theory-of-love-separation/):
+Relationships impact our [[Limbic System Governs Emotion|limbic systems]] to the point that a healthy relationship can help both parties [regulate and stabilize their emotions](https://www.themarginalian.org/2022/09/06/general-theory-of-love-separation/):
 
 >  There is no system relationships impact more profoundly than the limbic: our neurophysiological command center of emotion.
 

@@ -10,4 +10,4 @@ To truly be useful in that context, it only works if every idea — no matter ho
 
 To return to the [[Digital Gardening|garden metaphor]], we don't know where or if a new plant will [[Ideas and knowledge on their own are not useful|fit in our garden]] until we've had time to examine it in order to [[Fleeting Ideas Shouldn't Hang Around|prune it]] or water it for growth.
 
-Extending this idea to [[Journaling is an effective way to process our emotions|journaling]], we should expect to find raw and honest [[Thoughts and feelings do not necessarily represent reality accurately|thoughts and feelings that don't necessarily reflect reality]].
+Extending this idea to [[Journaling is an effective way to process our emotions|journaling]], we should expect to find raw and honest [[Emotions deeply affect our thoughts, actions, and world view|thoughts and feelings that don't necessarily reflect reality]].

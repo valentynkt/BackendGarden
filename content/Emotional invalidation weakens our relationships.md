@@ -4,7 +4,7 @@ plantedAt: 2022-09-21
 lastTendedAt: 2022-09-28
 ---
 
-Emotional invalidation communicates that the feelings we are feeling are somehow wrong or bad. This makes it difficult to [[Emotions are irrational|understand what we are feeling]] if we can't [[Judging Ideas|accept it]] and [[What does it mean to process thoughts|process it]].
+Emotional invalidation communicates that the feelings we are feeling are somehow wrong or bad. This makes it difficult to [[Emotions are irrational|understand what we are feeling]] if we can't [[Separate Idea Intake from Idea Judgment|accept it]] and [[What does it mean to process thoughts|process it]].
 
 The act of having our emotions invalidated in and of itself [[Emotions deeply affect our thoughts, actions, and world view|yields more feelings]] of loneliness since we don't feel understood or [[Positive social connections keep us healthy|connected to the person]] that invalidated us; even if [[Accept yourself for who you are|that person is us]].
 

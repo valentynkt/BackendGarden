@@ -22,7 +22,7 @@ The [[Idea Compass as a Thought Framework|idea compass is a useful thought frame
 
 ---
 
-This is very similar to [[Positive social connections keep us healthy|human relationships]] where the value comes from the connection. Applied to your most important relationship (the [[Accept yourself for who you are|relationship to yourself]]), it's the difference between knowing that something "bothers" you and [[One must understand their emotions to understand themselves|understanding why/how]] and being able to move past it.
+This is very similar to [[Positive social connections keep us healthy|human relationships]] where the value comes from the connection. Applied to your most important relationship (the [[Accept yourself for who you are|relationship to yourself]]), it's the difference between knowing that something "bothers" you and [[Understanding Emotions is Key to Self-Knowledge|understanding why/how]] and being able to move past it.
 
 Neurons (artificial and natural) also produce value not from themselves, but in the way they are [[Network emergent behavior|connected to other neurons]].
 

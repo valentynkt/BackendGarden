@@ -10,7 +10,7 @@ ADHD can lead to feelings of laziness and inadequacy due to ADHDers being [[Find
 
 [[Procrastination|Constantly procrastinating]] and not knowing why leads people to fill in the blanks. If not examined, these ideas can come to define someone's [[Accept yourself for who you are|self-worth in a negative way]] leading to more motivation issues causing a vicious cycle.
 
-If the emotions caused by these [[Thoughts and feelings do not necessarily represent reality accurately|(incorrect) thoughts]] are left unexamined, ADHD can simultaneously cause and prevent someone from [[Know Thyself|truly understanding themselves]].
+If the emotions caused by these [[Emotions deeply affect our thoughts, actions, and world view|(incorrect) thoughts]] are left unexamined, ADHD can simultaneously cause and prevent someone from [[Know Thyself|truly understanding themselves]].
 
 > Like many things with ADHD...this has the appearance of something to do with willpower, something others think you could simply change if you “cared more.”
 > Another **recurring gut punch** I can’t control.

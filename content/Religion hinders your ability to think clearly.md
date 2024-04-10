@@ -8,7 +8,7 @@ lastTendedAt: 2022-09-15
 
 Religion provides an answer for everything (even if that answer is an unsatisfying "god did it"). It encourages easy answers over [[Ideas and knowledge on their own are not useful|doing the work of thinking]].
 
-In doing so, it conditions people to not think for themselves and instead follow the group-think. This causes people to live unexamined lives where [[One must understand their emotions to understand themselves|they never learn the true nature of themselves]].
+In doing so, it conditions people to not think for themselves and instead follow the group-think. This causes people to live unexamined lives where [[Understanding Emotions is Key to Self-Knowledge|they never learn the true nature of themselves]].
 
 Religion is a detriment to society.
 

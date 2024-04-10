@@ -14,4 +14,4 @@ The quality of the experience is very dependent on [[Set and setting are very im
 
 The psychedelics **expand our state of consciousness** to allow us to think about things and perhaps confront feelings and emotions that we long ago buried and have been avoiding for many years.
 
-Psychedelics are another tool that when combined with [[Journaling is an effective way to process our emotions|journaling]] and [[Psychotherapy is an effective tool for processing emotions|psychotherapy]] can be very effective at [[What does it mean to process thoughts|processing our emotions]] and [[One must understand their emotions to understand themselves|discovering ourselves]].
+Psychedelics are another tool that when combined with [[Journaling is an effective way to process our emotions|journaling]] and [[Psychotherapy is an effective tool for processing emotions|psychotherapy]] can be very effective at [[What does it mean to process thoughts|processing our emotions]] and [[Understanding Emotions is Key to Self-Knowledge|discovering ourselves]].

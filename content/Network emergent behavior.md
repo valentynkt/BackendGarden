@@ -12,7 +12,7 @@ Connecting nodes together in meaningful ways creates a network where the [[Posit
 
 ---
 
-Is [[One must understand their emotions to understand themselves|understanding]] an emergent characteristic from [[Ideas and knowledge on their own are not useful|connecting thoughts]] together?
+Is [[Understanding Emotions is Key to Self-Knowledge|understanding]] an emergent characteristic from [[Ideas and knowledge on their own are not useful|connecting thoughts]] together?
 
 What does this mean for our understanding of the world?
 

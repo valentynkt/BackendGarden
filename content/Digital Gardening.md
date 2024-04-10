@@ -10,7 +10,7 @@ A [digital garden](https://maggieappleton.com/garden-history) is an online space
 
 There are different categories of notes in both [Zettelkasten](https://zettelkasten.de/posts/overview/) and digital gardening that can roughly translate to each other.
 
-Digital gardening tends to be a superset of Zettelkasten ideas but more geared for public consumption rather than [[Judging Ideas|strictly a private endeavor]].
+Digital gardening tends to be a superset of Zettelkasten ideas but more geared for public consumption rather than [[Separate Idea Intake from Idea Judgment|strictly a private endeavor]].
 
 > The *garden* term represents the idea of notes which are constantly tended and exist in various stages of development.
 > - [Kez](https://www.kez.ie/notes/digital%20garden/)

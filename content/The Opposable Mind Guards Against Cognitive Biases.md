@@ -2,9 +2,9 @@
 tags:
   - seedling
 plantedAt: 2024-04-05
-lastTendedAt: 2024-04-05
+lastTendedAt: 2024-04-10
 ---
-The [[The Opposable Mind Enhances Cognitive Flexibility|opposable mind]] serves as a safeguard against common cognitive biases that can lead to flawed thinking and decision-making. By entertaining multiple perspectives, individuals are less likely to fall prey to:
+The [[The Opposable Mind Enhances Cognitive Flexibility|opposable mind]] serves as a safeguard against [[Cognitive Biases Evolved as Survival Mechanisms|common cognitive biases]] that can lead to [[Emotions are irrational|flawed thinking and decision-making]]. By entertaining multiple perspectives, individuals are less likely to fall prey to:
 
 1. **Confirmation bias**: Seeking out information that confirms pre-existing beliefs while ignoring contradictory evidence.
 2. **Anchoring bias**: Relying too heavily on the first piece of information encountered when making decisions.

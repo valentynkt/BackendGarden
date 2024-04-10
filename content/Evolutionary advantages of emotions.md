@@ -6,5 +6,5 @@ lastTendedAt: 2022-09-28
 
 Emotions evolved early in the mammalian tree of life for many advantageous reasons:
 
-- They help us [[Limbic System Controls Emotion|react quickly]] to potentially threatening situations.
+- They help us [[Limbic System Governs Emotion|react quickly]] to potentially threatening situations.
 - They help us [[Empathy builds relationships|communicate our mental and physical well-being]] with others [[Empathy builds relationships|fostering a sense of empathy]].

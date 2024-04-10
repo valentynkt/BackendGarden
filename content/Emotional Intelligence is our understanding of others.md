@@ -12,4 +12,4 @@ People with high emotional intelligence manage their stress better and build mor
 > Some people are naturally more in touch with their emotions than others. The good news is, everyone can be more aware of their emotions. It just takes practice. But it's worth the effort: Emotional awareness is the first step toward building emotional intelligence, a skill that can help people succeed in life.
 > - [[Understanding Your Emotions|Neymours]]
 
-Understanding our relationships includes [[One must understand their emotions to understand themselves|understanding ourselves]] so that we can [[Accept yourself for who you are|accept and love ourselves]].
+Understanding our relationships includes [[Understanding Emotions is Key to Self-Knowledge|understanding ourselves]] so that we can [[Accept yourself for who you are|accept and love ourselves]].

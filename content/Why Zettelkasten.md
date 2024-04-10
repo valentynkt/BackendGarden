@@ -15,4 +15,4 @@ I want to [[Emotions deeply affect our thoughts, actions, and world view|underst
 
 I'm hoping to write down and [[What does it mean to process thoughts|process all my thoughts]]. Combined with [[Journaling is an effective way to process our emotions|journaling]] and [[Psychotherapy is an effective tool for processing emotions|psychotherapy]], I hope to gain insights into how I think about the world and perhaps examine my perceptions and biases.
 
-More succinctly, I want a better [[One must understand their emotions to understand themselves|understanding of myself]] and how I view the world.
+More succinctly, I want a better [[Understanding Emotions is Key to Self-Knowledge|understanding of myself]] and how I view the world.
