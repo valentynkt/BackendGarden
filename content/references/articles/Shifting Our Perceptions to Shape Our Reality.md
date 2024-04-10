@@ -5,8 +5,8 @@ lastTendedAt: 2024-04-10 16:16:43.770986+00:00
 ---
 ![rw-book-cover](https://readwise-assets.s3.amazonaws.com/static/images/article2.74d541386bbf.png)
 
-[Shifting Our Perceptions to Shape Our Reality]()
-By [[people/Mind Coach]]
+Shifting Our Perceptions to Shape Our Reality
+By [[Adela Baker]]
 
 The email discusses shifting perceptions to shape our reality and empowering ourselves through positive thinking. It emphasizes the importance of crafting narratives that serve us better and encourage a more enjoyable experience. The author invites readers to join the Turbo Think Tank group program and offers consultations to help manage a turbo-charged brain.
 
