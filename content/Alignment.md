@@ -14,7 +14,7 @@ This *Alignment Dashboard* is a place to view my life from the top down.
 ```dataview
 TABLE
 lastTendedAt as "Last Tended At"
-FROM #value
+FROM #value and -"templater"
 sort lastTendedAt desc
 ```
 
@@ -27,7 +27,7 @@ TABLE
 	values as "Values",
 	lastTendedAt as "Last Tended At",
 	complete as "Complete"
-FROM #goal
+FROM #goal and -"templater"
 sort lastTendedAt desc
 ```
 
