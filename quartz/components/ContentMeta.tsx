@@ -4,6 +4,7 @@ import { classNames } from "../util/lang"
 import { i18n } from "../i18n"
 import { format as formatDateFn, formatISO } from "date-fns"
 import type { JSX } from "preact"
+import style from "./styles/contentMeta.scss"
 
 const TimeMeta = ({ value }: { value: Date }) => (
   <time dateTime={formatISO(value)} title={formatDateFn(value, "ccc w")}>
@@ -16,10 +17,12 @@ interface ContentMetaOptions {
    * Whether to display reading time
    */
   showReadingTime: boolean
+  showComma: boolean
 }
 
 const defaultOptions: ContentMetaOptions = {
   showReadingTime: true,
+  showComma: true,
 }
 
 export default ((opts?: Partial<ContentMetaOptions>) => {
@@ -30,7 +33,7 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
     const text = fileData.text
 
     if (text) {
-      const segments: JSX.Element[] = []
+      const segments: (string | JSX.Element)[] = []
 
       if (fileData.dates) {
         if (fileData.dates.created) {
@@ -69,7 +72,7 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
       )
 
       return (
-        <p class={classNames(displayClass, "content-meta")}>
+        <p show-comma={options.showComma} class={classNames(displayClass, "content-meta")}>
           {segments.map((meta, idx) => (
             <>
               {meta}
@@ -83,16 +86,7 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
     }
   }
 
-  ContentMetadata.css = `
-  .content-meta {
-    display:flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    gap: 10;
+  ContentMetadata.css = style
 
-    margin-top: 0;
-    color: var(--gray);
-  }
-  `
   return ContentMetadata
 }) satisfies QuartzComponentConstructor
