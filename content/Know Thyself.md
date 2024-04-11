@@ -4,6 +4,7 @@ tags:
 aliases:
   - Temet Nosce
 plantedAt: 2022-09-15
+lastTendedAt: 2024-04-11
 ---
 ## Why is self-knowledge such a prestigious good?
 
@@ -36,7 +37,7 @@ We are all pretty crazy with our own set of idiosyncrasies and neuroses that if 
 
 [[Materialism is detrimental to society|Our society historically is very materialistic]] and does not value as much as it should self-reflection. 90s kids such as myself grew up in an environment where it was "manly" to suppress your feelings and emotions: a form of [[Toxic masculinity|toxic masculinity]].
 
-Our [[Emotions vs Feelings vs Thoughts|feelings and emotions]] [[Emotions deeply affect our thoughts, actions, and world view|deeply affect us]] and need to be [[Emotions need to be felt|felt]] and [[Understanding Your Emotions|understood to understand ourselves]]. This can be very difficult and requires active participation to [[What does it mean to process thoughts|process them]].
+Our [[Emotions vs Feelings vs Thoughts|feelings and emotions]] [[Emotions deeply affect our thoughts, actions, and world view|deeply affect us]] and need to be [[Emotions need to be felt|felt]] and understood to understand ourselves. This can be very difficult and requires active participation to [[What does it mean to process thoughts|process them]].
 
 ## Why is self-knowledge so important?
 

@@ -1,11 +1,9 @@
 ---
-tags: [evergreen]
+tags:
+  - evergreen
 plantedAt: 2022-09-28
-lastTendedAt: 2022-09-28
+lastTendedAt: 2024-04-11
 ---
-
-# Emotional reactions have many triggers
-
 [[Emotions deeply affect our thoughts, actions, and world view]] and can be triggered by a variety of stimuli.
 
 Thoughts (in addition to physical stimuli) can cause an emotional reaction.
