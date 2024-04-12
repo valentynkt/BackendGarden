@@ -6,7 +6,7 @@ aliases:
   - Feelings are a mental association to emotion
   - Thoughts are similar to feelings
 plantedAt: 2022-09-15
-lastTendedAt: 2024-04-03
+lastTendedAt: 2024-04-12
 ---
 *Emotions*, *feelings*, and *thoughts* are often used interchangeably in everyday conversation, but they are distinct concepts with important differences.
 
@@ -28,4 +28,4 @@ Historically, popular culture has tended to regard emotions as a messy human cha
 
 Despite the negative perception of emotions in some contexts, they [[Evolutionary advantages of emotions|have many evolutionary advantages]]. The zeitgeist is shifting on this topic, recognizing the importance of understanding and embracing emotions.
 
-If one can [[Emotions deeply affect our thoughts, actions, and world view|understand how their emotions affect them]], they can mitigate the negative effects and enjoy the positive effects. By acknowledging and processing emotions, individuals can gain a deeper understanding of themselves and improve their overall well-being.
+If we can [[Emotions deeply affect our thoughts, actions, and world view|understand how our emotions affect us]], we can mitigate the negative effects and enjoy the positive effects. By acknowledging and processing emotions, individuals can gain a deeper understanding of themselves and improve their overall well-being.
