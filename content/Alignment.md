@@ -2,7 +2,7 @@
 tags:
   - dashboard
 plantedAt: 2024-04-04
-lastTendedAt: 2024-04-14
+lastTendedAt: 2024-04-16
 ---
 This *Alignment Dashboard* is a place to view my life from the top down.
 
@@ -24,7 +24,7 @@ I set DCAs (Definite Chief Aim) which are concrete personal goals that align wit
 
 ```dataview
 TABLE
-	values as "Values",
+	value as "Value",
 	lastTendedAt as "Last Tended At",
 	complete as "Complete"
 FROM #goal and -"templater"
