@@ -2,7 +2,7 @@
 tags:
   - dashboard
 plantedAt: 2024-04-04
-lastTendedAt: 2024-04-16
+lastTendedAt: 2024-04-19
 ---
 This *Alignment Dashboard* is a place to view my life from the top down.
 
