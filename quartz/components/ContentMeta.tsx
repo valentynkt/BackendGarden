@@ -64,7 +64,7 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
 
       segments.push(
         <a
-          href={`https://github.com/chadly/garden/commits/v4/${fileData.filePath}`}
+          href={`https://github.com/valentynkt/BackendGarden/commits/v4/${fileData.filePath}`}
           target="_blank"
         >
           🗓️ History

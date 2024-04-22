@@ -5,10 +5,10 @@ export default (() => {
     return (
       <script
         src="https://giscus.app/client.js"
-        data-repo="chadly/garden"
-        data-repo-id="R_kgDOKVtAzQ"
-        data-category="Comments"
-        data-category-id="DIC_kwDOKVtAzc4CZhVu"
+        data-repo="valentynkt/BackendGarden"
+        data-repo-id="R_kgDOLxntQQ"
+        data-category="General"
+        data-category-id="DIC_kwDOLxntQc4Ce2yN"
         data-mapping="pathname"
         data-strict="0"
         data-reactions-enabled="1"
@@ -21,6 +21,5 @@ export default (() => {
       ></script>
     )
   }
-
   return Footer
 }) satisfies QuartzComponentConstructor
