@@ -16,9 +16,11 @@ Honestly, building this garden has been a journey of persistence and improvement
 > **Explore Content:** Ready to dive deeper? Check out the [[Landscape]] section where all current topics are neatly organized. It's the best starting point to explore the Digital Garden and discover comprehensive resources tailored to your learning path. [[Landscape| Navigate to Landscapes]]
 
 ![[Digital Garden#^16d541]]
+
 ## Expect Fresh, Growing Content
 
 Here at Backend Garden, the content is always expanding:
+
 ### Continuous Content Updates
 
 - **Regular Updates**: I'm always adding new insights and topics to keep things fresh and relevant. Whether you're starting out or looking to brush up on advanced concepts, there’s always something new.
