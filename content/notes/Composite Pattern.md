@@ -6,8 +6,8 @@ aliases:
   - Container/Containee Pattern
 links: "[[Structural patterns]]"
 tags:
-  - seed🌱
   - LearningIT
+  - evergreen🌳
 ---
 link: [[Structural patterns]]
 
@@ -25,13 +25,13 @@ _Also known as: Object Tree_
 
 ### Intent
 
-> [!danger]+ **Problem** 
+> [!danger]  **Problem** 
 > In applications where the core model follows a tree-like structure, such as containing various levels of nested elements like products and boxes, determining characteristics like total price can become convoluted.
 >![[Pasted image 20240403142333.png]]
 >
 >For instance, consider an ordering system with products and boxes: a box may contain products or other boxes, creating a nested hierarchy. Calculating the total price of an order becomes challenging as it involves unwrapping nested boxes and summing up individual product prices, accounting for various nesting levels and object types.
 
-> [!success]+ **Solution** 
+> [!success]  **Solution** 
 > The Composite pattern proposes working with products and boxes through a shared interface, which exposes a method for calculating total prices.
 >![[Pasted image 20240403142448.png]]
 >_The Composite pattern lets you run a behavior recursively over all components of an object tree._

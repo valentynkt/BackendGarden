@@ -4,8 +4,8 @@ aliases:
   - Design Principles in Software
 links: "[[Object Oriented Programming]]"
 tags:
-  - seed🌱
   - LearningIT
+  - bud🌿
 ---
 link: [[Object Oriented Programming]]
 

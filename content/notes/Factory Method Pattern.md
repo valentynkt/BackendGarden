@@ -7,8 +7,8 @@ aliases:
   - Constructor Pattern
 links: "[[Creational patterns]]"
 tags:
-  - seed🌱
   - LearningIT
+  - evergreen🌳
 ---
 link: [[Creational patterns]]
 
@@ -27,12 +27,12 @@ _Also known as: Virtual Constructor_
 
 ### Intent:
 
-> [!danger]+ **Problem** 
+> [!danger]  **Problem** 
 > In a logistics management application, the initial design only supported truck transportation, making it difficult to integrate sea transportation without modifying a lot of code tightly coupled with the Truck class.
 
 ![[Pasted image 20231009190706.png]]
 
-> [!success]+ **Solution** 
+> [!success]  **Solution** 
 > The Factory Method pattern introduces a special factory method to manage object creation. This allows for extending the application to support new transportation modes by simply changing the factory method in a subclass to produce different products.
 
 ![[Pasted image 20231009193330.png]] ![[Pasted image 20231009193351.png]]
@@ -246,6 +246,6 @@ Overall, this code is a clear example of the Factory Method pattern, illustratin
 
 ## Reference:
 
-[[design-patterns-en.pdf]]
+https://refactoring.guru/design-patterns
  
  

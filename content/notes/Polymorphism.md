@@ -1,15 +1,15 @@
 ---
 created: 19-04-2024 20:53
 aliases:
-- Dynamic Method Dispatch
-- Object Behavior Variability 
-- Runtime Polymorphism 
-- Polymorphic Behavior
-- Method Overriding Principles
+  - Dynamic Method Dispatch
+  - Object Behavior Variability
+  - Runtime Polymorphism
+  - Polymorphic Behavior
+  - Method Overriding Principles
 links: "[[Object Oriented Programming|OOP]]"
 tags:
-  - seed🌱
   - LearningIT
+  - bud🌿
 ---
 link: [[Object Oriented Programming|OOP]]
 

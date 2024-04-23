@@ -5,8 +5,8 @@ aliases:
   - OCP in OOP
 links: "[[SOLID Principles]]"
 tags:
-  - seed🌱
   - LearningIT
+  - bud🌿
 ---
 link: [[SOLID Principles|SOLID]]
 

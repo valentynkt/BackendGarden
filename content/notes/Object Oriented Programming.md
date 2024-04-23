@@ -5,8 +5,8 @@ aliases:
   - Four Pillars
 links: 
 tags:
-  - seed🌱
   - LearningIT
+  - bud🌿
 ---
 link:
 
@@ -15,6 +15,7 @@ link:
 ## Overview
 
 ![[pbyXtPuoCc.png]]
+
 **Object-oriented programming is a paradigm based on the concept of wrapping pieces of data, and behavior related to that data, into special bundles called objects, which are constructed from a set of “blueprints”, defined by a programmer, called classes.**
 
 > [!abstract]
@@ -75,6 +76,10 @@ Class hierarchies provide a way to organize related classes through parent-child
 >> 
 >>  In an educational software system, a base class Person might include attributes and methods common to all people in the system, such as name and email. Derived classes like Student and Teacher can inherit these features from Person but also include specific attributes like studentID and salary, respectively.
 
+
+### ### The Role of [[Design Principles]] in OOP
+
+**[[Design Principles]]** play a pivotal role in guiding the implementation of OOP concepts. They provide a foundation that promotes code robustness and flexibility:
 ## Summary
 
 >[!summary]
@@ -82,7 +87,9 @@ Class hierarchies provide a way to organize related classes through parent-child
 
 # References
 
-https://blog.sigma-star.io/2024/01/people-dont-understand-oop/#comments - Highly recommend for reading and understanding OOP more deeply
+https://blog.sigma-star.io/2024/01/people-dont-understand-oop/#comments - Highly recommend for reading and understanding OOP more deeply.
+
 https://www.youtube.com/watch?v=dtZ-o96bH9A - Barbara Liskov About abstraction
+
 https://refactoring.guru/design-patterns
 

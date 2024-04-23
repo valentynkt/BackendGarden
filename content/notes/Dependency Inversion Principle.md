@@ -5,8 +5,8 @@ aliases:
   - DIP in OOP
 links: "[[SOLID Principles]]"
 tags:
-  - seed🌱
   - LearningIT
+  - bud🌿
 ---
 link: [[SOLID Principles|SOLID]]
 
@@ -35,16 +35,16 @@ To ensure compliance with DIP follow this rules:
 
 ### Practical Example
 
-> [!danger]+ BEFORE 
+> [!danger]  BEFORE 
 > Initially, a high-level module is directly dependent on a low-level module, leading to a rigid and fragile structure that is challenging to test and maintain. ![[Pasted image 20231008195638.png]]
 
-> [!success]+ AFTER 
+> [!success]  AFTER 
 > By inverting the dependency, both high-level and low-level modules rely on shared abstractions. This results in a more flexible and maintainable system where changes to low-level details have minimal impact on high-level modules. ![[Pasted image 20231008195732.png]]
 
 This approach not only enhances code reusability and maintainability but also simplifies unit testing by allowing for easy mocking or stubbing of the lower-level components.
 
 
-## ### Summary
+## Summary
 
 > [!summary] 
 > Following the Dependency Inversion Principle brings flexibility and easier maintenance to software systems. It encourages a setup where the core business logic is neatly separated from the technical details of how things are done. This separation is crucial for a well-designed application.

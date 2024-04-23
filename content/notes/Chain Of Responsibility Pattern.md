@@ -6,8 +6,8 @@ aliases:
   - Successor Pattern
 links: "[[Behavioral patterns]]"
 tags:
-  - seed🌱
   - LearningIT
+  - evergreen🌳
 ---
 link: [[Behavioral patterns]]
 
@@ -25,7 +25,7 @@ _Also known as: CoR, Chain of Command_
 
 ### Intent
 
-> [!danger]+ **Problem** 
+> [!danger]  **Problem** 
 > Imagine developing an online ordering system where access must be restricted to authenticated users, and users with administrative permissions need full access to all orders. Initially, it seemed necessary to perform several security checks sequentially:
 > 
 > 1. **Authentication:** Verify user credentials upon receiving a request. If authentication fails, no further checks are needed.
@@ -40,7 +40,7 @@ _Also known as: CoR, Chain of Command_
 >![[Pasted image 20240408211445.png]]
 >_The bigger the code grew, the messier it became._
 
-> [!success]+ **Solution** 
+> [!success]  **Solution** 
 > The Chain of Responsibility pattern offers a solution by encapsulating each check into its own class, known as a handler, with a single method to perform its function. This method takes the request and its data as parameters. Handlers are linked together in a sequence where each handler has a reference to the next one in the chain. This setup allows a request to be passed along the chain, giving each handler a chance to process it:
 >
 >- **Handling Requests:** Each handler can independently decide whether to pass the request down the chain. If a handler processes the request adequately (e.g., successful authentication), it may choose not to forward the request, halting further processing.

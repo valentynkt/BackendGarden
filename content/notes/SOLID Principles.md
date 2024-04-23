@@ -4,8 +4,8 @@ aliases:
   - SOLID
 links: "[[Design Principles]]"
 tags:
-  - seed🌱
   - LearningIT
+  - bud🌿
 ---
 link: [[Design Principles]]
 
@@ -63,5 +63,5 @@ Pictures  from -
 https://medium.com/backticks-tildes/the-s-o-l-i-d-principles-in-pictures-b34ce2f1e898
 
 Examples from -
-[[design-patterns-en.pdf]]
+https://refactoring.guru/design-patterns
  

@@ -4,8 +4,8 @@ aliases:
   - Aggregation in OOP
   - UML Aggregation Relationships
 tags:
-  - seed🌱
   - LearningIT
+  - bud🌿
 links: "[[Relations Between Objects]]"
 ---
 
@@ -96,5 +96,5 @@ In this C# example:
 
 # References
 
-[[design-patterns-en.pdf]]
+https://refactoring.guru/design-patterns
 

@@ -6,8 +6,8 @@ aliases:
   - Abstraction Layer Pattern
 links: "[[Structural patterns]]"
 tags:
-  - seed🌱
   - LearningIT
+  - evergreen🌳
 ---
 link: [[Structural patterns]]
 
@@ -24,10 +24,10 @@ link: [[Structural patterns]]
 
 ### Intent
 
-> [!danger]+ **Problem** 
+> [!danger]  **Problem** 
 > When working with a comprehensive library or framework, integrating numerous objects requires intricate initialization, managing dependencies, and ensuring correct method execution order. This tight coupling between business logic and 3rd-party implementation details complicates comprehension and maintenance.
 
-> [!success]+ **Solution** 
+> [!success]  **Solution** 
 > A **Facade** acts as an interface simplifying interaction with a complex subsystem containing multiple components. It offers a streamlined functionality subset compared to direct subsystem access, focusing only on essential client requirements.
 > 
 > A Facade proves beneficial when integrating an application with an extensive library boasting numerous features, of which only a fraction is necessary. For example, an application uploading short cat videos to social media platforms might leverage a professional video conversion library. However, it merely necessitates a class with a single method, `Encode(filename, format)`. By creating such a class and linking it with the video conversion library, the initial Facade is established, catering to specific application needs.

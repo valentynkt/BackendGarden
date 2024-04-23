@@ -6,8 +6,8 @@ aliases:
   - State Save/Restore Pattern
 links: "[[Behavioral patterns]]"
 tags:
-  - seed🌱
   - LearningIT
+  - bud🌿
 ---
 link: [[Behavioral patterns]]
 
@@ -25,7 +25,7 @@ _Also known as: Snapshot_
 
 ### Intent
 
-> [!danger]+ **Problem** 
+> [!danger]  **Problem** 
 > In modern software applications like text editors, which involve complex operations such as formatting text and inserting images, a common user expectation is the ability to undo actions. A straightforward approach to implementing this feature might involve saving the state of the application's objects before any operation is performed, allowing these states to be restored later if needed.
 > 
 >![[Pasted image 20240409145723.png]]
@@ -39,7 +39,7 @@ _Also known as: Snapshot_
 >![[Pasted image 20240409145740.png]]
 >_How to make a copy of the object’s private state?_
 
-> [!success]+ **Solution** 
+> [!success]  **Solution** 
 > The Memento pattern provides a solution by maintaining strong encapsulation boundaries. It involves three key participants:
 > 
 > - **Originator**: The object whose state needs to be saved and restored. It creates a snapshot of its state as a memento when required.

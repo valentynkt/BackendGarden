@@ -4,8 +4,8 @@ aliases:
   - Association relationships
   - UML Association Relationships
 tags:
-  - seed🌱
   - LearningIT
+  - bud🌿
 links: "[[Relations Between Objects]]"
 ---
 
@@ -48,5 +48,5 @@ The presence of both association and dependency in this example helps delineate 
 
 # References
 
-[[design-patterns-en.pdf]]
+https://refactoring.guru/design-patterns
 

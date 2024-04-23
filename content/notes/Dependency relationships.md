@@ -4,8 +4,8 @@ aliases:
   - Class Dependencies in OOP
   - Object Coupling
 tags:
-  - seed🌱
   - LearningIT
+  - bud🌿
 links: "[[Relations Between Objects]]"
 ---
 
@@ -65,5 +65,5 @@ In this code:
 
 # References
 
-[[design-patterns-en.pdf]]
+https://refactoring.guru/design-patterns
 

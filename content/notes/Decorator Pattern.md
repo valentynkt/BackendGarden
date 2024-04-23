@@ -6,8 +6,8 @@ aliases:
   - Dynamic Extension Pattern
 links: "[[Structural patterns]]"
 tags:
-  - seed🌱
   - LearningIT
+  - evergreen🌳
 ---
 link: [[Structural patterns]]
 
@@ -26,7 +26,7 @@ _Also known as: Wrapper_
 
 ### Intent
 
-> [!danger]+ **Problem** 
+> [!danger]  **Problem** 
 > ![[Pasted image 20240403195207.png]]
 >_A program could use the notifier class to send notifications about important events to a predefined set of emails._
 >
@@ -38,7 +38,7 @@ _Also known as: Wrapper_
 >![[Pasted image 20240403195321.png]]
 _Combinatorial explosion of subclasses._
 
-> [!success]+ **Solution** 
+> [!success]  **Solution** 
 > Instead of relying solely on inheritance, which has limitations such as static behavior and single-parent restriction, consider employing Aggregation or Composition. These alternatives enable objects to delegate work to other objects dynamically, providing more flexibility.
 >![[Pasted image 20240403195405.png]]
 >_Inheritance vs. Aggregation_

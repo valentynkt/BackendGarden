@@ -6,8 +6,8 @@ aliases:
   - Interface Adapter Pattern
 links: "[[Structural patterns]]"
 tags:
-  - seed🌱
   - LearningIT
+  - evergreen🌳
 ---
 link: [[Structural patterns]]
 
@@ -25,7 +25,7 @@ _Also known as: Wrapper_
 
 ### Intent
 
-> [!danger]+ **Problem** 
+> [!danger]  **Problem** 
 > Imagine you're developing a stock market monitoring app. It fetches stock data from various sources in XML format and presents it to users in visually appealing charts and diagrams. Later on, you decide to enhance the app by integrating a sophisticated third-party analytics library. But here's the challenge: the analytics library exclusively processes data in JSON format. This presents an incompatibility issue since your app's data is in XML format.
 >
 >**Challenges:**
@@ -33,7 +33,7 @@ _Also known as: Wrapper_
 >- Changing the library to support XML could potentially disrupt existing code and may not be feasible if the library's source code is inaccessible.
 >![[Pasted image 20240402192929.png]]
 
-> [!success]+ **Solution** 
+> [!success]  **Solution** 
 > Enter the Adapter pattern! It's like a language translator for objects. The Adapter allows objects with incompatible interfaces to work together seamlessly. Here's how it tackles the problem:
 >
 >1. **Creating an Adapter:** You develop special adapters that convert XML data into JSON format for each class of the analytics library your app interacts with directly.  

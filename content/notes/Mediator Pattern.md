@@ -6,8 +6,8 @@ aliases:
   - Hub Pattern
 links: "[[Behavioral patterns]]"
 tags:
-  - seed🌱
   - LearningIT
+  - evergreen🌳
 ---
 link: [[Behavioral patterns]]
 
@@ -26,7 +26,7 @@ _Also known as: Intermediary, Controller_
 
 ### Intent
 
-> [!danger]+ **Problem** 
+> [!danger]  **Problem** 
 > Consider a scenario where you're developing a dialog for creating and editing customer profiles, featuring various form elements like text fields, checkboxes, and buttons. These elements often need to interact with one another. For example, selecting a checkbox labeled "I have a dog" might reveal a text field for entering the dog's name. Similarly, a submit button may need to validate all field values before proceeding with data submission.  
 >![[Pasted image 20240409131745.png]]
 >_Relations between elements of the user interface can become chaotic as the application evolves._
@@ -35,7 +35,7 @@ _Also known as: Intermediary, Controller_
 >![[Pasted image 20240409131757.png]]
 >_Elements can have lots of relations with other elements. Hence, changes to some elements may affect the others._
 
-> [!success]+ **Solution** 
+> [!success]  **Solution** 
 > The Mediator pattern addresses these challenges by eliminating direct communication between the components that need to interact. Instead, it introduces a mediator object to manage coordination between these components, thus centralizing complex communications and control logic.
 >
 >![[Pasted image 20240409132016.png]]
@@ -80,7 +80,7 @@ By centralizing the control logic within a mediator, the Mediator pattern facili
 
 
 > [!important] 
-The outlined structure emphasizes decoupling components to minimize direct interactions, which in turn simplifies the dependencies within the system. It enables a more maintainable and flexible architecture where adding or modifying individual components has minimal impact on others. The mediator acts as a central point of control, directing traffic and interactions between disparate parts of the system.
+>The outlined structure emphasizes decoupling components to minimize direct interactions, which in turn simplifies the dependencies within the system. It enables a more maintainable and flexible architecture where adding or modifying individual components has minimal impact on others. The mediator acts as a central point of control, directing traffic and interactions between disparate parts of the system.
 
 ### Applicability
 

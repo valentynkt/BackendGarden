@@ -1,13 +1,12 @@
 ---
 created: 19-04-2024 01:46
 aliases:
-  - Design Principle vs Design Pattern
   - Principles vs Patterns in Software Design
   - Principles vs Patterns
 links: 
 tags:
-  - seed🌱
   - LearningIT
+  - bud🌿
 ---
 link: [[Design Principles]], [[Design Patterns]]
 

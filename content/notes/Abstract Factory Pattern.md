@@ -7,8 +7,8 @@ aliases:
   - Constructor Library Pattern
 links: "[[Creational patterns]]"
 tags:
-  - seed🌱
   - LearningIT
+  - evergreen🌳
 ---
 link: [[Creational patterns]]
 
@@ -28,7 +28,7 @@ _Also known as: Virtual Constructor_
 ### Intent
 
 ![[Pasted image 20231010155103.png]]
->[!danger]+ Problem 
+>[!danger]  Problem 
 >Imagine that you’re creating a furniture shop simulator. Your code consists of classes that represent:
 >1. A family of related products, say: Chair + Sofa + CoffeeTable . 
 >2. Several variants of this family. For example, products **Chair + Sofa + CoffeeTable** are available in these variants: **Modern , Victorian , ArtDeco** .
@@ -40,7 +40,7 @@ _Also known as: Virtual Constructor_
 
 
 
-> [!success]+ **Solution** 
+> [!success]  **Solution** 
 > **The Abstract Factory pattern** addresses these challenges effectively. By defining interfaces for each product type within a family (Chair, Sofa, CoffeeTable), and ensuring all product variants comply with these interfaces, the application can manage furniture items more flexibly. Here’s how it works:
 > 
 > - Each style variant (Modern, Victorian, ArtDeco) is encapsulated within its own class hierarchy, enabling uniform style management across different product types.

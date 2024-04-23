@@ -7,7 +7,7 @@ links: "[[Patterns In General]]"
 tags:
   - LearningIT
   - moc
-  - bud🌿
+  - seed🌱
 ---
 link: [[Patterns In General]]
 

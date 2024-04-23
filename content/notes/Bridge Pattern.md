@@ -6,8 +6,8 @@ aliases:
   - Implementation Pattern
 links: "[[Structural patterns]]"
 tags:
-  - seed🌱
   - LearningIT
+  - evergreen🌳
 ---
 link: [[Structural patterns]]
 
@@ -24,11 +24,11 @@ link: [[Structural patterns]]
 
 ### Intent
 
-> [!danger]+ **Problem** 
+> [!danger]  **Problem** 
 > Consider a class hierarchy for geometric shapes consisting of a base `Shape` class with two subclasses, `Circle` and `Square`. Now, let's say we want to introduce colors to these shapes, leading us to consider creating subclasses such as `BlueCircle` and `RedSquare`. However, with each new shape type or color, the number of necessary subclasses grows exponentially. For instance, adding a new shape like a triangle would require introducing two new subclasses, one for each color. This growth quickly becomes unmanageable as we expand the hierarchy.
 ![[Pasted image 20240402212345.png]]
 
-> [!success]+ **Solution** 
+> [!success]  **Solution** 
 > The Bridge pattern addresses this problem by advocating for a shift from class inheritance to object composition. Instead of trying to extend the shape classes along both the dimensions of form and color, we separate these concerns into distinct class hierarchies. Specifically, we extract the color-related code into its own hierarchy with subclasses representing individual colors like `Red` and `Blue`.
 > 
 > In this approach, the `Shape` class now holds a reference to an object from the color hierarchy, enabling it to delegate any color-related operations to the referenced color object. This reference acts as a bridge between the `Shape` and `Color` classes. Importantly, this design decouples the shape hierarchy from the color hierarchy, making it easier to add new shapes or colors without altering the entire class hierarchy.

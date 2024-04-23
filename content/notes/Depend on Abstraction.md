@@ -5,8 +5,8 @@ aliases:
   - Interface-based Programming
 links: "[[Design Principles]]"
 tags:
-  - seed🌱
   - LearningIT
+  - bud🌿
 ---
 link: [[Design Principles]]
 
@@ -48,4 +48,4 @@ This is example of [[Factory Method Pattern]]
 
 # References
 
-[[design-patterns-en.pdf]]
+https://refactoring.guru/design-patterns

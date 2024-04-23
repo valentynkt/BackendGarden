@@ -6,8 +6,8 @@ aliases:
   - Command Object Pattern
 links: "[[Behavioral patterns]]"
 tags:
-  - seed🌱
   - LearningIT
+  - evergreen🌳
 ---
 link: [[Behavioral patterns]]
 
@@ -25,7 +25,7 @@ _Also known as: Action, Transaction_
 
 ### Intent
 
-> [!danger]+ **Problem** 
+> [!danger]  **Problem** 
 > Imagine developing a new text-editor application that includes a toolbar with various buttons for different operations, such as a button class used for both toolbar buttons and generic buttons in dialogs. While these buttons look similar, they are intended to perform diverse actions. The simplest initial approach might be to create multiple subclasses for each button type, embedding the specific action (like click handling) within these subclasses.
 >
 >![[Pasted image 20240408233721.png]]
@@ -39,7 +39,7 @@ _Also known as: Action, Transaction_
 >![[Pasted image 20240408233810.png]]
 >_Several classes implement the same functionality._
 
-> [!success]+ **Solution** 
+> [!success]  **Solution** 
 > A robust software design often adheres to the principle of separation of concerns—dividing an application into distinct layers, such as the graphical user interface (GUI) and the business logic. The GUI layer handles input and display, while the business logic layer manages core functionalities like data processing or complex calculations.
 > 
 >![[Pasted image 20240408234146.png]]

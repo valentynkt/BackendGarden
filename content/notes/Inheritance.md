@@ -1,11 +1,11 @@
 ---
 created: 19-04-2024 21:08
 aliases:
-  -  Base and Derived Classes
+  - Base and Derived Classes
 links: "[[Object Oriented Programming|OOP]]"
 tags:
-  - seed🌱
   - LearningIT
+  - bud🌿
 ---
 link: [[Object Oriented Programming|OOP]]
 

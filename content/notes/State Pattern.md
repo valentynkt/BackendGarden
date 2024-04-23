@@ -6,8 +6,8 @@ aliases:
   - Context Pattern
 links: "[[Behavioral patterns]]"
 tags:
-  - seed🌱
   - LearningIT
+  - evergreen🌳
 ---
 
 # State Pattern
@@ -23,7 +23,7 @@ tags:
 
 ### Intent
 
-> [!danger]+ **Problem** 
+> [!danger]  **Problem** 
 > Finite-State Machines (FSMs) are a common way to represent different "states" within a program or an object. An FSM for an object would have a finite number of states, and the object’s behavior is different for each state. Transitions between states are defined and can depend on conditions or events.
 >![[Pasted image 20240409194000.png]]
 >_Finite-State Machine_
@@ -34,7 +34,7 @@ tags:
 >
 >The issue with FSMs comes when they are implemented with numerous conditionals (`if` or `switch` statements), making the code bloated, hard to maintain, and prone to errors as more states and transitions are added over time.
 
-> [!success]+ **Solution** 
+> [!success]  **Solution** 
 > The State pattern suggests encapsulating state-specific behaviors into separate classes and having the original object delegate state-related work to these classes, known as state objects. The original object, known as the context, maintains a reference to one of these state objects to represent its current state.
 >![[Pasted image 20240409194035.png]]
 >_Document delegates the work to a state object_

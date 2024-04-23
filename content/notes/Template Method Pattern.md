@@ -6,8 +6,8 @@ aliases:
   - Algorithm Outline Pattern
 links: "[[Behavioral patterns]]"
 tags:
-  - seed🌱
   - LearningIT
+  - evergreen🌳
 ---
 
 links: [[Behavioral patterns]]
@@ -25,15 +25,17 @@ links: [[Behavioral patterns]]
 
 ### Intent
 
-> [!danger]+ **Problem** 
+> [!danger]  **Problem** 
 > Suppose you’re developing a data mining application to process different types of documents (PDF, DOC, CSV). Initially, the application could handle only DOC files, but later you expanded it to process CSV and PDF formats. Each format required a different parsing technique, but once the data was parsed, the processing and analysis steps were largely the same across all formats. The challenge was the code duplication in these post-parsing steps and the cumbersome conditional logic in the client code used to instantiate and manage these parser object.
 >
 >![[Pasted image 20240411150414.png]]
 >_Data mining classes contained a lot of duplicate code_
 
-> [!success]+ **Solution** 
+> [!success]  **Solution** 
 > The Template Method pattern offers a structured approach to algorithm design by defining a sequence of steps in a base class. This method allows specific steps to be customized in subclasses to adapt to different requirements. 
+> 
 >![[Pasted image 20240411150421.png]]
+>
 >_Template method breaks the algorithm into steps, allowing subclasses to override these steps but not the actual method._
 >
 >Here’s a explanation based on the example of a data mining application that handles various document formats:

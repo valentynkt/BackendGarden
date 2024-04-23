@@ -8,8 +8,8 @@ aliases:
   - Abstraction in Programming
 links: "[[Object Oriented Programming|OOP]]"
 tags:
-  - seed🌱
   - LearningIT
+  - bud🌿
 ---
 link: [[Object Oriented Programming|OOP]]
 
@@ -59,7 +59,7 @@ An abstract class can have both abstract and regular methods:
 
 From the example above, it is not possible to create an object of the Animal class:
 
-> [!danger]+ csharp
+> [!danger]  csharp
 >```csharp
 >Animal myObj = new Animal(); 
 >// Will generate an error (Cannot create an instance of the abstract class or interface 'Animal')

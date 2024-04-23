@@ -8,7 +8,7 @@ links: "[[Patterns In General]]"
 tags:
   - LearningIT
   - moc
-  - seed🌱
+  - bud🌿
 ---
 link: [[Object Oriented Programming]], [[Patterns In General]]
 
@@ -55,6 +55,9 @@ Implementing design patterns is a strategic approach that involves several criti
 - **Pros and Cons**: Evaluates the advantages and limitations of the pattern, giving developers insight into potential impacts on their projects.
 - **Relations with Other Patterns**: Discusses the interactions between the pattern and other design patterns, highlighting synergies, contrasts, and substitutions to provide a broader understanding of its place within the design ecosystem.
 
+
+## [[Design Principle vs Design Pattern]]
+![[Design Principle vs Design Pattern#Design Principle vs Design Pattern]]
 
 ## Summary
 

@@ -41,6 +41,10 @@ Patterns vary significantly in their scope and application, addressing different
 > - **[[Design Patterns]] (mid-level patterns)**: Positioned between idioms and architectural patterns, design patterns address common problems in software design. They facilitate solutions like object creation with the Factory pattern or enhancing object interactions with the Observer pattern.
 >![[Pasted image 20240418182244.png]]
 
+### Incorporating [[Design Principles]]
+Design principles are often foundational to understanding why certain patterns (both architectural and design patterns) are effective.
+
+- **Foundation of Effective Patterns**: Understanding **[[Design Principles]]** is crucial as they provide the theoretical backbone for all types of patterns. These principles help ensure that software designs are maintainable, scalable, and robust—qualities that are essential across all levels of patterns, from idioms to architectural solutions.
 ## Summary
 
 >[!summary]

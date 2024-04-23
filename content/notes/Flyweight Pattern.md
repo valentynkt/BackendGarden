@@ -6,8 +6,8 @@ aliases:
   - Shared Object Pattern
 links: "[[Structural patterns]]"
 tags:
-  - seed🌱
   - LearningIT
+  - evergreen🌳
 ---
 link: [[Structural patterns]]
 
@@ -26,11 +26,11 @@ _Also known as: Cache_
 
 ### Intent
 
-> [!danger]+ **Problem** 
+> [!danger]  **Problem** 
 > After developing a video game with a realistic particle system featuring bullets, missiles, and shrapnel, you encountered a critical issue when testing it on a friend's computer. While the game ran smoothly on your machine, it crashed after a few minutes of gameplay on your friend's less powerful computer. Upon investigation, it was revealed that the crashes were caused by insufficient RAM due to the excessive memory consumption of the particle system. Each particle, such as bullets and missiles, was represented by a separate object containing significant amounts of data. As the intensity of the gameplay increased, the creation of new particles led to a rapid depletion of available RAM, resulting in system crashes.
 >![[Pasted image 20240404204040.png]]
 
-> [!success]+ **Solution** 
+> [!success]  **Solution** 
 > Upon examining the `Particle` class, it's apparent that certain fields like `color` and `sprite` consume excessive memory and store redundant data across all particles. For example, every bullet in the game shares the same color and sprite.
 >![[Pasted image 20240404205051.png]]
 >

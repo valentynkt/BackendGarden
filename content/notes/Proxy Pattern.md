@@ -6,8 +6,8 @@ aliases:
   - Control Object Pattern
 links: "[[Structural patterns]]"
 tags:
-  - seed🌱
   - LearningIT
+  - evergreen🌳
 ---
 link: [[Structural patterns]]
 
@@ -25,12 +25,12 @@ link: [[Structural patterns]]
 
 ### Intent
 
-> [!danger]+ **Problem** 
+> [!danger]  **Problem** 
 > In scenarios where an object consumes significant system resources and is only needed intermittently, lazy initialization could be employed. However, implementing lazy initialization directly in the object's class may not always be feasible, especially if the class is part of a closed 3rd-party library. This approach could lead to code duplication and maintenance challenges.
 >![[Pasted image 20240404214918.png]]
 > _Database queries can be really slow._
 
-> [!success]+ **Solution** 
+> [!success]  **Solution** 
 > The Proxy pattern proposes the creation of a proxy class that mirrors the interface of the original object. Clients interact with the proxy object instead of the original one. Upon receiving a request from a client, the proxy class instantiates the real service object and delegates the work to it. This enables the execution of additional tasks before or after the primary logic of the original class without modifying it. Since the proxy implements the same interface as the original class, it seamlessly integrates with any client expecting a real service object.
 >![[Pasted image 20240404215002.png]]
 >_The proxy disguises itself as a database object. It can handle lazy initialization and result caching without the client or the real database object even knowing._

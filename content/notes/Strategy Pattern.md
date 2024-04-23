@@ -5,8 +5,8 @@ aliases:
   - Strategy Design Pattern
 links: "[[Behavioral patterns]]"
 tags:
-  - seed🌱
   - LearningIT
+  - evergreen🌳
 ---
 
 links: [[Behavioral patterns]]
@@ -24,7 +24,7 @@ links: [[Behavioral patterns]]
 
 ### Intent
 
-> [!danger]+ **Problem** 
+> [!danger]  **Problem** 
 > Imagine developing a navigation app designed for travelers, featuring an interactive map to aid in city exploration. Initially, the app provided only road routes, which thrilled car users. However, user needs were diverse, prompting the addition of walking paths, public transport options, cycling routes, and even scenic paths passing all tourist attractions.
 >
 >![[Pasted image 20240410211811.png]]
@@ -32,7 +32,7 @@ links: [[Behavioral patterns]]
 >
 >Despite the app's commercial success, its technical management became increasingly challenging. Every new routing algorithm exponentially enlarged the main class, complicating maintenance. Simple adjustments or bug fixes in one routing algorithm risked affecting others due to the intertwined code. Moreover, as the team grew, developers found themselves constantly resolving merge conflicts due to simultaneous modifications in the same large class.
 
-> [!success]+ **Solution** 
+> [!success]  **Solution** 
 > The Strategy pattern offers a solution by separating the routing algorithms into distinct strategy classes. The core class, or the context, retains a reference to one of these strategy objects, delegating the routing tasks to it rather than handling them internally.
 >
 >![[Pasted image 20240410211833.png]]

@@ -6,8 +6,8 @@ aliases:
   - Operation Separation Pattern
 links: "[[Behavioral patterns]]"
 tags:
-  - seed🌱
   - LearningIT
+  - evergreen🌳
 ---
 
 links: [[Behavioral patterns]]
@@ -24,7 +24,7 @@ links: [[Behavioral patterns]]
 
 ### Intent
 
-> [!danger]+ **Problem** 
+> [!danger]  **Problem** 
 > ![[Pasted image 20240411172526.png]]
 > _Exporting the graph into XML._
 > 
@@ -33,7 +33,7 @@ links: [[Behavioral patterns]]
 >![[Pasted image 20240411172547.png]]
 >_The XML export method had to be added into all node classes, which bore the risk of breaking the whole application if any bugs slipped through along with the chang_
 
-> [!success]+ **Solution** 
+> [!success]  **Solution** 
 >
 >1. **Visitor Interface**: Define a visitor interface with methods tailored to each element type in the application. For instance, methods might include `VisitCity(City city)`, `VisitIndustry(Industry industry)`, etc.
 >    

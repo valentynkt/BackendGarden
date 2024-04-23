@@ -5,8 +5,8 @@ aliases:
   - Isolating Change in Code
 links: "[[Design Principles]]"
 tags:
-  - seed🌱
   - LearningIT
+  - bud🌿
 ---
 link: [[Design Principles]]
 

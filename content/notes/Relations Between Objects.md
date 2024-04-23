@@ -4,8 +4,8 @@ aliases:
   - Relations Between Objects
 links: "[[Object Oriented Programming]]"
 tags:
-  - seed🌱
   - LearningIT
+  - bud🌿
 ---
 link: [[Object Oriented Programming]]
 
@@ -64,5 +64,5 @@ The relationships between objects in object-oriented programming are essential f
 
 # References
 
-[[design-patterns-en.pdf]]
+https://refactoring.guru/design-patterns
 

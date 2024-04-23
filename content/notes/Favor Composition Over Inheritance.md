@@ -5,8 +5,8 @@ aliases:
   - Using Composition in Software Design
 links: "[[Design Principles]]"
 tags:
-  - seed🌱
   - LearningIT
+  - bud🌿
 ---
 link: [[Design Principles]]
 
@@ -30,7 +30,7 @@ The principle highlights two fundamental ways of reusing functionality in object
 > - **[[Inheritance]]**: An "is a" relationship that can lead to rigid class structures and complicate future changes.
 > - **Composition**: A "has a" relationship that provides greater flexibility by assembling objects to get complex behavior.
 
-### ### Examples and Best Practices
+### Examples and Best Practices
 
 - **Aggregation Relationships**: Apply composition techniques to aggregation, where objects have relationships with others but do not manage their entire lifecycle.
 - **Runtime Flexibility**: Composition allows for changing behavior at runtime by substituting components, which is not possible with inheritance.
@@ -45,5 +45,5 @@ The principle highlights two fundamental ways of reusing functionality in object
 
 # References
 
-[[design-patterns-en.pdf]]
+https://refactoring.guru/design-patterns
 

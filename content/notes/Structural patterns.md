@@ -6,8 +6,8 @@ aliases:
   - System Structure Patterns
 links: "[[Design Patterns]]"
 tags:
-  - seed🌱
   - LearningIT
+  - evergreen🌳
 ---
 link: [[Design Patterns]]
 
@@ -26,15 +26,22 @@ Structural design patterns are essential in software engineering for assembling 
 
 Structural patterns are crucial for managing the design and interaction of different classes and objects within a system. They help reduce complexity and increase the modularity of the system:
 
-> [!important]+
+> [!important]
 > 
-> - [[Adapter Pattern]]: Facilitates cooperation between objects with incompatible interfaces by converting the interface of one class into another interface clients expect. ![[Pasted image 20240402183346.png]]
-> - [[Bridge Pattern]]: Decouples an abstraction from its implementation so that the two can vary independently, simplifying the scalability of both aspects. ![[Pasted image 20240402183406.png]]
-> - [[Composite Pattern]]: Allows you to compose objects into tree-like structures to represent part-whole hierarchies, enabling clients to treat individual objects and compositions uniformly. ![[Pasted image 20240402183419.png]]
-> - [[Decorator Pattern]]: Adds new responsibilities to objects dynamically by placing them inside special wrapper objects that contain the behaviors. ![[Pasted image 20240402183430.png]]
-> - [[Facade Pattern]]: Provides a simplified interface to a complex subsystem, reducing the learning curve and increasing the usability of the subsystem. ![[Pasted image 20240402183442.png]]
-> - [[Flyweight Pattern]]: Minimizes memory use by sharing as much data as possible with similar objects; it is a fine choice for systems with a large number of objects that do not vary much in state. ![[Pasted image 20240402183453.png]]
-> - [[Proxy Pattern]]: Provides a placeholder for another object to control access to it, useful for managing how an object is accessed or adding other responsibilities dynamically. ![[Pasted image 20240402183503.png]]
+> - [[Adapter Pattern]]: Facilitates cooperation between objects with incompatible interfaces by converting the interface of one class into another interface clients expect. 
+>   ![[Pasted image 20240402183346.png]]
+> - [[Bridge Pattern]]: Decouples an abstraction from its implementation so that the two can vary independently, simplifying the scalability of both aspects. 
+>   ![[Pasted image 20240402183406.png]]
+> - [[Composite Pattern]]: Allows you to compose objects into tree-like structures to represent part-whole hierarchies, enabling clients to treat individual objects and compositions uniformly.
+>    ![[Pasted image 20240402183419.png]]
+> - [[Decorator Pattern]]: Adds new responsibilities to objects dynamically by placing them inside special wrapper objects that contain the behaviors. 
+>   ![[Pasted image 20240402183430.png]]
+> - [[Facade Pattern]]: Provides a simplified interface to a complex subsystem, reducing the learning curve and increasing the usability of the subsystem. 
+>   ![[Pasted image 20240402183442.png]]
+> - [[Flyweight Pattern]]: Minimizes memory use by sharing as much data as possible with similar objects; it is a fine choice for systems with a large number of objects that do not vary much in state.
+>    ![[Pasted image 20240402183453.png]]
+> - [[Proxy Pattern]]: Provides a placeholder for another object to control access to it, useful for managing how an object is accessed or adding other responsibilities dynamically. 
+>   ![[Pasted image 20240402183503.png]]
 
 ### Implementation Overview
 

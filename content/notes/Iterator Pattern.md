@@ -6,8 +6,8 @@ aliases:
   - Iterator Object Pattern
 links: "[[Behavioral patterns]]"
 tags:
-  - seed🌱
   - LearningIT
+  - evergreen🌳
 ---
 link: [[Behavioral patterns]]
 
@@ -24,7 +24,7 @@ link: [[Behavioral patterns]]
 
 ### Intent
 
-> [!danger]+ **Problem** 
+> [!danger]  **Problem** 
 > ![[Pasted image 20240409010113.png]]
 >Collections are fundamental in programming, serving as containers for objects. While most collections use simple list structures, others might utilize stacks, trees, or graphs. Regardless of the complexity, each collection needs to offer a method to access its elements, allowing other parts of the code to utilize these objects. Simple list-based collections are straightforward to traverse, but what about complex structures like trees which might require depth-first or breadth-first traversals, or even random access?
 >
@@ -32,7 +32,7 @@ link: [[Behavioral patterns]]
 >
 >As collections evolve to support multiple traversal methods, their primary role—efficient data storage—becomes muddled with additional responsibilities. Moreover, incorporating specific traversal algorithms that are only relevant to certain applications can clutter the collection class. Consequently, client code that interacts with these collections is often tightly coupled to their specific implementations, limiting flexibility.
 
-> [!success]+ **Solution** 
+> [!success]  **Solution** 
 > The **Iterator** pattern addresses these challenges by decoupling the traversal mechanism from the collection itself. This separation is achieved by encapsulating the traversal logic within a distinct iterator object. Each iterator holds the details necessary for the traversal, such as the current position and the count of remaining elements, allowing for multiple iterators to independently traverse the same collection simultaneously.
 >
 >![[Pasted image 20240409010401.png]]
@@ -71,7 +71,7 @@ This structure ensures that the Iterator pattern provides a clear and flexible f
   
 
 > [!tip] 
-By adopting the Iterator pattern, developers can enhance the robustness, maintainability, and scalability of their software, making it easier to incorporate changes and new features with reduced effort.
+>By adopting the Iterator pattern, developers can enhance the robustness, maintainability, and scalability of their software, making it easier to incorporate changes and new features with reduced effort.
 
 
 ### How to Implement

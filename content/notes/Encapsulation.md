@@ -1,14 +1,13 @@
 ---
 created: 19-04-2024 20:41
 aliases:
-- Data Hiding in OOP 
-- Object Data Protection
-- Class Privacy Management
-
+  - Data Hiding in OOP
+  - Object Data Protection
+  - Class Privacy Management
 links: "[[Object Oriented Programming|OOP]]"
 tags:
-  - seed🌱
   - LearningIT
+  - bud🌿
 ---
 link: [[Object Oriented Programming|OOP]]
 

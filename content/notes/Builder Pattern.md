@@ -7,8 +7,8 @@ aliases:
   - Complex Constructor Pattern
 links: "[[Creational patterns]]"
 tags:
-  - seed🌱
   - LearningIT
+  - evergreen🌳
 ---
 link: [[Creational patterns]]
 
@@ -25,12 +25,12 @@ link: [[Creational patterns]]
 
 ### Intent
 
-> [!danger]+ **Problem** 
+> [!danger]  **Problem** 
 > ![[Pasted image 20231011195525.png]]
 > Creating complex objects often involves a cumbersome initialization process, involving a constructor with many parameters, or scattered initialization across the client code. This can be seen in scenarios such as building a house, where a simple structure requires basic elements like walls and a roof, but more complex structures involve additional features like plumbing and electrical systems. Managing these through subclassing leads to a proliferation of classes, while a constructor with numerous parameters can make calls messy and inefficient, as many parameters are unused in most instances.
 > ![[Pasted image 20231011195616.png]]
 
-> [!success]+ **Solution** 
+> [!success]  **Solution** 
 > ![[Pasted image 20231011195803.png]]
 > The Builder pattern addresses this by separating the construction of a complex object from its class, using separate builder objects. This pattern allows for the construction of various parts of an object step-by-step, isolating the construction complexity from the main class. Different builders can implement these steps in different ways, allowing for the creation of diverse objects using the same construction process. This modular approach simplifies the creation process and enhances the flexibility and reusability of the construction code.
 > ![[Pasted image 20231011200352.png]]

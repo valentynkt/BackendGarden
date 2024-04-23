@@ -22,7 +22,7 @@ link: [[Creational patterns]]
 
 ### Intent
 
-> [!danger]+ **Problem** 
+> [!danger]  **Problem** 
 > The Singleton pattern solves two problems simultaneously, but this violates the Single Responsibility Principle:
 >1. **Ensure that a class has just a single instance.** This is commonly used to control access to shared resources like databases or files. With Singleton, if you attempt to create a new instance of a class that already exists, you'll receive the existing instance instead of a new one. Regular constructors cannot achieve this behavior since they always return a new object.
 >![[Pasted image 20231013131242.png]]
@@ -32,7 +32,7 @@ link: [[Creational patterns]]
 >
 >It's worth noting that Singleton has become a popular term and may be used to refer to a pattern that solves only one of the listed problems.
 
-> [!success]+ **Solution** 
+> [!success]  **Solution** 
 > All implementations of the Singleton have these two steps in common
 >1. Make the default constructor private to prevent other objects from using the `new` operator with the Singleton class.
 > 
@@ -102,7 +102,7 @@ Below are examples of both a non-thread-safe Singleton and a thread-safe Singlet
 >- **Thread-Safe Singleton Access**: Ensures that the Singleton instance is created only once using a double-check locking mechanism. This method is crucial for applications running in a multithreaded environment to prevent the creation of multiple instances.
 >- **Program (Client)**: Demonstrates the use of the Singleton classes. It includes methods to test and display the behavior of both the thread-safe and non-thread-safe Singleton implementations.
 
-### C# Example - [GitHub](https://github.com/valentynkt/PatternsExample/blob/master/Singleton/Program.cs)
+### C# Example - [GitHub](https://github.com/valentynkt/PatternsExample/blob/master/Singleton/NonThreadSafe/Program.cs)
 
 > [!example]- csharp
 >``` csharp

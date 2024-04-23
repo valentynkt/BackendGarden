@@ -6,8 +6,8 @@ aliases:
   - Dependents Pattern
 links: "[[Behavioral patterns]]"
 tags:
-  - seed🌱
   - LearningIT
+  - evergreen🌳
 ---
 
 link: [[Behavioral patterns]]
@@ -26,19 +26,19 @@ _Also known as: Event-Subscriber, Listener_
 
 ### Intent
 
-> [!danger]+ **Problem** 
+> [!danger]  **Problem** 
 > Imagine you're running an online store, and customers want to know when new products are in stock. You could have customers repeatedly check the website, which can be time-consuming, or you could send everyone emails when new stock arrives, which might annoy those not interested in new products. It's a dilemma between bombarding everyone with notifications or having interested customers miss out on updates.
 >
 >![[Pasted image 20240409182352.png]]
 >_Visiting the store vs. sending spam_
->
-> [!success]+ **Solution** 
+
+> [!success]  **Solution** 
 > - **Publisher:** This is the part of the system where the action happens. For instance, the store that updates its stock.
 >- **Subscribers:** These are the customers—or any other entities—that want to stay informed about the publisher's updates.
 >![[Pasted image 20240409182411.png]]
 >_A subscription mechanism lets individual objects subscribe to event notifications._
 he Observer pattern introduces a subscription model where subscribers can sign up or opt-out of notifications from the publisher. This mechanism typically involves:
-
+>
 >1. A list within the publisher to keep track of subscribers.
 >2. Public methods to add and remove subscribers from this list.
 >

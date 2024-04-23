@@ -4,8 +4,8 @@ aliases:
   - Strong Aggregation in OOP
   - UML Composition Relationships
 tags:
-  - seed🌱
   - LearningIT
+  - bud🌿
 links: "[[Relations Between Objects]]"
 ---
 
@@ -73,5 +73,5 @@ In this C# example:
 # References
 
 [[Favor Composition Over Inheritance]] - design principle 
-[[design-patterns-en.pdf]]
+https://refactoring.guru/design-patterns
 

@@ -8,8 +8,8 @@ aliases:
   - Code Reusability
 links: "[[Design Principles]]"
 tags:
-  - seed🌱
   - LearningIT
+  - bud🌿
 ---
 link: [[Design Principles]]
 
