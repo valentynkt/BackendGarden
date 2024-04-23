@@ -66,7 +66,7 @@ export default ((opts?: GraphOptions) => {
         <div class="graph-outer">
           <div id="graph-container" data-cfg={JSON.stringify(localGraph)}></div>
           <svg
-            version="1.1"
+            version="2"
             id="global-graph-icon"
             xmlns="http://www.w3.org/2000/svg"
             xmlnsXlink="http://www.w3.org/1999/xlink"

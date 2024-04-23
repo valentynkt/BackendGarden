@@ -64,6 +64,15 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
 
       segments.push(
         <a
+          href={`https://github.com/valentynkt/BackendGarden/blame/v4/${fileData.filePath}`}
+          target="_blank"
+        >
+          📝 Edit This Page!
+        </a>,
+      )
+
+      segments.push(
+        <a
           href={`https://github.com/valentynkt/BackendGarden/commits/v4/${fileData.filePath}`}
           target="_blank"
         >
