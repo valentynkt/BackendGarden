@@ -1,8 +1,8 @@
 {
-	"id": "chadlynet_mindgarden",
+	"id": "backend_garden",
 	"start_url": "/",
 	"scope": "/",
-	"name": "Chad's Mind Garden",
+	"name": "Backend Garden",
 	"short_name": "🧠🌳",
 	"icons": [
 		{
