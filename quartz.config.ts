@@ -15,7 +15,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "www.chadly.net",
+    baseUrl: "https://backendgarden.com",
     ignorePatterns: ["private", "templates", "templater", ".obsidian", "journal"],
     defaultDateType: "modified",
     theme: {
