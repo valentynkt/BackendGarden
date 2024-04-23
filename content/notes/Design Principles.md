@@ -6,6 +6,7 @@ links: "[[Object Oriented Programming]]"
 tags:
   - LearningIT
   - bud🌿
+  - moc
 ---
 link: [[Object Oriented Programming]]
 

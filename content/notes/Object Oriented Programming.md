@@ -7,6 +7,7 @@ links:
 tags:
   - LearningIT
   - bud🌿
+  - moc
 ---
 link:
 
@@ -77,7 +78,7 @@ Class hierarchies provide a way to organize related classes through parent-child
 >>  In an educational software system, a base class Person might include attributes and methods common to all people in the system, such as name and email. Derived classes like Student and Teacher can inherit these features from Person but also include specific attributes like studentID and salary, respectively.
 
 
-### ### The Role of [[Design Principles]] in OOP
+### The Role of [[Design Principles]] in OOP
 
 **[[Design Principles]]** play a pivotal role in guiding the implementation of OOP concepts. They provide a foundation that promotes code robustness and flexibility:
 ## Summary
