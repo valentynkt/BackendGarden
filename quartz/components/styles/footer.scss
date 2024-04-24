@@ -14,3 +14,15 @@ footer {
     margin-top: -1rem;
   }
 }
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icon {
+  width: 50px; /* Adjust the size as needed */
+  height: auto;
+  margin: 0 10px; /* Adjust the spacing between icons */
+}

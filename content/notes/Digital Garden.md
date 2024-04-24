@@ -24,8 +24,9 @@ Welcome to a unique, evolving space where ideas are cultivated like plants in a 
 > Lets imagine that each topic is a seed that I plant, and it is not static as other blogs or wikis that you wrote and it stayed unchanged. It is **seed** that I have to water and review regularly providing more upgrades and connections to other topics. And as my garden evolve and seeds are planted connection between them grove and when seed evolve after several iterations of watering (upgrades) it move to it next more mature stages
 
 ^16d541
-
+![[I9YnLnfMsB 3.png]]
 ### Stages of Growth
+![[k0DYSoXqgM.png]]
 
 Content in the Digital Garden develops through three key stages:
 
@@ -77,3 +78,7 @@ If you find these notes useful, please share them with your friends or colleague
 - **Follow on Telegram**: https://t.me/backend_garden ^67cd7c
 
 Feel free to explore at your pace, revisit when you need, and discover gems that enhance your developer journey. Let's make learning and growing in backend development an exciting adventure together!
+
+# References
+
+https://maggieappleton.com/garden-history  - more about Digital Garden

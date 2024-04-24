@@ -50,8 +50,8 @@ export const CreatedModifiedDate: QuartzTransformerPlugin<Partial<Options> | und
                 created ||= st.birthtimeMs
                 modified ||= st.mtimeMs
               } else if (source === "frontmatter" && file.data.frontmatter) {
-                created ||= file.data.frontmatter.plantedAt as MaybeDate
-                modified ||= file.data.frontmatter.lastTendedAt as MaybeDate
+                created ||= file.data.frontmatter.created as MaybeDate
+                modified ||= file.data.frontmatter.updated as MaybeDate
                 published ||= file.data.frontmatter.publishDate as MaybeDate
               } else if (source === "git") {
                 if (!repo) {
