@@ -1,5 +1,5 @@
 ---
-created: 15-04-2024 18:13
+created: 2024-04-15 18:13
 aliases:
   - Body Pattern
   - Decoupler Pattern

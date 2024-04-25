@@ -1,5 +1,5 @@
 ---
-created: 18-04-2024 18:42
+created: 2024-04-18 18:42
 aliases: ["EDA Pattern", "Event-based Architecture", "Reactive System Design"]
 links: 
 tags:

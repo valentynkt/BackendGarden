@@ -1,5 +1,5 @@
 ---
-created: 14-04-2024 19:12
+created: 2024-04-14 19:12
 aliases:
   - Object Builder Pattern
   - Construction Interface Pattern

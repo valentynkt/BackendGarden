@@ -1,5 +1,5 @@
 ---
-created: 19-04-2024 01:53
+created: 2024-04-19 01:53
 aliases:
   - Code Reuse Strategies
   - Software Reusability Practices

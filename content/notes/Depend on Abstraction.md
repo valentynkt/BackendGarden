@@ -1,5 +1,5 @@
 ---
-created: 19-04-2024 02:28
+created: 2024-04-19 02:28
 aliases:
   - Abstraction in Software Design
   - Interface-based Programming

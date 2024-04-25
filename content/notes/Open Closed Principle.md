@@ -1,5 +1,5 @@
 ---
-created: 19-04-2024 15:01
+created: 2024-04-19 15:01
 aliases:
   - OCP
   - OCP in OOP

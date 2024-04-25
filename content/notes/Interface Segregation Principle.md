@@ -1,5 +1,5 @@
 ---
-created: 19-04-2024 17:28
+created: 2024-04-19 17:28
 aliases:
   - ISP
   - ISP in OOP

@@ -1,5 +1,5 @@
 ---
-created: 19-04-2024 01:41
+created: 2024-04-19 01:41
 aliases:
   - Design Principles in Software
 links: "[[Object Oriented Programming]]"

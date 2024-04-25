@@ -47,6 +47,7 @@ export default ((opts?: Options) => {
     </div>
       <hr />
         <div class="giscus"></div>
+      <hr />
       <ul>
         <li>
           Copyright © Valentyn Kit

@@ -1,5 +1,5 @@
 ---
-created: 15-04-2024 20:01
+created: 2024-04-15 20:01
 aliases:
   - Surrogate Pattern
   - Placeholder Pattern

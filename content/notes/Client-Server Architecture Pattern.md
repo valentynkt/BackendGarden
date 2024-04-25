@@ -1,5 +1,5 @@
 ---
-created: 18-04-2024 18:42
+created: 2024-04-18 18:42
 aliases: ["Client-Server Model", "Networked Application Design", "Request-Response System Architecture"]
 links: 
 tags:

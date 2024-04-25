@@ -1,5 +1,5 @@
 ---
-created: 15-04-2024 20:33
+created: 2024-04-15 20:33
 aliases:
   - Template Algorithm Pattern
   - Hook Method Pattern

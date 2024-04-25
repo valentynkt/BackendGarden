@@ -1,5 +1,5 @@
 ---
-created: 15-04-2024 15:37
+created: 2024-04-15 15:37
 aliases:
   - Single Instance Pattern
   - Global Object Pattern

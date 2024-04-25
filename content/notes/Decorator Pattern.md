@@ -1,5 +1,5 @@
 ---
-created: 15-04-2024 18:56
+created: 2024-04-15 18:56
 aliases:
   - Wrapper Pattern
   - Smart Proxy Pattern

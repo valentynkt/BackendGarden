@@ -1,5 +1,5 @@
 ---
-created: 14-04-2024 17:55
+created: 2024-04-14 17:55
 aliases:
   - Kit Pattern
   - Factory System Pattern

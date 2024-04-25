@@ -1,5 +1,5 @@
 ---
-created: 18-04-2024 18:14
+created: 2024-04-18 18:14
 aliases:
   - Interaction Patterns
   - Behavior Design Patterns

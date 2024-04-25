@@ -1,5 +1,5 @@
 ---
-created: 18-04-2024 17:58
+created: 2024-04-18 17:58
 aliases:
   - Architectural Patterns
   - High-Level Design Patterns

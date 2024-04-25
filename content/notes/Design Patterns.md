@@ -1,5 +1,5 @@
 ---
-created: 17-04-2024 18:24
+created: 2024-04-17 18:24
 aliases:
   - Design Pattern Fundamentals
   - Common Design Patterns

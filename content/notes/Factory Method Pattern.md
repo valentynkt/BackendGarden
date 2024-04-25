@@ -1,5 +1,5 @@
 ---
-created: 14-04-2024 16:35
+created: 2024-04-14 16:35
 aliases:
   - Virtual Constructor Pattern
   - Creator Pattern

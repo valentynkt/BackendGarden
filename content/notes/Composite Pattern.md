@@ -1,5 +1,5 @@
 ---
-created: 15-04-2024 18:38
+created: 2024-04-15 18:38
 aliases:
   - Tree Structure Pattern
   - Component Aggregation Pattern

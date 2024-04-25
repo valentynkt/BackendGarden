@@ -1,5 +1,5 @@
 ---
-created: 19-04-2024 02:02
+created: 2024-04-19 02:02
 status: Finalized ✅
 aliases:
   - Software Adaptability

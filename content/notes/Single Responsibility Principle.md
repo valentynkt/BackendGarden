@@ -1,5 +1,5 @@
 ---
-created: 19-04-2024 14:21
+created: 2024-04-19 14:21
 aliases:
   - SRP
   - SRP in OOP

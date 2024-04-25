@@ -1,5 +1,5 @@
 ---
-created: 14-04-2024 19:41
+created: 2024-04-14 19:41
 aliases:
   - Clone Pattern
   - Object Copying Pattern

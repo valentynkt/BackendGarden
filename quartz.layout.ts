@@ -21,10 +21,11 @@ export const defaultContentPageLayout: PageLayout = {
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
-    Component.Darkmode(),
-    Component.RecentNotes({ limit: 5, linkToMore: "/notes/" as SimpleSlug}),
+    Component.MobileOnly(Component.Darkmode()),
+    Component.DesktopOnly(Component.RecentNotes({ limit: 5, linkToMore: "/notes/" as SimpleSlug})),
   ],
   right: [
+    Component.DesktopOnly(Component.Darkmode()),
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),

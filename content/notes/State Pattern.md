@@ -1,5 +1,5 @@
 ---
-created: 15-04-2024 20:32
+created: 2024-04-15 20:32
 aliases:
   - Objects for States Pattern
   - State Object Pattern

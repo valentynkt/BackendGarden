@@ -1,5 +1,5 @@
 ---
-created: 17-04-2024 18:50
+created: 2024-04-17 18:50
 aliases:
   - General Software Patterns
   - Universal Design Templates

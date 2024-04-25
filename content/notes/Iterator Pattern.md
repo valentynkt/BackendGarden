@@ -1,5 +1,5 @@
 ---
-created: 15-04-2024 20:31
+created: 2024-04-15 20:31
 aliases:
   - Cursor Pattern
   - Traversal Pattern

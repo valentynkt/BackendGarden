@@ -1,5 +1,5 @@
 ---
-created: 18-04-2024 18:13
+created: 2024-04-18 18:13
 aliases:
   - Object Creation Patterns
   - Constructor Patterns

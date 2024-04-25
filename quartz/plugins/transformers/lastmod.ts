@@ -47,11 +47,9 @@ export const CreatedModifiedDate: QuartzTransformerPlugin<Partial<Options> | und
             for (const source of opts.priority) {
               if (source === "filesystem") {
                 const st = await fs.promises.stat(fullFp)
-                created ||= st.birthtimeMs
                 modified ||= st.mtimeMs
               } else if (source === "frontmatter" && file.data.frontmatter) {
                 created ||= file.data.frontmatter.created as MaybeDate
-                modified ||= file.data.frontmatter.updated as MaybeDate
                 published ||= file.data.frontmatter.publishDate as MaybeDate
               } else if (source === "git") {
                 if (!repo) {

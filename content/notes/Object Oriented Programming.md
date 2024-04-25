@@ -1,5 +1,5 @@
 ---
-created: 19-04-2024 19:24
+created: 2024-04-19 19:24
 aliases:
   - OOP
   - Four Pillars

@@ -1,5 +1,5 @@
 ---
-created: 15-04-2024 19:16
+created: 2024-04-15 19:16
 aliases:
   - Interface Pattern
   - Simplification Pattern

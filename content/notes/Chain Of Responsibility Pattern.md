@@ -1,5 +1,5 @@
 ---
-created: 15-04-2024 20:31
+created: 2024-04-15 20:31
 aliases:
   - CoR Pattern
   - Chain of Command Pattern
@@ -16,6 +16,7 @@ link: [[Behavioral patterns]]
 ## Overview
 
 ![[Pasted image 20240408210845.png]]
+
 _Also known as: CoR, Chain of Command_
 
 >[!abstract] 

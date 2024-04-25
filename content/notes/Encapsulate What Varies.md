@@ -1,5 +1,5 @@
 ---
-created: 19-04-2024 02:10
+created: 2024-04-19 02:10
 aliases:
   - Encapsulation in Software Design
   - Isolating Change in Code

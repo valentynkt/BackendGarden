@@ -1,5 +1,5 @@
 ---
-created: 19-04-2024 01:46
+created: 2024-04-19 01:46
 aliases:
   - Principles vs Patterns in Software Design
   - Principles vs Patterns

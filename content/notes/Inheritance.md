@@ -1,5 +1,5 @@
 ---
-created: 19-04-2024 21:08
+created: 2024-04-19 21:08
 aliases:
   - Base and Derived Classes
 links: "[[Object Oriented Programming|OOP]]"

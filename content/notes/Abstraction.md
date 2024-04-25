@@ -1,5 +1,5 @@
 ---
-created: 19-04-2024 19:57
+created: 2024-04-19 19:57
 aliases:
   - Abstraction Principle
   - OOP Abstraction

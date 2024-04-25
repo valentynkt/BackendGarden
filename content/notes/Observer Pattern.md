@@ -1,5 +1,5 @@
 ---
-created: 15-04-2024 20:32
+created: 2024-04-15 20:32
 aliases:
   - Publish-Subscribe Pattern
   - Event-Subscriber Pattern

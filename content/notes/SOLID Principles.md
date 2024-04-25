@@ -1,5 +1,5 @@
 ---
-created: 19-04-2024 02:51
+created: 2024-04-19 02:51
 aliases:
   - SOLID
 links: "[[Design Principles]]"

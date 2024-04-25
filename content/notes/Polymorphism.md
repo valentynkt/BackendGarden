@@ -1,5 +1,5 @@
 ---
-created: 19-04-2024 20:53
+created: 2024-04-19 20:53
 aliases:
   - Dynamic Method Dispatch
   - Object Behavior Variability
