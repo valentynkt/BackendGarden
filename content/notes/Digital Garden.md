@@ -21,9 +21,9 @@ Welcome to a unique, evolving space where ideas are cultivated like plants in a 
 ## What is a Digital Garden?
 
 > [!important] Philosophy of Digital Garden
-> Lets imagine that each topic is a seed that I plant, and it is not static as other blogs or wikis that you wrote and it stayed unchanged. It is **seed** that I have to water and review regularly providing more upgrades and connections to other topics. And as my garden evolve and seeds are planted connection between them grove and when seed evolve after several iterations of watering (upgrades) it move to it next more mature stages
+> Lets imagine that each topic is a seed that I plant, and it is not static as other blogs or wikis that you wrote and it stayed unchanged. It is **seed** that I have to water and review regularly providing more upgrades and connections to other topics. And as my garden evolve and seeds are planted connection between them grove and when seed evolve after several iterations of watering (upgrades) it move to it next more mature stages ^013b1c
 
-^16d541
+
 ![[I9YnLnfMsB 3.png]]
 ### Stages of Growth
 ![[k0DYSoXqgM.png]]

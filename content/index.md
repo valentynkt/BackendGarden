@@ -15,7 +15,7 @@ Honestly, building this garden has been a journey of persistence and improvement
 > [!important] 
 > **Explore Content:** Ready to dive deeper? Check out the [[Landscape]] section where all current topics are neatly organized. It's the best starting point to explore the Digital Garden and discover comprehensive resources tailored to your learning path. [[Landscape| Navigate to Landscapes]]
 
-![[Digital Garden#^16d541]]
+![[Digital Garden#^013b1c]]
 
 ## Expect Fresh, Growing Content
 
