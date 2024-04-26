@@ -1,7 +1,6 @@
 ---
 created: 2024-04-18 17:58
 aliases:
-  - Architectural Patterns
   - High-Level Design Patterns
 links: "[[Patterns In General]]"
 tags:
@@ -43,6 +42,7 @@ The following are some of the primary architectural patterns used in system desi
 >   
 >   ![[Pasted image 20240418183740.png]]
 
+![[../Files/Images/Pasted image 20240426160412.png]]
 ### Implementation Overview
 
 Implementing architectural patterns involves several critical considerations to ensure that the system's design aligns with its intended functions and requirements:
@@ -68,3 +68,4 @@ Implementing architectural patterns involves several critical considerations to 
 # References
 
 https://www.simform.com/blog/software-architecture-patterns/
+https://radixweb.com/blog/software-architecture-patterns
