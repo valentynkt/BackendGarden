@@ -1,9 +1,9 @@
 ---
 created: 2024-04-26 19:14
 aliases: 
-	- Fault Isolation Pattern 
-	- Service Isolation Pattern 
-	- Load Isolation Pattern
+- Fault Isolation Pattern 
+- Service Isolation Pattern 
+- Load Isolation Pattern
 links: "[[Microservices Architecture Pattern|Microservice Architecture]]"
 tags:
   - LearningIT
