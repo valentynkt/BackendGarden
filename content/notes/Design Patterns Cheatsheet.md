@@ -42,7 +42,7 @@ link: [[Design Patterns]]
 
  ![[../Files/Images/tXdX1rBmd1.png]]
 
-**Category**: [[Creational patterns|Creational]]
+**Category**: [[Creational patterns|Creational]].
 **What it is**: Define an interface for creating an object, but let subclasses decide which class to instantiate. Lets a class defer instantiation to subclasses.
 **Description**:
 ![[Factory Method Pattern#^c16f54]]
@@ -51,16 +51,16 @@ link: [[Design Patterns]]
 
 ![[../Files/Images/oJZS00eA7J.png]]
 
-**Category**: [[Creational patterns|Creational]]
+**Category**: [[Creational patterns|Creational]].
 **What it is**: Provides an interface for creating families of related or dependent objects without specifying their concrete class.
 **Description**:
-![[Abstract Factory Pattern#^426b21]]
+![[Abstract Factory Pattern#^f18354]]
 
 ### [[Builder Pattern|Builder]]
 
 ![[../Files/Images/lL44AEn6OD.png]]
 
-**Category**: [[Creational patterns|Creational]]
+**Category**: [[Creational patterns|Creational]].
 **What it is**: Separate the construction of a complex object from its representing so that the same construction process can create different representations.
 **Description**:
 ![[Builder Pattern#^b5d071]]
@@ -69,7 +69,7 @@ link: [[Design Patterns]]
 
 ![[../Files/Images/SvISQmAahx.png]]
 
-**Category**: [[Creational patterns|Creational]]
+**Category**: [[Creational patterns|Creational]].
 **What it is**: Specify the kinds of objects to create using a prototypical instance, and create new objects by copying this prototype.
 **Description**:
 ![[Prototype Pattern#^c5581f]]
@@ -78,7 +78,7 @@ link: [[Design Patterns]]
 
 ![[../Files/Images/qeA0tNzKOA.png]]
 
-**Category**: [[Creational patterns|Creational]]
+**Category**: [[Creational patterns|Creational]].
 **What it is**: Ensure a class only has one instance and provide a global point of access to it.
 **Description**:
 ![[Singleton Pattern#^d29d00]]
@@ -87,25 +87,25 @@ link: [[Design Patterns]]
 
 ![[../Files/Images/zQ3vdOHD8x.png]]
 
-**Category**: [[Structural patterns|Structural]]
+**Category**: [[Structural patterns|Structural]].
 **What it is**: Convert the interface of a class into another interface clients expect. Lets classes work together that couldn't otherwise because of incompatible interfaces.
 **Description**:
-![[Adapter Pattern#^2fb6ba]]
+![[Adapter Pattern#^02e409]]
 
 ### [[Bridge Pattern|Bridge]]
 
 ![[../Files/Images/CF4T6sS12a.png]]
 
-**Category**: [[Structural patterns|Structural]]
+**Category**: [[Structural patterns|Structural]].
 **What it is**: Decouple an abstraction from its implementation so that the two can vary independently.
 **Description**:
-![[Bridge Pattern#^4fbdbc]]
+![[Bridge Pattern#^00d325]]
 
 ### [[Composite Pattern|Composite]]
 
 ![[../Files/Images/8iy7INwYmh.png]]
 
-**Category**: [[Structural patterns|Structural]]
+**Category**: [[Structural patterns|Structural]].
 **What it is**: Compose objects into tree structures to represent part-whole hierarchies. Lets clients treat individual objects and compositions of objects uniformly
 **Description**:
 ![[Composite Pattern#^85f341]]
@@ -114,7 +114,7 @@ link: [[Design Patterns]]
 
 ![[../Files/Images/FfcSxrszkj.png]]
 
-**Category**: [[Structural patterns|Structural]]
+**Category**: [[Structural patterns|Structural]].
 **What it is**: Attach additional responsibilities to an object dynamically. Provide a flexible alternative to sub-classing for extending functionality
 **Description**:
 ![[Decorator Pattern#^2cd427]]
@@ -123,7 +123,7 @@ link: [[Design Patterns]]
 
 ![[../Files/Images/nremzQIRzN.png]]
 
-**Category**: [[Structural patterns|Structural]]
+**Category**: [[Structural patterns|Structural]].
 **What it is**: Provide a unified interface to a set of interfaces in a subsystem. Defines a high-level interface that makes the subsystem easier to use.
 **Description**:
 ![[Facade Pattern#^da7d44]]
@@ -132,7 +132,7 @@ link: [[Design Patterns]]
 
 ![[../Files/Images/yIm7KIGB66.png]]
 
-**Category**: [[Structural patterns|Structural]]
+**Category**: [[Structural patterns|Structural]].
 **What it is**: Use sharing to support large numbers of fine grained objects efficiently.
 **Description**:
 ![[Flyweight Pattern#^3d2ef7]]
@@ -141,7 +141,7 @@ link: [[Design Patterns]]
 
 ![[../Files/Images/1RSoxmEDSg.png]]
 
-**Category**: [[Structural patterns|Structural]]
+**Category**: [[Structural patterns|Structural]].
 **What it is**: Provide a surrogate or placeholder for another object to control access to it.
 **Description**:
 ![[Proxy Pattern#^3ece26]]
@@ -151,7 +151,7 @@ link: [[Design Patterns]]
 
 ![[../Files/Images/7SXVsaAX1a.png]]
 
-**Category**: [[Behavioral patterns|Behavioral]]
+**Category**: [[Behavioral patterns|Behavioral]].
 **What it is**: Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it.
 **Description**:
 ![[Chain Of Responsibility Pattern#^6ef0ed]]
@@ -160,7 +160,7 @@ link: [[Design Patterns]]
 
 ![[../Files/Images/H95T9qj0jC.png]]
 
-**Category**: [[Behavioral patterns|Behavioral]]
+**Category**: [[Behavioral patterns|Behavioral]].
 **What it is**: Encapsulate a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations.
 **Description**:
 ![[Command Pattern#^9cd5c2]]
@@ -169,7 +169,7 @@ link: [[Design Patterns]]
 
 ![[../Files/Images/9KUQjtgcAz.png]]
 
-**Category**: [[Behavioral patterns|Behavioral]]
+**Category**: [[Behavioral patterns|Behavioral]].
 **What it is**: Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
 **Description**:
 ![[Iterator Pattern#^bae18a]]
@@ -178,34 +178,34 @@ link: [[Design Patterns]]
 
 ![[../Files/Images/ABSJLyzoUj.png]]
 
-**Category**: [[Behavioral patterns|Behavioral]]
+**Category**: [[Behavioral patterns|Behavioral]].
 **What it is**: Define an object that encapsulates how a set of objects interact. Promotes loose coupling by keeping objects from referring to each other explicitly and it lets you vary their interactions independently.
 **Description**:
-![[Mediator Pattern#^7827a4]]
+![[Mediator Pattern#^d8c48d]]
 
 ### [[Memento Pattern|Memento]]
 
 ![[../Files/Images/hkEAmM10fp.png]]
 
-**Category**: [[Behavioral patterns|Behavioral]]
+**Category**: [[Behavioral patterns|Behavioral]].
 **What it is**: Without violating encapsulation, capture and externalize an object's internal state so that the object can be restored to this state later.
 **Description**:
-![[Memento Pattern#^2cc1ce]]
+![[Memento Pattern#^119e57]]
 
 ### [[Observer Pattern|Observer]]
 
 ![[../Files/Images/YsYwKkwqR2.png]]
 
-**Category**: [[Behavioral patterns|Behavioral]]
+**Category**: [[Behavioral patterns|Behavioral]].
 **What it is**: Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
 **Description**:
-![[Observer Pattern#^bcfb23]]
+![[Observer Pattern#^c65d27]]
 
 ### [[State Pattern|State]]
 
 ![[../Files/Images/AVeGYvbzhQ.png]]
 
-**Category**: [[Behavioral patterns|Behavioral]]
+**Category**: [[Behavioral patterns|Behavioral]].
 **What it is**: Allow an object to alter its behavior when its internal state changes. The object will appear to change its class.
 **Description**:
 ![[State Pattern#^883c6e]]
@@ -214,7 +214,7 @@ link: [[Design Patterns]]
 
 ![[../Files/Images/HhZIGeaU3O.png]]
 
-**Category**: [[Behavioral patterns|Behavioral]]
+**Category**: [[Behavioral patterns|Behavioral]].
 **What it is**: Define a family of algorithms, encapsulate each one, and make them interchangeable. Lets the algorithm vary independently from clients that use it.
 **Description**:
 ![[Strategy Pattern#^5a2335]]
@@ -223,7 +223,7 @@ link: [[Design Patterns]]
 
 ![[../Files/Images/CEk2b0V01d.png]]
 
-**Category**: [[Behavioral patterns|Behavioral]]
+**Category**: [[Behavioral patterns|Behavioral]].
 **What it is**: Define the skeleton of an algorithm in an operation, deferring some steps to subclasses. Lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure.
 **Description**:
 ![[Template Method Pattern#^42752b]]
@@ -232,7 +232,7 @@ link: [[Design Patterns]]
 
 ![[../Files/Images/hvlPOw9HFg.png]]
 
-**Category**: [[Behavioral patterns|Behavioral]]
+**Category**: [[Behavioral patterns|Behavioral]].
 **What it is**: Represent an operation to be performed on the elements of an object structure. Lets you define a new operation without changing the classes of the elements on which it operates.
 **Description**:
 ![[Visitor Pattern#^0117ba]]

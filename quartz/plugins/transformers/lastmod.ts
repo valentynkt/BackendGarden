@@ -47,10 +47,11 @@ export const CreatedModifiedDate: QuartzTransformerPlugin<Partial<Options> | und
             for (const source of opts.priority) {
               if (source === "filesystem") {
                 const st = await fs.promises.stat(fullFp)
+                created ||= st.birthtimeMs
                 modified ||= st.mtimeMs
               } else if (source === "frontmatter" && file.data.frontmatter) {
                 created ||= file.data.frontmatter.created as MaybeDate
-                published ||= file.data.frontmatter.publishDate as MaybeDate
+                modified ||= file.data.frontmatter.updated as MaybeDate
               } else if (source === "git") {
                 if (!repo) {
                   // Get a reference to the main git repo.
@@ -75,7 +76,6 @@ export const CreatedModifiedDate: QuartzTransformerPlugin<Partial<Options> | und
             file.data.dates = {
               created: coerceDate(fp, created),
               modified: coerceDate(fp, modified),
-              published: coerceDate(fp, published),
             }
           }
         },
@@ -89,7 +89,6 @@ declare module "vfile" {
     dates: {
       created: Date
       modified: Date
-      published: Date
     }
   }
 }
