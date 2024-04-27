@@ -5,6 +5,7 @@ aliases:
   - Creator Pattern
   - Factory Pattern
   - Constructor Pattern
+  - Factory Method
 links: "[[Creational patterns]]"
 tags:
   - LearningIT
@@ -238,6 +239,8 @@ Overall, this code is a clear example of the Factory Method pattern, illustratin
 >- Increases the flexibility of systems by isolating the product creation code from the product use code.
 >- Supports the Open/Closed Principle by allowing the system to introduce new types of products without modifying existing client code.
 >- Encapsulates product knowledge into a single location, simplifying code maintenance and enhancing scalability.
+
+^c16f54
 
 
 >[!note]- Personal Thoughts

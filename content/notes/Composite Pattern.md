@@ -4,6 +4,7 @@ aliases:
   - Tree Structure Pattern
   - Component Aggregation Pattern
   - Container/Containee Pattern
+  - Composite
 links: "[[Structural patterns]]"
 tags:
   - LearningIT
@@ -280,6 +281,8 @@ This code demonstrates the Composite pattern, which allows clients to treat indi
 >**Common Scenarios**:
 >- Graphic drawing editors where shapes can be composed into more complex shapes.
 >- User interface controls that have nested collections of other controls.
+
+^85f341
 
 
 

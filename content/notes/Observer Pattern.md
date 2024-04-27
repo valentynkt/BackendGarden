@@ -4,6 +4,7 @@ aliases:
   - Publish-Subscribe Pattern
   - Event-Subscriber Pattern
   - Dependents Pattern
+  - Observer
 links: "[[Behavioral patterns]]"
 tags:
   - LearningIT
@@ -313,6 +314,8 @@ This implementation of the Observer pattern effectively decouples the `Editor` f
 >- Implementing distributed event-handling systems.
 >- In MVC architecture, model updates are often notified to multiple views using an Observer pattern.
 >- Real-time data feeds that need to be updated in the UI or elsewhere when data changes.
+
+^bcfb23
 
 
 # References

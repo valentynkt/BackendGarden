@@ -3,6 +3,7 @@ created: 2024-04-15 20:32
 aliases:
   - Policy Pattern
   - Strategy Design Pattern
+  - Strategy
 links: "[[Behavioral patterns]]"
 tags:
   - LearningIT
@@ -291,6 +292,8 @@ This implementation of the Strategy pattern illustrates its use in creating a fl
 >- Data validation processes that use various algorithms based on the nature of data being validated.
 >- Different user interface behaviors under various configurations or environments.
 >- Resource negotiation algorithms that vary depending on system load and network conditions.
+
+^5a2335
 
 
 # References

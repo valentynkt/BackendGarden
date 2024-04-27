@@ -4,6 +4,7 @@ aliases:
   - Surrogate Pattern
   - Placeholder Pattern
   - Control Object Pattern
+  - Proxy
 links: "[[Structural patterns]]"
 tags:
   - LearningIT
@@ -299,6 +300,8 @@ This setup demonstrates how the Proxy pattern can be utilized to add caching fun
 >- Virtual Proxies that delay object creation until necessary.
 >- Protection Proxies that control access to sensitive objects.
 >- Remote Proxies that encapsulate access to remote objects as if they were local.
+
+^3ece26
 
 
 # References

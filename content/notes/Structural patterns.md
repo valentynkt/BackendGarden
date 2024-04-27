@@ -4,6 +4,7 @@ aliases:
   - Composition Patterns
   - Structure Design Patterns
   - System Structure Patterns
+  - Structural
 links: "[[Design Patterns]]"
 tags:
   - LearningIT

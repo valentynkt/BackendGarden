@@ -4,6 +4,7 @@ aliases:
   - Wrapper Pattern
   - Translator Pattern
   - Interface Adapter Pattern
+  - Adapter
 links: "[[Structural patterns]]"
 tags:
   - LearningIT
@@ -286,6 +287,8 @@ This code exemplifies the Adapter pattern, facilitating interaction between comp
 >**Common Scenarios**:
 >- Integrating new components into existing systems where interfaces do not match.
 >- Converting data into various formats depending on user requirements.
+
+^2fb6ba
 
 
 

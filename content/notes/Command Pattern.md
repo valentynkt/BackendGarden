@@ -4,6 +4,7 @@ aliases:
   - Action Pattern
   - Transaction Pattern
   - Command Object Pattern
+  - Command
 links: "[[Behavioral patterns]]"
 tags:
   - LearningIT
@@ -348,6 +349,8 @@ This code example effectively illustrates how the Command pattern can be used to
 >- GUI buttons and menu items in software development frameworks.
 >- Operations in database transaction systems that support rollback.
 >- Macro recording and management.
+
+^9cd5c2
 
 
 

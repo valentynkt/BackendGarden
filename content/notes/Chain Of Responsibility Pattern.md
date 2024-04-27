@@ -4,6 +4,7 @@ aliases:
   - CoR Pattern
   - Chain of Command Pattern
   - Successor Pattern
+  - Chain Of Responsibility
 links: "[[Behavioral patterns]]"
 tags:
   - LearningIT
@@ -311,6 +312,8 @@ This setup demonstrates the flexibility of the Chain of Responsibility pattern i
 >**Common Scenarios**:
 >- Event handling systems where events might be handled at multiple stages.
 >- Approval processes where a request passes through a chain of authority to get approved.
+
+^6ef0ed
 
 
 

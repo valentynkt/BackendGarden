@@ -5,6 +5,7 @@ aliases:
   - Object Copying Pattern
   - Prototype Instance Pattern
   - Cloning Pattern
+  - Prototype
 tags:
   - LearningIT
   - evergreen🌳
@@ -235,6 +236,8 @@ All shape classes follow the same interface, which provides a cloning method. A 
 >**Common Scenarios**:
 >- Implementing undo/redo operations where states are saved and restored.
 >- Generating complex, repeatable configurations on the fly.
+
+^c5581f
 
 >[!note]- Personal Thoughts
 >- Prototype patter can help us to copy even base private fields from object if they follow the same interface because we can pass our object to base constructor - 

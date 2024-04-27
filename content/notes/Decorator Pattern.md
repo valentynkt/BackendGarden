@@ -4,6 +4,7 @@ aliases:
   - Wrapper Pattern
   - Smart Proxy Pattern
   - Dynamic Extension Pattern
+  - Decorator
 links: "[[Structural patterns]]"
 tags:
   - LearningIT
@@ -353,6 +354,8 @@ This code exemplifies the Decorator pattern, which dynamically adds new function
 >**Common Scenarios**:
 >- UI components that must be decorated with additional graphical elements dynamically.
 >- Adding new operations to objects without altering their structure.
+
+^2cd427
 
 
 

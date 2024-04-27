@@ -4,6 +4,7 @@ aliases:
   - Interface Pattern
   - Simplification Pattern
   - Abstraction Layer Pattern
+  - Facade
 links: "[[Structural patterns]]"
 tags:
   - LearningIT
@@ -255,6 +256,8 @@ This code implements a Video Converter application using the Facade design patte
 >**Common Scenarios**:
 >- Libraries and frameworks that require a complex set of configurations can provide a simplified API to improve user experience.
 >- Systems where the division into layers provides a clear distinction between components.
+
+^da7d44
 
 
 # References

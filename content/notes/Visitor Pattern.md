@@ -4,6 +4,7 @@ aliases:
   - Dispatcher Pattern
   - Double Dispatch Pattern
   - Operation Separation Pattern
+  - Visitor
 links: "[[Behavioral patterns]]"
 tags:
   - LearningIT
@@ -458,6 +459,8 @@ The provided C# code demonstrates a combination of the **Composite** and **Visit
 >**Common Scenarios**:
 >- Document object models where operations like rendering, syntax checking, and type checking must be performed.
 >- GUI frameworks where actions can be applied to various elements without changing the element classes themselves.
+
+^0117ba
 
 
 # References

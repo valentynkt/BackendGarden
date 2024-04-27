@@ -4,6 +4,7 @@ aliases:
   - Cursor Pattern
   - Traversal Pattern
   - Iterator Object Pattern
+  - Iterator
 links: "[[Behavioral patterns]]"
 tags:
   - LearningIT
@@ -416,6 +417,8 @@ The example provided in the previous description demonstrates the Iterator patte
 >**Common Scenarios**:
 >- Navigating through a complex data structure like a linked list or a binary tree.
 >- Implementing polymorphic collections and iterators that allow handling of different data structures through a uniform interface.
+
+^bae18a
 
 
 

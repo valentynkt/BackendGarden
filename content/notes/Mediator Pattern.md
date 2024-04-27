@@ -4,6 +4,7 @@ aliases:
   - Controller Pattern
   - Intermediary Pattern
   - Hub Pattern
+  - Mediator
 links: "[[Behavioral patterns]]"
 tags:
   - LearningIT
@@ -332,6 +333,8 @@ This C# code demonstrates the **Mediator** design pattern, which reduces couplin
 >**Common Scenarios**:
 >- User interface designs where multiple components need to interact, but it's undesirable for them to have direct references to each other.
 >- Distributed systems where multiple services interact, and central control of these interactions is required.
+
+^7827a4
 
 
 # References

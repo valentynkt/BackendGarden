@@ -4,6 +4,7 @@ aliases:
   - Interaction Patterns
   - Behavior Design Patterns
   - Communication Patterns
+  - Behavioral
 links: "[[Design Patterns]]"
 tags:
   - LearningIT

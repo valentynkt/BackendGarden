@@ -5,6 +5,7 @@ aliases:
   - Global Object Pattern
   - Unique Instance Pattern
   - One Object Pattern
+  - Singleton
 links: "[[Creational patterns]]"
 ---
 link: [[Creational patterns]]
@@ -201,6 +202,8 @@ Below are examples of both a non-thread-safe Singleton and a thread-safe Singlet
 >- Managing a connection to a database.
 >- Controlling the print spooler.
 >- Accessing a file system.
+
+^d29d00
 
 
 > [!note]- **Personal Thoughts**

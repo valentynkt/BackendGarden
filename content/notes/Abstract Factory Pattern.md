@@ -5,6 +5,7 @@ aliases:
   - Factory System Pattern
   - Toolkit Pattern
   - Constructor Library Pattern
+  - Abstract Factory
 links: "[[Creational patterns]]"
 tags:
   - LearningIT
@@ -331,6 +332,8 @@ This setup ensures GUI element compatibility and simplifies maintenance and exte
 >**Common Scenarios**:
 >- User interface kits where different operating systems require different visual appearances and behavior using the same abstract interface.
 >- Tools for working with various database platforms, each with specific configurations, behaviors, and appearances.
+
+^426b21
 
 
 # References

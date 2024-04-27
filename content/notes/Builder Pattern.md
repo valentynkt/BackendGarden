@@ -5,6 +5,7 @@ aliases:
   - Construction Interface Pattern
   - Director Pattern
   - Complex Constructor Pattern
+  - Builder
 links: "[[Creational patterns]]"
 tags:
   - LearningIT
@@ -362,7 +363,6 @@ This setup illustrates how the Builder pattern can be effectively used to separa
 ## Summary
 
 > [!summary]- **Cheat Sheet**
->**Builder Pattern Cheat Sheet**
 >**Purpose**:
 >- Separates the construction of a complex object from its representation so that the same construction process can create different representations.
 >- Allows for fine control over the construction process.
@@ -385,6 +385,8 @@ This setup illustrates how the Builder pattern can be effectively used to separa
 >**Common Scenarios**:
 >- Creating complex composite objects that need to be constructed in various configurations.
 >- Generating different types of object representations under the same construction process.
+
+^b5d071
 
 # References
 

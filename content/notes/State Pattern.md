@@ -4,6 +4,7 @@ aliases:
   - Objects for States Pattern
   - State Object Pattern
   - Context Pattern
+  - State
 links: "[[Behavioral patterns]]"
 tags:
   - LearningIT
@@ -360,6 +361,8 @@ This implementation of the State pattern effectively demonstrates managing an ob
 >**Common Scenarios**:
 >- Workflow management where objects go through different states with different transition rules.
 >- UI tools where user interactions change the state of objects, affecting behavior and operations.
+
+^883c6e
 
 
 # References

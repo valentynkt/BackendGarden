@@ -54,47 +54,27 @@ These communication strategies ensure that services can operate and interact eff
 ### Microservice Patterns
 
 
-> [!important] 
-> 1. **[[Service Registry Pattern]]**
->
->    - _Category:_ Must-have
->    - _Explanation:_ A service registry is essential for enabling dynamic service discovery and communication in a microservices environment. It ensures that services can find and interact with each other effectively.
+>[!important]
+>1. **[[Service Registry Pattern]]**
+>    - _Explanation:_ Essential for dynamic service discovery and communication in microservices, ensuring effective interaction among services.
 >2. **[[Circuit Breaker Pattern]]**
->    
->    - _Category:_ Must-have
->    - _Explanation:_ The circuit breaker pattern is crucial for fault tolerance and preventing cascading failures in a distributed system. It helps maintain system stability by isolating and handling failures gracefully.
+>    - _Explanation:_ Crucial for fault tolerance in distributed systems, this pattern helps maintain stability by isolating failures and preventing cascading failures.
 >3. **[[API Gateway]]**
->    
->    - _Category:_ Optional
->    - _Explanation:_ While an API gateway can simplify client-side code and provide centralized routing, it may not be necessary for all microservices architectures, especially simpler ones with fewer clients or less complex communication requirements.
+>    - _Explanation:_ Simplifies client-side code and centralizes routing. While beneficial, it may not be necessary in simpler microservices architectures.
 >4. **[[Event-driven Architecture Pattern|Event-based Architecture]]**
->    
->    - _Category:_ Must-have
->    - _Explanation:_ Event-driven architecture enhances decoupling and scalability in microservices by facilitating asynchronous communication and loose coupling between services.
+>    - _Explanation:_ Enhances decoupling and scalability by facilitating asynchronous communication and reducing dependencies between services.
 >5. **[[Database per Service]]**
->    
->    - _Category:_ Must-have
->    - _Explanation:_ Having a separate database per service is fundamental in microservices to achieve service autonomy, data isolation, and better scalability.
+>    - _Explanation:_ Supports service autonomy and scalability by isolating databases per service, essential for data isolation and operational independence.
 >6. **[[CQRS|Command Query Responsibility Segregation (CQRS)]]**
->    
->    - _Category:_ Optional
->    - _Explanation:_ While CQRS can provide significant performance benefits by optimizing read and write operations separately, it adds complexity to the system and may not be suitable for all applications.
+>    - _Explanation:_ Optimizes read and write operations through separate paths, improving performance but increasing complexity; suitable for high-demand environments.
 >7. **[[Externalized Configuration]]**
->    
->    - _Category:_ Optional
->    - _Explanation:_ Externalized configuration improves flexibility and manageability but may not be essential for all microservices architectures, especially smaller-scale ones with simpler configuration needs.
+>    - _Explanation:_ Increases flexibility and eases management in dynamic environments; particularly beneficial for environments with complex configurations.
 >8. **[[Saga Pattern]]**
->    
->    - _Category:_ Must-have
->    - _Explanation:_ The saga pattern is crucial for maintaining data consistency in distributed transactions within a microservices architecture, replacing traditional two-phase commit protocols.
+>    - _Explanation:_ Vital for maintaining data consistency across distributed transactions within microservices, it replaces traditional transaction protocols with a more flexible approach.
 >9. **[[Bulkhead Pattern]]**
->    
->    - _Category:_ Must-have
->    - _Explanation:_ The bulkhead pattern is essential for fault isolation and resilience in microservices architectures, preventing failures in one part of the system from affecting others.
+>    - _Explanation:_ Provides fault isolation within microservices architectures, crucial for enhancing system resilience by limiting failures to isolated areas.
 >10. **[[Backends for Frontends pattern]] (BFF)**
->    
->     - _Category:_ Optional
->     - _Explanation:_ While BFFs can improve user experience and performance by tailoring backend services to specific client needs, they introduce complexity and potential code duplication, making them optional depending on project requirements and scalability needs.
+>	- _Explanation:_ Tailors backend services to specific client needs, improving user experience and performance, though it may introduce redundancy and complexity in some cases.
 
 
 ### Pros and Cons

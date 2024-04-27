@@ -4,6 +4,7 @@ aliases:
   - Object Creation Patterns
   - Constructor Patterns
   - Instantiation Patterns
+  - Creational
 links: "[[Design Patterns]]"
 tags:
   - LearningIT

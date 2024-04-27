@@ -8,7 +8,7 @@ links: "[[Patterns In General]]"
 tags:
   - LearningIT
   - moc
-  - bud🌿
+  - evergreen🌳
 ---
 link: [[Object Oriented Programming]], [[Patterns In General]]
 
@@ -20,6 +20,10 @@ Design patterns are proven solutions to common challenges in software developmen
 
 > [!abstract] 
 > Design patterns are essential tools that enhance the efficiency and scalability of software development, promoting best practices in software architecture. Unlike algorithms, which provide explicit step-by-step procedures to perform tasks, design patterns offer flexible blueprints that adapt to varying development contexts.
+
+
+>[!important] [[Design Patterns Cheatsheet|Cheatsheet for Design Patterns]]
+> For a high-level overview without detailed descriptions, check out the cheatsheet for all these patterns.
 
 ## Content
 
@@ -58,6 +62,7 @@ Implementing design patterns is a strategic approach that involves several criti
 
 ## [[Design Principle vs Design Pattern]]
 ![[Design Principle vs Design Pattern#Design Principle vs Design Pattern]]
+
 
 ## Summary
 

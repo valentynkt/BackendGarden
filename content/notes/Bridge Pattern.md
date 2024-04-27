@@ -4,6 +4,7 @@ aliases:
   - Body Pattern
   - Decoupler Pattern
   - Implementation Pattern
+  - Bridge
 links: "[[Structural patterns]]"
 tags:
   - LearningIT
@@ -251,6 +252,8 @@ The `ThreeDimensionsExample` method demonstrates the usage of the Bridge pattern
 >**Common Scenarios**:
 >- Supporting multiple types of database servers.
 >- Creating a cross-platform GUI toolkit.
+
+^4fbdbc
 
 
 

@@ -4,6 +4,7 @@ aliases:
   - Snapshot Pattern
   - Undo Pattern
   - State Save/Restore Pattern
+  - Memento
 links: "[[Behavioral patterns]]"
 tags:
   - LearningIT
@@ -294,6 +295,8 @@ This implementation of the Memento pattern provides a clear example of how to en
 >**Common Scenarios**:
 >- Implementing undo in software, allowing users to revert to a previous state.
 >- Saving snapshots of an object's state for recovery processes.
+
+^2cc1ce
 
 
 # References

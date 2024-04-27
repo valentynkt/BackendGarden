@@ -4,6 +4,7 @@ aliases:
   - Cache Pattern
   - Conservation Pattern
   - Shared Object Pattern
+  - Flyweight
 links: "[[Structural patterns]]"
 tags:
   - LearningIT
@@ -261,6 +262,8 @@ This code exemplifies the Flyweight pattern, which is used to minimize memory us
 >**Common Scenarios**:
 >- Character objects in word processors.
 >- Tree and forest simulations where many trees share the same data (species, textures).
+
+^3d2ef7
 
 
 # References

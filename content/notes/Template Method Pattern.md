@@ -4,6 +4,7 @@ aliases:
   - Template Algorithm Pattern
   - Hook Method Pattern
   - Algorithm Outline Pattern
+  - Template Method
 links: "[[Behavioral patterns]]"
 tags:
   - LearningIT
@@ -336,6 +337,8 @@ This setup effectively showcases the Template Method pattern by ensuring that ea
 >**Common Scenarios**:
 >- Data processing frameworks where the steps to process data are the same, but the actual processing differs based on the data format.
 >- Games or applications that need to extend the framework's algorithm while keeping the outline the same.
+
+^42752b
 
 
 # References
