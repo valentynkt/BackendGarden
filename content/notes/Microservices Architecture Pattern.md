@@ -2,9 +2,8 @@
 created: 2024-04-18 18:42
 aliases:
   - Microservice Design Pattern
-  - Decomposed Services Architecture
   - Distributed Services Architecture
-  - Microservice Architecture
+  - Microservices
 links: "[[Architectural Patterns]]"
 tags:
   - seed🌱
@@ -101,6 +100,8 @@ Microservices are well-suited for:
 - **Organizations with Small Development Teams**: Teams can focus on specific services independently, enhancing development speed and product focus.
 - **Complex Systems with Rapidly Changing Technologies**: Allows for the easy adoption of new technologies and quick updates to individual components without significant downtime or rework.
 
+## [[Monolith vs Microservice]]
+![[Monolith vs Microservice#Monolithic vs Microservices Architecture]]
 ## Summary
 
 > [!summary] 

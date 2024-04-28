@@ -15,6 +15,7 @@ link: [[Patterns In General]]
 ## Overview
 
 ![[DALL·E 2024-04-18 18.38.05 - A detailed digital illustration of various architectural patterns in software development, including layers of a layered architecture pattern, compone.webp]]
+
 Architectural patterns are high-level strategies that guide the overall layout and design of software systems. These patterns help tackle common architectural issues like how to efficiently manage data flow, integrate various parts of a system, and balance between performance and maintenance. By standardizing the architecture, these patterns ensure that the system is scalable, robust, and aligned with business objectives.
 
 >[!abstract]
@@ -27,7 +28,7 @@ Architectural patterns are high-level strategies that guide the overall layout a
 The following are some of the primary architectural patterns used in system design, each addressing specific structural and operational needs:
 
 > [!important]
-> 
+> - [[Monolithic Architecture Pattern]]
 > - [[Layered Architecture Pattern]]
 > - [[Event-driven Architecture Pattern]]
 > - [[Model-View-Controller Pattern]]
