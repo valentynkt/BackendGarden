@@ -24,9 +24,9 @@ Database design involves several stages that transform a logical model into a ph
 > [!important]
 > 
 > - **Schema Definition**: Developing a schema that defines how data is organized across the database. This includes designing tables, fields, relationships, views, and indexes based on the chosen data model.
-> - **Normalization**: Applying normalization rules to reduce data redundancy and improve data integrity. This process ensures that the database is free from undesirable characteristics like Insertion, Update, and Deletion Anomalies.
+> - **[[Data Normalization|Normalization]]**: Applying normalization rules to reduce data redundancy and improve data integrity. This process ensures that the database is free from undesirable characteristics like Insertion, Update, and Deletion Anomalies.
 > - **Entity-Relationship Diagrams (ERDs)**: Utilizing ERDs to visually represent the entities, their attributes, and relationships, facilitating a clearer understanding and communication of the database structure.
-> - **Integrity Constraints**: Establishing rules that help maintain the accuracy and reliability of the data. These include primary keys, foreign keys, and other constraints that enforce the relationships between tables.
+> - **[[Data Integrity and Transactions|Data Integrity]]**: Establishing rules that help maintain the accuracy and reliability of the data. These include primary keys, foreign keys, and other constraints that enforce the relationships between tables.
 
 ### Implementation Overview
 
