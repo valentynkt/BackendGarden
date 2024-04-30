@@ -6,6 +6,7 @@ aliases:
 tags:
   - LearningIT
   - seed🌱
+  - "#moc"
 links:
 ---
 
@@ -43,9 +44,6 @@ The structure and operation of databases are deeply integrated with the function
 
 - **[[Relational Databases]]**: Explore fundamentals of [[SQL Operations]] , database integrity, and transaction management.
 - **[[Non-Relational Databases]]**: Examine the scalability and flexibility of MongoDB, Redis, and others.
-- **[[Data Integrity and Transactions]]**: Ensure the accuracy and integrity of data through constraints, and manage multiple database actions with transactions that are atomic, consistent, isolated, and durable ([[ACID Properties|ACID]]).
-- [[Data Normalization]] - Data normalization is a design approach used to reduce redundancy and improve data integrity by organizing fields and table relationships in databases.
-- **[[Indexing and Query Performance]]**: Strategies for optimizing data retrieval and database performance.
 - **[[Data Warehousing]]**: Techniques for analyzing and retrieving integrated data from multiple sources.
 
 ### Implementation Overview
