@@ -22,8 +22,8 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Titillium Web",
-        body: "Titillium Web",
+        header: "Lexend",
+        body: "Lexend",
         code: "IBM Plex Mono",
       },
       colors: {

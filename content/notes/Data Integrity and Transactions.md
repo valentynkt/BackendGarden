@@ -17,7 +17,7 @@ link: [[Database]]
 
 Data integrity and transactions are crucial in database management, ensuring that data remains accurate, consistent, and reliable during operations. These elements are vital for systems that demand high levels of data validity and consistency, particularly in environments where data is accessed concurrently.
 
-### Key Concepts
+## Key Concepts
 
 **Data Integrity** refers to the accuracy and consistency of data throughout its lifecycle. It is essential for the design, implementation, and usage of systems that store, process, or retrieve data.
 

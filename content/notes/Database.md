@@ -1,5 +1,5 @@
 ---
-created: 28-04-2024 16:17
+created: 2024-04-28 16:17
 aliases:
   - Database Management System
   - DBMS

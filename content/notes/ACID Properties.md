@@ -1,5 +1,5 @@
 ---
-created: 29-04-2024 20:14
+created: 2024-04-29 20:14
 aliases:
   - ACID
 tags:
