@@ -231,7 +231,9 @@ link: [[Design Patterns]]
 ![[../Files/Images/YsYwKkwqR2.png]]
 
 **Category**: [[Behavioral patterns|Behavioral]].
+
 **What it is**: Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
+
 **Description**:
 ![[Observer Pattern#Summary]]
 
@@ -240,7 +242,9 @@ link: [[Design Patterns]]
 ![[../Files/Images/AVeGYvbzhQ.png]]
 
 **Category**: [[Behavioral patterns|Behavioral]].
+
 **What it is**: Allow an object to alter its behavior when its internal state changes. The object will appear to change its class.
+
 **Description**:
 ![[State Pattern#Summary]]
 
@@ -249,7 +253,9 @@ link: [[Design Patterns]]
 ![[../Files/Images/HhZIGeaU3O.png]]
 
 **Category**: [[Behavioral patterns|Behavioral]].
+
 **What it is**: Define a family of algorithms, encapsulate each one, and make them interchangeable. Lets the algorithm vary independently from clients that use it.
+
 **Description**:
 ![[Strategy Pattern#Summary]]
 
@@ -258,7 +264,9 @@ link: [[Design Patterns]]
 ![[../Files/Images/CEk2b0V01d.png]]
 
 **Category**: [[Behavioral patterns|Behavioral]].
+
 **What it is**: Define the skeleton of an algorithm in an operation, deferring some steps to subclasses. Lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure.
+
 **Description**:
 ![[Template Method Pattern#Summary]]
 
@@ -267,6 +275,8 @@ link: [[Design Patterns]]
 ![[../Files/Images/hvlPOw9HFg.png]]
 
 **Category**: [[Behavioral patterns|Behavioral]].
+
 **What it is**: Represent an operation to be performed on the elements of an object structure. Lets you define a new operation without changing the classes of the elements on which it operates.
+
 **Description**:
 ![[Visitor Pattern#Summary]]
