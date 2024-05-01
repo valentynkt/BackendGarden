@@ -38,12 +38,6 @@ Effective software design encompasses a set of core principles that guide develo
 > - [[You Ain't Gonna Need It]] (YAGNI)
 > - [[Law of Demeter]] (LoD)
 
-#### [[Code reuse]]
-![[Code reuse#Code reuse]]
 
-#### [[Extensibility]]
-![[Extensibility#Extensibility]]
-
-###  [[Design Principle vs Design Pattern]]
-
-![[Design Principle vs Design Pattern#Content|Design Principle vs Design Pattern]]
+> [!summary]- Design Principles vs Design Patterns
+> ![[Design Principle vs Design Pattern#Content|Design Principle vs Design Pattern]]

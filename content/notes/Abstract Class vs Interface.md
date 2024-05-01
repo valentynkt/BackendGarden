@@ -138,7 +138,7 @@ Welcome to GeeksforGeeks!!!
 
 | Abstract Class                                                                                                   | Interface                                                                                                         |
 | ---------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
-| It contains both declaration and definition part.                                                                | It contains only a declaration part. (Depricated after C# 8.0)                                                                             | 
+| It contains both declaration and definition part.                                                                | It contains only a declaration part. (Depricated after C# 8.0)                                                    |
 | Multiple [[Inheritance]] is not achieved by abstract class.                                                      | Multiple inheritance is achieved by interface.                                                                    |
 | It contain [constructor](https://www.geeksforgeeks.org/c-sharp-constructors/).                                   | It does not contain [constructor](https://www.geeksforgeeks.org/c-sharp-constructors/).                           |
 | It can contain static members.                                                                                   | It does not contain static members.                                                                               |
