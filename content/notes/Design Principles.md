@@ -33,6 +33,10 @@ Effective software design encompasses a set of core principles that guide develo
 > - **[[Depend on Abstraction]]**: Suggests relying on abstract classes or interfaces instead of concrete implementations to reduce dependencies and enhance modularity.
 > - **[[Favor Composition Over Inheritance]]**: Recommends using composition rather than inheritance to achieve code reuse, which provides more flexibility and reduces the dependency hierarchy.
 > - **[[SOLID Principles]]**: A set of five design principles that contribute to writing clean code that accommodates new features and changes with minimal effort.
+> - [[Don't Repeat Yourself]](DRY)
+> - [[Keep It Short and Simple]](KISS)
+> - [[You Ain't Gonna Need It]](YAGNI)
+> - [[Law of Demeter]](LoD)
 
 #### [[Code reuse]]
 ![[Code reuse#Code reuse]]
