@@ -16,6 +16,7 @@ link: [[Digital Garden]]
 
 # Landscape
 
+![[../Files/Images/852af132-420e-4269-8c1c-0f021ecf5a09.webp]]
 
 The "Landscape" serves as a comprehensive guide and overarching map for exploring various topics within software development and database management. This central hub categorizes knowledge into structured sections, each dedicated to a specific domain. It is designed to provide a high-level overview and easy navigation across related topics, making it an essential starting point for deep dives into each subject area.
 
@@ -54,9 +55,6 @@ The "Landscape" serves as a comprehensive guide and overarching map for explorin
 > - [[Layered Architecture Pattern]]
 > - [[Microservices Architecture Pattern]]
 >   - [[API Gateway]]
->     - [[AWS API Gateway]]
->     - [[Azure API Management]]
->     - [[Azure Application Gateway]]
 >   - [[Backends for Frontends Pattern]]
 >   - [[Database per Service]]
 >   - [[Service Registry Pattern]]

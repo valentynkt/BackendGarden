@@ -13,12 +13,12 @@ link: [[SQL Operations]]
 
 # SQL Advanced Features
 
-## ## Overview
+## Overview
 
 SQL provides several advanced features that facilitate more efficient and modular code for database operations. Scalar functions, inline table-valued functions, stored procedures, and views each offer unique advantages and are used to handle specific types of tasks within SQL.
 
 ## Content
-### ### Key Concepts
+### Key Concepts
 
 > [!important]
 > 

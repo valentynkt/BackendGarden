@@ -14,7 +14,7 @@ link: [[Database]]
 # Relational Databases (SQL)
 
 ![[../Files/Images/Pasted image 20240429130629.png]]
-## ## Overview
+## Overview
 
 Relational databases organize data into tables, which can be linked by defining relationships between them. This structure allows for the efficient retrieval, insertion, updating, and management of data. SQL (Structured Query Language) is the standard language used to interact with relational databases, providing powerful tools for data manipulation and querying.
 

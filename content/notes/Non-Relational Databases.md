@@ -12,7 +12,7 @@ link: [[Database]]
 
 # Non-Relational Databases
 
-## ## Overview
+## Overview
 
 ![[../Files/Images/Pasted image 20240501144041.jpg]]
 
