@@ -2,8 +2,8 @@
 created: 2024-04-22 21:16
 aliases: 
 tags:
-  - LearningIT
   - seed🌱
+  - "#Productivity"
 links:
 ---
 
@@ -14,8 +14,6 @@ link: [[index]]
 ![[e2277e10-00ec-473f-9945-236d2e65802a.webp]]
 
 Welcome to a unique, evolving space where ideas are cultivated like plants in a garden. Here, knowledge grows through various stages, and our system is designed to support continuous learning and exploration. This guide will explain the content stages you'll encounter and how to effectively navigate the Map of Contents.
-
-
 
 
 ## What is a Digital Garden?
