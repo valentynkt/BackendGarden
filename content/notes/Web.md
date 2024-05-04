@@ -12,13 +12,14 @@ link:
 
 # Web
 
+![[0fa70cd7-f3d2-4be3-b891-631ecb47b542.webp]]
+
 ## Overview
 
 "Web Fundamentals" provides an in-depth look at the essential technologies and protocols that form the backbone of the internet and web applications. This topic serves as a comprehensive introduction to the architecture and core components that facilitate web communication and functionality.
 
 ## Content
 
-### Introduction to the Web
 
 > [!summary]- Introduction to the Web
 > 
@@ -35,25 +36,24 @@ link:
 > The OSI (Open Systems Interconnection) model provides a layered framework that explains the different stages data goes through from physical transmission to application processing on the web. This structured approach helps clarify how various networking technologies interact to deliver web services. For an in-depth look at each layer's role in web communications, see [[OSI model]].
 
 
-### Web Communication Protocols
-
 > [!summary]- Web Communication Protocols
 > - **HTTP and Its Evolutions** ([[HTTP]], [[HTTP 2]], [[HTTP 3]]): Covers the evolution of the Hypertext Transfer Protocol and its importance in web data exchange.
 > - **Transmission Protocols** ([[TCP vs UDP]]): Discusses the roles of Transmission Control Protocol ([[TCP]]) and User Datagram Protocol ([[UDP]]) in managing data transmission over the internet.
 > - **Additional Protocols**: Insights into other critical protocols like [[Domain Name System|Domain Name System (DNS)]] for domain name resolution, [[SSL and TLS Protocols]] for secure data transmission, and [[WebSocket]]  for enabling real-time communication.
 
-### Data Handling and Formats
 
-- **Data Formats** ([[XML]], JSON): Examines XML and JSON, two predominant formats used for structuring data in web communications.
-- **MIME Types** ([[MIME Types]]): Describes MIME types and their role in specifying the format of files transmitted over the internet.
+> [!summary]- Data Handling and Formats
+> - **Data Formats** ([[XML]], JSON): Examines XML and JSON, two predominant formats used for structuring data in web communications.
+> - **MIME Types** ([[MIME Types]]): Describes MIME types and their role in specifying the format of files transmitted over the internet.
 
-### Security and Performance Enhancements
 
-- **Secure Communications** ([[SSL and TLS Protocols]]): Explains how encryption protocols like SSL/TLS protect data integrity and confidentiality.
-- **IP Technology** ([[IPv4 vs IPv6]]): Details the functionalities and improvements brought by IPv6 over IPv4 in handling internet addresses.
-- **Content Delivery** ([[Content Delivery Networks|Content Delivery Networks (CDNs)]]): Discusses how CDNs optimize the delivery of web content to improve speed and reduce latency.
+> [!summary]- Security and Performance Enhancements
+> 
+> - **Secure Communications** ([[SSL and TLS Protocols]]): Explains how encryption protocols like SSL/TLS protect data integrity and confidentiality.
+> - **IP Technology** ([[IPv4 vs IPv6]]): Details the functionalities and improvements brought by IPv6 over IPv4 in handling internet addresses.
+> - **Content Delivery** ([[Content Delivery Networks|Content Delivery Networks (CDNs)]]): Discusses how CDNs optimize the delivery of web content to improve speed and reduce latency.
 
-### Session Management
 
-- **Cookies and Session Management** ([[Cookies and Sessions]]): Overview of how web applications maintain user state and session information using cookies and other session management techniques.
+> [!summary]- Session Management
+> - **Cookies and Session Management** ([[Cookies and Sessions]]): Overview of how web applications maintain user state and session information using cookies and other session management techniques.
 
