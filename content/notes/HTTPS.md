@@ -1,0 +1,46 @@
+---
+created: 2024-05-06 18:32
+aliases:
+  - HTTP Secure
+tags:
+  - LearningIT
+  - seed🌱
+links:
+---
+
+link: [[HTTP]]
+
+# # HTTPS
+
+![[Pasted image 20231028214015.png]]
+
+HTTPS (Hypertext Transfer Protocol Secure) combines the standard [[HTTP]] protocol with encryption provided by [[SSL and TLS Protocols|SSL/TLS]] to secure web communications. It encrypts data exchanged between web browsers (clients) and servers, enhancing security across the internet.
+
+## Overview
+
+HTTPS ensures the confidentiality and integrity of data during transmission. By encrypting the communication channel, it protects sensitive information from eavesdropping, tampering, and interception.
+
+## Key Features of HTTPS
+
+> [!summary]- Key Features
+> 
+> - **Encryption**: Secures data in transit, preventing interception by unauthorized parties.
+> - **Data Integrity**: Uses cryptographic methods to ensure data is transmitted accurately, without alterations.
+> - **Authentication**: Confirms the legitimacy of websites, protecting users from fraudulent sites.
+> - **Trust and Security**: Utilizes digital certificates from trusted Certificate Authorities (CAs) to verify server identities and foster trust.
+> - **SEO Benefits**: Enhances website visibility and ranking on search engines like Google, which favor HTTPS-secured sites.
+
+## Implementation of HTTPS
+
+Implementing HTTPS involves several key steps:
+
+> [!important]-
+> - **[[SSL and TLS Protocols|SSL/TLS]] Certificate**: Obtain an SSL/TLS certificate that includes the server's public key and identity, verified by a trusted Certificate Authority (CA).
+> - **Server Configuration**: Configure the web server to use HTTPS, enabling encryption for all data exchanged with clients.
+
+> [!example]-
+> **Protocol Compatibility**:
+> - **Mandatory**: HTTPS is required for [[HTTP 2.0|HTTP/2.0]] and [[HTTP 3.0|HTTP/3.0]], ensuring enhanced security for these protocols.
+> - **Optional**: While HTTPS is not required for HTTP/1.0 and [[HTTP 1.1|HTTP/1.1]], its use is strongly recommended to protect user data and privacy.
+
+HTTPS not only secures web transactions but also plays a critical role in maintaining privacy, integrity, and trust across the web, making it essential for modern internet usage.

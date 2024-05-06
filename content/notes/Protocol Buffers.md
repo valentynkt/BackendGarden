@@ -13,7 +13,7 @@ To make remote procedure calls, we need a way to transform objects (payload) in 
 
 A lot of programming languages support these mechanisms by default and they often use JSON format. It is a human-readable format and is widely used. ==But JSON tends to be slower and get bigger in size when we use it with big data or when a number of microservices communicate with each other.== JSON also has forward and backward compatibility issues.
 
-To address these issues, google introduced Protobuf in 2008. Protobuf is an Interface Definition Language that is language-neutral and platform-neutral. It is a way of serializing structured data and transmitting it over the network Using Protobuf, binary is transmitted which improves the speed of transmission compared to JSON’s string format. It is one of the important pillars of [[gRPC API]] protocol along with [[HTTP 2|HTTP/2]].
+To address these issues, google introduced Protobuf in 2008. Protobuf is an Interface Definition Language that is language-neutral and platform-neutral. It is a way of serializing structured data and transmitting it over the network Using Protobuf, binary is transmitted which improves the speed of transmission compared to JSON’s string format. It is one of the important pillars of [[gRPC API]] protocol along with [[HTTP 2.0|HTTP/2]].
 
 ## Protobuf Data Serialization
 With protobuf, we define the message format in a .proto file. Then we use the protobuf compilers to generate the client and service side code to encode and parse the data as shown below

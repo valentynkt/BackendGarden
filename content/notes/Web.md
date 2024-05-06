@@ -36,22 +36,28 @@ link:
 > The OSI (Open Systems Interconnection) model provides a layered framework that explains the different stages data goes through from physical transmission to application processing on the web. This structured approach helps clarify how various networking technologies interact to deliver web services. For an in-depth look at each layer's role in web communications, see [[OSI model]].
 
 
-> [!summary]- Web Communication Protocols
-> - **HTTP and Its Evolutions** ([[HTTP]], [[HTTP 2]], [[HTTP 3]]): Covers the evolution of the Hypertext Transfer Protocol and its importance in web data exchange.
-> - **Transmission Protocols** ([[TCP vs UDP]]): Discusses the roles of Transmission Control Protocol ([[TCP]]) and User Datagram Protocol ([[UDP]]) in managing data transmission over the internet.
-> - **Additional Protocols**: Insights into other critical protocols like [[Domain Name System|Domain Name System (DNS)]] for domain name resolution, [[SSL and TLS Protocols]] for secure data transmission, and [[WebSocket]]  for enabling real-time communication.
+>[!summary]- **Web Communication Protocols**
+>
+>- **HTTP and Its Evolutions** ([[HTTP]], [[HTTPS]], [[HTTP 2.0]], [[HTTP 3.0]]): Covers the evolution of the Hypertext Transfer Protocol and its importance in web data exchange.
+>- **Transmission Protocols** ([[TCP vs UDP]]): Discusses the roles of Transmission Control Protocol ([[TCP]]) and User Datagram Protocol ([[UDP]]) in managing data transmission over the internet.
+>- **Additional Protocols**: Insights into other critical protocols like [[Domain Name System|Domain Name System (DNS)]] for domain name resolution, [[SSL and TLS Protocols]] for secure data transmission, and [[WebSocket]] for enabling real-time communication.
+>- **Email Protocols** ([[SMTP]], IMAP, POP3): Explains the protocols used for sending and receiving emails, highlighting their roles in internet communication.
+>- **File Transfer Protocols** ([[FTP]], [[SFTP]]): Details protocols used for secure file transfer across network systems.
 
 
-> [!summary]- Data Handling and Formats
-> - **Data Formats** ([[XML]], JSON): Examines XML and JSON, two predominant formats used for structuring data in web communications.
-> - **MIME Types** ([[MIME Types]]): Describes MIME types and their role in specifying the format of files transmitted over the internet.
+>[!summary]- Data Handling and Formats
+>
+>- **Data Formats** ([[XML]], JSON): Examines XML and JSON, two predominant formats used for structuring data in web communications.
+>- **MIME Types** ([[MIME Types]]): Describes MIME types and their role in specifying the format of files transmitted over the internet.
+>- **Character Encoding** ([[UTF-8]], [[ASCII]]): Discusses different encoding standards for representing characters in web communications.
 
 
-> [!summary]- Security and Performance Enhancements
-> 
-> - **Secure Communications** ([[SSL and TLS Protocols]]): Explains how encryption protocols like SSL/TLS protect data integrity and confidentiality.
-> - **IP Technology** ([[IPv4 vs IPv6]]): Details the functionalities and improvements brought by IPv6 over IPv4 in handling internet addresses.
-> - **Content Delivery** ([[Content Delivery Networks|Content Delivery Networks (CDNs)]]): Discusses how CDNs optimize the delivery of web content to improve speed and reduce latency.
+>[!summary]- **Security and Performance Enhancements**
+>- [[End-to-End Encryption]]
+>- **Secure Communications** ([[SSL and TLS Protocols]]): Explains how encryption protocols like SSL/TLS protect data integrity and confidentiality.
+>- **IP Technology** ([[IPv4 vs IPv6]]): Details the functionalities and improvements brought by IPv6 over IPv4 in handling internet addresses.
+>- **Content Delivery** ([[Content Delivery Networks|Content Delivery Networks (CDNs)]]): Discusses how CDNs optimize the delivery of web content to improve speed and reduce latency.
+>- **Web Application Firewalls** ([[WAF]]): Outlines the use of WAFs in protecting web applications from security threats and attacks.
 
 
 > [!summary]- Session Management
