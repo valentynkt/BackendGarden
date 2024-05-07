@@ -8,7 +8,8 @@ aliases:
 tags:
   - seed🌱
   - LearningIT
-  - "#moc"
+  - moc
+  - Landscape
 links: "[[Digital Garden]]"
 ---
 
