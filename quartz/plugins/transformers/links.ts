@@ -26,10 +26,10 @@ interface Options {
 }
 
 const defaultOptions: Options = {
-  markdownLinkResolution: "absolute",
+  markdownLinkResolution: "shortest",
   prettyLinks: true,
-  openLinksInNewTab: false,
-  lazyLoad: false,
+  openLinksInNewTab: true,
+  lazyLoad: true,
   externalLinkIcon: true,
 }
 
@@ -99,13 +99,13 @@ export const CrawlLinks: QuartzTransformerPlugin<Partial<Options> | undefined> =
 
                 // don't process external links or intra-document anchors
                 const isInternal = !(isAbsoluteUrl(dest) || dest.startsWith("#"))
+
                 if (isInternal) {
                   dest = node.properties.href = transformLink(
                     file.data.slug!,
                     dest,
                     transformOptions,
                   )
-
                   // url.resolve is considered legacy
                   // WHATWG equivalent https://nodejs.dev/en/api/v18/url/#urlresolvefrom-to
                   const url = new URL(dest, "https://base.com/" + stripSlashes(curSlug, true))
@@ -114,7 +114,6 @@ export const CrawlLinks: QuartzTransformerPlugin<Partial<Options> | undefined> =
                   if (destCanonical.endsWith("/")) {
                     destCanonical += "index"
                   }
-
                   // need to decodeURIComponent here as WHATWG URL percent-encodes everything
                   const full = decodeURIComponent(stripSlashes(destCanonical, true)) as FullSlug
                   const simple = simplifySlug(full)

@@ -205,21 +205,24 @@ export interface TransformOptions {
 
 export function transformLink(src: FullSlug, target: string, opts: TransformOptions): RelativeURL {
   let targetSlug = transformInternalLink(target)
-
   if (opts.strategy === "relative") {
     return targetSlug as RelativeURL
   } else {
     const folderTail = isFolderPath(targetSlug) ? "/" : ""
     const canonicalSlug = stripSlashes(targetSlug.slice(".".length))
     let [targetCanonical, targetAnchor] = splitAnchor(canonicalSlug)
-
     if (opts.strategy === "shortest") {
       // if the file name is unique, then it's just the filename
+      // Convert targetCanonical to lowercase once, outside the filter function
+      const lowerCaseTargetCanonical = targetCanonical.toLowerCase();
+
       const matchingFileNames = opts.allSlugs.filter((slug) => {
-        const parts = slug.split("/")
-        const fileName = parts.at(-1)
-        return targetCanonical === fileName
-      })
+        // Split the slug and directly get the last part
+        const fileName = slug.split("/").at(-1) || ""; // Fallback to empty string if undefined
+      
+        // Compare the lowercase versions (fileName is assured to be a string, no optional chaining needed)
+        return lowerCaseTargetCanonical === fileName.toLowerCase();
+      });
 
       // only match, just use it
       if (matchingFileNames.length === 1) {
