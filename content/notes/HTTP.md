@@ -11,6 +11,8 @@ link: [[Web]]
 
 # HTTP (Hypertext Transfer Protocol)
 
+![[Pasted image 20240506220938.png]]
+
 ## Overview
 
 HTTP, or Hypertext Transfer Protocol, is an application protocol widely used for distributed, collaborative, hypermedia information systems. It serves as the foundation for communication on the World Wide Web, enabling the exchange of data between clients (such as web browsers) and servers.
@@ -39,14 +41,8 @@ HTTP operates within the [[Client-Server Architecture Pattern|Client-Server Mode
 >     
 > 5. **Completion of Request-Response Cycle**: With the client receiving the response, the request-response cycle is completed. The client can then render the received resource (e.g., display a web page) or perform further actions based on the response data.
 
-## HTTP Versions
-
-HTTP has evolved over time, with each new version introducing improvements in performance, security, and functionality. Here are some key versions of HTTP:
-
-[[HTTP 1.1]]
-[[HTTP 2.0]]
-[[HTTP 3.0]]
-[[HTTPS]]
+## [[HTTP Versions]]
+![[HTTP Versions#HTTP Versions]]
 ## Conclusion
 
 HTTP is a fundamental protocol that underpins communication on the World Wide Web. Its request-response model, along with its various methods, status codes, and header fields, enables the exchange of data between clients and servers in a structured and efficient manner. Understanding how HTTP works is essential for anyone involved in web development or network communication.

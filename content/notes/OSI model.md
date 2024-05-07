@@ -22,6 +22,7 @@ The OSI Model acts as a universal language for computer networking. It divides a
 Each layer of the OSI Model has a specific function and interacts with the layers above and below it. DDoS attacks often target specific layers of a network connection; application layer attacks focus on Layer 7, and protocol layer attacks target layers 3 and 4.
 
 ## Layers Details
+
 > [!summary]- Layer 7: The Application Layer
 > 
 > **The application layer** is the interface between the user's applications and the network. It directly interacts with user data and enables communication with software applications like web browsers and email clients. However, it's important to note that client software applications are not part of the application layer; rather, this layer handles protocols and data manipulation for meaningful user data presentation.
@@ -147,8 +148,6 @@ Each layer of the OSI Model has a specific function and interacts with the layer
 > Ascending the layers, the data flows into the receiver's session layer, where the communication session ends.
 > Then, the presentation layer removes compression, and the raw data is passed to the application layer.
 > Finally, Ms. Palmer's email software presents the human-readable message on her laptop screen.
-
-
 
 
 # References
