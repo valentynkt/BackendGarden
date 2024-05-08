@@ -34,6 +34,7 @@ HTTP/3 enhances web communication by leveraging QUIC's innovations, offering sev
 HTTP/3 marks a major evolution in web protocols, transforming how data is transmitted to better meet the modern demands for speed, reliability, and security. It's on track to become the new standard, widely supported across browsers and platforms.
 
 The shift to HTTP/3 will greatly affect web development, prioritizing faster and more efficient user experiences while maintaining high security. As more developers adopt it, HTTP/3 will become central to the future of web communications.
+
 # References
 
 https://kinsta.com/blog/http3/

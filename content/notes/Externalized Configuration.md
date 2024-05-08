@@ -35,14 +35,21 @@ Externalized Configuration is structured around several key principles:
 > - **Environment Specificity**: Supports distinct configurations for different environments (development, testing, production), allowing for seamless environment transitions.
 > - **Centralized Management**: Often utilizes centralized configuration servers like Spring Cloud Config, Consul, or etcd, which manage and disseminate configurations across services.
 
-### Implementation Overview
 
-To implement Externalized Configuration effectively, consider the following steps:
+> [!summary]- Implementation Overview
+> To implement Externalized Configuration effectively, consider the following steps:
+> 
+> - **Use Configuration Servers**: Deploy a configuration management system that centralizes and automates the delivery of configuration settings.
+> - **Decouple Configuration**: Store configuration separately from the codebase and application binaries to ensure that configurations can be changed independently of application deployments.
+> - **Secure Sensitive Data**: Encrypt sensitive configuration data, such as API keys and passwords, to protect it in transit and at rest.
+> - **Version Control**: Maintain configuration changes in a version-controlled repository to track changes and revert configurations if necessary.
 
-- **Use Configuration Servers**: Deploy a configuration management system that centralizes and automates the delivery of configuration settings.
-- **Decouple Configuration**: Store configuration separately from the codebase and application binaries to ensure that configurations can be changed independently of application deployments.
-- **Secure Sensitive Data**: Encrypt sensitive configuration data, such as API keys and passwords, to protect it in transit and at rest.
-- **Version Control**: Maintain configuration changes in a version-controlled repository to track changes and revert configurations if necessary.
+## Managing Configuration
+
+
+> [!note]- Traditional configuration management vs IaC.
+> 
+> ![[433850ea-c8fb-431d-a0c0-7a8ea66b81d7_1280x1664.webp]]
 
 ## Summary
 

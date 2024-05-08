@@ -23,6 +23,8 @@ Each layer of the OSI Model has a specific function and interacts with the layer
 
 ## Layers Details
 
+![[8c53f73a-c6ec-45cc-afb5-4018ac97a488_1600x1085.webp]]
+
 > [!summary]- Layer 7: The Application Layer
 > 
 > **The application layer** is the interface between the user's applications and the network. It directly interacts with user data and enables communication with software applications like web browsers and email clients. However, it's important to note that client software applications are not part of the application layer; rather, this layer handles protocols and data manipulation for meaningful user data presentation.
@@ -51,6 +53,8 @@ Each layer of the OSI Model has a specific function and interacts with the layer
 > - **Tasks:**
 >     - Translation of encoding methods
 >     - Compression of data before delivery to Layer 5
+>  - **Protocols:**
+> 	 - [[SSL and TLS Protocols|SSL/TLS protocols]]
 
 > [!summary]- Layer 5: The Session Layer
 > 
@@ -95,7 +99,7 @@ Each layer of the OSI Model has a specific function and interacts with the layer
 >     - Packetization of data for transmission
 >     - Determining optimal data routing paths
 > - **Protocols:**
->     - IP: Internet Protocol for addressing and routing
+>     - [[Internet Protocol|IP]]: Internet Protocol for addressing and routing
 >     - ICMP: Internet Control Message Protocol for network error messaging
 >     - IGMP: Internet Group Management Protocol for multicast group management
 >     - IPsec: IP Security Protocol suite for secure data transmission
@@ -131,6 +135,8 @@ Each layer of the OSI Model has a specific function and interacts with the layer
 
 ## OSI Model Flow
 
+![[qELQuFRmbu.png]]
+
 > [!example]- Real Flow
 > Mr. Cooper uses his email application to compose a message to Ms. Palmer. When he hits 'send', the email application passes the message to the application layer.
 >The application layer selects a protocol (SMTP) and hands the data to the presentation layer, where it's compressed.
@@ -148,6 +154,47 @@ Each layer of the OSI Model has a specific function and interacts with the layer
 > Ascending the layers, the data flows into the receiver's session layer, where the communication session ends.
 > Then, the presentation layer removes compression, and the raw data is passed to the application layer.
 > Finally, Ms. Palmer's email software presents the human-readable message on her laptop screen.
+
+## Network Security
+
+
+> [!danger] Network Attacks
+>
+> ![[10156f95-a4c2-47e2-86cf-645e9e7ab169_1280x1664.webp]]
+>
+>- Application Layer  
+>    - Pushing  
+>    - Malware injection  
+>    - DDos attacks
+>    
+>- Presentation Layer  
+>    - Encoding/decoding vulnerabilities  
+>    - Format string attacks  
+>    - Malicious code injection
+>    
+>- Session Layer  
+>    - Session hijacking  
+>    - Session fixation attacks  
+>    - Brute force attacks
+>    
+>- Transport Layer  
+>    - Man-in-the-middle attacks  
+>    - SYN/ACK flood
+>    
+>- Network Layer  
+>    - IP spoofing  
+>    - Route table manipulation  
+>    - DDos attacks
+>    
+>- Data Link Layer  
+>    - MAC address spoofing  
+>    - ARP spoofing  
+>    - VLAN hopping
+>    
+>- Physical Layer  
+>    - Wiretapping  
+>    - Physical tampering  
+>    - Electromagnetic interference
 
 
 # References
