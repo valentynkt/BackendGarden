@@ -158,7 +158,7 @@ Each layer of the OSI Model has a specific function and interacts with the layer
 ## Network Security
 
 
-> [!danger] Network Attacks
+> [!danger]- Network Attacks
 >
 > ![[10156f95-a4c2-47e2-86cf-645e9e7ab169_1280x1664.webp]]
 >

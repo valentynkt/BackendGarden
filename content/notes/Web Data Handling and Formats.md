@@ -1,6 +1,8 @@
 ---
 created: 2024-05-08 20:30
-aliases: 
+aliases:
+  - Web Data Formats
+  - Web Data
 tags:
   - LearningIT
   - seed🌱
