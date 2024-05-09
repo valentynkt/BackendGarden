@@ -4,6 +4,7 @@ aliases:
 tags:
   - LearningIT
   - seed🌱
+  - "#moc"
 links:
 ---
 
@@ -26,6 +27,7 @@ link: [[Web]]
 > [!summary]- **Access Control and Threat Management**
 > - **[[Authentication]]**: Techniques that ensure only authorized users can access a network or a resource, including methods like passwords, biometrics, two-factor authentication (2FA), and digital certificates.
 > - **[[Authorization]]**: The process of granting or denying specific permissions to users, groups, or roles to access resources or perform operations within a network or application environment.
+> - SSO ([[Single Sign-On]])
 > - **[[WAF]] (Web Application Firewall)**: Protects web applications from attacks by filtering and monitoring HTTP traffic, effective against threats like XSS and SQL injection.
 
 

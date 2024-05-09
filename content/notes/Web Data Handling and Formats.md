@@ -6,13 +6,14 @@ aliases:
 tags:
   - LearningIT
   - seed🌱
+  - "#moc"
 links:
 ---
 
 link: [[Web]]
 
 # Web Data Handling and Formats
-## Content
+
 
 > [!summary]- Data Formats
 > Data formats are crucial for structuring the data that is exchanged between web clients and servers. Here are two of the most widely used data formats:
@@ -29,5 +30,5 @@ link: [[Web]]
 
 
 > [!summary]- **Common Character Encodings**:
-> - **UTF-8**: A character encoding capable of encoding all possible characters (called code points) in Unicode. It is the dominant character encoding for the internet.
-> - **ASCII (American Standard Code for Information Interchange)**: An older character encoding standard that encodes 128 specified characters into seven-bit integers. 
+> - **[[UTF-8]]**: A character encoding capable of encoding all possible characters (called code points) in Unicode. It is the dominant character encoding for the internet.
+> - **[[ASCII]] (American Standard Code for Information Interchange)**: An older character encoding standard that encodes 128 specified characters into seven-bit integers. 

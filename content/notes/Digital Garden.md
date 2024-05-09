@@ -30,7 +30,7 @@ Content in the Digital Garden develops through three key stages:
 
 ### #seed🌱 
 
-Seed notes are initial ideas or questions, typically brief and open to expansion as they begin to take shape.
+Seed notes are initial ideas or questions, can be even fully empty, typically brief and open to expansion as they begin to take shape.
 
 ### #bud🌿
 

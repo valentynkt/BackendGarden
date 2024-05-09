@@ -42,7 +42,7 @@ link:
 
 ## [[Web Data Handling and Formats]]
 
-![[Web Data Handling and Formats#Content]]
+![[Web Data Handling and Formats#Web Data Handling and Formats]]
 
 
 ## [[Web Security]]
