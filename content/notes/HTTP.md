@@ -3,7 +3,7 @@ created: 2024-05-06 16:16
 aliases: 
 tags:
   - LearningIT
-  - seed🌱
+  - "#bud🌿"
 links:
 ---
 
@@ -45,3 +45,7 @@ HTTP’s functionality revolves around several key components:
 ## Conclusion
 
 HTTP is essential for the functioning of the World Wide Web, facilitating a structured and efficient exchange of data between clients and servers. Its methodical framework, characterized by a robust request-response model and clear protocols for managing transactions, is fundamental for web developers and network communication specialists.
+
+# References
+
+https://blog.bytebytego.com/p/the-foundation-of-rest-api-http?utm_source=publication-search

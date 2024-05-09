@@ -1,6 +1,7 @@
 ---
 created: 2024-05-03 19:18
-aliases: 
+aliases:
+  - Application Programming Interface
 tags:
   - LearningIT
   - seed🌱
@@ -10,15 +11,20 @@ links:
 
 link:
 
-# API
+# API (Application Programming Interface)
 
-APIs, or Application Programming Interfaces, are pivotal in enabling software components to communicate, facilitating data transfer, and function sharing among applications. These interfaces are invisible yet crucial backbones behind the seamless digital experiences we encounter across the web, mobile, and cloud applications.
+## Overview
+
+APIs, or Application Programming Interfaces, establish guidelines for how software programs interact, crucial for exchanging data and functions across different systems. These interfaces are vital for creating interconnected experiences on web, mobile, and cloud platforms, forming a fundamental part of modern software development.
+
+> [!important]
+> The approach known as [[API-First]] emphasizes designing APIs at the beginning of a project. This strategy prioritizes API development to enhance integration and scalability of systems, facilitating a streamlined and efficient development process.
 
 ## Introduction
 
 APIs simplify complex software interactions by defining accessible methods and data formats for applications. This abstraction allows developers to use predefined functionalities to enhance application interoperability across various platforms and devices, fostering a more integrated digital environment.
 
-> [!question] **How Do APIs Work?**
+> [!question]- **How Do APIs Work?**
 > 
 > Similar to a restaurant's service workflow, where the waiter (API) communicates your order (request) to the kitchen (system) to prepare your meal (data/response), APIs operate on a request-response model. They help streamline processes by ensuring that applications can request and receive data efficiently and securely.
 
@@ -40,7 +46,7 @@ APIs can be broadly categorized by accessibility or by their architectural desig
 
 API architectural styles vary, each with its specifications and best use cases:
 
-> [!summary] **API Architectures**
+> [!summary] **[[API Architectures]]**
 > 
 > - [[REST API]]: Known for its simplicity and statelessness, REST uses standard HTTP methods and is ideal for web services.
 > - [[SOAP API]]: This protocol uses XML for sending structured data and is preferred for its high security in enterprise applications.
@@ -52,11 +58,11 @@ Understanding the diversity of API types and their architectures not only helps 
 
 
 > [!summary]- Real-Time Communication
-> - [[Webhooks API]] and [[WebSocket]]: Understand mechanisms for real-time data exchange between clients and servers, crucial for applications requiring live updates.
-> - [[Real-Time Notification Method]]: Explore various techniques for implementing instant notifications in web applications.
+> - [[Webhooks API]] and [[WebSockets]]: Understand mechanisms for real-time data exchange between clients and servers, crucial for applications requiring live updates.
+> - [[Real-Time Notification Architectures]]: Explore various techniques for implementing instant notifications in web applications.
 
 
-> [!summary]- Security
+> [!summary]- [[API Security]]
 > - [[Authentication and Authorization]]: Essential concepts that help in verifying user identities and ensuring they have the correct permissions to access the APIs.
 > - [[API authentication]]
 > - [[Json Web Tokens|JSON Web Tokens (JWT)]]: A compact, URL-safe means of representing claims to be transferred between two parties, helping secure data transmissions.
@@ -66,3 +72,4 @@ Understanding the diversity of API types and their architectures not only helps 
 # References
 
 https://www.postman.com/what-is-an-api/
+https://blog.bytebytego.com/p/api-design?utm_source=publication-search
