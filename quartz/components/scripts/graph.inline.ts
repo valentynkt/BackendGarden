@@ -43,6 +43,7 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
     fontSize,
     opacityScale,
     removeTags,
+    omitTitles,
     showTags,
     focusOnHover,
   } = JSON.parse(graph.dataset["cfg"]!)
@@ -58,13 +59,18 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
 
   const validLinks = new Set(data.keys())
   for (const [source, details] of data.entries()) {
-    const outgoing = details.links ?? []
-
-    for (const dest of outgoing) {
-      if (validLinks.has(dest)) {
-        links.push({ source: source, target: dest })
-      }
+    if (omitTitles.includes(source))
+    {
+      continue;
     }
+
+    const outgoing = details.links ?? [];
+
+    outgoing
+      .filter(dest => !omitTitles.includes(dest) && validLinks.has(dest))
+      .forEach(dest => {
+        links.push({ source: source, target: dest });
+      });
 
     if (showTags) {
       const localTags = details.tags

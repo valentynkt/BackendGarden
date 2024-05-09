@@ -1,6 +1,8 @@
 ---
 created: 2024-05-09 00:12
-aliases: 
+aliases:
+  - JavaScript Object Notation
+  - JavaScript Object Notation(JSON)
 tags:
   - LearningIT
   - seed🌱
@@ -9,11 +11,9 @@ links:
 
 link: [[Web Data Handling and Formats]]
 
-# JSON
-
-![[Pasted image 20240509001233.png]]
 # JSON (JavaScript Object Notation)
 
+![[Pasted image 20240509001233.png]]
 ## Overview
 
 JSON (JavaScript Object Notation) is a lightweight, text-based, language-independent data interchange format, derived from JavaScript but used by many programming languages. JSON is easy for humans to read and write, and easy for machines to parse and generate.

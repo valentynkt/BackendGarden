@@ -9,7 +9,6 @@ tags:
   - seed🌱
   - LearningIT
   - moc
-  - Landscape
 links: "[[Digital Garden]]"
 ---
 

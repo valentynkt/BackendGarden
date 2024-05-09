@@ -5,6 +5,7 @@ import style from "./styles/graph.scss"
 import { i18n } from "../i18n"
 import { classNames } from "../util/lang"
 
+const titlesToOmit =  ["notes/Landscape"]
 export interface D3Config {
   drag: boolean
   zoom: boolean
@@ -16,6 +17,7 @@ export interface D3Config {
   fontSize: number
   opacityScale: number
   removeTags: string[]
+  omitTitles: string[]
   showTags: boolean
   focusOnHover?: boolean
 }
@@ -37,6 +39,7 @@ const defaultOptions: GraphOptions = {
     fontSize: 0.8,
     opacityScale: 2,
     showTags: false,
+    omitTitles: titlesToOmit,
     removeTags: [],
     focusOnHover: true,
   },
@@ -45,12 +48,13 @@ const defaultOptions: GraphOptions = {
     zoom: true,
     depth: -1,
     scale: 0.7,
-    repelForce: 0.6,
-    centerForce: 0.2,
+    repelForce: 0.75,
+    centerForce: 0.5,
     linkDistance: 100,
     fontSize: 1,
     opacityScale: 1,
     showTags: false,
+    omitTitles: titlesToOmit,
     removeTags: [],
     focusOnHover: true,
   },
