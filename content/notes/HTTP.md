@@ -48,4 +48,5 @@ HTTP is essential for the functioning of the World Wide Web, facilitating a stru
 
 # References
 
+https://blog.bytebytego.com/p/http1-vs-http2-vs-http3-a-deep-dive
 https://blog.bytebytego.com/p/the-foundation-of-rest-api-http?utm_source=publication-search

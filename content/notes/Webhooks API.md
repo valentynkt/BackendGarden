@@ -1,35 +1,65 @@
-Date and Time: <u> 2023-10-19 20:18 </u>
-Status: #LearningIT
-Tags: [[API]]
+---
+created: 2024-05-10 19:40
+aliases:
+  - Webhooks
+  - Webhook
+tags:
+  - LearningIT
+  - seed🌱
+links:
+---
+
+link: [[API Architectures]]
 
 # Webhooks API
 
-## Webhook vs API
+## Overview
 
-``` ad-important
-- [[API]] communication between software applications via requests—App A requests information from App B, and App B decides whether to send the information. 
-- A [webhook](https://zapier.com/blog/what-are-webhooks/) is a type of event-driven API. Rather than sending information in response to another app's request, a webhook sends information or performs a specific function in response to a trigger—like the time of day, clicking a button, or receiving a form submission. Since the application sending the data initiates the transfer, webhooks are often referred to as "reverse [[API]]."
-```
+WebHooks are user-defined HTTP callbacks that are triggered by specific events in a web application or service. Unlike APIs that require polling for data regularly, WebHooks provide a more efficient method for servers to notify a client about changes in real-time. This makes WebHooks an essential component in modern web development for creating event-driven software.
 
-![[Pasted image 20231029200421.png]]
-![[Pasted image 20231029200531.png]]
-To put it simply, an API does stuff when you ask it to, while a [Webhook](https://hackernoon.com/tagged/webhook) does stuff on it’s own when certain criteria is met or scenarios takes place. Let’s dig a little deeper.
+## Key Features
 
-An [[API]] can used from a server to communicate with example.com. Through that communication, the API can List, Create, Edit or Delete items. The API needs to be given instructions, though.
-
-Webhooks on the other hand are automated calls from example.com to a server. Those calls are triggered when a specific event happens on example.com. For example, if a new user signs up on example.com, the automated call may be configured to ask the server to send out a welcome email.
-
-Webhooks and APIs differ in how they make requests. For instance, APIs will place calls for data whether there’s been a data update response, or not. While webhooks receive calls through HTTP POSTs only when the external system you’re hooked to has a data update.
-
-``` ad-important
-To summarize, webhooks enable lightweight data sharing between software when a specific action takes place, whereas APIs require user input on one end to request or modify data on the other end.
-```
-## Webhook Use Cases
-Webhooks are commonly used to perform smaller requests and tasks, however there are situations where a webhook is more appropriate than an entire API.
-
-Your app or platform demands real-time updates, but you don’t want to waste your resources. In this instance a webhook would be beneficial.
-# Reference:
-https://www.mparticle.com/blog/apis-vs-webhooks/
+> [!important]
+> - **Event-Driven**: Automatically triggered by events rather than requests.
+> - **Real-Time Updates**: Push notifications to external systems immediately after events occur.
+> - **Customizable**: Users can specify which events to subscribe to and where the notifications should be sent.
+> - **Efficient**: Reduces the need for frequent polling, saving resources and improving response times.
 
 
- 
+> [!question]- How WebHooks Work
+> 1. **Subscription**: A client subscribes to certain events on the server by registering a URL to receive the notifications.
+> 2. **Event Occurs**: When the specified event happens, the server makes an HTTP request to the registered URL.
+> 3. **Action**: The client receives the HTTP request and acts upon the data received.
+
+![[sbsu8jdq0lzjgilm8m2a.avif]]
+
+## Common Uses
+
+> [!example]-
+> - **E-Commerce**: Notify systems about transaction completions, shipment updates, or payment issues.
+> - **Project Management**: Update task statuses, notify team members about new comments or tasks.
+> - **Continuous Integration**: Send real-time alerts about build successes or failures.
+> - **Content Management**: Trigger actions in other services when new content is published or updated.
+
+## Pros and Cons
+
+> [!important]- **Pros**
+> - **Efficiency**: Significantly reduces server load and network traffic by eliminating the need for constant polling.
+> - **Real-Time**: Enables immediate reaction to events, enhancing user experience and system responsiveness.
+> - **Scalability**: Facilitates scalability in modern applications by handling event notifications at scale.
+
+> [!danger]- **Cons**
+> - **Security Risks**: If not properly validated, incoming WebHooks can pose security risks.
+> - **Dependence on External Services**: Reliance on external services to send WebHooks might affect system reliability.
+> - **Complexity in Error Handling**: Requires robust error handling strategies, as dealing with failures in asynchronous communication can be challenging.
+
+## Best Practices
+
+> [!example]-
+> - **Security**: Validate incoming WebHooks to ensure they are coming from the expected source.
+> - **Error Handling**: Implement robust error handling to manage failed delivery attempts gracefully.
+> - **Scaling**: Design the WebHook receiver to handle a high volume of incoming HTTP requests.
+
+## Conclusion
+
+WebHooks provide a powerful way to build interactive and integrated systems where real-time reaction to events is crucial. They are widely used because they allow services to communicate with each other automatically, enhancing the responsiveness and functionality of applications.
