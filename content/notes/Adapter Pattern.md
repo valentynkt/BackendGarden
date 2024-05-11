@@ -20,7 +20,7 @@ link: [[Structural patterns]]
 _Also known as: Wrapper_
 
 >[!abstract] 
->Adapter is a structural design pattern that allows objects with incompatible interfaces to collaborate.
+>Adapter is a [[Structural patterns|Structural]] design pattern that allows objects with incompatible interfaces to collaborate.
 
 ## Content
 
@@ -48,7 +48,7 @@ _Also known as: Wrapper_
 >- Modify your app's code to communicate solely through these adapters.
 >- When a call is made, the adapter translates XML data into JSON format and forwards it to the appropriate analytics library methods.
 
-**Summary:** By employing the Adapter pattern, you bridge the gap between incompatible interfaces, ensuring smooth integration of third-party components into your application without compromising existing functionality.
+**Summary:** By employing the Adapter pattern, you [[Bridge Pattern|Bridge]] the gap between incompatible interfaces, ensuring smooth integration of third-party components into your application without compromising existing functionality.
 
 ![[Pasted image 20240402193201.png]]
 
@@ -66,7 +66,7 @@ _Also known as: Wrapper_
     - Represents a useful class, often a 3rd-party or legacy component.
     - However, the client cannot directly utilize this class due to an incompatible interface.
 4. **Adapter:**
-    - The Adapter class acts as a bridge between the client and the service.
+    - The Adapter class acts as a [[Bridge Pattern|Bridge]] between the client and the service.
     - Implements the client interface while wrapping the service object.
     - Receives calls from the client via the adapter interface and translates them into a format compatible with the service object.
     - Utilizes object composition principle to achieve compatibility.
@@ -90,7 +90,7 @@ _Also known as: Wrapper_
     - Instead of extending each subclass and duplicating code, employ an adapter class.
     - The adapter encapsulates the missing functionality and dynamically adds it to objects lacking these features.
     - For this approach to work, the target classes must share a common interface, and the adapter's field should adhere to that interface.
-    - This approach bears resemblance to the Decorator pattern but focuses on bridging interface disparities rather than dynamically adding responsibilities.
+    - This approach bears resemblance to the [[Decorator Pattern|Decorator]] pattern but focuses on bridging interface disparities rather than dynamically adding responsibilities.
 
 ### How to Implement
 
@@ -141,21 +141,21 @@ _Also known as: Wrapper_
 ### Relations with Other Patterns
 
 1. **[[Bridge Pattern]]:**
-    - Bridge is typically designed upfront, allowing parts of an application to be developed independently of each other.
+    - [[Bridge Pattern|Bridge]] is typically designed upfront, allowing parts of an application to be developed independently of each other.
     - Adapter, on the other hand, is often used in existing applications to make otherwise incompatible classes work together smoothly.
 2. **[[Decorator Pattern]]:**
-    - Adapter changes the interface of an existing object, while Decorator enhances an object without altering its interface.
-    - Decorator supports recursive composition, which is not possible with Adapter.
+    - Adapter changes the interface of an existing object, while [[Decorator Pattern|Decorator]] enhances an object without altering its interface.
+    - [[Decorator Pattern|Decorator]] supports recursive composition, which is not possible with Adapter.
 3. **[[Proxy Pattern]]:**
     - Adapter provides a different interface to the wrapped object, whereas Proxy provides it with the same interface.
-    - Additionally, Decorator enhances the interface of the object.
+    - Additionally, [[Decorator Pattern|Decorator]] enhances the interface of the object.
 4. **[[Facade Pattern]]:**
-    - Facade defines a new interface for existing objects, whereas Adapter strives to make the existing interface usable.
-    - Adapter typically wraps a single object, while Facade works with an entire subsystem of objects.
+    - [[Facade Pattern|Facade]] defines a new interface for existing objects, whereas Adapter strives to make the existing interface usable.
+    - Adapter typically wraps a single object, while [[Facade Pattern|Facade]] works with an entire subsystem of objects.
 5. **[[Bridge Pattern]], [[State Pattern]], [[Strategy Pattern]]:**
     - These patterns, along with Adapter, share similar structures based on composition.
     - However, they address different problems, each communicating a distinct solution.
-    - While Bridge focuses on decoupling abstraction from implementation, State manages object state transitions, and Strategy encapsulates interchangeable algorithms.
+    - While [[Bridge Pattern|Bridge]] focuses on decoupling abstraction from implementation, State manages object state transitions, and Strategy encapsulates interchangeable algorithms.
     - Adapter, in contrast, adapts the interface of one object to another.
 
 ## Examples

@@ -50,9 +50,8 @@ Indexes are essential for enhancing the performance of database queries, particu
 > 
 > - **Separate Structure**: Maintains a different structure which includes pointers to the table's rows.
 > - **Flexible and Numerous**: A table can have multiple non-clustered indexes, making them versatile for various query types.
-> - **Example SQL Command**:
+> - **Example [[Relational Databases|SQL]] Command**:
 >     
->``` sql
 >CREATE NONCLUSTERED INDEX idx_CustomerID ON Orders (CustomerID);
 >```
 > 

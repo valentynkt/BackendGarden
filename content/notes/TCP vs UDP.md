@@ -38,7 +38,7 @@ Below is a table that contrasts the characteristics and typical use cases of TCP
 > - **UDP Use Cases**:
 >   - **Video Streaming**: Allows for continuous streaming without interruptions for buffering, which is crucial for live broadcasts.
 >   - **Online Gaming**: Minimizes latency and lag, providing a smoother gaming experience.
->   - **Voice over IP (VoIP)**: Reduces call setup time and delays, improving call quality.
+>   - **Voice over [[Internet Protocol|IP]] (VoIP)**: Reduces call setup time and delays, improving call quality.
 > 
 > This table and the outlined use cases help illustrate when to use TCP or UDP based on the specific needs of network communication.
 

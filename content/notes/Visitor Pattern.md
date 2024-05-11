@@ -19,7 +19,7 @@ links: [[Behavioral patterns]]
 
 ![[Pasted image 20240411172432.png]]
 >[!abstract] 
->**Visitor** is a behavioral design pattern that lets you separate algorithms from the objects on which they operate.
+>**Visitor** is a [[Behavioral patterns|Behavioral]] design pattern that lets you separate algorithms from the objects on which they operate.
 
 ## Content
 
@@ -168,7 +168,7 @@ This pattern facilitates adding new operations without altering the objects on w
 2. **Integration with [[Composite Pattern]]:**
     - Visitor is particularly useful in conjunction with the Composite pattern. It provides a way to apply operations uniformly across complex object structures, such as those arranged in a Composite tree. This is valuable for operations that need to be executed consistently across all components of the composite, from leaves to nodes.
 3. **Combination with [[Iterator Pattern]]:**
-    - Combining Visitor with Iterator is effective for traversing and applying operations to complex data structures, such as graphs or trees, where elements vary in type. The Iterator handles the traversal, ensuring each element is visited, and the Visitor applies a specific operation to each element, regardless of its class. This combination allows for clear separation of traversal and operational logic, enhancing modularity and reusability.
+    - Combining Visitor with [[Iterator Pattern|Iterator]] is effective for traversing and applying operations to complex data structures, such as graphs or trees, where elements vary in type. The [[Iterator Pattern|Iterator]] handles the traversal, ensuring each element is visited, and the Visitor applies a specific operation to each element, regardless of its class. This combination allows for clear separation of traversal and operational logic, enhancing modularity and reusability.
 
 
 ## Examples

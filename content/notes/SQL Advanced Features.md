@@ -65,7 +65,7 @@ The table below outlines the differences and appropriate use cases for each SQL 
 
 ### Implementation Overview
 
-Implementing these SQL features involves:
+Implementing these [[Relational Databases|SQL]] features involves:
 
 - **Defining**: Use `CREATE FUNCTION` for scalar and inline table-valued functions, `CREATE PROCEDURE` for stored procedures, and `CREATE VIEW` for views.
 - **Usage**: Scalar functions are used within SELECT clauses, inline table-valued functions can be joined like any other table, stored procedures are executed with specific parameters, and views are queried as regular tables.
@@ -173,7 +173,7 @@ Let's delve into the practical applications of scalar functions, inline table-va
 >
 >```
 > 
-> **Description**: The view `EmployeeBonuses` simplifies access to employee sales data and their calculated bonuses by storing the SQL query. Views are great for encapsulating complex queries and providing a simpler interface to access data, acting like a virtual table.
+> **Description**: The view `EmployeeBonuses` simplifies access to employee sales data and their calculated bonuses by storing the [[Relational Databases|SQL]] query. Views are great for encapsulating complex queries and providing a simpler interface to access data, acting like a virtual table.
 
 
 > [!example]- **Materialized View Example**
@@ -199,15 +199,15 @@ Let's delve into the practical applications of scalar functions, inline table-va
 
 > [!warning] Refreshing Materialized View
 > Remember to refresh it using a correct syntax. 
-> For example in SQL Server you should use next syntax:
+> For example in [[Relational Databases|SQL]] Server you should use next syntax:
 > `UPDATE STATISTICS your_view_name;`
 
 
-These examples underscore the distinct functionalities and suitable scenarios for using scalar functions, inline table-valued functions, stored procedures, and views in SQL database operations. Each has its strengths and specific use cases, making them indispensable tools in the SQL developer's toolkit.
+These examples underscore the distinct functionalities and suitable scenarios for using scalar functions, inline table-valued functions, stored procedures, and views in [[Relational Databases|SQL]] database operations. Each has its strengths and specific use cases, making them indispensable tools in the [[Relational Databases|SQL]] developer's toolkit.
 ## Summary
 
 > [!summary] 
-> Scalar functions, inline table-valued functions, stored procedures, and views are essential SQL features that enhance database functionality and efficiency. Each serves different purposes from simple calculations and data retrieval to complex business logic execution and data presentation, enabling developers to choose the right tool for their specific needs. Understanding these features and their appropriate applications can significantly streamline database operations and data management.
+> Scalar functions, inline table-valued functions, stored procedures, and views are essential [[Relational Databases|SQL]] features that enhance database functionality and efficiency. Each serves different purposes from simple calculations and data retrieval to complex business logic execution and data presentation, enabling developers to choose the right tool for their specific needs. Understanding these features and their appropriate applications can significantly streamline database operations and data management.
 
 # References
 

@@ -25,7 +25,7 @@ Architectural patterns are high-level strategies that guide the overall layout a
 
 ### Key Concepts
 
-The following are some of the primary architectural patterns used in system design, each addressing specific structural and operational needs:
+The following are some of the primary architectural patterns used in system design, each addressing specific [[Structural patterns|Structural]] and operational needs:
 
 > [!important]
 > - [[Monolithic Architecture Pattern]]

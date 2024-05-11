@@ -21,7 +21,7 @@ The YAGNI principle is a reminder to developers to not add functionality until i
 > - **Reduce Complexity**: Limits the addition of unnecessary complexity which can make maintenance harder and introduce more bugs.
 
 > [!warning] Caution 
-> Following YAGNI strictly without flexibility can sometimes delay necessary refactoring or long-term planning, potentially leading to technical debt if not managed carefully.
+> Following YAGNI strictly without flexibility can sometimes delay necessary [[Refactoring]] or long-term planning, potentially leading to technical debt if not managed carefully.
 
 YAGNI helps streamline development processes by ensuring that every element and feature has a justified need, which in turn keeps the codebase clean and maintainable.
 

@@ -47,10 +47,10 @@ API architectural styles are designed to suit specific scenarios and requirement
 
 
 > [!important]- Key Insights
-> - **Communication Type**: Reflects how data is managed between client and server, with stateless systems like REST and GraphQL not maintaining any server state, unlike stateful systems like SOAP.
-> - **Scalability**: Highlights the architecture's ability to handle increases in users or data volume. REST, GraphQL, and gRPC excel due to their efficient handling of requests and connections.
+> - **Communication Type**: Reflects how data is managed between client and server, with stateless systems like REST and [[GraphQL API|GraphQL]] not maintaining any server state, unlike stateful systems like SOAP.
+> - **Scalability**: Highlights the architecture's ability to handle increases in users or data volume. REST, [[GraphQL API|GraphQL]], and gRPC excel due to their efficient handling of requests and connections.
 > - **Security Level**: Some architectures, such as SOAP and gRPC, offer more robust security features crucial for managing sensitive or critical data.
-> - **Typical Use Cases**: Each API style is optimal for specific scenarios, from general web services (REST) to complex financial transactions (SOAP) and real-time interactive applications (WebSockets, gRPC).
+> - **Typical Use Cases**: Each API style is optimal for specific scenarios, from general web services (REST) to complex financial transactions (SOAP) and real-time interactive applications ([[Websockets]], gRPC).
 
 
 ## [[Real-Time Notification Architectures]]
@@ -65,7 +65,7 @@ API architectural styles are designed to suit specific scenarios and requirement
 > - **Performance Needs**: Technologies like [[gRPC API]] are preferred for high performance and low latency.
 > - **Data Complexity**: [[GraphQL API]] offers a customized fetching approach beneficial in complex data scenarios.
 > - **Security Requirements**: [[SOAP API]] provides robust security features necessary for sensitive enterprise environments.
-> - **Real-Time Data Flow**: For applications needing instant updates, WebSockets, SSE, Webhooks, and gRPC are excellent choices.
+> - **Real-Time Data Flow**: For applications needing instant updates, [[Websockets]], SSE, [[Webhooks API|Webhooks]], and gRPC are excellent choices.
 > - **General Usage**: REST's ease of implementation makes it widely applicable for most use cases.
 > 
 

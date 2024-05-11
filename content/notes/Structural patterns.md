@@ -49,14 +49,14 @@ Structural patterns are crucial for managing the design and interaction of diffe
 Implementing structural patterns involves an understanding of how components interact within a system and tailoring the structural relationships to leverage these interactions optimally:
 
 - **Enhance Flexibility and Scalability**: Choose appropriate patterns to manage and simplify interactions between complex objects.
-- **Reduce Complexity**: Use patterns like Facade to provide simple interfaces to complex systems, thus reducing dependencies and increasing modularity.
-- **Optimize Resource Usage**: Apply patterns like Flyweight when the system demands efficient management of resources by sharing common states among objects.
+- **Reduce Complexity**: Use patterns like [[Facade Pattern|Facade]] to provide simple interfaces to complex systems, thus reducing dependencies and increasing modularity.
+- **Optimize Resource Usage**: Apply patterns like [[Flyweight Pattern|Flyweight]] when the system demands efficient management of resources by sharing common states among objects.
 
 
 ## Summary
 
 >[!summary] 
->Structural design patterns are instrumental in building complex yet efficient systems. By enabling better control over how classes and objects are composed and interact, these patterns help developers create software that is both easier to manage and more flexible to extend. Whether it's integrating new functionalities with Decorator or managing memory effectively with Flyweight, structural patterns provide the tools necessary for building sophisticated software architectures.
+>Structural design patterns are instrumental in building complex yet efficient systems. By enabling better control over how classes and objects are composed and interact, these patterns help developers create software that is both easier to manage and more flexible to extend. Whether it's integrating new functionalities with [[Decorator Pattern|Decorator]] or managing memory effectively with [[Flyweight Pattern|Flyweight]], structural patterns provide the tools necessary for building sophisticated software architectures.
 
 # References
 

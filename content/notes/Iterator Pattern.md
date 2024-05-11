@@ -66,7 +66,7 @@ This structure ensures that the Iterator pattern provides a clear and flexible f
 
 2. **Reducing Code Duplication:** The pattern centralizes iteration logic, separating it from the core business logic of your application. This separation helps in organizing and maintaining code by eliminating repetitive iteration code throughout the application.
 
-3. **Uniform Data Access:** The Iterator pattern facilitates consistent access to various data structures using a single iterative interface. This uniformity promotes code reusability and reduces coupling between components.
+3. **Uniform Data Access:** The Iterator pattern facilitates consistent access to various data structures using a single iterative interface. This uniformity promotes [[Code reuse|Code Reusability]] and reduces coupling between components.
    
 4. **Flexible Collection Management:** It’s beneficial in environments with diverse or evolving collection types. Implementing this pattern ensures that your application can adapt to new data structures with minimal code changes, as long as these structures support a standard iterator interface.
   
@@ -118,7 +118,7 @@ This structure ensures that the Iterator pattern provides a clear and flexible f
 
 ### Relations with Other Patterns
 
-The Iterator pattern interacts synergistically with several other design patterns, enhancing its functionality and broadening its applicability. Here’s how it relates to other common design patterns:
+The Iterator pattern interacts synergistically with several other design patterns, enhancing its functionality and broadening its applicability. Here’s how it relates to other [[Design Patterns|Common Design Patterns]]:
 
 **1. [[Composite Pattern]]:**
 
@@ -126,15 +126,15 @@ The Iterator pattern interacts synergistically with several other design pattern
 
 **2. [[Factory Method Pattern]]:**
 
-- **Custom Iterator Creation:** Combining the Factory Method with the Iterator pattern enables a collection to produce iterators that are specifically tailored to the needs of that collection. This approach is beneficial when collections vary significantly in terms of their structure and the optimal iteration strategy. The Factory Method pattern can be used to encapsulate the creation logic of these iterators, allowing subclasses of the collection to define which iterators to produce, thereby ensuring compatibility and optimizing performance.
+- **Custom Iterator Creation:** Combining the [[Factory Method Pattern|Factory Method]] with the Iterator pattern enables a collection to produce iterators that are specifically tailored to the needs of that collection. This approach is beneficial when collections vary significantly in terms of their structure and the optimal iteration strategy. The [[Factory Method Pattern|Factory Method]] pattern can be used to encapsulate the creation logic of these iterators, allowing subclasses of the collection to define which iterators to produce, thereby ensuring compatibility and optimizing performance.
 
 **3. [[Memento Pattern]]:**
 
-- **State Capture and Restoration:** When used alongside the Memento pattern, the Iterator can save its current state (such as the current traversal position) and restore it later. This is particularly useful in applications requiring complex traversal operations that may need to be undone or replayed. For example, in a user interface where a user can navigate back and forth within a collection, capturing the state of an iterator allows the application to easily revert to a previous state.
+- **State Capture and Restoration:** When used alongside the [[Memento Pattern|Memento]] pattern, the Iterator can save its current state (such as the current traversal position) and restore it later. This is particularly useful in applications requiring complex traversal operations that may need to be undone or replayed. For example, in a user interface where a user can navigate back and forth within a collection, capturing the state of an iterator allows the application to easily revert to a previous state.
 
 **4. [[Visitor Pattern]]:**
 
-- **Operation Execution Across Classes:** The Iterator pattern can be effectively paired with the Visitor pattern to perform operations across elements of a collection that may have different types. By separating the operations performed on elements from the classes of the elements themselves, the Visitor pattern allows adding new operations without changing the classes on which it operates. The Iterator provides the mechanism to traverse the elements, and the Visitor defines what happens during this traversal.
+- **Operation Execution Across Classes:** The Iterator pattern can be effectively paired with the [[Visitor Pattern|Visitor]] pattern to perform operations across elements of a collection that may have different types. By separating the operations performed on elements from the classes of the elements themselves, the [[Visitor Pattern|Visitor]] pattern allows adding new operations without changing the classes on which it operates. The Iterator provides the mechanism to traverse the elements, and the [[Visitor Pattern|Visitor]] defines what happens during this traversal.
 
 ## Examples
 
@@ -147,7 +147,7 @@ This C# code demonstrates the **Iterator** design pattern within the context of 
 >    - Represents a user profile in the social network, encapsulating properties such as the user's ID and email.
 >2. **`SocialNetwork` Interface**:
 >    
->    - Declares a factory method for producing iterators for different types of profile lists, such as friends and coworkers.
+>    - Declares a [[Factory Method Pattern|Factory Method]] for producing iterators for different types of profile lists, such as friends and coworkers.
 >3. **`Facebook` Class**:
 >    
 >    - A concrete implementation of the `SocialNetwork` interface that simulates fetching profile data from a social graph. It provides methods to create iterators for friends and coworkers lists based on a profile ID.

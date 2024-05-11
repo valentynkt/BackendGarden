@@ -15,7 +15,7 @@ link: [[API Architectures]]
 
 ## Overview
 
-WebHooks are user-defined HTTP callbacks that are triggered by specific events in a web application or service. Unlike APIs that require polling for data regularly, WebHooks provide a more efficient method for servers to notify a client about changes in real-time. This makes WebHooks an essential component in modern web development for creating event-driven software.
+WebHooks are user-defined HTTP callbacks that are triggered by specific events in a [[Web]] application or service. Unlike APIs that require polling for data regularly, WebHooks provide a more efficient method for servers to notify a client about changes in real-time. This makes WebHooks an essential component in modern web development for creating event-driven software.
 
 ## Key Features
 
@@ -28,8 +28,8 @@ WebHooks are user-defined HTTP callbacks that are triggered by specific events i
 
 > [!question]- How WebHooks Work
 > 1. **Subscription**: A client subscribes to certain events on the server by registering a URL to receive the notifications.
-> 2. **Event Occurs**: When the specified event happens, the server makes an HTTP request to the registered URL.
-> 3. **Action**: The client receives the HTTP request and acts upon the data received.
+> 2. **Event Occurs**: When the specified event happens, the server makes an [[HTTP]] request to the registered URL.
+> 3. **Action**: The client receives the [[HTTP]] request and acts upon the data received.
 
 ![[sbsu8jdq0lzjgilm8m2a.avif]]
 
@@ -58,7 +58,7 @@ WebHooks are user-defined HTTP callbacks that are triggered by specific events i
 > [!example]-
 > - **Security**: Validate incoming WebHooks to ensure they are coming from the expected source.
 > - **Error Handling**: Implement robust error handling to manage failed delivery attempts gracefully.
-> - **Scaling**: Design the WebHook receiver to handle a high volume of incoming HTTP requests.
+> - **Scaling**: Design the WebHook receiver to handle a high volume of incoming [[HTTP]] requests.
 
 ## Conclusion
 

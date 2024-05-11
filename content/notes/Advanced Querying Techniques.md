@@ -12,7 +12,7 @@ link: [[SQL Operations]]
 
 > [!important]- **Window Functions**
 > 
-> Window functions perform calculations across sets of rows related to the current row, providing powerful analytics capabilities directly in SQL queries.
+> Window functions perform calculations across sets of rows related to the current row, providing powerful analytics capabilities directly in [[Relational Databases|SQL]] queries.
 > 
 > - **Functions Include**: `ROW_NUMBER()`, `RANK()`, `DENSE_RANK()`, `SUM()`, `AVG()`, `MIN()`, `MAX()`, over specified partitions of data.
 
@@ -20,23 +20,23 @@ link: [[SQL Operations]]
 > 
 > Recursive queries are used for processing hierarchical or nested data structures, such as organizational charts or multi-level categories.
 > 
-> - **SQL Syntax**: Typically implemented using the `WITH RECURSIVE` clause to facilitate self-referencing queries in SQL.
+> - **[[Relational Databases|SQL]] Syntax**: Typically implemented using the `WITH RECURSIVE` clause to facilitate self-referencing queries in [[Relational Databases|SQL]].
 
 > [!important]- **Common Table Expressions (CTEs)**
 > 
 > CTEs allow for the temporary naming of a result set that can be referenced within a SELECT, INSERT, UPDATE, or DELETE statement.
 > 
-> - **Benefits**: Enhances readability and maintainability of complex SQL queries, especially useful for breaking down complex joins and subqueries.
+> - **Benefits**: Enhances readability and maintainability of complex [[Relational Databases|SQL]] queries, especially useful for breaking down complex joins and subqueries.
 
 > [!important]- **Pivoting Data**
 > 
 > Pivoting transforms data from rows into columns, turning unique values from one column into multiple columns in the output, facilitating easier comparative analysis.
 > 
-> - **SQL Tools**: Utilizes `PIVOT` in SQL Server or conditional aggregation in other RDBMS like PostgreSQL and MySQL.
+> - **[[Relational Databases|SQL]] Tools**: Utilizes `PIVOT` in [[Relational Databases|SQL]] Server or conditional aggregation in other RDBMS like PostgreSQL and MySQL.
 
-> [!important]- **Dynamic SQL**
+> [!important]- **Dynamic [[Relational Databases|SQL]]**
 > 
-> Dynamic SQL involves SQL commands that are dynamically constructed at runtime and executed as strings. This allows for more flexible and programmable interactions with the database.
+> Dynamic [[Relational Databases|SQL]] involves [[Relational Databases|SQL]] commands that are dynamically constructed at runtime and executed as strings. This allows for more flexible and programmable interactions with the database.
 > 
 > - **Use Cases**: Building queries programmatically based on varying user inputs or application conditions.
 
@@ -60,7 +60,7 @@ link: [[SQL Operations]]
 
 > [!important]- **Geospatial Functions**
 > 
-> SQL databases equipped with geospatial capabilities allow for the manipulation and query of geographic data within SQL.
+> [[Relational Databases|SQL]] databases equipped with geospatial capabilities allow for the manipulation and query of geographic data within [[Relational Databases|SQL]].
 > 
 > - **Functionalities**: Functions like `ST_Contains`, `ST_Distance`, and others in PostGIS (PostgreSQL) or spatial functions in MySQL help in processing geospatial information.
 

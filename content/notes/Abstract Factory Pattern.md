@@ -42,7 +42,7 @@ _Also known as: Virtual Constructor_
 
 
 > [!success]  **Solution** 
-> **The Abstract Factory pattern** addresses these challenges effectively. By defining interfaces for each product type within a family (Chair, Sofa, CoffeeTable), and ensuring all product variants comply with these interfaces, the application can manage furniture items more flexibly. Here’s how it works:
+> **The Abstract [[Factory Method Pattern|Factory Pattern]]** addresses these challenges effectively. By defining interfaces for each product type within a family (Chair, Sofa, CoffeeTable), and ensuring all product variants comply with these interfaces, the application can manage furniture items more flexibly. Here’s how it works:
 > 
 > - Each style variant (Modern, Victorian, ArtDeco) is encapsulated within its own class hierarchy, enabling uniform style management across different product types.
 > - An Abstract Factory interface is established, comprising methods like `createChair()`, `createSofa()`, and `createCoffeeTable()`. These methods return products that conform to the respective interfaces, ensuring stylistic consistency.
@@ -53,7 +53,7 @@ _Also known as: Virtual Constructor_
 
 **Key Points:**
 
-- The Abstract Factory pattern facilitates the creation of compatible furniture families, ensuring stylistic consistency across different products.
+- The Abstract [[Factory Method Pattern|Factory Pattern]] facilitates the creation of compatible furniture families, ensuring stylistic consistency across different products.
 - It decouples the client code from concrete implementations, enhancing the application's flexibility and maintainability.
 - Factories are selected based on the application’s configuration or environment settings, allowing dynamic integration of various product styles.
 
@@ -127,11 +127,11 @@ _Also known as: Virtual Constructor_
 
 ### Relations with Other Patterns
 
-- **[[Factory Method Pattern]]:** - Often, designs begin with the Factory Method Pattern due to its simplicity and customization through subclasses. As requirements evolve, they may transition towards more flexible patterns like Abstract Factory, Prototype, or Builder Pattern. 
-- **[[Builder Pattern]]:** - Builder Pattern focuses on incrementally constructing complex objects, whereas Abstract Factory specializes in creating families of related objects. Abstract Factory immediately returns the product, while Builder Pattern allows for additional construction steps before fetching the product. 
-- **[[Facade Pattern]]:** - Abstract Factory can serve as an alternative to the Facade Pattern when the objective is solely to conceal the creation process of subsystem objects from the client code. 
-- **[[Bridge Pattern]]:** - Abstract Factory can be effectively used in conjunction with the Bridge Pattern. This combination is beneficial when certain abstractions defined by the Bridge Pattern are constrained to work with specific implementations. Abstract Factory can encapsulate these relationships, abstracting away complexity from the client code. 
-- **[[Singleton Pattern]]:** - Abstract Factories, Builder Pattern, and Prototype Pattern can all be implemented as Singleton Patterns. This ensures that only a single instance of these patterns exists throughout the application, providing centralized control over their instantiation.
+- **[[Factory Method Pattern]]:** - Often, designs begin with the [[Factory Method Pattern|Factory Method]] Pattern due to its simplicity and customization through subclasses. As requirements evolve, they may transition towards more flexible patterns like Abstract Factory, Prototype, or [[Builder Pattern|Builder]] Pattern. 
+- **[[Builder Pattern]]:** - [[Builder Pattern|Builder]] Pattern focuses on incrementally constructing complex objects, whereas Abstract Factory specializes in creating families of related objects. Abstract Factory immediately returns the product, while [[Builder Pattern|Builder]] Pattern allows for additional construction steps before fetching the product. 
+- **[[Facade Pattern]]:** - Abstract Factory can serve as an alternative to the [[Facade Pattern|Facade]] Pattern when the objective is solely to conceal the creation process of subsystem objects from the client code. 
+- **[[Bridge Pattern]]:** - Abstract Factory can be effectively used in conjunction with the [[Bridge Pattern|Bridge]] Pattern. This combination is beneficial when certain abstractions defined by the [[Bridge Pattern|Bridge]] Pattern are constrained to work with specific implementations. Abstract Factory can encapsulate these relationships, abstracting away complexity from the client code. 
+- **[[Singleton Pattern]]:** - Abstract Factories, [[Builder Pattern|Builder]] Pattern, and Prototype Pattern can all be implemented as [[Singleton Pattern|Singleton]] Patterns. This ensures that only a single instance of these patterns exists throughout the application, providing centralized control over their instantiation.
 
 ## Examples
 

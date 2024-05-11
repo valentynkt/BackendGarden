@@ -20,7 +20,7 @@ link: [[Object Oriented Programming|OOP]]
 Abstraction is a core concept in object-oriented programming that simplifies the management of complex systems by focusing on the essential characteristics of an object, while hiding the unnecessary implementation details. This principle helps developers build interfaces that are cleaner and more intuitive, enhancing both usability and maintainability.
 
 >[!abstract] 
->Abstraction is a general concept which you can find in the real world as well as in OOP language
+>Abstraction is a general concept which you can find in the real world as well as in [[Object Oriented Programming|OOP]] language
 
 ## Content
 
@@ -70,7 +70,7 @@ To access the abstract class, it must be [[Inheritance|Inherited]] from another 
 ### Types of Abstraction in OOP
 
 
-Abstraction in OOP can primarily be categorized into two types:
+Abstraction in [[Object Oriented Programming|OOP]] can primarily be categorized into two types:
 
 > [!important]+ Data Abstraction
 > Data Abstraction focuses on hiding the internal state and requiring users to interact with data through specified methods. A typical implementation involves abstract classes or interface

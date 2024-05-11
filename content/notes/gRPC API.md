@@ -8,14 +8,14 @@ Tags: [[API]], [[Microservices]]
 Google Remote Procedure Calls(gRPC), an open-source framework, facilitates the development of high-performance, scalable, and efficient distributed systems. Developed by Google in 2015, gRPC efficiently connects systems, written in different languages, using a pluggable architecture that supports load balancing, tracing, health checking, and authentication.
 
 ## Intro
-gRPC is widely used for communication between internal microservices majorly due to its high performance and its polyglot nature.
+gRPC is widely used for communication between internal [[Microservices Architecture Pattern|Microservices]] majorly due to its high performance and its polyglot nature.
 
 gRPC uses [[HTTP 2.0|HTTP/2]] as its transfer protocol and hence it inherits the benefits like binary framing from [[HTTP 2.0|HTTP/2]]. [[HTTP 2.0|HTTP/2]] lightweight to transport, and safer to decode compared to other text-based protocols. Due to its binary nature, HTTP/2 forms a good combination with the [[Protocol Buffers|Protobuf]] format.
 
 To understand gRPC, we must first understand [[#RPC]]
 
 ## RPC
-RPC follows the client-server model, where the requesting program acts as the client and the service-providing program operates as the server.
+RPC follows the [[Client-Server Architecture Pattern|Client-Server Model]], where the requesting program acts as the client and the service-providing program operates as the server.
 
 The process flow of a remote procedure call request consists of the following steps:
 ``` ad-important
@@ -68,14 +68,14 @@ On the server side, the server implements that service definition and runs a gRP
 On the client side, we generate the client-side stub using the service definition. The client stub provides the same methods as the server and it converts them to remote function invocation network calls that go to the server side. Since gRPC service definitions are language-agnostic, client stubs can be created in any language.
 ## gRPC [[Microservices]]
 
-One of the biggest advantages of microservices is the ability to use different technologies for each independent service i.e polyglot. Each microservices agrees on API to exchange data, data format, error patterns, load balancing, etc. Since gRPC allows for describing a contract in a binary format, it can be used efficiently for microservices communication independent of the languages.
+One of the biggest advantages of [[Microservices Architecture Pattern|Microservices]] is the ability to use different technologies for each independent service i.e polyglot. Each [[Microservices Architecture Pattern|Microservices]] agrees on API to exchange data, data format, error patterns, load balancing, etc. Since gRPC allows for describing a contract in a binary format, it can be used efficiently for [[Microservices Architecture Pattern|Microservices]] communication independent of the languages.
 ![[Pasted image 20231030184125.png]]
 
-In the above diagram, a microservices architecture is shown. The request from the client (web or mobile) reaches the API Gateway and then goes to the aggregator service (gRPC Client)
+In the above diagram, a [[Microservices Architecture Pattern|Microservices]] architecture is shown. The request from the client (web or mobile) reaches the API Gateway and then goes to the aggregator service (gRPC Client)
 
-The Shopping Aggregator microservice calls the other microservices internally and aggregates the data to send to the front end. As you can see, the communication between aggregators and other services happens through the gRPC protocol.
+The Shopping Aggregator microservice calls the other [[Microservices Architecture Pattern|Microservices]] internally and aggregates the data to send to the front end. As you can see, the communication between aggregators and other services happens through the gRPC protocol.
 
-In a real-world scenario, microservices will talk to each other a lot to aggregate the data and send it to the client. If we use a normal [[REST API]] it will tend to be slower and the client will experience more latency. If we use gRPC between microservices, it will be much faster and have low latency for the client.
+In a real-world scenario, [[Microservices Architecture Pattern|Microservices]] will talk to each other a lot to aggregate the data and send it to the client. If we use a normal [[REST API]] it will tend to be slower and the client will experience more latency. If we use gRPC between [[Microservices Architecture Pattern|Microservices]], it will be much faster and have low latency for the client.
  
 ``` ad-important
 gRPC Client is the aggretor which call other microservices which will be gRPC Server. Because of using [[Protocol Buffers]] we can have microservices using different languages which will support proto. The data between gRPC Client and Server will be send in language agnostic format proto. We can also have another pattern when not only Aggregator will be the gRPC Client but all Microservices can make call to another microservice and according to context be a gRPC Client
@@ -139,9 +139,9 @@ gRPC can be used for the following use cases:
 ```
 ## gRPC vs [[REST API]]
 
-As gRPC heavily uses [[HTTP 2.0|HTTP/2]], it is impossible to call a gRPC service from a web browser directly. Modern browsers do not provide the control needed over web requests to support a gRPC client. Hence, a proxy layer and gRPC-web are required to perform conversions between HTTP/1.1 and [[HTTP 2.0|HTTP/2]].
+As gRPC heavily uses [[HTTP 2.0|HTTP/2]], it is impossible to call a gRPC service from a web browser directly. Modern browsers do not provide the control needed over web requests to support a gRPC client. Hence, a proxy layer and gRPC-web are required to perform conversions between [[HTTP 1.1|HTTP/1.1]] and [[HTTP 2.0|HTTP/2]].
 
-So REST APIs are still well suited for client-server communication and gRPC is now mainly used for server-to-server communication between microservices
+So REST APIs are still well suited for client-server communication and gRPC is now mainly used for server-to-server communication between [[Microservices Architecture Pattern|Microservices]]
 
 ![[Pasted image 20231031153409.png]]
 # Reference:

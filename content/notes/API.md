@@ -52,7 +52,7 @@ API architectural styles vary, each with its specifications and best use cases:
 > - [[SOAP API]]: This protocol uses XML for sending structured data and is preferred for its high security in enterprise applications.
 > - [[GraphQL API]]: Enables precise data fetching in one go, reducing the need for multiple queries and is excellent for dynamic web applications.
 > - [[Webhooks API]]: Facilitates real-time communication via event-based triggers, automatically pushing data as events occur.
-> - [[gRPC API]]: Developed by Google, gRPC supports inter-process communication, making it a robust choice for microservices architectures.
+> - [[gRPC API]]: Developed by Google, gRPC supports inter-process communication, making it a robust choice for [[Microservices Architecture Pattern|Microservices]] architectures.
 
 Understanding the diversity of API types and their architectures not only helps in selecting the most appropriate ones for your projects but also optimizes the interaction and functionality of applications across different platforms.
 
