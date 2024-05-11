@@ -312,7 +312,7 @@ This implementation of the Observer pattern effectively decouples the `Editor` f
 >
 >**Common Scenarios**:
 >- Implementing distributed event-handling systems.
->- In MVC architecture, model updates are often notified to multiple views using an Observer pattern.
+>- In [[Model-View-Controller Pattern|MVC architecture]], model updates are often notified to multiple views using an Observer pattern.
 >- Real-time data feeds that need to be updated in the UI or elsewhere when data changes.
 
 ^bcfb23

@@ -5,7 +5,7 @@ Tags: [[API]], [[Authentication and Authorization]]
 # API authentication
 ## Intro
 
-API authentication is the process of verifying the identity of a user who is making an API request, and it is a crucial pillar of [API security](https://www.postman.com/api-platform/api-security/). There are many types of API authentication, such as HTTP basic authentication, API key authentication, [[Json Web Tokens|JWT]], and OAuth, and each one has its own benefits, trade-offs, and ideal use cases. Nevertheless, all API authentication mechanisms share the goal of protecting sensitive data and ensuring the API is not misused.
+API authentication is the process of verifying the identity of a user who is making an API request, and it is a crucial pillar of [[API Security]]. There are many types of API authentication, such as HTTP basic authentication, API key authentication, [[Json Web Tokens|JWT]], and OAuth, and each one has its own benefits, trade-offs, and ideal use cases. Nevertheless, all API authentication mechanisms share the goal of protecting sensitive data and ensuring the API is not misused.
 
 ## Types of API authentication
 There are many API authentication mechanisms, and each one operates differently. These four methods are among the most common:

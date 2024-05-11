@@ -1,6 +1,7 @@
 ---
 created: 2024-05-06 22:08
-aliases: 
+aliases:
+  - HTTP Status Code
 tags:
   - LearningIT
   - seed🌱

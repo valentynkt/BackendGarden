@@ -17,7 +17,7 @@ UTF-8 is a variable-width character encoding used for electronic communication. 
 
 
 > [!important]- Key Features of UTF-8
-> - **Compatibility with ASCII**: UTF-8 is backward compatible with ASCII. ASCII characters only require one byte in UTF-8, which simplifies handling ASCII texts.
+> - **Compatibility with [[ASCII]]**: UTF-8 is backward compatible with ASCII. ASCII characters only require one byte in UTF-8, which simplifies handling ASCII texts.
 > - **Self-synchronization**: The design of UTF-8 allows the start of any character in the byte sequence to be recognized without requiring backward scanning. This makes it easier to recover from partial or incorrect transmissions.
 > - **Byte order independence**: Unlike UTF-16 and UTF-32, UTF-8 does not require byte order marking (BOM), thus avoiding the complications of endianess.
 > - **Efficient use of space**: UTF-8 uses only as much space as needed per character, ranging from 1 to 4 bytes, making it space-efficient for texts containing primarily ASCII characters.

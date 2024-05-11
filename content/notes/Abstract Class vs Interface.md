@@ -4,18 +4,18 @@ Tags: [[CSharp]], [[Object Oriented Programming]], [[Abstraction]], [[Inheritanc
 # Abstract Class vs Interface
 
 ``` ad-note
-This a common misunderstanding between Abstract Class and Interface. If we hear a word Interface it should not be exactly related to keyword `Interface` in C#, Interface can also mean Abstract class and when we say Interface it mean just some Abstraction but some specific keywords in C#. Below we will discuss about specific `Interface` and `Abstract class` keywords.
+This a common misunderstanding between Abstract Class and Interface. If we hear a word Interface it should not be exactly related to keyword `Interface` in C#, Interface can also mean Abstract class and when we say Interface it mean just some [[Abstraction]] but some specific keywords in C#. Below we will discuss about specific `Interface` and `Abstract class` keywords.
 And the difference between them.
 
 Also the diffrence between these two keywords became very small after C# 8.0 update because it add Interface default implementation. 
 
-Before this version we was using Abstract class for abstraction that can contain default implementation and interface for methods and their signature we should implement.
+Before this version we was using Abstract class for [[abstraction]] that can contain default implementation and interface for methods and their signature we should implement.
 In my opinion even after 8.0 update we should follow this principle
 ```
 
 ## Abstract class
 
-An [abstract class](https://www.geeksforgeeks.org/c-abstract-classes/) is a way to achieve the abstraction in C#. To declare abstract class , we use abstract keyword. An Abstract class is never intended to be instantiated directly. This class must contain at least one abstract method, which is marked by the keyword or modifier _abstract_ in the class definition. The Abstract classes are typically used to define a base class in the class hierarchy.  
+An [abstract class](https://www.geeksforgeeks.org/c-abstract-classes/) is a way to achieve the [[abstraction]] in C#. To declare abstract class , we use abstract keyword. An Abstract class is never intended to be instantiated directly. This class must contain at least one abstract method, which is marked by the keyword or modifier _abstract_ in the class definition. The Abstract classes are typically used to define a base class in the class hierarchy.  
 
 ``` ad-example
 ``` csharp

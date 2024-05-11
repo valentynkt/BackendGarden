@@ -33,7 +33,7 @@ The Layered Architecture Pattern embodies the principle of separation of concern
 >- **Presentation Layer (PL)**: Acts as the user interface, managing all user interactions, data presentation, and user input validation. It's the topmost layer that users interact with directly.
 >- **Business Logic Layer (BLL)**: Processes business rules, data validation, and task-specific behaviors. It serves as the core for decision-making and computation in the application.
 >- **Data Access Layer (DAL)**: Also known as the Persistence Layer, it handles all data communication with databases or other storage systems, ensuring data is provided to the Business Logic Layer and saved appropriately.
->- **Database Layer (DBL)**: Specifically manages the storage, retrieval, update, and deletion of data in databases. This layer is crucial for data integrity and security.
+>- **[[Database]] Layer (DBL)**: Specifically manages the storage, retrieval, update, and deletion of data in databases. This layer is crucial for data integrity and security.
 >- **Service Layer (SL)**: (Optional) Provides a unified interface that facilitates communication between the Business Logic Layer and other parts of the application or external services. It simplifies interactions by aggregating business logic needs and data operations into cohesive services.
 
 This pattern does not prescribe a specific set of layers; rather, it provides a framework that can be adapted based on the complexity and requirements of the application. For instance, the **[[Model-View-Controller Pattern]] (MVC)**  is an example of the Layered Architecture in software design, utilizing a three-layer approach that corresponds to Model (data), View (interface), and Controller (input logic), effectively demonstrating how this architectural pattern can be applied flexibly in different contexts.
@@ -66,7 +66,7 @@ Implementing a Layered Architecture comes with its set of advantages and disadva
 
 The Layered Architecture Pattern is best suited for:
 
-- **Enterprise Applications**: Where different layers can encapsulate various business models and processes.
+- **Enterprise Applications**: Where different layers can [[Encapsulation|encapsulate]] various business models and processes.
 - **Large-Scale Web Applications**: That require clear separation between the server-side logic and the client-side user interface.
 - **Applications Requiring Clear Structure**: For easier maintenance, updates, and scalability without affecting the entire system.
 

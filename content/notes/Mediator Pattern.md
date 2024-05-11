@@ -109,7 +109,7 @@ Implementing the Mediator pattern involves several key steps to decouple a set o
 - **Manage Components:** Implement a concrete mediator class that keeps references to component objects, enabling it to invoke any component’s methods.
 - **Central Control:** The mediator directs communication between components, acting on their behalf based on the notifications it receives.
 
-**4. Mediator as a Factory or Facade:**
+**4. Mediator as a Factory or [[Facade Pattern|Facade]]:**
 - **Lifecycle Management:** Optionally, the mediator can take on the responsibility for creating and destroying component objects, which may cause it to function similarly to a factory or facade pattern.
 
 **5. Establish Connections:**

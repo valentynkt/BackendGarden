@@ -69,10 +69,10 @@ Class hierarchies provide a way to organize related classes through parent-child
 > Allows objects to be treated as instances of their parent class rather than their actual class. This enables multiple forms of behaviors to be handled through a unified interface, where the specific behavior is determined at runtime.
 >> [!example] 
 >> 
->>  Consider a graphics system with a class Shape and derived classes Circle, Rectangle, and Triangle. Each class has a method draw() that behaves differently. Through polymorphism, you can call draw() on a list of shapes, and each shape will be drawn according to its specific implementation, even though the calling code only sees them as generic shapes.
+>>  Consider a graphics system with a class Shape and derived classes Circle, Rectangle, and Triangle. Each class has a method draw() that behaves differently. Through [[polymorphism]], you can call draw() on a list of shapes, and each shape will be drawn according to its specific implementation, even though the calling code only sees them as generic shapes.
 
 > [!important] **[[Inheritance]]** 
-> Allows a new class to inherit properties and methods from an existing class. The new class (known as a derived class or subclass) can add additional properties and methods or override existing ones. Inheritance promotes code reusability and establishes a natural hierarchy between classes.
+> Allows a new class to inherit properties and methods from an existing class. The new class (known as a derived class or subclass) can add additional properties and methods or override existing ones. [[Inheritance]] promotes [[Code reuse|code reusability]] and establishes a natural hierarchy between classes.
 >> [!example]
 >> 
 >>  In an educational software system, a base class Person might include attributes and methods common to all people in the system, such as name and email. Derived classes like Student and Teacher can inherit these features from Person but also include specific attributes like studentID and salary, respectively.

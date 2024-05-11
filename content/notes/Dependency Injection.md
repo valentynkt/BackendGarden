@@ -133,8 +133,8 @@ In the context of Dependency Injection, IoC means inverting the control of manag
 The implementation of Dependency Injection in C# aligns with several standard practices. The examples previously given demonstrated how dependencies are injected through constructors, setters, or interfaces. However, there are further aspects to consider:
 
 ``` ad-important
-1. **High-level modules should not depend on low-level modules**: Both should depend on abstractions. This principle, one of the SOLID principles for object-oriented programming, encourages us to design systems in a way that reduces the dependencies between modules.
-2. **Abstraction should not depend on details**: Details should depend on abstractions. This principle suggests that the overall strategy of a system should dictate the low-level tactics, not the other way around.
+1. **High-level modules should not depend on low-level modules**: Both should depend on abstractions. This principle, one of the [[SOLID principles]] for object-oriented programming, encourages us to design systems in a way that reduces the dependencies between modules.
+2. **[[Abstraction]] should not depend on details**: Details should depend on abstractions. This principle suggests that the overall strategy of a system should dictate the low-level tactics, not the other way around.
 ```
 
 Suppose we have a `NotificationService` class which is a high-level module in our application. This class depends on a `EmailService` class which is a low-level module for sending notifications.
@@ -294,9 +294,9 @@ public void Test_GetUser()
 
 ### Reusability
 
-DI promotes code reusability by making it easier to swap out components or extend functionality. For example, you can change the database provider or add caching to your application by creating new implementations of the interfaces and injecting them without affecting existing code.
+DI promotes [[Code reuse|code reusability]] by making it easier to swap out components or extend functionality. For example, you can change the database provider or add caching to your application by creating new implementations of the interfaces and injecting them without affecting existing code.
 
-Let’s say you decide to switch from using a SQL database to a NoSQL database. With Dependency Injection, you can create a new `NoSqlUserRepository` implementing `IUserRepository` and inject it into the `UserService` without changing the `UserService` code.
+Let’s say you decide to switch from using a SQL [[database]] to a NoSQL [[database]]. With Dependency Injection, you can create a new `NoSqlUserRepository` implementing `IUserRepository` and inject it into the `UserService` without changing the `UserService` code.
 
 ``` csharp
 public class NoSqlUserRepository : IUserRepository  

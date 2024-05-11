@@ -4,6 +4,7 @@ aliases:
   - Data Hiding in OOP
   - Object Data Protection
   - Class Privacy Management
+  - Encapsulate
 links: "[[Object Oriented Programming|OOP]]"
 tags:
   - LearningIT

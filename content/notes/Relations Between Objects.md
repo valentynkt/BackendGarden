@@ -30,7 +30,7 @@ The relationships between objects in object-oriented programming are essential f
 >- [[Aggregation relationships|Aggregation]]: A specialized form of association where one class is made up of one or more instances of other classes.
 >- [[Composition relationships|Composition]]: A stricter form of aggregation where the contained class's lifecycle is controlled by the container class.
 >- **Realization**: This relationship occurs when a class implements an interface, thereby adhering to the contract the interface provides.
->- **Generalization**: A relationship where a more specialized element (a derived class) inherits from a more general element (a base class). This is a form of inheritance.
+>- **Generalization**: A relationship where a more specialized element (a derived class) inherits from a more general element (a base class). This is a form of [[inheritance]].
 
 #### [[Dependency relationships|Dependency]]
 
@@ -58,7 +58,7 @@ The relationships between objects in object-oriented programming are essential f
 >- **Association**: Indicates a bidirectional relationship where each class knows about and can interact with the other.
 >- **Aggregation**: Implies a whole/part relationship without life dependency. Class A contains Class B, but B can exist independently of A.
 >- **Composition**: Represents a stronger whole/part relationship where the life of Class B is dependent on the life of Class A.
->- **Implementation and Inheritance**: Both deal with how classes share interfaces and implementations, but inheritance implies a direct lineage.
+>- **Implementation and [[Inheritance]]**: Both deal with how classes share interfaces and implementations, but inheritance implies a direct lineage.
 >
 >![[Pasted image 20231006193420.png]]
 

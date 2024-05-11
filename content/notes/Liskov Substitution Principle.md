@@ -43,7 +43,7 @@ To ensure compliance with the Liskov Substitution Principle, especially in stati
 > - **Method Parameter Types**: In C#, the types of parameters in methods of a subclass should match or be more abstract than those in the parent class methods. This ensures that any method expecting a parent class instance will operate correctly if a subclass instance is passed.
 > - **Method Return Types**: The return type in methods of a subclass should match or be a subtype of the return type in the parent class methods in C#. This maintains consistency in what the client code expects to receive, preventing errors and maintaining integrity.
 
-These rules are built into C#'s type system and are crucial for ensuring that derived classes enhance rather than disrupt the functionality of their base classes. By adhering to these requirements, developers can leverage polymorphism effectively, promoting code reusability and scalability while adhering to LSP.
+These rules are built into C#'s type system and are crucial for ensuring that derived classes enhance rather than disrupt the functionality of their base classes. By adhering to these requirements, developers can leverage [[polymorphism]] effectively, promoting code reusability and scalability while adhering to LSP.
 
 ### Practical Example
 

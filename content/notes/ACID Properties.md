@@ -12,7 +12,7 @@ link: [[Data Integrity and Transactions]]
 
 # ACID Properties
 
-ACID properties ensure that database transactions are processed reliably, maintaining [[Data Integrity and Transactions|Data Integrity]] and consistency. These properties are crucial for systems that handle critical data operations, particularly in environments with multiple concurrent users.
+ACID properties ensure that [[database]] transactions are processed reliably, maintaining [[Data Integrity and Transactions|Data Integrity]] and consistency. These properties are crucial for systems that handle critical data operations, particularly in environments with multiple concurrent users.
 
 ACID is an acronym for Atomicity, Consistency, Isolation, and Durability, each supporting secure and reliable transaction processing:
 

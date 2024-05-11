@@ -19,7 +19,7 @@ HTTP/1.1, released in 1997, represents the first major update to the HTTP protoc
 HTTP/1.1 brought several key advancements that are still influential in web communications:
 
 > [!summary]- Key Enhancements
-> - **Persistent Connections**: This feature allows multiple requests and responses to travel over a single TCP connection, reducing the latency and overhead associated with opening new connections for each transaction.
+> - **Persistent Connections**: This feature allows multiple requests and responses to travel over a single [[TCP]] connection, reducing the latency and overhead associated with opening new connections for each transaction.
 > - **Host Header Support**: HTTP/1.1 enables a single server to host multiple domains (virtual hosting) by using the Host header, which identifies the specific domain requested by the browser.
 > - **Chunked Transfer Encoding**: This mechanism allows data to be sent in a series of chunks, facilitating the transmission of dynamically generated content without needing to know the total size beforehand.
 

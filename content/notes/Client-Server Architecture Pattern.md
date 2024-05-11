@@ -28,7 +28,7 @@ The Client-Server Architecture organizes networked systems into two types of com
 > 
 > - **Clients**: Typically user interfaces that request data or service functionality from servers. They interact with the user and display the data provided by the servers.
 > - **Servers**: Powerful systems or software that manage network resources and services. They respond to requests from clients by providing data, functionality, or both.
-> - **Communication**: Clients and servers communicate over a network, often using a standardized protocol such as HTTP. This communication is managed through request and response messages.
+> - **Communication**: Clients and servers communicate over a network, often using a standardized protocol such as [[HTTP]]. This communication is managed through request and response messages.
 
 ### Implementation Overview
 

@@ -17,7 +17,7 @@ link: [[Object Oriented Programming|OOP]]
 
 ## Overview
 
-Polymorphism, derived from Greek words meaning "many forms," is a fundamental concept in object-oriented programming that allows objects of different classes to be treated as objects of a common superclass. It is closely related to inheritance, as it allows classes to be related through their behaviors while retaining their own unique implementations of those behaviors.
+Polymorphism, derived from Greek words meaning "many forms," is a fundamental concept in object-oriented programming that allows objects of different classes to be treated as objects of a common superclass. It is closely related to [[inheritance]], as it allows classes to be related through their behaviors while retaining their own unique implementations of those behaviors.
 
 >[!abstract] 
 >Polymorphism enables a single action to be processed in different ways, and it's a key component of the [[Inheritance]] principle, which allows one class to inherit fields and methods from another.
@@ -128,14 +128,14 @@ With this setup, each `animalSound()` invocation respects the object's actual cl
 
 ## Summary
 
-> [!important] Benefits of Using Inheritance and Polymorphism:
+> [!important] Benefits of Using [[Inheritance]] and Polymorphism:
 > - **Code Reusability**: Leverage existing fields and methods when creating new classes. 
 > - **Flexibility**: Implement shared methods differently across multiple subclasses. 
 > - **Scalability**: Manage growing codebases more effectively by grouping common logic and extending it where necessary.
 
 
 > [!summary] 
-> Polymorphism is a fundamental concept in object-oriented programming that allows objects of different classes to be treated as objects of a common superclass. It enables the same method to be used differently across various subclasses, enhancing the software's flexibility. This feature is crucial for creating expandable and easy-to-maintain systems. By using polymorphism, developers can write more general and reusable code, making the software easier to manage and extend. Through inheritance and method overriding, each class can exhibit unique behaviors while conforming to a universal interface, promoting efficient and adaptable coding practices.
+> Polymorphism is a fundamental concept in object-oriented programming that allows objects of different classes to be treated as objects of a common superclass. It enables the same method to be used differently across various subclasses, enhancing the software's flexibility. This feature is crucial for creating expandable and easy-to-maintain systems. By using polymorphism, developers can write more general and reusable code, making the software easier to manage and extend. Through [[inheritance]] and method overriding, each class can exhibit unique behaviors while conforming to a universal interface, promoting efficient and adaptable coding practices.
 
 # References
 

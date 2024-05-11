@@ -220,7 +220,7 @@ Overall, this code is a clear example of the Factory Method pattern, illustratin
 >**Purpose**:
 >
 >- Simplifies object creation by allowing classes to delegate this responsibility to subclasses, thus providing flexibility in determining which objects to instantiate.
->- Facilitates the addition of new product classes without altering existing code, by relying on inheritance and polymorphism.
+>- Facilitates the addition of new product classes without altering existing code, by relying on inheritance and [[polymorphism]].
 >
 >**Components**:
 >- **Creator (abstract class)**: An abstract class that declares the factory method, which returns an object of a `Product` type. This class also can define a default behavior of the factory method that returns a default `Product` object.

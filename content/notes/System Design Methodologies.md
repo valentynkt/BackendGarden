@@ -10,12 +10,12 @@ links:
 
 link:
 
-# # System Design Methodologies
+# System Design Methodologies
 
 ![[aad520f5-00d9-4606-af4b-fdb5d1ac63c4_1600x1483.webp]]
 ## Overview
 
-Choosing the right system design methodology is essential for the success of any software development project. Each approach, whether API-First, Code-First, Database-First, or others, addresses specific aspects of system development, influencing project execution and outcomes.
+Choosing the right system design methodology is essential for the success of any software development project. Each approach, whether [[API-First]], [[Code-First]], [[Database-First]], or others, addresses specific aspects of system development, influencing project execution and outcomes.
 
 > [!summary]- Methodologies Comparison
 > - **[[API-First]]**: Focuses on designing the APIs at the start, ensuring robust integration capabilities for systems with extensive external communications.

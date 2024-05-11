@@ -51,7 +51,7 @@ HTTPS not only secures web transactions but also plays a critical role in mainta
 
 
 > [!summary]- Detailed Flow
-> Step 1 - The client (browser) and the server establish a TCP connection. 
+> Step 1 - The client (browser) and the server establish a [[TCP]] connection. 
 > Step 2 - The client sends a “client hello” to the server. The message contains a set of necessary encryption algorithms (cipher suites) and the latest TLS version it can support. The server responds with a “server hello” so the browser knows whether it can support the algorithms and TLS version. The server then sends the SSL certificate to the client. The certificate contains the public key, host name, expiry dates, etc. The client validates the certificate.
 > Step 3 - After validating the SSL certificate, the client generates a session key and encrypts it using the public key. The server receives the encrypted session key and decrypts it with the private key. 
 > Step 4 - Now that both the client and the server hold the same session key (symmetric encryption), the encrypted data is transmitted in a secure bi-directional channel.

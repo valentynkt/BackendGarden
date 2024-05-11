@@ -55,7 +55,7 @@ These communication strategies ensure that services can operate and interact eff
 
 >[!important]
 >1. **[[Service Registry Pattern]]**
->    - _Explanation:_ Essential for dynamic service discovery and communication in microservices, ensuring effective interaction among services.
+>    - _Explanation:_ Essential for dynamic [[Service Registry Pattern|service discovery]] and communication in microservices, ensuring effective interaction among services.
 >2. **[[Circuit Breaker Pattern]]**
 >    - _Explanation:_ Crucial for fault tolerance in distributed systems, this pattern helps maintain stability by isolating failures and preventing cascading failures.
 >3. **[[API Gateway]]**
@@ -101,7 +101,7 @@ Microservices are well-suited for:
 - **Complex Systems with Rapidly Changing Technologies**: Allows for the easy adoption of new technologies and quick updates to individual components without significant downtime or rework.
 
 ## [[Monolith vs Microservice]]
-![[Monolith vs Microservice#Monolithic vs Microservices Architecture]]
+![[Monolith vs Microservice#Monolithic vs Microservices Architecture Pattern]]
 ## Summary
 
 > [!summary] 

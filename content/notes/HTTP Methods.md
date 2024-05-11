@@ -19,7 +19,7 @@ HTTP methods are fundamental to HTTP request-response cycles, allowing web clien
 
 ## Common HTTP Methods
 
-HTTP defines a set of request methods to indicate the desired action to be performed for a given resource. Here’s a breakdown of the most commonly used HTTP methods:
+[[HTTP]] defines a set of request methods to indicate the desired action to be performed for a given resource. Here’s a breakdown of the most commonly used HTTP methods:
 
 > [!info] 
 > - **GET**: Retrieves data from a server at the specified resource. GET requests should only retrieve data and have no other effect.
@@ -40,7 +40,7 @@ Besides the commonly used methods, there are additional methods provided by HTTP
 
 ## Usage Considerations
 
-Understanding when and how to use these methods is crucial for effective web development and API design:
+Understanding when and how to use these methods is crucial for effective web development and [[API]] design:
 
 > [!warning] 
 > - **Idempotency and Safety**: Methods like GET, PUT, and DELETE are idempotent, meaning multiple identical requests should have the same effect as a single request. However, methods like POST and PATCH are not idempotent.

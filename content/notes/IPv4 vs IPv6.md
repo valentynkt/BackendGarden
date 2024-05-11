@@ -13,7 +13,7 @@ link: link: [[Web Security]], [[Internet Protocol|IP]]
 
 ## # Comparison of IPv4 vs IPv6
 
-This table provides a concise comparison of the two versions of the Internet Protocol, IPv4 and IPv6, highlighting their key differences:
+This table provides a concise comparison of the two versions of the Internet Protocol, IPv4 and [[IPv6]], highlighting their key differences:
 
 | Feature                               | IPv4                                                                                           | IPv6                                                         |
 | ------------------------------------- | ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |

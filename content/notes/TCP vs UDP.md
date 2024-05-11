@@ -11,7 +11,7 @@ link: [[Web]], [[TCP]], [[UDP]]
 
 # [[TCP]] vs [[UDP]]
 
-Below is a table that contrasts the characteristics and typical use cases of TCP (Transmission Control Protocol) and UDP (User Datagram Protocol):
+Below is a table that contrasts the characteristics and typical use cases of [[TCP]] (Transmission Control Protocol) and UDP (User Datagram Protocol):
 
 ## Comparison
 

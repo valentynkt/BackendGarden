@@ -108,8 +108,8 @@ By applying the Strategy pattern, you can ensure that the system remains flexibl
 
 1. **[[Bridge Pattern]], [[State Pattern]], [[Strategy Pattern]], and [[Adapter Pattern]]:**
     - These patterns all utilize composition to delegate tasks to other objects, facilitating flexible and interchangeable object configurations without altering those objects' interfaces. While they share structural similarities, each solves unique design problems:
-        - **Bridge** separates an abstraction from its implementation so that both can be varied independently.
-        - **Adapter** allows objects with incompatible interfaces to collaborate.
+        - **[[Bridge Pattern|Bridge]]** separates an abstraction from its implementation so that both can be varied independently
+        - **[[Adapter Pattern|Adapter]]** allows objects with incompatible interfaces to collaborate.
         - **Strategy** and **State** both allow for changing behavior dynamically, but they are used in different contexts (Strategy for changing algorithms, State for changing state behaviors based on internal conditions).
 	1. **[[Command Pattern]] vs. [[Strategy Pattern]]:**    
     - Both patterns involve encapsulating operations, but their purposes diverge significantly:

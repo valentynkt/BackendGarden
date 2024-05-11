@@ -27,7 +27,7 @@ Graph databases use a structure that allows them to excel in managing complex re
 
 > [!example]-
 > - **Neo4j**: One of the most popular graph databases, known for its powerful querying capabilities and ease of use for developers.
-> - **ArangoDB**: A multi-model database that supports graph, document, and key-value data models in one core and API.
+> - **ArangoDB**: A multi-model [[database]] that supports graph, document, and key-value [[data models]] in one core and [[API]].
 > - **JanusGraph**: An open-source, scalable graph database optimized for storing and querying large graphs distributed across a multi-machine cluster.
 > - **OrientDB**: A versatile database supporting complex relationships with deep traversal capabilities, suitable for managing complex, interconnected data.
 

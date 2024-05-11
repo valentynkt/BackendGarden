@@ -16,7 +16,7 @@ HTTP/3 is the latest evolution of the Hypertext Transfer Protocol ([[HTTP]]), in
 
 ## Introduction to HTTP/3
 
-Developed to surpass the capabilities of HTTP/1 and HTTP/2, HTTP/3 utilizes [[UDP]] instead of [[TCP]] for data transmission, incorporating the efficiency and speed of QUIC. This adoption marks a significant shift aimed at overcoming the traditional challenges associated with TCP connections.
+Developed to surpass the capabilities of HTTP/1 and HTTP/2, HTTP/3 utilizes [[UDP]] instead of [[TCP]] for data transmission, incorporating the efficiency and speed of QUIC. This adoption marks a significant shift aimed at overcoming the traditional challenges associated with [[TCP]] connections.
 
 ## Key Features of HTTP/3
 
@@ -26,7 +26,7 @@ HTTP/3 enhances web communication by leveraging QUIC's innovations, offering sev
 
 > [!summary]- **Distinctive Features of HTTP/3**:
 > - **Efficient Multiplexing**: Implements multiplexing to allow many requests and responses to share a single connection, which reduces the overhead and delays associated with HTTP/2.
-> - **Default Security**: Integrates [[SSL and TLS Protocols|TLS]] encryption inherently within its protocol, akin to QUIC, enhancing security measures across all communications.
+> - **Default Security**: Integrates [[SSL and TLS Protocols|TLS]] encryption inherently within its protocol, akin to [[QUIC Protocol|QUIC]], enhancing security measures across all communications.
 > - **Minimized Latency**: By utilizing [[UDP]], HTTP/3 reduces the overall latency for connection setups and data transfer, which significantly speeds up web interactions.
 > - **Robust Connection Handling**: Facilitates connection migration, which is essential for maintaining stable connections even when network interfaces change, thus supporting a seamless mobile user experience.
 > - **Advanced Congestion Control**: Employs sophisticated congestion control techniques that enable more effective handling of network density and variability, improving data throughput and stability.

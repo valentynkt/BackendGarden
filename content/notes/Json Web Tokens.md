@@ -110,7 +110,7 @@ HMACSHA256(
 
 The signature is used to verify the message wasn't changed along the way, and, in the case of tokens signed with a private key, it can also verify that the sender of the JWT is who it says it is.
 ### Components together
-The output is three Base64-URL strings separated by dots that can be easily passed in HTML and HTTP environments, while being more compact when compared to [[XML]]-based standards such as SAML.
+The output is three Base64-URL strings separated by dots that can be easily passed in HTML and [[HTTP]] environments, while being more compact when compared to [[XML]]-based standards such as SAML.
 
 The following shows a JWT that has the previous header and payload encoded, and it is signed with a secret.
 ![[Pasted image 20231020162209.png]]
@@ -136,7 +136,7 @@ The following diagram shows how a JWT is obtained and used to access APIs or res
 
 1. The application or client requests authorization to the authorization server. This is performed through one of the different authorization flows. For example, a typical [[OpenID Connect]] compliant web application will go through the `/oauth/authorize` endpoint using the [[OpenID Connect#Authorization Code Flow Steps]] .
 2.  When the authorization is granted, the authorization server returns an access token to the application.
-3. The application uses the access token to access a protected resource (like an API).
+3. The application uses the access token to access a protected resource (like an [[API]]).
 ```
  
 > With signed tokens, all the information contained within the token is exposed to users or other parties, even though they are unable to change it. This means you should not put secret information within the token.

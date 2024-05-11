@@ -32,7 +32,7 @@ _Also known as: CoR, Chain of Command_
 > 
 > 1. **Authentication:** Verify user credentials upon receiving a request. If authentication fails, no further checks are needed.
 > 2. **Data Sanitization:** After a colleague's suggestion, a step was added to clean the raw data in a request to prevent security vulnerabilities.
-> 3. **Brute Force Protection:** Following an observation about potential brute force attacks, a check was implemented to filter repeated failed requests from the same IP address.
+> 3. **Brute Force Protection:** Following an observation about potential brute force attacks, a check was implemented to filter repeated failed requests from the same [[Internet Protocol|IP]] address.
 > 4. **Caching:** To improve efficiency, another layer was added to return cached results for repeat requests containing the same data.
 > 
 >However, integrating these checks led to bloated and tangled code. Modifications in one area could unintentionally affect others, complicating maintenance and reuse across different system components.

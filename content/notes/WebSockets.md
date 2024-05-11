@@ -22,7 +22,7 @@ link: [[Web]], [[API Architectures]]
 > [!important]- Relationship with HTTP 
 > 
 > WebSocket operates on top of [[TCP]], ensuring reliable data transfer. It differs significantly from [[HTTP]] in:
-> - **Persistent Connection**: Maintains a single TCP connection for the entire communication duration, unlike HTTP's new connection for each request/response cycle.
+> - **Persistent Connection**: Maintains a single [[TCP]] connection for the entire communication duration, unlike HTTP's new connection for each request/response cycle.
 > - **Protocol Upgrade**: Begins with an [[HTTP]] handshake using the 'Upgrade' header, transitioning the connection from HTTP to WebSocket, allowing integration with existing web infrastructure.
 
 ## Key Features of WebSockets

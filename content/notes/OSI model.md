@@ -35,7 +35,7 @@ Each layer of the OSI Model has a specific function and interacts with the layer
 > - **Responsibilities:**
 >     - Handling user data interaction
 >     - Initiating communications
->     - Managing API calls and responses
+>     - Managing [[API]] calls and responses
 > - **Protocols:**
 >     - [[HTTP]]: Hypertext Transfer Protocol for web communication
 >     - [[SMTP]]: Simple Mail Transfer Protocol for email communication
@@ -102,7 +102,7 @@ Each layer of the OSI Model has a specific function and interacts with the layer
 >     - [[Internet Protocol|IP]]: Internet Protocol for addressing and routing
 >     - ICMP: Internet Control Message Protocol for network error messaging
 >     - IGMP: Internet Group Management Protocol for multicast group management
->     - IPsec: IP Security Protocol suite for secure data transmission
+>     - [[IPsec]]: IP Security Protocol suite for secure data transmission
 
 > [!summary]- Layer 2: The Data Link Layer
 > 
@@ -139,7 +139,7 @@ Each layer of the OSI Model has a specific function and interacts with the layer
 
 > [!example]- Real Flow
 > Mr. Cooper uses his email application to compose a message to Ms. Palmer. When he hits 'send', the email application passes the message to the application layer.
->The application layer selects a protocol (SMTP) and hands the data to the presentation layer, where it's compressed.
+>The application layer selects a protocol ([[SMTP]]) and hands the data to the presentation layer, where it's compressed.
 >Next, the data reaches the session layer, initiating the communication session.
 > 
 > Moving down the OSI layers, the data hits the transport layer, where it's segmented for transmission.
@@ -182,7 +182,7 @@ Each layer of the OSI Model has a specific function and interacts with the layer
 >    - SYN/ACK flood
 >    
 >- Network Layer  
->    - IP spoofing  
+>    - [[Internet Protocol|IP]] spoofing  
 >    - Route table manipulation  
 >    - DDos attacks
 >    

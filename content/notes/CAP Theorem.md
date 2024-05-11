@@ -39,7 +39,7 @@ The CAP theorem states that a distributed system can only provide two of three
 >- It can execute both requests, returning a stale value from the read request and breaking the system’s _consistency_
 >The system can’t process both requests successfully while also ensuring that the read returns the latest value written by the write. This is because the results of the write operation can’t be propagated from node A to node B because of the network partition.
 
-## CAP theorem NoSQL databases
+## CAP theorem [[Non-Relational Databases|NoSQL]] databases
 
 NoSQL databases are great for distributed networks. They allow for **horizontal scaling**, and they can quickly scale across multiple nodes. When deciding which NoSQL database to use, it’s important to keep the CAP theorem in mind. NoSQL databases can be classified based on the two CAP features they support:
 
@@ -48,7 +48,7 @@ NoSQL databases are great for distributed networks. They allow for **horizontal
 
 
 > [!NOTE]- CP databases
->	CP databases enable consistency and partition tolerance, but not availability. When a partition occurs, the system has to **turn off inconsistent nodes until the partition can be fixed**. MongoDB is an example of a CP database. It’s a NoSQL database management system (DBMS) that uses documents for data storage. It’s considered schema-less, which means that it doesn’t require a defined database schema. It’s commonly used in big data and applications running in different locations. The CP system is structured so that there’s only one primary node that receives all of the write requests in a given replica set. Secondary nodes replicate the data in the primary nodes, so if the primary node fails, a secondary node can stand-in.
+>	CP databases enable consistency and partition tolerance, but not availability. When a partition occurs, the system has to **turn off inconsistent nodes until the partition can be fixed**. MongoDB is an example of a CP database. It’s a NoSQL database management system ([[Database|DBMS]]) that uses documents for data storage. It’s considered schema-less, which means that it doesn’t require a defined database schema. It’s commonly used in big data and applications running in different locations. The CP system is structured so that there’s only one primary node that receives all of the write requests in a given replica set. Secondary nodes replicate the data in the primary nodes, so if the primary node fails, a secondary node can stand-in.
 
 
 > [!NOTE]- AP databases

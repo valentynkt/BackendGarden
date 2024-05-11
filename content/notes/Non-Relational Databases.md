@@ -19,7 +19,7 @@ link: [[Database]]
 Non-relational databases, known as NoSQL databases, cater to diverse and large-scale data management needs that traditional relational databases (RDBMS) struggle with. These databases excel in scenarios requiring scalability, flexibility, and rapid iteration, making them ideal for big data applications and real-time web applications.
 
 > [!abstract]
->  NoSQL databases utilize dynamic schemas for unstructured data, enable horizontal scalability through data distribution across clusters, and are specialized to handle various data models like document, key-value, graph, and wide-column stores.
+>  NoSQL databases utilize dynamic schemas for unstructured data, enable horizontal scalability through data distribution across clusters, and are specialized to handle various [[data models]] like document, key-value, graph, and wide-column stores.
 
 ## Content
 
@@ -32,7 +32,7 @@ Non-relational databases, known as NoSQL databases, cater to diverse and large-s
 
 >[!important]
 >
->- **[[Document-Oriented Databases]]**: Store data in JSON, BSON, or XML documents, exemplified by MongoDB and CouchDB. They are schema-agnostic, enhancing flexibility for applications like content management and e-commerce.
+>- **[[Document-Oriented Databases]]**: Store data in JSON, BSON, or [[XML]] documents, exemplified by MongoDB and CouchDB. They are schema-agnostic, enhancing flexibility for applications like content management and e-commerce.
 >- **[[Key-Value Databases]]**: Such as Redis and DynamoDB, manage data as key-value pairs, optimized for high-speed retrieval necessary for scenarios like caching and session management.
 >- **[[Wide-Column Databases]]**: Like Cassandra and HBase, these databases use a columnar data structure that allows for efficient data aggregation and scalability.
 >- **[[Graph Databases]]**: Employ nodes, edges, and properties to manage and analyze connected data, useful in applications like social networks and recommendation engines.

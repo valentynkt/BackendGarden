@@ -122,21 +122,21 @@ This approach modularizes the code by separating different states into distinct 
 >     
 > 2. **Increased Number of Classes:** Each state is represented by its own class, which can lead to a proliferation of classes in the system. This increase in the number of classes can make the system architecture more complex and potentially harder to navigate, especially for new developers or in very large projects.
 >     
-> 3. **Potential for Over-Engineering:** There's a risk of over-engineering the solution if the State pattern is applied where simpler conditional logic would suffice. This can lead to unnecessary abstraction and complexity, increasing the learning curve and potentially impacting performance.
+> 3. **Potential for Over-Engineering:** There's a risk of over-engineering the solution if the State pattern is applied where simpler conditional logic would suffice. This can lead to unnecessary abstraction and complexity, increasing the learning curv[[Abstraction|e and poten]]tially impacting performance.
 
 ### Relations with Other Patterns
 
 The State pattern has interesting relationships with several other design patterns. Each pattern serves a unique purpose, and understanding these relationships can help in selecting the appropriate pattern for a given problem:
 
 1. **[[Bridge Pattern]]:**
-    - **Structure Similarity:** Both the Bridge and State patterns use composition to separate responsibilities into different classes. While Bridge focuses on separating an abstraction from its implementation, allowing them to vary independently, the State pattern concentrates on altering the behavior of an object when its internal state changes.
-    - **Usage Context:** Bridge is more about organizing code to manage abstractions and their implementations independently, making it easier to scale. State is used for managing state transitions in a more structured manner.
+    - **Structure Similarity:** Both the [[Bridge Pattern|Bridge]] and State patterns use composition to separate responsibilities into different classes. While [[Bridge Pattern|Bridge]] focuses on separating an abstraction from its implementation, allowing them to vary independently, the State pattern concentrates on altering the behavior of an object when its internal state changes.
+    - **Usage Context:** [[Bridge Pattern|Bridge]] is more about organizing code to manage abstractions and their implementations independently, making it easier to scale. State is used for managing state transitions in a more structured manner.
 2. **[[Strategy Pattern]]:** 
     - **Common Foundation:** Both patterns leverage composition to change the behavior of the context by delegating work to helper objects. This structural similarity can sometimes lead to confusion in distinguishing between the two.
     - **Behavioral Differences:** While Strategy allows the context to change its strategy algorithm dynamically, treating strategies as interchangeable, State lets the state objects control transitions and behave differently depending on the state of the context. States are aware of each other and can initiate transitions, which are not capabilities of Strategy.
 3. **[[Adapter Pattern]]:**
-    - **Structural Overlap:** Like the Bridge, the Adapter pattern shares structural similarities with State in that it uses composition to delegate work to other objects. However, the Adapter is primarily focused on making one interface compatible with another, bridging a gap between two incompatible interfaces.
-    - **Functional Distinction:** The Adapter is used to allow two incompatible interfaces to work together without modifying their existing code. This is fundamentally different from State’s purpose of managing changes in an object’s behavior based on its internal state.
+    - **Structural Overlap:** Like the [[Bridge Pattern|Bridge]], the [[Adapter pattern]] shares structural similarities with State in that it uses composition to delegate work to other objects. However, the [[Adapter Pattern|Adapter]] is primarily focused on making one interface compatible with another, bridging a gap between two incompatible interfaces.
+    - **Functional Distinction:** The [[Adapter Pattern|Adapter]] is used to allow two incompatible interfaces to work together without modifying their existing code. This is fundamentally different from State’s purpose of managing changes in an object’s behavior based on its internal state.
 
 
 ## Examples

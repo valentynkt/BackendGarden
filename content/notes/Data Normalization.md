@@ -16,7 +16,7 @@ link: [[Database]]
 
 ![[../Files/Images/Pasted image 20240430135351.png]]
 
-Data normalization is a crucial methodology in database design aimed at reducing redundancy and optimizing the organization of data. This process involves arranging data into tables according to specific rules, known as normal forms. These guidelines help ensure data integrity and facilitate database maintenance. By applying normalization, each piece of data is stored uniquely, which simplifies data management and decreases the storage space required.
+Data normalization is a crucial methodology in [[database design]] aimed at reducing redundancy and optimizing the organization of data. This process involves arranging data into tables according to specific rules, known as normal forms. These guidelines help ensure [[Data Integrity and Transactions|data integrity]] and facilitate database maintenance. By applying normalization, each piece of data is stored uniquely, which simplifies data management and decreases the storage space required.
 
 ## Content
 
@@ -41,7 +41,7 @@ Normalization offers several advantages that contribute to more efficient and ma
 
 > [!success]- Benefits
 > 
-> - **Data Integrity:** Reduces data redundancy, which minimizes the likelihood of data inconsistencies and errors.
+> - **[[Data Integrity and Transactions|Data Integrity]]:** Reduces data redundancy, which minimizes the likelihood of data inconsistencies and errors.
 > - **Efficient Storage:** By eliminating duplicate data, normalized databases use storage space more effectively, potentially lowering storage costs.
 > - **Query Optimization:** Queries can run faster on normalized databases because they interact with smaller, more focused tables rather than large, complex ones.
 > - **Flexibility:** A normalized structure adapts more easily to changes in data requirements or business rules, enhancing the database's longevity and usability.

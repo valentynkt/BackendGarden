@@ -23,7 +23,7 @@ link:
 
 > [!summary]- Introduction to the Web
 > 
-> The web, a pivotal innovation in global communication, operates on a network of computers connected via the internet. It enables the seamless exchange of information through web applications that users interact with daily. At its core, the web uses HTTP (Hypertext Transfer Protocol) to facilitate communications, which are structured around the client-server model.
+> The web, a pivotal innovation in global communication, operates on a network of computers connected via the internet. It enables the seamless exchange of information through web applications that users interact with daily. At its core, the web uses [[HTTP]] (Hypertext Transfer Protocol) to facilitate communications, which are structured around the client-server model.
 > 
 > Web applications are dynamic platforms that deliver content and services to users. They run on web browsers and interact with web servers to fetch data, often using a mix of technologies like HTML, CSS, and JavaScript to create interactive experiences. Each web application operates within the framework of the client-server architecture, where the client (the user's device) sends requests to a server that processes them and returns the requested content or data.
 > 

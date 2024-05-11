@@ -121,7 +121,7 @@ links: [[Behavioral patterns]]
 3. **Selective Implementation:**
     - When only certain classes in a hierarchy need to support a particular behavior, the Visitor pattern provides a clean solution. You can implement specific operations in visitor classes that target only these relevant classes, avoiding unnecessary implementation in others where the behavior isn't applicable.
 
-This pattern facilitates adding new operations without altering the objects on which they operate, thereby supporting good software design principles by separating concerns and simplifying maintenance.
+This pattern facilitates adding new operations without altering the objects on which they operate, thereby supporting good software [[design principles]] by separating concerns and simplifying maintenance.
 
 
 ### How to Implement
@@ -166,7 +166,7 @@ This pattern facilitates adding new operations without altering the objects on w
 1. **[[Command Pattern]] Comparison:**
     - The Visitor pattern can be seen as an extension of the Command pattern. While both patterns involve encapsulating operations in objects, Visitor specifically allows operations to be performed on elements of various classes. This capability makes Visitor more flexible and powerful in scenarios where operations need to be applied across a diverse set of objects.
 2. **Integration with [[Composite Pattern]]:**
-    - Visitor is particularly useful in conjunction with the Composite pattern. It provides a way to apply operations uniformly across complex object structures, such as those arranged in a Composite tree. This is valuable for operations that need to be executed consistently across all components of the composite, from leaves to nodes.
+    - Visitor is particularly useful in conjunction with the [[Composite pattern]]. It provides a way to apply operations uniformly across complex object structures, such as those arranged in a Composite tree. This is valuable for operations that need to be executed consistently across all components of the composite, from leaves to nodes.
 3. **Combination with [[Iterator Pattern]]:**
     - Combining Visitor with [[Iterator Pattern|Iterator]] is effective for traversing and applying operations to complex data structures, such as graphs or trees, where elements vary in type. The [[Iterator Pattern|Iterator]] handles the traversal, ensuring each element is visited, and the Visitor applies a specific operation to each element, regardless of its class. This combination allows for clear separation of traversal and operational logic, enhancing modularity and reusability.
 
@@ -175,7 +175,7 @@ This pattern facilitates adding new operations without altering the objects on w
 
 ![[Pasted image 20240411193605.png]]
 
-**Visitor pattern with Composite pattern**
+**Visitor pattern with [[Composite pattern]]**
 The provided C# code demonstrates a combination of the **Composite** and **Visitor** design patterns, which is utilized to manage and operate on a hierarchical structure of geometric shapes.
 
 > [!example]- Components

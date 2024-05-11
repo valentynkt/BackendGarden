@@ -150,10 +150,10 @@ Here’s how the Builder pattern can be applied in practice to streamline object
 
 ### Relations with Other Patterns
 
-- **[[Abstract Factory Pattern]] vs. Builder**: The Abstract Factory pattern is best suited for creating families of related objects with a common theme, without specifying their concrete classes. In contrast, the Builder pattern is ideal for constructing complex objects step-by-step and allows for the construction process to be different for each resulting object.
-- **Builder and [[Composite Pattern]]**: The Builder pattern can be particularly useful for constructing Composite trees. It provides a structured approach to building complex, hierarchical object structures like those found in the Composite pattern, by defining individual construction steps.
-- **Builder and [[Bridge Pattern]]**: Integrating the Builder pattern with the Bridge pattern can enhance flexibility. The director in the Builder pattern can act as an abstraction layer that guides the construction process, while various builders implement this process for different representations of the object, acting similarly to the implementation side in the Bridge pattern.
-- **[[Singleton Pattern]] Implementation**: The Abstract Factory, Builder, and Prototype patterns can all be instantiated as Singletons. This ensures that a single instance of a factory, builder, or prototype is used throughout the application, which helps in managing the creation process and maintaining consistency across the product.
+- **[[Abstract Factory Pattern]] vs. Builder**: The [[Abstract Factory pattern]] is best suited for creating families of related objects with a common theme, without specifying their concrete classes. In contrast, the Builder pattern is ideal for constructing complex objects step-by-step and allows for the construction process to be different for each resulting object.
+- **Builder and [[Composite Pattern]]**: The Builder pattern can be particularly useful for constructing Composite trees. It provides a structured approach to building complex, hierarchical object structures like those found in the [[Composite pattern]], by defining individual construction steps.
+- **Builder and [[Bridge Pattern]]**: Integrating the Builder pattern with the [[Bridge pattern]] can enhance flexibility. The director in the Builder pattern can act as an [[abstraction]] layer that guides the construction process, while various builders implement this process for different representations of the object, acting similarly to the implementation side in the [[Bridge pattern]].
+- **[[Singleton Pattern]] Implementation**: The [[Abstract Factory Pattern|Abstract Factory]], Builder, and Prototype patterns can all be instantiated as Singletons. This ensures that a single instance of a factory, builder, or prototype is used throughout the application, which helps in managing the creation process and maintaining consistency across the product.
 
 ## Examples
 

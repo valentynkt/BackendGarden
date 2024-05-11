@@ -31,7 +31,7 @@ Effective software design encompasses a set of core principles that guide develo
 > - **[[Extensibility]]**: Allows software to be easily extended with new features without significant modifications to existing code.
 > - **[[Encapsulate What Varies]]**: Encourages developers to isolate components that change frequently, protecting other parts of the system from extensive changes.
 > - **[[Depend on Abstraction]]**: Suggests relying on abstract classes or interfaces instead of concrete implementations to reduce dependencies and enhance modularity.
-> - **[[Favor Composition Over Inheritance]]**: Recommends using composition rather than inheritance to achieve code reuse, which provides more flexibility and reduces the dependency hierarchy.
+> - **[[Favor Composition Over Inheritance]]**: Recommends using composition rather than inheritance to achieve [[code reuse]], which provides more flexibility and reduces the dependency hierarchy.
 > - **[[SOLID Principles]]**: A set of five design principles that contribute to writing clean code that accommodates new features and changes with minimal effort.
 > - [[Don't Repeat Yourself]] (DRY)
 > - [[Keep It Short and Simple]] (KISS)

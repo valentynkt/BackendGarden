@@ -14,13 +14,13 @@ link: [[Web Communication Protocols]], [[TCP vs UDP]],
 
 ## Overview
 
-User Datagram Protocol (UDP) is a core member of the Internet Protocol Suite, commonly known as UDP/IP. Unlike its counterpart, [[TCP]], UDP is a connectionless protocol that provides a way for applications to send messages, called datagrams, to other hosts on an [[Internet Protocol]] network without prior communications to set up special transmission channels or data paths.
+User Datagram Protocol (UDP) is a core member of the [[Internet Protocol]] Suite, commonly known as UDP/IP. Unlike its counterpart, [[TCP]], UDP is a connectionless protocol that provides a way for applications to send messages, called datagrams, to other hosts on an [[Internet Protocol]] network without prior communications to set up special transmission channels or data paths.
 
 ## Key Features of UDP
 
 UDP is designed for situations where speed and simplicity are more critical than reliability. Here are its primary features:
 
-- **Connectionless Communication**: UDP does not establish a connection before sending data, reducing the delay caused by the setup process typical in connection-oriented protocols like TCP.
+- **Connectionless Communication**: UDP does not establish a connection before sending data, reducing the delay caused by the setup process typical in connection-oriented protocols like [[TCP]].
 - **Low Overhead**: With no handshaking dialogues or acknowledgment mechanisms, UDP is lightweight and incurs less network traffic overhead.
 - **Non-reliable Delivery**: UDP does not guarantee message delivery, order, or error checking. It's up to the application to ensure that data is received correctly and in order.
 - **Speed**: Because of its simplicity, UDP can be faster than TCP, making it ideal for time-sensitive applications.

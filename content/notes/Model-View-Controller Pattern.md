@@ -44,7 +44,7 @@ The MVC pattern structures web applications into three components that handle di
 ## Summary
 
 >[!summary] 
->The MVC pattern is a powerful, structured approach to web application development that helps separate data modeling, user interface, and control logic. This separation allows for more organized development and easier maintenance. MVC not only implements the principles of the Layered Architecture Pattern but also provides a clear framework for how different parts of an application should interact and be organized.
+>The MVC pattern is a powerful, structured approach to web application development that helps separate data modeling, user interface, and control logic. This separation allows for more organized development and easier maintenance. MVC not only implements the principles of the [[Layered Architecture Pattern]] but also provides a clear framework for how different parts of an application should interact and be organized.
 >
 >Components:
 > - **Model**: The backend that contains all the data logic

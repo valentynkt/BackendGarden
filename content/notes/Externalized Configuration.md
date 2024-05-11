@@ -41,7 +41,7 @@ Externalized Configuration is structured around several key principles:
 > 
 > - **Use Configuration Servers**: Deploy a configuration management system that centralizes and automates the delivery of configuration settings.
 > - **Decouple Configuration**: Store configuration separately from the codebase and application binaries to ensure that configurations can be changed independently of application deployments.
-> - **Secure Sensitive Data**: Encrypt sensitive configuration data, such as API keys and passwords, to protect it in transit and at rest.
+> - **Secure Sensitive Data**: Encrypt sensitive configuration data, such as [[API]] keys and passwords, to protect it in transit and at rest.
 > - **Version Control**: Maintain configuration changes in a version-controlled repository to track changes and revert configurations if necessary.
 
 ## Managing Configuration

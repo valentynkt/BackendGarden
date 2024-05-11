@@ -97,7 +97,7 @@ By following these steps, you can successfully implement the Decorator pattern, 
 > 1. **Dynamic Behavior Extension:** You can extend an object's behavior without the need to create a new subclass. Decorators provide a flexible way to add functionalities to objects at runtime.    
 > 2. **Runtime Flexibility:** Decorators allow for the addition or removal of responsibilities from an object dynamically during the program's execution. This enhances the flexibility of the system.  
 > 3. **Behavior Combination:** Multiple decorators can be applied to an object, allowing for the combination of several behaviors. This enables the creation of complex behavior combinations by wrapping the object with multiple decorators.
-> 4. **Single Responsibility Principle (SRP):** The Decorator pattern promotes the SRP by enabling the division of a monolithic class into smaller, more specialized classes. Each decorator is responsible for a single aspect of the object's behavior, improving code maintainability.
+> 4. **[[Single Responsibility Principle]] (SRP):** The Decorator pattern promotes the SRP by enabling the division of a monolithic class into smaller, more specialized classes. Each decorator is responsible for a single aspect of the object's behavior, improving code maintainability.
 
 > [!warning] **Disadvantages**
 > 1. **Removal Complexity:** Removing a specific decorator from the decorators stack can be challenging. As decorators are stacked upon each other, removing one may require changes in multiple places.

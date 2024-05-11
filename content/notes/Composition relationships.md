@@ -17,7 +17,7 @@ link: [[Object Oriented Programming]] , [[Relations Between Objects]]
 ## Content
 
 ![[Pasted image 20240328022307.png]]
-Composition is a stringent form of aggregation in object-oriented programming that defines a "part-whole" relationship where parts cannot exist independently of the whole. This type of relationship is crucial for ensuring that objects are well-integrated within a system, enforcing encapsulation and enhancing the system's robustness.
+Composition is a stringent form of aggregation in object-oriented programming that defines a "part-whole" relationship where parts cannot exist independently of the whole. This type of relationship is crucial for ensuring that objects are well-integrated within a system, enforcing [[encapsulation]] and enhancing the system's robustness.
 
 Composition is a specific kind of aggregation known for its strictness in part-whole relationships:
 

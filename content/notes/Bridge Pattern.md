@@ -46,15 +46,15 @@ link: [[Structural patterns]]
     
 3. **Concrete Implementations:** These classes contain platform-specific code and provide concrete implementations for the methods declared in the Implementation interface.
     
-4. **Refined Abstractions:** Refined abstractions extend the functionality of the base abstraction by providing variants of control logic. They interact with different implementations through the general implementation interface, similar to their parent abstraction.
+4. **Refined Abstractions:** Refined abstractions extend the functionality of the base abstraction by providing variants of control logic. They interact with different implementations through the general implementation interface, similar to their parent [[abstraction]].
     
-5. **Client:** Typically, the client is only concerned with working with the abstraction. However, it's responsible for associating the abstraction object with one of the implementation objects, thereby linking the abstraction to a specific implementation.
+5. **C[[Abstraction|lient:** Ty]]pically, the client is only concerned with working with the abstraction. However, it's responsible for associating the abstraction object with one of the implementation objects, thereby linking the abstraction to a specific implementation.
 
 ### Applicability
 
 The Bridge pattern is applicable in several scenarios:
 
-1. **Organizing Monolithic Classes:** When dealing with a monolithic class that has multiple variants of functionality, such as working with different database servers, the Bridge pattern helps divide and organize the class. By separating the variations into different class hierarchies, changes can be made independently within each hierarchy, simplifying maintenance and reducing the risk of errors.
+1. **Organizing Monolithic Classes:** When dealing with a monolithic class that has multiple variants of functionality, such as working with different [[database]] servers, the Bridge pattern helps divide and organize the class. By separating the variations into different class hierarchies, changes can be made independently within each hierarchy, simplifying maintenance and reducing the risk of errors.
 2. **Extending Classes in Orthogonal Dimensions:** If you need to extend a class in multiple independent dimensions, the Bridge pattern provides a solution. By creating separate class hierarchies for each dimension, the original class delegates related work to objects within those hierarchies instead of handling everything internally.
 3. **Switching Implementations at Runtime:** The Bridge pattern allows for the flexibility of switching implementations at runtime. While not mandatory, it's possible to replace the implementation object inside the abstraction, making it easy to adapt to changing requirements or environments.
 
@@ -77,7 +77,7 @@ Remember, while the Bridge pattern may seem similar to the Strategy pattern due 
 >     
 > 2. **Decoupling**: Client code is shielded from the implementation details of the platform, promoting **loose coupling** and easier maintenance.
 >     
-> 3. **Extensibility**: The pattern adheres to the **Open/Closed Principle**, enabling the introduction of new abstractions and implementations independently without modifying existing code.
+> 3. **[[Extensibility]]**: The pattern adheres to the **Open/Closed Principle**, enabling the introduction of new abstractions and implementations independently without modifying existing code.
 >     
 > 4. **Single Responsibility Principle**: The Bridge pattern facilitates adherence to the **Single Responsibility Principle** by separating **high-level logic** (abstraction) from platform-specific details (implementation), thus promoting cleaner and more maintainable code.
 
@@ -86,13 +86,13 @@ Remember, while the Bridge pattern may seem similar to the Strategy pattern due 
 
 ### Relations with Other Patterns
 
-- [[Adapter Pattern]]: While Bridge is designed up-front to develop parts of an application independently, Adapter is commonly used to make otherwise-incompatible classes work together after an application is already developed.
+- [[Adapter Pattern]]: While Bridge is designed up-front to develop parts of an application independently, [[Adapter Pattern|Adapter]] is commonly used to make otherwise-incompatible classes work together after an application is already developed.
     
 - [[State Pattern]], [[Strategy Pattern]] and to some extent [[Adapter Pattern]] have similar structures based on composition. Although they share similarities, each pattern addresses different problems. Patterns not only provide a way to structure code but also communicate the specific problem they solve.
     
 - [[Abstract Factory Pattern]]: Abstract Factory can be used in conjunction with Bridge, particularly when abstractions defined by Bridge can only work with specific implementations. Abstract Factory helps encapsulate these relations, hiding complexity from client code.
     
-- [[Builder Pattern]]: Combining Builder with Bridge is possible, where the director class acts as the abstraction and different builders serve as implementations. This allows for flexible construction of complex objects while maintaining separation between high-level logic and implementation details.
+- [[Builder Pattern]]: Combining [[Builder Pattern|Builder]] with Bridge is possible, where the director class acts as the abstraction and different builders serve as implementations. This allows for flexible construction of complex objects while maintaining separation between high-level logic and implementation details.
 
 ## Examples
 
@@ -232,7 +232,7 @@ The `ThreeDimensionsExample` method demonstrates the usage of the Bridge pattern
 >**Bridge Pattern Cheat Sheet**
 >**Purpose**:
 >- Separates an object’s interface from its implementation so that the two can vary independently.
->- Promotes platform independence and extensibility.
+>- Promotes platform independence and [[extensibility]].
 >
 >**Components**:
 >- **Abstraction**: Defines the abstraction's interface and maintains a reference to an object of the Implementor type.

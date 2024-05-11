@@ -19,10 +19,10 @@ link: [[Microservices Architecture Pattern|Microservice Architecture]]
 
 ## Overview
 
-The Saga pattern is essential in microservices architectures for managing data consistency across multiple services in a distributed transaction. Unlike traditional monolithic applications where a single database transaction can handle changes across multiple tables, microservices often require coordination across several services, each with its own database.
+The Saga pattern is essential in [[Microservices Architecture Pattern|microservices]] architectures for managing data consistency across multiple services in a distributed transaction. Unlike traditional monolithic applications where a single database transaction can handle changes across multiple tables, microservices often require coordination across several services, each with its own database.
 
 > [!abstract] 
-> A saga is a sequence of local transactions where each transaction updates data within a single service and publishes events or messages that trigger the next transaction in the saga.
+> A saga is a sequence of local transactions where e[[Database|ach tran]]saction updates data within a single service and publishes events or messages that trigger the next transaction in the saga.
 
 ## Content
 

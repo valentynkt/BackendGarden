@@ -19,7 +19,7 @@ ASCII, short for American Standard Code for Information Interchange, is a charac
 > [!important]- Key Features of ASCII
 > - **Fixed-Width**: ASCII characters are encoded using 7 bits, which allows for 128 different characters, including 95 printable characters consisting of uppercase and lowercase letters, digits, punctuation marks, and control characters.
 > - **Control Characters**: ASCII includes several non-printable control characters that control how text is processed, such as carriage return (CR) and line feed (LF).
-> - **Backward Compatibility**: ASCII is a subset of many other character encodings, including UTF-8, which means that any text data encoded in ASCII is also valid in these encodings.
+> - **Backward Compatibility**: ASCII is a subset of many other character encodings, including [[UTF-8]], which means that any text data encoded in ASCII is also valid in these encodings.
 
 
 > [!example]- ASCII Character Set

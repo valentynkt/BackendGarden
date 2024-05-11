@@ -79,7 +79,7 @@ By following these steps, you can create a Composite pattern implementation that
 ### Pros and Cons
 
 > [!success] **Advantages**
-> 1. **Convenient Handling of Tree Structures:** The Composite pattern allows you to work with complex tree structures more conveniently by leveraging polymorphism and recursion. This simplifies the management and manipulation of hierarchical data.
+> 1. **Convenient Handling of Tree Structures:** The Composite pattern allows you to work with complex tree structures more conveniently by leveraging [[polymorphism]] and recursion. This simplifies the management and manipulation of hierarchical data.
 >     
 > 2. **[[Open Closed Principle]]:** You can introduce new types of elements into the application without modifying existing code. The code that interacts with the object tree remains unchanged, promoting the open/closed principle of software design.
 

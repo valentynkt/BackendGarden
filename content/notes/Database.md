@@ -35,7 +35,7 @@ The structure and operation of databases are deeply integrated with the function
 > - **Database Definition**: A database is a structured set of data stored electronically in a computer system, accessed and managed through a DBMS. The DBMS serves as the intermediary layer between the user and the database, handling data manipulation and retrieval.
 > - **Types of Databases**:
 >     - **[[Relational Databases]] (SQL)**: Utilize Structured Query Language (SQL) to manage data within predefined tables and relationships, facilitated by relational DBMSs.
->     - **[[Non-Relational Databases]] (NoSQL)**: Offer flexible data models including document stores, key-value stores, wide-column stores, and graph databases, managed by NoSQL DBMSs designed for high operational speed and flexibility.
+>     - **[[Non-Relational Databases]] (NoSQL)**: Offer flexible data models including document stores, key-value stores, wide-column stores, and [[graph databases]], managed by NoSQL DBMSs designed for high operational speed and flexibility.
 > - **Database Management Systems (DBMS)**: Software systems like MySQL, Oracle, MongoDB, and Cassandra that support the creation, fetching, and management of databases, ensuring data security and efficient performance.
 > - **[[Data Models]]**: Frameworks that define how data is stored, accessed, and manipulated within the database, supporting various models such as hierarchical, relational, and graph.
 > - **[[Database Design]]**: The process of structuring data according to a database model to efficiently support an organization’s objectives, which involves logical and physical design methodologies.
@@ -51,7 +51,7 @@ The structure and operation of databases are deeply integrated with the function
 Effective database implementation requires:
 
 - **Selecting the Appropriate Database and DBMS**: Base the choice on data needs, operational load, and required consistency, aligning with the right DBMS to support these needs.
-- **Structured Database Design**: Employ a logical schema based on data relationships and business rules to structure data effectively within the chosen DBMS.
+- **Structured [[Database Design]]**: Employ a logical schema based on data relationships and business rules to structure data effectively within the chosen DBMS.
 - **Managing Data**: Implement best practices for data integrity, security, and efficiency within the DBMS framework.
 
 ## Summary

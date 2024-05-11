@@ -27,7 +27,7 @@ The Dependency Inversion Principle (DIP) is crucial for building software that's
 The principle distinguishes between two types of classes:
 
 - **High-Level Modules**: Contain complex business logic that directs low-level classes to do something.
-- **Low-Level Modules**: Implement basic operations such as working with a disk, transferring data over a network, connecting to a database, etc. 
+- **Low-Level Modules**: Implement basic operations such as working with a disk, transferring data over a network, connecting to a [[database]], etc. 
 
 To ensure compliance with DIP follow this rules:
 1. High-level modules should not depend on low-level modules. Both should depend on abstractions.

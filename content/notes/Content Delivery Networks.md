@@ -64,15 +64,15 @@ Using a CDN can significantly enhance the performance and reliability of a websi
 > 
 > 4. **CDN Integration**: Instead of returning the [[Internet Protocol|IP]] address of the London server, the authoritative name server returns an alias pointing to www.myshop.cdn.com, the CDN domain.
 > 
-> 5. **Contacting the CDN Domain**: The DNS resolver queries the authoritative name server for www.myshop.cdn.com.
+> 5. **Contacting the CDN Domain**: The [[Domain Name System|DNS]] resolver queries the authoritative name server for www.myshop.cdn.com.
 > 
 > 6. **Load Balancer Query**: The authoritative name server directs the resolver to www.myshop.lb.com, the domain for the CDN's load balancer.
 > 
 > 7. **Optimal Edge Server Selection**: The CDN load balancer evaluates the user’s IP address, ISP, content requested, and current server load to select the best CDN edge server.
 > 
-> 8. **Retrieving IP Address**: The load balancer provides the IP address of the optimal CDN edge server.
+> 8. **Retrieving [[Internet Protocol|IP]] Address**: The load balancer provides the IP address of the optimal CDN edge server.
 > 
-> 9. **Final IP Address Resolution**: The DNS resolver returns this IP address to Bob's browser.
+> 9. **Final [[Internet Protocol|IP]] Address Resolution**: The [[Domain Name System|DNS]] resolver returns this IP address to Bob's browser.
 > 
 > 10. **Accessing the Content**: Bob's browser contacts the CDN edge server to load the website. The server first checks its cache for both static content (like HTML pages and images) and dynamic content.
 > 

@@ -39,7 +39,7 @@ API architectural styles are designed to suit specific scenarios and requirement
 > |-------------------|------------------------------------|----------------------------------------|----------------------------------------|-----------------------------------------|-----------------------------------------|-----------------------------------------|
 > | **Communication Type** | Stateless                        | Stateful                               | Stateless                              | Event-driven                            | Full-duplex                             | Full-duplex                             |
 > | **Protocol**      | [[HTTP]]                               | [[HTTP]]                                   | [[HTTP]]                                   | [[HTTP]]                                    | [[TCP]]                                     | [[HTTP 2.0]]                                 |
-> | **Characteristics** | Simple, flexible, uses standard HTTP methods | Strict standards, uses XML, high security | Allows clients to request exactly what they need | Uses callbacks to deliver data in real time | Maintains a persistent connection for real-time, bidirectional communication | Efficient, low-latency, supports streaming |
+> | **Characteristics** | Simple, flexible, uses standard [[HTTP methods]] | Strict standards, uses XML, high security | Allows clients to request exactly what they need | Uses callbacks to deliver data in real time | Maintains a persistent connection for real-time, bidirectional communication | Efficient, low-latency, supports streaming |
 > | **Scalability**   | High                               | Moderate                               | High                                   | Depends on implementation                | High                                    | High                                    |
 > | **Security Level** | Moderate                          | High                                   | Moderate                               | Moderate                                | Moderate                                | High                                    |
 > | **Typical Use Cases** | General web services, mobile apps, social networks | Enterprise applications, financial services, complex transactions | Dynamic web apps, real-time data fetching | Automating workflows, real-time updates | Live chat, online gaming, collaborative environments | Microservices, high-performance internal services |
@@ -47,10 +47,10 @@ API architectural styles are designed to suit specific scenarios and requirement
 
 
 > [!important]- Key Insights
-> - **Communication Type**: Reflects how data is managed between client and server, with stateless systems like REST and [[GraphQL API|GraphQL]] not maintaining any server state, unlike stateful systems like SOAP.
+> - **Communication Type**: Reflects how data is managed between client and server, with stateless systems like REST and [[GraphQL API|GraphQL]] not maintaining any server state, unlike stateful systems like [[SOAP]].
 > - **Scalability**: Highlights the architecture's ability to handle increases in users or data volume. REST, [[GraphQL API|GraphQL]], and gRPC excel due to their efficient handling of requests and connections.
-> - **Security Level**: Some architectures, such as SOAP and gRPC, offer more robust security features crucial for managing sensitive or critical data.
-> - **Typical Use Cases**: Each API style is optimal for specific scenarios, from general web services (REST) to complex financial transactions (SOAP) and real-time interactive applications ([[Websockets]], gRPC).
+> - **Security Level**: Some architectures, such as [[SOAP]] and gRPC, offer more robust security features crucial for managing sensitive or critical data.
+> - **Typical Use Cases**: Each API style is optimal for specific scenarios, from general web services (REST) to complex financial transactions ([[SOAP]]) and real-time interactive applications ([[Websockets]], gRPC).
 
 
 ## [[Real-Time Notification Architectures]]

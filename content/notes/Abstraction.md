@@ -67,7 +67,7 @@ From the example above, it is not possible to create an object of the Animal cla
 
 To access the abstract class, it must be [[Inheritance|Inherited]] from another class.
 
-### Types of Abstraction in OOP
+### Types of Abstraction in [[Object Oriented Programming|OOP]]
 
 
 Abstraction in [[Object Oriented Programming|OOP]] can primarily be categorized into two types:

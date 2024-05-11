@@ -24,7 +24,7 @@ SQL provides several advanced features that facilitate more efficient and modula
 > 
 > - **Scalar Function**: Returns a single value and operates on a single row. Used for calculations that return a single value per row.
 > - **Inline Table-Valued Function**: Returns a table and can be treated as a single inline SQL statement that produces a table. These functions are useful for returning complex data structures.
-> - **Stored Procedures**: Procedures are SQL code blocks that encapsulate logic, which can be reused. They can handle multiple operations like insert, update, delete, or complex business logic.
+> - **Stored Procedures**: Procedures are SQL code blocks that [[Encapsulation|encapsulate]] logic, which can be reused. They can handle multiple operations like insert, update, delete, or complex business logic.
 > - **Views**:  These are virtual tables represented by queries. They do not store any data themselves but provide a real-time view of data according to the SQL query that defines the view. When you query a view, the database runs the underlying query against the actual data in the base tables.
 > - **Materialized Views**: Unlike regular views, materialized views actually store the result of the query in a physical table. This means that the data is persistent and can be refreshed periodically to reflect changes in the base data. They are used to improve performance by caching expensive query results and providing quick access to precomputed data based on the underlying tables.
 

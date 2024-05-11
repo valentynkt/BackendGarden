@@ -254,7 +254,7 @@ This code implements a Video Converter application using the Facade design patte
 >- Often used in layered architectures to bring all complex dependencies into one place.
 >
 >**Common Scenarios**:
->- Libraries and frameworks that require a complex set of configurations can provide a simplified API to improve user experience.
+>- Libraries and frameworks that require a complex set of configurations can provide a simplified [[API]] to improve user experience.
 >- Systems where the division into layers provides a clear distinction between components.
 
 ^da7d44

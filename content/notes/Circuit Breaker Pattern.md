@@ -19,7 +19,7 @@ link: [[Microservices Architecture Pattern|Microservice Architecture]]
 
 ## Overview
 
-The Circuit Breaker pattern is an essential resilience mechanism in a microservices architecture that prevents a network or service failure from cascading to other services. This pattern acts as a safeguard, halting the flow of requests to a service when failures reach a certain threshold, thus ensuring system stability and preventing further damage.
+The Circuit Breaker pattern is an essential resilience mechanism in a [[Microservices Architecture Pattern|microservices]] architecture that prevents a network or service failure from cascading to other services. This pattern acts as a safeguard, halting the flow of requests to a service when failures reach a certain threshold, thus ensuring system stability and preventing further damage.
 
 > [!abstract] 
 > The Circuit Breaker pattern functions like an electrical circuit breaker in software design, isolating problem spots in the system to prevent failures from cascading and allowing recovery and maintenance without halting the entire system.

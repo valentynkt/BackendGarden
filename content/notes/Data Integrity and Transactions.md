@@ -15,7 +15,7 @@ link: [[Database]]
 
 ![[../Files/Images/Pasted image 20240429200555.jpg]]
 
-Data integrity and transactions are crucial in database management, ensuring that data remains accurate, consistent, and reliable during operations. These elements are vital for systems that demand high levels of data validity and consistency, particularly in environments where data is accessed concurrently.
+Data integrity and transactions are crucial in [[database]] management, ensuring that data remains accurate, consistent, and reliable during operations. These elements are vital for systems that demand high levels of data validity and consistency, particularly in environments where data is accessed concurrently.
 
 ## Key Concepts
 

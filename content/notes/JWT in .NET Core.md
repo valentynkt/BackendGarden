@@ -5,7 +5,7 @@ Tags: [[CSharp]], [[NET]] , [[API]], [[Authentication and Authorization]], [[Jso
 # JWT in .NET Core
 
 ## Intro
-In this article, I will show you how to implement an ASP.NET Core web API application using [[Json Web Tokens|JWT]] authentication and authorization. This web API application implements processes such as login, logout, refresh token, impersonation, and so on. The following screenshot shows the API endpoints that we are going to walk through in this article.
+In this article, I will show you how to implement an ASP.NET Core web [[API]] application using [[Json Web Tokens|JWT]] authentication and authorization. This web API application implements processes such as login, logout, refresh token, impersonation, and so on. The following screenshot shows the API endpoints that we are going to walk through in this article.
 ![[Pasted image 20231020194326.png]]
 
 ## JWT workflow

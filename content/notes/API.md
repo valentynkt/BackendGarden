@@ -22,7 +22,7 @@ APIs, or Application Programming Interfaces, establish guidelines for how softwa
 
 ## Introduction
 
-APIs simplify complex software interactions by defining accessible methods and data formats for applications. This abstraction allows developers to use predefined functionalities to enhance application interoperability across various platforms and devices, fostering a more integrated digital environment.
+APIs simplify complex software interactions by defining accessible methods and data formats for applications. This [[abstraction]] allows developers to use predefined functionalities to enhance application interoperability across various platforms and devices, fostering a more integrated digital environment.
 
 > [!question]- **How Do APIs Work?**
 > 
@@ -48,8 +48,8 @@ API architectural styles vary, each with its specifications and best use cases:
 
 > [!summary] **[[API Architectures]]**
 > 
-> - [[REST API]]: Known for its simplicity and statelessness, REST uses standard HTTP methods and is ideal for web services.
-> - [[SOAP API]]: This protocol uses XML for sending structured data and is preferred for its high security in enterprise applications.
+> - [[REST API]]: Known for its simplicity and statelessness, [[REST API|REST]] uses standard [[HTTP methods]] and is ideal for web services.
+> - [[SOAP API]]: This protocol uses [[XML]] for sending structured data and is preferred for its high security in enterprise applications.
 > - [[GraphQL API]]: Enables precise data fetching in one go, reducing the need for multiple queries and is excellent for dynamic web applications.
 > - [[Webhooks API]]: Facilitates real-time communication via event-based triggers, automatically pushing data as events occur.
 > - [[gRPC API]]: Developed by Google, gRPC supports inter-process communication, making it a robust choice for [[Microservices Architecture Pattern|Microservices]] architectures.

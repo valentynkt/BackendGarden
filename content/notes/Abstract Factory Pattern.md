@@ -47,7 +47,7 @@ _Also known as: Virtual Constructor_
 > - Each style variant (Modern, Victorian, ArtDeco) is encapsulated within its own class hierarchy, enabling uniform style management across different product types.
 > - An Abstract Factory interface is established, comprising methods like `createChair()`, `createSofa()`, and `createCoffeeTable()`. These methods return products that conform to the respective interfaces, ensuring stylistic consistency.
 > - Separate factory classes for each style variant are implemented, such as `ModernFurnitureFactory`, each responsible for creating items in its specified style. This modular approach allows for easy adaptation to new styles or changes in product design.
-> - Client code interacts with these factories through their abstract interfaces, allowing the application to switch between different furniture styles without altering the underlying operations. This abstraction also makes it possible to dynamically adjust the factory settings based on user preferences or configuration changes.
+> - Client code interacts with these factories through their abstract interfaces, allowing the application to switch between different furniture styles without altering the underlying operations. This [[abstraction]] also makes it possible to dynamically adjust the factory settings based on user preferences or configuration changes.
 
 ![[Pasted image 20231010155322.png]]
 
@@ -145,7 +145,7 @@ This C# code illustrates the **Abstract Factory** design pattern, which is used 
 >3. **Factory Interface (`IGUIFactory`)** - Specifies methods to create buttons and checkboxes. This layer abstracts the creation process from the concrete product.
 >4. **Concrete Factories (`WinFactory`, `MacFactory`)** - Implement the factory interface to produce GUI elements for Windows and Mac, enabling platform-specific customization.
 >5. **Service Class (`SomeService`)** - Manages GUI elements using a factory determined by the operating system configuration, showcasing the pattern's ability to switch between product families dynamically.
->6. **Program Flow (`Main`)** - Demonstrates how to use the service to render GUI elements and how client code interacts with the factory abstraction to remain decoupled from product instantiation details.
+>6. **Program Flow (`Main`)** - Demonstrates how to use the service to render GUI elements and how client code interacts with the factory [[abstraction]] to remain decoupled from product instantiation details.
  
 This setup ensures GUI element compatibility and simplifies maintenance and extension of the codebase by segregating the creation logic into distinct factory classes..
 
@@ -285,8 +285,8 @@ This setup ensures GUI element compatibility and simplifies maintenance and exte
 >            Console.WriteLine("Rendering GUI elements using encapsulated factory methods.");
 >            service.PaintAllElements();
 >
->            // Accessing factory and GUI elements through an abstraction layer
->            Console.WriteLine("Accessing GUI elements through factory abstraction.");
+>            // Accessing factory and GUI elements through an [[Abstraction]] layer
+>            Console.WriteLine("Accessing GUI elements through factory [[abstraction]].");
 >            factory = service.GetFactory();
 >            var button = factory.CreateButton();
 >            var checkBox = factory.CreateCheckBox();
@@ -304,7 +304,7 @@ This setup ensures GUI element compatibility and simplifies maintenance and exte
 
 
 > [!note]
-> Here we have examples of how we can encapsulate abstraction or use it directly while hiding concrete implementations. These are two different levels of encapsulation and we can use both approaches according to our needs.
+> Here we have examples of how we can encapsulate [[abstraction]] or use it directly while hiding concrete implementations. These are two different levels of [[encapsulation]] and we can use both approaches according to our needs.
 
 ## Summary
 

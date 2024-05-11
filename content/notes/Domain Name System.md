@@ -22,9 +22,9 @@ The Domain Name System (DNS) is a hierarchical and decentralized naming system u
 > DNS provides a vital service on the Internet, and its operation hinges on several key features:
 > 
 > - **Domain Name Hierarchy**: DNS uses a hierarchical structure which includes levels like the root level, top-level domains (TLDs), second-level domains, and subdomains.
-> - **Distributed Database**: DNS information is distributed across many servers worldwide, which helps in load balancing and reduces the distance data must travel.
+> - **Distributed [[Database]]**: DNS information is distributed across many servers worldwide, which helps in load balancing and reduces the distance data must travel.
 > - **Caching**: Once a DNS lookup has been performed, the results are typically cached by the resolver for a certain period, significantly speeding up subsequent requests to the same domain name.
-> - **Zone Files**: DNS records are stored in zone files; these files contain mappings between domain names and IP addresses.
+> - **Zone Files**: DNS records are stored in zone files; these files contain mappings between domain names and [[Internet Protocol|IP]] addresses.
 
 
 > [!question]- How DNS Works?
@@ -34,7 +34,7 @@ The Domain Name System (DNS) is a hierarchical and decentralized naming system u
 > 2. **Resolver Query**: The resolver queries a root DNS server, which responds with the address of a TLD server (like .com or .net) that holds the domain's information.
 > 3. **TLD Server Query**: The resolver then queries the TLD server, which responds with the address of the domain's nameserver.
 > 4. **Nameserver Query**: Finally, the resolver queries the domain's nameserver to get the IP address associated with the domain name.
-> 5. **Response**: The resolver returns the IP address to the user's computer, which can then make an HTTP request to the IP address.
+> 5. **Response**: The resolver returns the IP address to the user's computer, which can then make an [[HTTP]] request to the IP address.
 
 
 > [!summary]- DNS Record Types

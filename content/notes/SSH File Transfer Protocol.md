@@ -14,7 +14,7 @@ Link: [[Web Communication Protocols]]
 
 ## Overview
 
-SFTP, part of the SSH protocol suite, provides a secure method for transferring files over a reliable data stream. Unlike FTP, SFTP encrypts both commands and data, preventing passwords and sensitive information from being transmitted openly over the network.
+SFTP, part of the [[SSH]] protocol suite, provides a secure method for transferring files over a reliable data stream. Unlike [[FTP]], SFTP encrypts both commands and data, preventing passwords and sensitive information from being transmitted openly over the network.
 
 ## Key Features of SFTP
 

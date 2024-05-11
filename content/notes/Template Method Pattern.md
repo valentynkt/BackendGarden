@@ -53,7 +53,7 @@ links: [[Behavioral patterns]]
 >3. **Ease of Maintenance and Extension:**
 >    - Any changes to the common functionality of the algorithm need to be made only once in the base class, simplifying maintenance. Adding a new document format involves creating a new subclass and implementing the abstract methods without affecting existing code.
 
-By applying the Template Method pattern, the data mining application can efficiently handle multiple document formats while maintaining a clear and manageable code structure. This approach not only optimizes code reuse and maintenance but also enhances the system’s flexibility to incorporate new types of documents as the application evolves.
+By applying the Template Method pattern, the data mining application can efficiently handle multiple document formats while maintaining a clear and manageable code structure. This approach not only optimizes [[code reuse]] and maintenance but also enhances the system’s flexibility to incorporate new types of documents as the application evolves.
 
 ### Structure
 
@@ -93,7 +93,7 @@ This approach simplifies the algorithm's structure into manageable steps, allowi
 
 > [!warning] **Disadvantages**
 > - **Algorithm Rigidity:** The rigid structure of the template method may limit how clients can use the class.
-> - **[[Liskov Substitution Principle]] Issues:** Overriding a method in a subclass to provide no action or a null operation can violate the Liskov Substitution Principle, as it alters the expected behavior of the superclass.
+> - **[[Liskov Substitution Principle]] Issues:** Overriding a method in a subclass to provide no action or a null operation can violate the [[Liskov Substitution Principle]], as it alters the expected behavior of the superclass.
 > - **Maintenance Complexity:** Template methods with many steps can become difficult to manage and maintain as variations and exceptions increase.
 
 ### Relations with Other Patterns
@@ -330,7 +330,7 @@ This setup effectively showcases the Template Method pattern by ensuring that ea
 >- Use when you have several classes that contain nearly identical algorithms with some minor differences in the sequence of steps.
 >
 >**Benefits**:
->- Facilitates code reuse and avoids duplication in subclasses.
+>- Facilitates [[code reuse]] and avoids duplication in subclasses.
 >- Offers a clear template for an algorithm sequence, ensuring consistency.
 >- Simplifies maintenance as changes to the algorithm's structure require modifications only in the abstract class, not in each subclass.
 >

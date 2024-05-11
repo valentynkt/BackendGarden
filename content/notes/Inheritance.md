@@ -13,7 +13,7 @@ link: [[Object Oriented Programming|OOP]]
 
 ## Overview
 
-Inheretence is a fundamental concept in object-oriented programming that allows new classes to be created based on existing classes, enhancing code reusability and efficiency. By deriving a class from an existing one, new functionalities can be added or existing ones modified without the need to rewrite code.
+Inheretence is a fundamental concept in object-oriented programming that allows new classes to be created based on existing classes, enhancing [[Code reuse|code reusability]] and efficiency. By deriving a class from an existing one, new functionalities can be added or existing ones modified without the need to rewrite code.
 
 >[!abstract] 
 >Inheritance ensures that subclasses inherit the public and protected members of their parent class. However, it also mandates that subclasses cannot hide these inherited methods, nor can they avoid implementing the abstract methods defined in the superclass unless they themselves are declared abstract.

@@ -11,7 +11,7 @@ link: [[Database]]
 # Indexing and Query Performance
 
 
-Indexing is a crucial feature in database management that enhances the performance of data retrieval operations by creating quick access paths to the data stored in a database. By effectively using indexes, databases can significantly reduce the amount of data they need to sift through when performing queries, leading to faster search times and improved application performance.
+Indexing is a crucial feature in [[database]] management that enhances the performance of data retrieval operations by creating quick access paths to the data stored in a database. By effectively using indexes, databases can significantly reduce the amount of data they need to sift through when performing queries, leading to faster search times and improved application performance.
 
 > [!important]
 > 

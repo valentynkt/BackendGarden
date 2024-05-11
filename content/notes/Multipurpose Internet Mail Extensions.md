@@ -15,14 +15,14 @@ link: [[Web Data Handling and Formats]]
 
 ## Overview
 
- Multipurpose Internet Mail Extensions (MIME) is a standard that extends the format of email messages to support text in character sets other than ASCII, as well as attachments of audio, video, images, and application programs. Developed and standardized in the early 1990s, MIME makes it possible to send files, multimedia, and text in various languages over Internet email.
+ Multipurpose Internet Mail Extensions (MIME) is a standard that extends the format of email messages to support text in character sets other than [[ASCII]], as well as attachments of audio, video, images, and application programs. Developed and standardized in the early 1990s, MIME makes it possible to send files, multimedia, and text in various languages over Internet email.
 
 ## Key Features of MIME
 
 > [!info]- Key Features of MIME
 > - **Support for Multiple Media Types**: MIME types describe the nature of content—whether it's an image, text, video, or any other kind of data—allowing the email client or web browser to understand how to handle each piece.
-> - **Extensibility**: New MIME types can be defined and registered, making the system adaptable to new kinds of files and applications.
-> - **Compatibility**: MIME is designed to work with existing email protocols like SMTP, ensuring backward compatibility with the traditional email system which only supported ASCII text.
+> - **[[Extensibility]]**: New MIME types can be defined and registered, making the system adaptable to new kinds of files and applications.
+> - **Compatibility**: MIME is designed to work with existing email protocols like [[SMTP]], ensuring backward compatibility with the traditional email system which only supported [[ASCII]] text.
 
 
 > [!example]- MIME Structure

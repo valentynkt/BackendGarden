@@ -41,9 +41,9 @@ SOAP APIs are well-suited for complex enterprise applications due to their stric
 > [!success]- Pros
 > - **Standardization**: SOAP ensures strict compliance with standards, making it suitable for formal enterprise environments.
 > - **Security**: Features comprehensive security protocols like WS-Security for authentication, authorization, and encryption.
-> - **Extensibility**: Can be extended with protocols such as WS-ReliableMessaging for enhanced capabilities.
+> - **[[Extensibility]]**: Can be extended with protocols such as WS-ReliableMessaging for enhanced capabilities.
 > - **Stateful Operations**: Supports operations that require the server to maintain client session state.
-> - **Language and Platform Independence**: Uses XML, allowing use across different platforms and programming languages.
+> - **Language and Platform Independence**: Uses [[XML]], allowing use across different platforms and programming languages.
 > - **[[ACID Properties|ACID]] Compliance**: Facilitates reliable transaction processing by supporting ACID-compliant transactions.
 
 However, SOAP also presents several challenges that may affect its suitability for some projects:
@@ -53,7 +53,7 @@ However, SOAP also presents several challenges that may affect its suitability f
 > - **Performance Overhead**: SOAP's use of [[XML]] can increase message size and reduce performance relative to simpler protocols like [[REST]].
 > - **Limited Flexibility**: The strict standards can restrict how data is handled and result in verbose messages.
 > - **Steep Learning Curve**: Learning SOAP’s various standards and protocols requires significant time and effort.
-> - **Browser Compatibility**: Setting up SOAP calls is more complex than using REST, which can be easily managed in modern web browsers.
+> - **Browser Compatibility**: Setting up SOAP calls is more complex than using [[REST API|REST]], which can be easily managed in modern web browsers.
 
 
 ## Common Use Cases

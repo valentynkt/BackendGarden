@@ -55,7 +55,7 @@ This design not only simplifies client interactions with collections but also en
     
 4. **Concrete Collections:** Concrete collections implement the Collection interface and provide new instances of a specific iterator class upon request. The remainder of the collection’s functionality (such as storage and management of elements) resides within the same class but is separate from the iterator functionality to maintain clarity and adhere to the Iterator pattern.
     
-5. **Client Interaction:** Clients interact with collections and iterators through their interfaces, which decouples the client code from specific implementations of collections and iterators. This abstraction allows the same client code to operate with various collections and iterators seamlessly. While clients typically receive iterators from the collections they work with, they may also instantiate specific iterators directly if a custom traversal is required.
+5. **Client Interaction:** Clients interact with collections and iterators through their interfaces, which decouples the client code from specific implementations of collections and iterators. This [[abstraction]] allows the same client code to operate with various collections and iterators seamlessly. While clients typically receive iterators from the collections they work with, they may also instantiate specific iterators directly if a custom traversal is required.
     
 
 This structure ensures that the Iterator pattern provides a clear and flexible framework for accessing elements in a collection without needing to understand or manage the underlying collection's structure.

@@ -44,7 +44,7 @@ The architecture of IPSec includes several components that ensure secure communi
 
 > [!info]- Architectural Components
 > - **Security Associations (SA)**: Defines the parameters for how IPSec will operate between devices.
-> - **SA Database (SADb)**: Stores the parameters for each SA.
+> - **SA Database (SADb)**: Stores the parame[[Database|ters for]] each SA.
 > - **Key Management**: Often handled by IKE, which securely manages key generation and exchange.
 
 ## Common Uses of IPSec
@@ -65,7 +65,7 @@ IPSec is versatile in its applications, which include:
 
 ## Conclusion
 
- IPSec is essential for implementing secure network communications across IP networks, especially the internet. Its comprehensive security features make it an effective tool for ensuring data confidentiality, integrity, and authenticity in various network configurations.
+ IPSec is essential for implementing secure network communications across [[Internet Protocol|IP]] networks, especially the internet. Its comprehensive security features make it an effective tool for ensuring data confidentiality, integrity, and authenticity in various network configurations.
 
 
 

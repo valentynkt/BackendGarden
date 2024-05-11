@@ -27,7 +27,7 @@ _Also known as: Wrapper_
 ### Intent
 
 > [!danger]  **Problem** 
-> Imagine you're developing a stock market monitoring app. It fetches stock data from various sources in XML format and presents it to users in visually appealing charts and diagrams. Later on, you decide to enhance the app by integrating a sophisticated third-party analytics library. But here's the challenge: the analytics library exclusively processes data in JSON format. This presents an incompatibility issue since your app's data is in XML format.
+> Imagine you're developing a stock market monitoring app. It fetches stock data from various sources in [[XML]] format and presents it to users in visually appealing charts and diagrams. Later on, you decide to enhance the app by integrating a sophisticated third-party analytics library. But here's the challenge: the analytics library exclusively processes data in JSON format. This presents an incompatibility issue since your app's data is in XML format.
 >
 >**Challenges:**
 >- Integrating a smart 3rd-party analytics library that only works with JSON data into an app that fetches data in XML format.

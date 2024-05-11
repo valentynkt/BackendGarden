@@ -4,7 +4,6 @@ aliases:
   - Surrogate Pattern
   - Placeholder Pattern
   - Control Object Pattern
-  - Proxy
 links: "[[Structural patterns]]"
 tags:
   - LearningIT
@@ -20,7 +19,7 @@ link: [[Structural patterns]]
 ![[Pasted image 20240404214727.png]]
 
 >[!abstract] 
->**Proxy** is a structural design pattern that lets you provide a substitute or placeholder for another object. A proxy controls access to the original object, allowing you to perform something either before or after the request gets through to the original object.
+>**Proxy** is a [[Structural patterns|Structural]] design pattern that lets you provide a substitute or placeholder for another object. A proxy controls access to the original object, allowing you to perform something either before or after the request gets through to the original object.
 
 ## Content
 
@@ -86,7 +85,7 @@ To implement the Proxy pattern effectively, follow these steps:
     - After performing any necessary pre-processing, delegate the actual work to the service object in most cases.
 4. **Consider Creation Method**:
     - Evaluate the need for a creation method that determines whether the client receives a proxy or a real service object.
-    - This method can be a simple static method in the proxy class or a more complex factory method.
+    - This method can be a simple static method in the proxy class or a more complex [[Factory Method Pattern|Factory Method]].
 5. **Implement Lazy Initialization**:
     - Optionally, implement lazy initialization for the service object within the proxy.
     - Delay the creation of the service object until it's actually needed, optimizing resource utilization.
@@ -119,7 +118,7 @@ This code exemplifies the **Proxy** pattern, which is used to control access to 
 >- **Service Interface (`IThirdPartyYouTubeLib`)**:
 >    - Defines the operations that can be performed on the YouTube service, such as listing videos, getting video information, and downloading videos.
 >- **Concrete Service (`ThirdPartyYouTubeClass`)**:
->    - Implements the service interface to interact directly with YouTube's API. This class handles API requests and returns video data.
+>    - Implements the service interface to interact directly with YouTube's [[API]]. This class handles API requests and returns video data.
 >- **Proxy Class (`CachedYouTubeClass`)**:
 >    - Implements the service interface and acts as a proxy to the real YouTube service (`ThirdPartyYouTubeClass`). It adds caching functionality to store results of expensive API calls like video listing and metadata retrieval, thus improving performance by avoiding repeated API requests.
 >    - Manages caching logic to check whether data needs to be refreshed or can be served from cache.
@@ -306,7 +305,7 @@ This setup demonstrates how the Proxy pattern can be utilized to add caching fun
 
 # References
 
-https://refactoring.guru/design-patterns
+[Design Patterns](https://refactoring.guru/design-patterns)
 
 
 

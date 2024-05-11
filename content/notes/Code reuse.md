@@ -47,7 +47,7 @@ Code reuse can be implemented at various levels of sophistication and abstractio
 - **[[Design Patterns]]**: At a middle level, design patterns describe standard solutions to common problems, facilitating reuse of software design knowledge rather than concrete code.
 - **Frameworks**: The highest level of reuse, frameworks provide comprehensive architectures for applications, defining core abstractions and their interactions.
 
-Design patterns and frameworks present a scalable way to apply code reuse, with patterns allowing for flexibility without the heavy investment required for framework development.
+[[Design patterns]] and frameworks present a scalable way to apply code reuse, with patterns allowing for flexibility without the heavy investment required for framework development.
 
 
 ## Summary

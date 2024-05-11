@@ -42,7 +42,7 @@ IP is designed to ensure efficient and reliable network communication through se
 > There are two primary versions of IP addresses:
 > 
 > - **[[IPv4]]**: Consists of 32-bit addresses, offering over 4 billion unique addresses. They are usually expressed in dot-decimal notation (e.g., 192.168.1.1).
-> - **[[IPv6]]**: Developed to deal with the address exhaustion of IPv4, IPv6 uses 128-bit addresses, significantly increasing the number of available addresses. It is expressed in hexadecimal notation (e.g., 2001:0db8:85a3:0000:0000:8a2e:0370:7334).
+> - **[[IPv6]]**: Developed to deal with the address exhaustion of [[IPv4]], [[IPv6]] uses 128-bit addresses, significantly increasing the number of available addresses. It is expressed in hexadecimal notation (e.g., 2001:0db8:85a3:0000:0000:8a2e:0370:7334).
 > 
 > ![[1715096711053.gif]]
 

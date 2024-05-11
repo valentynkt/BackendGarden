@@ -30,7 +30,7 @@ Understanding these versions and their differences is essential for optimizing w
 > [!NOTE]- Version Comparison
 > 
 > 
-> | Feature          | HTTP 1.0                                     | HTTP 1.1                                     | HTTP/2                                         | HTTP/3                                       |
+> | Feature          | HTTP 1.0                                     | [[HTTP 1.1]]                                     | HTTP/2                                         | HTTP/3                                       |
 > |------------------|----------------------------------------------|----------------------------------------------|------------------------------------------------|----------------------------------------------|
 > | **Multiplexing** | No                                           | No                                           | Yes                                            | Yes                                          |
 > | **Header Compression** | No                                           | No                                           | Yes                                            | Yes                                          |
@@ -38,9 +38,9 @@ Understanding these versions and their differences is essential for optimizing w
 > | **Persistent Connections** | No                                        | Yes                                          | Yes                                            | Yes                                          |
 > | **Connection Reuse** | No                                       | Yes                                          | Yes                                            | Yes                                          |
 > | **Stream Prioritization** | No                                     | No                                           | Yes                                            | Yes                                          |
-> | **Encryption**   | No                                           | No                                           | Yes (over TLS)                                 | Yes (over QUIC)                             |
+> | **Encryption**   | No                                           | No                                           | Yes (over TLS)                                 | Yes (over [[QUIC Protocol|QUIC]])                             |
 > | **Latency**      | Higher                                       | Lower                                        | Lower                                          | Lower                                        |
-> | **Protocol**     | HTTP                                          | HTTP                                          | Binary framing layer over TCP/TLS              | Datagram-based protocol over UDP             |
+> | **Protocol**     | HTTP                                          | HTTP                                          | Binary framing layer over [[TCP]]/TLS              | Datagram-based protocol over [[UDP]]             |
 > | **Overhead**     | Higher                                       | Lower                                        | Lower                                          | Lower                                        |
 > | **Compatibility**| Older                                         | Widely used                                  | Widely supported                               | Emerging                                     |
 > 
@@ -55,6 +55,6 @@ Understanding these versions and their differences is essential for optimizing w
 > 
 > - [[HTTP 1.1]] was published in 1997. A [[TCP]] connection can be left open for reuse (persistent connection), but it doesn’t solve the HOL (head-of-line) blocking issue. HOL blocking - when the number of allowed parallel requests in the browser is used up, subsequent requests need to wait for the former ones to complete.
 > 
-> - [[HTTP 2.0]] was published in 2015. It addresses HOL issue through request multiplexing, which eliminates HOL blocking at the application layer, but HOL still exists at the transport ([[TCP]]) layer. As you can see in the diagram, HTTP 2.0 introduced the concept of [[HTTP]] “streams”: an abstraction that allows multiplexing different HTTP exchanges onto the same [[TCP]] connection. Each stream doesn’t need to be sent in order. 
+> - [[HTTP 2.0]] was published in 2015. It addresses HOL issue through request multiplexing, which eliminates HOL blocking at the application layer, but HOL still exists at the transport ([[TCP]]) layer. As you can see in the diagram, [[HTTP 2.0]] introduced the concept of [[HTTP]] “streams”: an [[abstraction]] that allows multiplexing different HTTP exchanges onto the same [[TCP]] connection. Each stream doesn’t need to be sent in order. 
 > 
-> - [[HTTP 3.0]] first draft was published in 2020. It is the proposed successor to HTTP 2.0. It uses [[QUIC Protocol|QUIC]] instead of [[TCP]] for the underlying transport protocol, thus removing HOL blocking in the transport layer.
+> - [[HTTP 3.0]] first draft was published in 2020. It is the proposed successor to [[HTTP 2.0]]. It uses [[QUIC Protocol|QUIC]] instead of [[TCP]] for the underlying transport protocol, thus removing HOL blocking in the transport layer.

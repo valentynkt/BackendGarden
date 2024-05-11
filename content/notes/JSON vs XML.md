@@ -32,7 +32,7 @@ link: [[Web Data Handling and Formats]], [[JSON]], [[XML]]
 > 
 > - JSON uses braces `{}` for objects and square brackets `[]` for arrays, making it less verbose and more straightforward to parse.
 > 
-> **XML Syntax:**
+> **[[XML Syntax]]:**
 > ```xml
 > <employee>
 >   <name>John Doe</name>
@@ -44,7 +44,7 @@ link: [[Web Data Handling and Formats]], [[JSON]], [[XML]]
 
 ## Comparison
 
-|Feature|JSON|XML|
+|Feature|JSON|[[XML]]|
 |---|---|---|
 |**Verbosity**|Lightweight and less verbose|More verbose, leading to potentially larger files|
 |**Readability**|High readability and ease of use|Readable but can be cumbersome due to verbosity|

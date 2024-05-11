@@ -29,15 +29,15 @@ GraphQL stands out due to its flexibility in data fetching and structured approa
 > [!info]-
 > - **Fetch Only What You Need**: Clients can specify exactly the data they need, nothing more, reducing over-fetching and under-fetching.
 > - **Single Endpoint**: Uses a single endpoint to handle all actions, simplifying [[API]] management compared to [[REST API|REST]] which may use multiple endpoints.
-> - **Strongly Typed Schema**: Every GraphQL service defines a set of types which completely describe the set of possible data you can query, enhancing predictability and reliability of the API.
+> - **Strongly Typed Schema**: Every GraphQL service defines a set of types which completely describe the set of possible data you can query, enhancing predictability and reliability of the [[API]].
 
 ## Queries and Mutations
 
 GraphQL queries are designed to fetch data, similar to `GET` calls in [[REST API|REST]], while mutations are used to modify data, akin to `POST` or `DELETE` methods in [[REST API|REST]]:
 
 > [!example]-
-> - **Queries**: Retrieve data without affecting it. Queries are the equivalent of `GET` in RESTful APIs.
-> - **Mutations**: Make changes to the data, like `POST`, `PUT`, `DELETE` in REST.
+> - **Queries**: Retrieve data without affecting it. Queries are the equivalent of `GET` in [[REST API|RESTful]] APIs.
+> - **Mutations**: Make changes to the data, like `POST`, `PUT`, `DELETE` in [[REST API|REST]].
 
 ## How GraphQL Works
 
@@ -67,7 +67,7 @@ Despite the numerous benefits, GraphQL also has drawbacks:
 > [!danger]-
 > - **Complexity for Developers**: Managing queries and integrating with existing systems can be complex.
 > - **Performance Issues**: Complex queries can strain servers if not optimized.
-> - **Caching Complications**: Unlike REST, caching in GraphQL is more involved due to the variability of query patterns.
+> - **Caching Complications**: Unlike [[REST API|REST]], caching in GraphQL is more involved due to the variability of query patterns.
 
 ## Conclusion
 

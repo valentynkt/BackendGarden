@@ -19,13 +19,13 @@ link: [[Design Principles]]
 **Encapsulate What Varies** is a fundamental software design principle aimed at managing change by isolating it. This approach advises developers to separate the parts of their application that are likely to change from those that remain constant. This segregation enhances flexibility, reduces the impact of modifications, and simplifies maintenance.
 
 > [!abstract]
->  Implementing this principle correctly ensures that changes to the business requirements or technology affect minimal parts of the system, maintaining overall stability and promoting code reuse.
+>  Implementing this principle correctly ensures that changes to the business requirements or technology affect minimal parts of the system, maintaining overall stability and promoting [[code reuse]].
 
 ## Content
 
 ### Key Concepts
 
-Encapsulation can be applied at various levels within a software system, primarily focusing on method and class levels:
+[[Encapsulation]] can be applied at various levels within a software system, primarily focusing on method and class levels:
 
 > [!important]
 > 
@@ -77,7 +77,7 @@ Encapsulation can be applied at various levels within a software system, primari
 >In this example, the `ProcessPayment` method encapsulates the variations in payment processing methods. This isolation prevents the need to modify calling code if new payment methods are added or existing methods are changed.
 
 > [!example]- Class Level
-> Class level encapsulation involves isolating changes to a class so that alterations within the class do not impact its clients. This is often achieved using abstraction (interfaces or abstract classes) to interact with the class.
+> Class level encapsulation involves isolating changes to a class so that alterations within the class do not impact its clients. This is often achieved using [[abstraction]] (interfaces or abstract classes) to interact with the class.
 >``` csharp
 >public interface ILogger
 >{
@@ -130,4 +130,4 @@ Encapsulating variability not only reduces the complexity and increases the modu
 
 - **Enhanced Flexibility**: Adjustments or improvements can be made with minimal system-wide repercussions.
 - **Easier Maintenance and Testing**: Isolated changes make the system easier to debug and test.
-- **Increased Code Reuse**: Stable interfaces promote reusability across different parts of the application or in future projects.
+- **Increased [[Code Reuse]]**: Stable interfaces promote reusability across different parts of the application or in future projects.

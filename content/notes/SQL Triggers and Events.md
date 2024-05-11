@@ -20,7 +20,7 @@ SQL triggers and events are powerful tools used in database systems to automate 
 
 > [!important]
 > 
-> - **SQL Triggers**: A trigger is a SQL code that automatically executes in response to certain events on a particular table or view. These events include INSERT, UPDATE, or DELETE actions performed on the table. Triggers help maintain data integrity and enforce business rules silently and automatically.
+> - **SQL Triggers**: A trigger is a SQL code that automatically executes in response to certain events on a particular table or view. These events include INSERT, UPDATE, or DELETE actions performed on the table. Triggers help maintain [[Data Integrity and Transactions|data integrity]] and enforce business rules silently and automatically.
 > - **SQL Events**: An event in SQL is a task scheduled to run at specific times, much like a cron job in UNIX/Linux systems. It is used to perform any number of SQL actions at scheduled intervals, such as cleanup tasks, updates to summary tables, or periodic checks and notifications.
 
 ### Types of SQL Triggers and Their Events

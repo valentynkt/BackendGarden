@@ -42,8 +42,8 @@ The BFF pattern involves setting up separate backend services for each frontend.
 Implementing the BFF pattern requires:
 
 - Designing separate backend services tailored to the needs of each specific frontend platform.
-- Ensuring that these services encapsulate all the business logic, data management, and performance optimizations relevant to their respective frontends.
-- Implementing robust API gateways that route requests to the appropriate backend, enhancing modularity and maintainability.
+- Ensuring that these services [[Encapsulation|encapsulate]] all the business logic, data management, and performance optimizations relevant to their respective frontends.
+- Implementing robust [[API]] gateways that route requests to the appropriate backend, enhancing modularity and maintainability.
 
 ### Best Use Cases
 
@@ -56,5 +56,5 @@ The BFF pattern is particularly beneficial in situations where:
 ## Summary
 
 > [!summary] 
-> The Backends for Frontends pattern is a strategic approach to developing frontend-specific backends in microservices architectures. By tailoring backend services to specific frontends, organizations can enhance performance, streamline development processes, and offer a customized user experience across all platforms
+> The Backends for Frontends pattern is a strategic approach to developing frontend-specific backends in [[Microservices Architecture Pattern|microservices]] architectures. By tailoring backend services to specific frontends, organizations can enhance performance, streamline development processes, and offer a customized user experience across all platforms
 
