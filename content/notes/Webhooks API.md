@@ -15,7 +15,7 @@ link: [[API Architectures]]
 
 ## Overview
 
-WebHooks are user-defined HTTP callbacks that are triggered by specific events in a [[Web]] application or service. Unlike APIs that require polling for data regularly, WebHooks provide a more efficient method for servers to notify a client about changes in real-time. This makes WebHooks an essential component in modern web development for creating event-driven software.
+WebHooks are user-defined [[HTTP]] callbacks that are triggered by specific events in a [[Web]] application or service. Unlike [[API|APIs]] that require polling for data regularly, WebHooks provide a more efficient method for servers to notify a client about changes in real-time. This makes WebHooks an essential component in modern web development for creating event-driven software.
 
 ## Key Features
 

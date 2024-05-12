@@ -20,7 +20,7 @@ link: [[API Architectures]]
 > GraphQL is a **query language** and a **server-side runtime** (typically served over [[HTTP]]).
 
 
-GraphQL is a powerful query language and runtime for APIs that allows querying data from any number of different sources, unlike traditional query languages that are tied to specific data stores. It enables clients to request exactly what they need, making it highly efficient for both developers and applications. GraphQL is not limited to any specific type of data store and can fetch data from databases, micro-services, or even underlying [[REST API|RESTful APIs]].
+GraphQL is a powerful query language and runtime for [[API|APIs]] that allows querying data from any number of different sources, unlike traditional query languages that are tied to specific data stores. It enables clients to request exactly what they need, making it highly efficient for both developers and applications. GraphQL is not limited to any specific type of data store and can fetch data from databases, micro-services, or even underlying [[REST API|RESTful APIs]].
 
 ## Key Features of GraphQL
 

@@ -1,6 +1,8 @@
 ---
 created: 2024-05-09 19:11
-aliases: 
+aliases:
+  - API Design
+  - API Styles
 tags:
   - LearningIT
   - seed🌱

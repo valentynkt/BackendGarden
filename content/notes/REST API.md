@@ -82,7 +82,7 @@ REST APIs are a cornerstone of modern web development, enabling flexible, scalab
 
 # Reference:
 
-- https://restfulapi.net/rest-architectural-constraints/
-- [REST APIs must be hypertext-driven](https://roy.gbiv.com/untangled/2008/rest-apis-must-be-hypertext-driven)
+- [REST Architectural Constraints](https://restfulapi.net/rest-architectural-constraints/)
+- [REST APIs must be hypertext-driven » Untangled](https://roy.gbiv.com/untangled/2008/rest-apis-must-be-hypertext-driven)
 - [REST Arch Style]( https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.html)
 

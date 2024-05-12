@@ -2,6 +2,7 @@
 created: 2024-05-03 19:18
 aliases:
   - Application Programming Interface
+  - APIs
 tags:
   - LearningIT
   - seed🌱
@@ -15,7 +16,7 @@ link:
 
 ## Overview
 
-APIs, or Application Programming Interfaces, establish guidelines for how software programs interact, crucial for exchanging data and functions across different systems. These interfaces are vital for creating interconnected experiences on web, mobile, and cloud platforms, forming a fundamental part of modern software development.
+APIs, or Application Programming Interfaces, establish guidelines for how software programs interact, crucial for exchanging data and functions across different systems. These interfaces are vital for creating interconnected experiences on [[Web]], mobile, and cloud platforms, forming a fundamental part of modern software development.
 
 > [!important]
 > The approach known as [[API-First]] emphasizes designing APIs at the beginning of a project. This strategy prioritizes API development to enhance integration and scalability of systems, facilitating a streamlined and efficient development process.
@@ -71,5 +72,5 @@ Understanding the diversity of API types and their architectures not only helps 
 
 # References
 
-https://www.postman.com/what-is-an-api/
-https://blog.bytebytego.com/p/api-design?utm_source=publication-search
+[What is an API? A Beginner's Guide to APIs | Postman](https://www.postman.com/what-is-an-api/)
+[Mastering the Art of API Design - by Alex Xu](https://blog.bytebytego.com/p/api-design?utm_source=publication-search)

@@ -17,7 +17,7 @@ link: [[Web]], [[API Architectures]]
 
 ## Overview
 
-[[HTTP]] and WebSocket are both communication protocols used in client-server communication. Unlike HTTP, which is designed for short-lived connections, WebSockets provide a way to open a bi-directional, persistent communication channel. This allows for real-time data transfer and interaction, enhancing web applications that require live updates like chat applications, live notifications, and collaborative platforms.
+[[HTTP]] and WebSocket are both communication protocols used in client-server communication. Unlike [[HTTP]], which is designed for short-lived connections, WebSockets provide a way to open a bi-directional, persistent communication channel. This allows for real-time data transfer and interaction, enhancing web applications that require live updates like chat applications, live notifications, and collaborative platforms.
 
 > [!important]- Relationship with HTTP 
 > 

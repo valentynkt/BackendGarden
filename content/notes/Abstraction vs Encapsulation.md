@@ -14,9 +14,9 @@ link: [[Object Oriented Programming|OOP]], [[Abstraction]], [[Encapsulation]]
 
 Lets take a look on difference between [[Abstraction]] vs [[Encapsulation]]
 
-A lot of times programmers often confuse abstraction with encapsulation because in reality the two concepts are quite intertwined and share a relationship between them. [[Abstraction]], as we’ve seen pertains to hiding underlying details and implementation in a program. Encapsulation, on the other hand, describes how abstraction occurs in a program.
+A lot of times programmers often confuse abstraction with encapsulation because in reality the two concepts are quite intertwined and share a relationship between them. [[Abstraction]], as we’ve seen pertains to hiding underlying details and implementation in a program. [[Encapsulation]], on the other hand, describes how abstraction occurs in a program.
 
-[[Abstraction]] is a design-level process but encapsulation is an implementation process. **Encapsulation tells us how exactly you can implement abstraction in the program**. Abstraction pertains to only displaying the essential details to the user whereas encapsulation pertains to typing up all the data members and associated member functions into a single abstracted unit.
+[[Abstraction]] is a design-level process but encapsulation is an implementation process. **[[Encapsulation]] tells us how exactly you can implement abstraction in the program**. Abstraction pertains to only displaying the essential details to the user whereas encapsulation pertains to typing up all the data members and associated member functions into a single abstracted unit.
 
 
 | No  | [[Abstraction]]                                                                              | Encapsulation                                                                                                         |
