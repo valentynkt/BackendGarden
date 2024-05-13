@@ -54,7 +54,7 @@ The "Landscape" serves as a comprehensive guide and overarching map for explorin
 > - **Web Session Management**
 > 	- [[Cookies and Sessions]]
 
-
+  
 > [!important]- [[Design Patterns]] (MoC)
 > - [[Creational Patterns]]
 >   - [[Abstract Factory Pattern]]

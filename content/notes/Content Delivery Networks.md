@@ -3,6 +3,7 @@ created: 2024-05-03 18:53
 aliases:
   - CDN
   - Content Delivery Networks (CDNs)
+  - CDNs
 tags:
   - LearningIT
   - seed🌱

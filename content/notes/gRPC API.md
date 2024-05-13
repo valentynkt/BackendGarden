@@ -1,157 +1,7 @@
-Date and Time: <u> 2023-10-19 20:17 </u>
-Status: #LearningIT
-Tags: [[API]], [[Microservices]]
-
-# gRPC API
-
-**gRpc is [[API]]-Oriented**
-Google Remote Procedure Calls(gRPC), an open-source framework, facilitates the development of high-performance, scalable, and efficient distributed systems. Developed by Google in 2015, gRPC efficiently connects systems, written in different languages, using a pluggable architecture that supports load balancing, tracing, health checking, and authentication.
-
-## Intro
-gRPC is widely used for communication between internal [[Microservices Architecture Pattern|Microservices]] majorly due to its high performance and its polyglot nature.
-
-gRPC uses [[HTTP 2.0|HTTP/2]] as its transfer protocol and hence it inherits the benefits like binary framing from [[HTTP 2.0|HTTP/2]]. [[HTTP 2.0|HTTP/2]] lightweight to transport, and safer to decode compared to other text-based protocols. Due to its binary nature, HTTP/2 forms a good combination with the [[Protocol Buffers|Protobuf]] format.
-
-To understand gRPC, we must first understand [[#RPC]]
-
-## RPC
-RPC follows the [[Client-Server Architecture Pattern|Client-Server Model]], where the requesting program acts as the client and the service-providing program operates as the server.
-
-The process flow of a remote procedure call request consists of the following steps:
-``` ad-important
-- First, the client stub is invoked by the client.
-- Next, the client stub performs a system call to send a message to the server and includes the necessary parameters in the message.
-- Afterward, the message is transmitted from the client to the server using the client’s operating system.
-- Upon receipt, the server’s operating system delivers the message to the server stub.
-- The server stub then extracts the parameters from the message.
-- Finally, the server stub invokes the server procedure to process the request.
-```
-![[Pasted image 20231030181709.png]]
-## gRPC flow
-The protocol buffer serves as a conduit for structured data exchange between systems.
-
-When a client makes a request to a server using a stub, which acts as a client-side representation of the server-side service, the request is transmitted as a serialized protocol buffer message, containing the necessary data for the request.
-
-On the server side, the message is then deserialized, and the relevant service method is invoked to process the request. The server subsequently sends the response back to the client as another serialized protocol buffer message.
-![[Pasted image 20231030183337.png]]
-
-
-gRPC also uses [[HTTP 2.0|HTTP/2]] as its transport protocol. [[HTTP 2.0|HTTP/2]] provides a way for a client and server to communicate through a single [[TCP]] connection. This connection can contain multiple streams of bytes flowing bidirectionally. In the context of gRPC, a stream in HTTP/2 maps to one RPC call. When data is passed between the client and server, it is divided into multiple frames, with each frame assigned a stream ID. This allows multiple messages to be transmitted over a single connection and enables message multiplexing.
-![[Pasted image 20231030182830.png]]
-
-
-## Components of gRPC
-
-There are 3 components as follows
-
-``` ad-important
-1. Service Definition
-2. gRPC Server
-3. gRPC Client
-```
-![[Pasted image 20231030183337.png]]
-### Service Definition
-The first step of building a gRPC service is to create the service interface definition with the methods that are exposed by that service along with input parameters and return types.
-
-The service definition is specified in the _ProductInfo.proto_ file, which is used by both the server and client sides to generate the code and this serves as the [[API]] contract between them.
-
-These proto files are generated on the gRPC server and used in the client code irrespective of the language.
-
-### gRPC Server
-With the service definition file, the source code can be generated using the [[Protocol Buffers]] compiler protoc. Protoc is supported in many languages.
-
-With the gRPC plug-in for protocol buffers, you can generate gRPC server-side as well as the regular protocol buffer code for populating, serializing, and retrieving your message types.
-
-On the server side, the server implements that service definition and runs a gRPC server to handle client calls.
-
-### gRPC Client
-On the client side, we generate the client-side stub using the service definition. The client stub provides the same methods as the server and it converts them to remote function invocation network calls that go to the server side. Since gRPC service definitions are language-agnostic, client stubs can be created in any language.
-## gRPC [[Microservices]]
-
-One of the biggest advantages of [[Microservices Architecture Pattern|Microservices]] is the ability to use different technologies for each independent service i.e polyglot. Each [[Microservices Architecture Pattern|Microservices]] agrees on [[API]] to exchange data, data format, error patterns, load balancing, etc. Since gRPC allows for describing a contract in a binary format, it can be used efficiently for [[Microservices Architecture Pattern|Microservices]] communication independent of the languages.
-![[Pasted image 20231030184125.png]]
-
-In the above diagram, a [[Microservices Architecture Pattern|Microservices]] architecture is shown. The request from the client (web or mobile) reaches the [[API]] Gateway and then goes to the aggregator service (gRPC Client)
-
-The Shopping Aggregator microservice calls the other [[Microservices Architecture Pattern|Microservices]] internally and aggregates the data to send to the front end. As you can see, the communication between aggregators and other services happens through the gRPC protocol.
-
-In a real-world scenario, [[Microservices Architecture Pattern|Microservices]] will talk to each other a lot to aggregate the data and send it to the client. If we use a normal [[REST API]] it will tend to be slower and the client will experience more latency. If we use gRPC between [[Microservices Architecture Pattern|Microservices]], it will be much faster and have low latency for the client.
- 
-``` ad-important
-gRPC Client is the aggretor which call other [[Microservices Architecture Pattern|microservices]] which will be gRPC Server. Because of using [[Protocol Buffers]] we can have microservices using different languages which will support proto. The data between gRPC Client and Server will be send in language agnostic format proto. We can also have another pattern when not only Aggregator will be the gRPC Client but all Microservices can make call to another microservice and according to context be a gRPC Client
-```
-
-## gRPC Patterns 
-
-``` ad-important
-gRPC supports four communication patterns:
-- **simple RPC**
-- **server-streaming RPC** 
-- **client-streaming RPC**
-- **bidirectional RPC** 
-```
-Each communication pattern addresses unique practical problems.
-
-### Simple RPC
-This is the simplest communication pattern by gRPC. The client sends a single message to the server and receives a single message. As shown in the diagram below, only one binary message is going in the stream on both request and response.
-![[Pasted image 20231031151232.png]]
-### Server-Streaming RPC
-In server-streaming RPC, once the client sends a message to the server, the server sends back a sequence of responses. This sequence of response messages is sent inside the same HTTP stream initiated by the client.
-
-As shown in the diagram below, the server waits until it receives the message from the client and sends multiple response messages as framed messages. The server concludes the stream by sending the trailing metadata with the call status details.
-![[Pasted image 20231031151353.png]]
-### Client-Streaming RPC
-In this pattern, the client sends multiple messages to the server and the server sends only one message in return. The diagram below shows how multiple messages flow through the stream. This stream can last until the end of RPC.
-
-![[Pasted image 20231031151603.png]]
-### Bidirectional Streaming RPC
-In bi-directional streaming RPC, both the client and server send a stream of messages to each other. The client sets up the HTTP stream by sending header frames. Once the connection is established, both the client and server can send messages simultaneously without waiting for the other to finish.
-![[Pasted image 20231031151741.png]]
-
-## gRPC Use Cases
-
-gRPC can be used for the following use cases:
-``` ad-important
-
-- **Microservices**: gRPC is designed for low latency and high throughput communication. As discussed above, it works very well for microservices where efficiency and latency are critical.
-- **Point-to-point real-time communication**: gRPC has excellent support for bi-directional streaming. gRPC services can push messages in real-time without polling.
-- **Polyglot environments**: gRPC tooling supports all popular development languages, making gRPC a good choice for multi-language environments.
-- **Low-power low-bandwidth networks**: gRPC messages are serialized with Protobuf, a lightweight message format. A gRPC message is always smaller than an equivalent JSON message.
-- **Inter-process communication (IPC)**: IPC transports such as Unix domain sockets and named pipes can be used with gRPC to communicate between apps on the same machine.
-```
-
-## Pros/Cons
-**Pros:**
-``` ad-success
-- Lightweight messages
-- High performance
-- Built-in code generation
-- Multiple language support
-- Different Communication Patterns
-```
-
-**Cons:**
-``` ad-error
-- Limited Browser Support
-- Non-human Readable Format
-- No Edge Caching
-- Steeper Learning Curve
-```
-## gRPC vs [[REST API]]
-
-As gRPC heavily uses [[HTTP 2.0|HTTP/2]], it is impossible to call a gRPC service from a web browser directly. Modern browsers do not provide the control needed over web requests to support a gRPC client. Hence, a proxy layer and gRPC-web are required to perform conversions between [[HTTP 1.1|HTTP/1.1]] and [[HTTP 2.0|HTTP/2]].
-
-So [[REST API|REST]] APIs are still well suited for client-server communication and gRPC is now mainly used for server-to-server communication between [[Microservices Architecture Pattern|Microservices]]
-
-![[Pasted image 20231031153409.png]]
-# Reference:
-[An Introduction to gRPC: Building Distributed Systems With Efficiency and Scalability in Mind | by Semaphore | Medium](https://semaphoreci.medium.com/an-introduction-to-grpc-building-distributed-systems-with-efficiency-and-scalability-in-mind-c13024e4b0d3)
-[Microservices communication using gRPC Protocol | by Dineshchandgr - A Top writer in Technology | Javarevisited | Medium](https://medium.com/javarevisited/microservices-communication-using-grpc-protocol-dc3a2f8b648d)
-
-
- ---
+---
 created: 2024-05-13 12:25
-aliases: 
+aliases:
+  - gRPC
 tags:
   - LearningIT
   - seed🌱
@@ -167,6 +17,8 @@ link: [[API Architectures]]
 ## Overview
 
 gRPC is a modern, high-performance framework that enables efficient communication between services in a distributed system. Developed by Google, it is built on the foundation of traditional [[Remote Procedure Call]] (RPC) technology but enhanced with advanced features from [[HTTP 2.0|HTTP/2.0]].
+
+**gRpc is [[API]]-Oriented**
 
 ## Key Features of gRPC
 
@@ -191,23 +43,82 @@ gRPC allows developers to define service methods that can be called remotely wit
 > - **Efficiency**: Protocol Buffers provide a more efficient and compact [[Data Serialization|Serialization]] format than traditional [[JSON]] or [[XML]], greatly reducing bandwidth usage.
 > - **Compatibility**: Ensures forward and backward compatibility of the API interfaces.
 
-## Advantages of gRPC
 
-> [!success]-
-> - **High Performance**: The combination of HTTP/2 and Protocol Buffers results in a very efficient communication protocol, particularly suitable for environments where performance is critical.
-> - **Strongly Typed Interfaces**: Unlike REST, which uses loosely typed JSON objects, gRPC uses strongly typed messages which can help prevent errors.
-> - **Interoperability and Versatility**: Supports cross-language invocation of backend services, promoting a diverse and interoperable backend environment.
+> [!info]- Utilization Of [[HTTP 2.0|HTTP/2]]
+> - **Single [[TCP]] Connection**: Unlike [[HTTP 1.1|HTTP/1.1]], [[HTTP 2.0|HTTP/2]] can transmit multiple streams of data bidirectionally over a single [[TCP]] connection without closing it.
+> - **Stream Multiplexing**: Each [[Remote Procedure Call|RPC]] call corresponds to a distinct stream in [[HTTP 2.0|HTTP/2]], allowing simultaneous data exchanges across multiple calls without interference.
+> - **Frame Management**: Data is divided into frames, each tagged with a unique stream ID, facilitating concurrent message handling and reducing latency.
+> - **Efficient Resource Management**: By managing multiple requests and responses concurrently, [[HTTP 2.0|HTTP/2]] minimizes the need for multiple connections, conserves resources, and enhances communication speed.
+> 
+> ![[Pasted image 20231030182830.png]]
+>
 
-## Common Uses of gRPC
 
-gRPC is widely used in [[Microservices Architecture Pattern|Microservices]] architectures for its efficient communication capabilities, especially in systems where quick response times and high throughput are required:
+### Components of gRPC
 
-> [!example]-
-> - **[[Microservices Architecture Pattern|Microservices]] Communication**: Facilitates rapid and efficient communication between microservices.
-> - **Real-Time Services**: Ideal for real-time applications that require frequent and fast data exchanges.
-> - **Multi-Platform Systems**: Supports seamless communication across services written in different programming languages.
+![[Pasted image 20231030183337.png]]
+
+gRPC's architecture is built around three core components that facilitate the development of robust, scalable, and efficient applications. Here’s a breakdown of each component:
+
+
+> [!info]- **Service Definition**
+> The foundation of a gRPC service is its service definition. This is typically expressed in a `.proto` file where you define the service interface. The interface includes the methods that can be invoked remotely, along with their input parameters and return types.
+>
+> - **[[Protocol Buffers]]**: Service definitions are written using Protocol Buffers (proto files), which serve as the [[API]] contract between client and server.
+> - **Code Generation**: These `.proto` files are essential for generating the server and client code, allowing for seamless and consistent communication across different programming environments.
+
+
+> [!example]- **gRPC Server**
+> Once the service definition is in place, the source code is generated using the Protocol Buffers compiler (`protoc`), which supports various programming languages. Additionally, using the gRPC plugin for Protocol Buffers, you can generate server-side code that handles the actual implementation of the services defined in the proto files.
+>
+> - **Implementation**: The server implements the services defined in the `.proto` file.
+> - **Running the Server**: It hosts a gRPC server that listens for requests from clients, processing them as defined by the service interfaces.
+
+
+> [!example]- **gRPC Client**
+> The client-side of gRPC involves generating client stubs from the service definitions. These stubs provide methods that correspond to the server-side implementations but are used to initiate remote procedure calls (RPCs) to the server.
+>
+> - **Stub Generation**: Stubs are generated from the `.proto` files and can be created in any language supported by gRPC, thanks to its language-agnostic service definitions.
+> - **Remote Invocation**: These stubs handle the network communication, sending requests to and receiving responses from the gRPC server.
+
+
+
+## [[gRPC Patterns]]
+![[gRPC Patterns#gRPC Communication Patterns]]
+
+## gRPC in [[Microservices Architecture Pattern|Microservices]]
+
+gRPC is highly beneficial in [[Microservices Architecture Pattern|microservices]] environments due to its support for polyglot programming—allowing services in different languages to communicate seamlessly. This is facilitated by [[Protocol Buffers]], which provide a language-agnostic method to define interface contracts.
+
+In a typical microservices setup, as shown in the diagram below, an API Gateway routes requests to services like a Shopping Aggregator, which acts as a gRPC Client. This aggregator then communicates with other microservices (acting as gRPC Servers), processes the data, and returns the aggregated result to the client.
+
+![[Pasted image 20231030184125.png]]
+
+> [!important]-
+> Both the aggregator and other services may act as gRPC clients or servers depending on the interaction context. This dynamic **role swapping** enhances flexibility within the microservices ecosystem. 
+
+## Pros/Cons of gRPC API
+
+> [!success]- Pros
+> - **High Performance**: Uses [[HTTP 2.0|HTTP/2]] for faster, more efficient communication.
+> - **Efficient Data Transfer**: Binary [[Data Serialization|Serialization]] reduces latency and bandwidth usage.
+> - **Real-time Communication**: Supports bidirectional streaming for immediate data exchange.
+> - **Strong Typing**: [[Protocol Buffers]] enhance reliability and robustness.
+> - **Multi-language Support**: Offers broad compatibility across different programming environments.
+
+> [!danger]- Cons
+> - **Complex Setup**: Involves a steeper learning curve due to its advanced features.
+> - **Limited Readability**: Binary format complicates debugging compared to text-based formats like [[JSON]].
+> - **Developing Ecosystem**: Fewer tools and community resources compared to more established APIs like [[REST API|REST]].
+> - **Browser Compatibility**: Inconsistent support in [[Web|web]] browsers, potentially complicating client-side implementation.
+> - **Network Configuration**: May encounter issues with traditional network setups like firewalls and proxies.
 
 ## Conclusion
 
 gRPC offers a sophisticated, modern approach to building distributed applications and services, particularly where performance and efficiency are paramount. By leveraging the power of [[HTTP 2.0|HTTP/2]] and [[Protocol Buffers]], it provides a robust framework for high-speed service-to-service communication.
 
+# References
+
+[An Introduction to gRPC: Building Distributed Systems | Medium](https://semaphoreci.medium.com/an-introduction-to-grpc-building-distributed-systems-with-efficiency-and-scalability-in-mind-c13024e4b0d3) 
+
+[Microservices communication using gRPC Protocol | Medium](https://medium.com/javarevisited/microservices-communication-using-grpc-protocol-dc3a2f8b648d)
