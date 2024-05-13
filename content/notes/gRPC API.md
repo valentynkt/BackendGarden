@@ -145,8 +145,69 @@ So [[REST API|REST]] APIs are still well suited for client-server communicatio
 
 ![[Pasted image 20231031153409.png]]
 # Reference:
-https://semaphoreci.medium.com/an-introduction-to-grpc-building-distributed-systems-with-efficiency-and-scalability-in-mind-c13024e4b0d3
-https://medium.com/javarevisited/microservices-communication-using-grpc-protocol-dc3a2f8b648d
+[An Introduction to gRPC: Building Distributed Systems With Efficiency and Scalability in Mind | by Semaphore | Medium](https://semaphoreci.medium.com/an-introduction-to-grpc-building-distributed-systems-with-efficiency-and-scalability-in-mind-c13024e4b0d3)
+[Microservices communication using gRPC Protocol | by Dineshchandgr - A Top writer in Technology | Javarevisited | Medium](https://medium.com/javarevisited/microservices-communication-using-grpc-protocol-dc3a2f8b648d)
 
 
- 
+ ---
+created: 2024-05-13 12:25
+aliases: 
+tags:
+  - LearningIT
+  - seed🌱
+links:
+---
+
+link: [[API Architectures]]
+
+# gRPC (gRPC Remote Procedure Call)
+
+![[Pasted image 20240513123450.png]]
+
+## Overview
+
+gRPC is a modern, high-performance framework that enables efficient communication between services in a distributed system. Developed by Google, it is built on the foundation of traditional [[Remote Procedure Call]] (RPC) technology but enhanced with advanced features from [[HTTP 2.0|HTTP/2.0]].
+
+## Key Features of gRPC
+
+gRPC is designed for low latency and high throughput communication, making it an excellent choice for lightweight [[Microservices Architecture Pattern|Microservices]] and scalable applications.
+
+> [!info]-
+> - **[[HTTP 2.0|HTTP/2.0]] Based**: Utilizes HTTP/2 for transport, which supports multiplexing multiple requests over a single connection.
+> - **Interface Definition Language (IDL)**: Uses [[Protocol Buffers]] (often abbreviated as ProtoBuf), Google’s language-neutral, platform-neutral, extensible mechanism for serializing structured data.
+> - **Streaming Support**: Provides support for streaming requests and responses, allowing bidirectional and [[Asynchronous]] communication.
+> - **Language Agnostic**: Offers [[API]] stubs in various programming languages, enabling easy implementation across different systems.
+
+## How gRPC Works
+
+gRPC allows developers to define service methods that can be called remotely with specified input and output parameters. This is done using [[Protocol Buffers]], which also serve as the primary [[Data Serialization]] format for these communications.
+
+
+> [!important] [[Remote Procedure Call|RPC]] Mechanism
+> Remote Procedure Call (RPC) technology underpins gRPC, allowing a client application to directly call methods on a server application on a different machine as if it were a local object.
+
+
+> [!example]- [[Protocol Buffers]]
+> - **Efficiency**: Protocol Buffers provide a more efficient and compact [[Data Serialization|Serialization]] format than traditional [[JSON]] or [[XML]], greatly reducing bandwidth usage.
+> - **Compatibility**: Ensures forward and backward compatibility of the API interfaces.
+
+## Advantages of gRPC
+
+> [!success]-
+> - **High Performance**: The combination of HTTP/2 and Protocol Buffers results in a very efficient communication protocol, particularly suitable for environments where performance is critical.
+> - **Strongly Typed Interfaces**: Unlike REST, which uses loosely typed JSON objects, gRPC uses strongly typed messages which can help prevent errors.
+> - **Interoperability and Versatility**: Supports cross-language invocation of backend services, promoting a diverse and interoperable backend environment.
+
+## Common Uses of gRPC
+
+gRPC is widely used in [[Microservices Architecture Pattern|Microservices]] architectures for its efficient communication capabilities, especially in systems where quick response times and high throughput are required:
+
+> [!example]-
+> - **[[Microservices Architecture Pattern|Microservices]] Communication**: Facilitates rapid and efficient communication between microservices.
+> - **Real-Time Services**: Ideal for real-time applications that require frequent and fast data exchanges.
+> - **Multi-Platform Systems**: Supports seamless communication across services written in different programming languages.
+
+## Conclusion
+
+gRPC offers a sophisticated, modern approach to building distributed applications and services, particularly where performance and efficiency are paramount. By leveraging the power of [[HTTP 2.0|HTTP/2]] and [[Protocol Buffers]], it provides a robust framework for high-speed service-to-service communication.
+

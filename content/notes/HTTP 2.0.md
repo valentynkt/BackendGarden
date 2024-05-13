@@ -2,6 +2,8 @@
 created: 2024-05-06 16:51
 aliases:
   - HTTP/2.0
+  - HTTP/2
+  - HTTP 2
 links: 
 tags:
   - LearningIT

@@ -36,7 +36,7 @@ SOAP defines a set of rules for structuring messages that can be processed by an
 
 ## Pros/Cons
 
-SOAP APIs are well-suited for complex enterprise applications due to their strict standards and robust security:
+
 
 > [!success]- Pros
 > - **Standardization**: SOAP ensures strict compliance with standards, making it suitable for formal enterprise environments.
@@ -46,9 +46,8 @@ SOAP APIs are well-suited for complex enterprise applications due to their stric
 > - **Language and Platform Independence**: Uses [[XML]], allowing use across different platforms and programming languages.
 > - **[[ACID Properties|ACID]] Compliance**: Facilitates reliable transaction processing by supporting ACID-compliant transactions.
 
-However, SOAP also presents several challenges that may affect its suitability for some projects:
 
-> [!warning]- Cons
+> [!danger]- Cons
 > - **Complexity**: The complexity of SOAP can be daunting for new developers due to its detailed standards and features.
 > - **Performance Overhead**: SOAP's use of [[XML]] can increase message size and reduce performance relative to simpler protocols like [[REST]].
 > - **Limited Flexibility**: The strict standards can restrict how data is handled and result in verbose messages.

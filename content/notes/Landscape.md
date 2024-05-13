@@ -21,6 +21,40 @@ link: [[Digital Garden]]
 The "Landscape" serves as a comprehensive guide and overarching map for exploring various topics within software development and database management. This central hub categorizes knowledge into structured sections, each dedicated to a specific domain. It is designed to provide a high-level overview and easy navigation across related topics, making it an essential starting point for deep dives into each subject area.
 
 
+> [!important]- [[Web]] (MoC)
+> - [[OSI Model]]
+> - **HTTP Protocols**
+> 	- [[HTTP]]
+> 	- [[HTTP 1.1]]
+> 	- [[HTTP 2.0|HTTP/2]]
+> 	- [[HTTP 3.0|HTTP/3]]
+> - **Protocols and Technologies**
+> 	- [[QUIC Protocol]]
+> 	- [[TCP]]
+> 	- [[UDP]]
+> 	- [[Internet Protocol|IP]]
+> 		- [[IPv4]]
+> 		- [[IPv6]]
+> 	- [[Domain Name System|DNS]]
+> 	- [[SSL and TLS Protocols]]
+> 	- [[WebSockets]]
+> 	- [[Content Delivery Networks|Content Delivery Networks (CDNs)]]
+> 	- [[SMTP]] (Simple Mail Transfer Protocol)
+> - **Data Formats and Character Encodings**
+> 	- [[XML]]
+> 	- [[JSON]]
+> 	- [[Multipurpose Internet Mail Extensions|MIME]] (Multipurpose Internet Mail Extensions)
+> 	- [[UTF-8]]
+> 	- [[ASCII]]
+> - **Security and Encryption**
+> 	- [[End-to-End Encryption]]
+> 	- [[VPN]] (Virtual Private Network)
+> 	- [[IPSec]] (Internet Protocol Security)
+> 	- [[SSH]] (Secure Shell)
+> - **Web Session Management**
+> 	- [[Cookies and Sessions]]
+
+
 > [!important]- [[Design Patterns]] (MoC)
 > - [[Creational Patterns]]
 >   - [[Abstract Factory Pattern]]

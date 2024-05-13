@@ -37,7 +37,6 @@ REST is built on six foundational principles which ensure that APIs are scalable
 
 ## Pros/Cons 
 
-REST APIs, characterized by their simplicity and statelessness, offer numerous advantages that make them highly popular for web services development. However, like any technology, they also have certain limitations.
 
 > [!success]- Pros
 > - **Simplicity and Ease of Use**: REST uses standard [[HTTP Methods]], making it easy to implement and understand.
@@ -46,9 +45,8 @@ REST APIs, characterized by their simplicity and statelessness, offer numerous a
 > - **Performance**: Efficient [[HTTP Methods]] and stateless communication result in faster interactions suitable for the Internet.
 > - **Cacheability**: Responses can be cached to improve performance, reducing the need to repeatedly send requests for the same resources.
 
-Despite these benefits, REST APIs also come with challenges that need to be considered:
 
-> [!warning]-
+> [!danger]- Cons
 > - **Statelessness**: While it increases scalability, statelessness means that REST cannot use server memory to store anything about the client’s session. This can be a limitation for applications requiring complex transactions.
 > - **Over-fetching and Under-fetching**: REST might require multiple round trips to the server to gather complete data or may fetch more data than needed, impacting performance and efficiency.
 > - **Security**: RESTful APIs must carefully implement security measures, as the stateless nature requires that each call be authenticated and authorized independently.
@@ -77,7 +75,7 @@ REST APIs are extensively used in many applications and services:
 
 ## Conclusion
 
-REST APIs are a cornerstone of modern web development, enabling flexible, scalable, and efficient communication between distributed systems. Their adherence to key architectural principles facilitates the development of a wide range of applications, from simple web apps to complex distributed systems.
+REST APIs are a cornerstone of modern [[Web]] development, enabling flexible, scalable, and efficient communication between distributed systems. Their adherence to key architectural principles facilitates the development of a wide range of applications, from simple web apps to complex distributed systems.
 
 
 # Reference:

@@ -1,6 +1,8 @@
 ---
 created: 2024-05-03 17:51
-aliases: 
+aliases:
+  - web
+  - Internet
 tags:
   - LearningIT
   - seed🌱

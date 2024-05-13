@@ -2,6 +2,8 @@
 created: 2024-05-06 17:34
 aliases:
   - HTTP/3.0
+  - HTTP/3
+  - HTTP 3
 tags:
   - LearningIT
   - seed🌱

@@ -56,15 +56,14 @@ The operation of GraphQL involves several key steps to ensure precise and effici
 ![[Pasted image 20231029192457.png]]
 ## Pros/Cons of GraphQL
 
-> [!success]-
+> [!success]- Pros
 > - **Efficient Data Loading**: Aggregates all needed data in a single request.
 > - **Reduced Overfetching and Underfetching**: Only the exact needed data is exchanged.
 > - **Rapid Development**: Frontend changes like adding fields don't require backend modifications.
 > - **Powerful Developer Tools**: Tools like GraphiQL provide robust environments for testing and debugging GraphQL queries.
 
-Despite the numerous benefits, GraphQL also has drawbacks:
 
-> [!danger]-
+> [!danger]- Cons
 > - **Complexity for Developers**: Managing queries and integrating with existing systems can be complex.
 > - **Performance Issues**: Complex queries can strain servers if not optimized.
 > - **Caching Complications**: Unlike [[REST API|REST]], caching in GraphQL is more involved due to the variability of query patterns.
