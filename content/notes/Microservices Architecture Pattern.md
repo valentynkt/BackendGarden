@@ -106,3 +106,7 @@ Microservices are well-suited for:
 
 > [!summary] 
 > Microservices Architecture is a powerful pattern for developing complex, scalable software systems. It supports rapid, reliable, and efficient application development by structuring an application as a collection of loosely coupled services. This architecture not only fosters innovation and agility but also imposes challenges that require careful strategy and robust infrastructure to overcome.
+
+# References
+
+[Cloud design patterns - Azure Architecture Center | Microsoft Learn](https://learn.microsoft.com/en-us/azure/architecture/patterns/)

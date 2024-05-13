@@ -5,6 +5,7 @@ aliases:
   - Event-based Architecture
   - Reactive System Design
   - Event-Driven Pattern
+  - Event-Driven
 links: "[[Architectural Patterns]]"
 tags:
   - LearningIT

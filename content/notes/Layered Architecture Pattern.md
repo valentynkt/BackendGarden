@@ -3,7 +3,8 @@ created: 2024-04-18 18:42
 aliases:
   - N-tier Architecture Pattern
   - Multi-tiered System Design
-  - Layered System Architecture
+  - Layered Architecture
+  - N-Layer Architecture
 links: "[[Architectural Patterns]]"
 tags:
   - LearningIT

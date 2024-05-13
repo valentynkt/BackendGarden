@@ -47,6 +47,6 @@ API Security involves implementing measures to protect [[API|APIs]] from unautho
 > [!summary]- **Compliance and Best Practices**
 > - [[OWASP API Security]] - Check for more recomendations and cheetsheets from OWASP.
 > - **[[API Gateway Security]]**: Uses gateways as an additional layer of security to enforce API policies and reduce the risk of attacks.
-> - **[[API Testing]]**: Regular penetration testing, vulnerability assessments, and security audits to identify and mitigate risks.
+> - **[[API Tesing]]**: Regular penetration testing, vulnerability assessments, and security audits to identify and mitigate risks.
 
 

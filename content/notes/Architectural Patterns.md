@@ -2,6 +2,7 @@
 created: 2024-04-18 17:58
 aliases:
   - High-Level Design Patterns
+  - System Design
 links: "[[Patterns In General]]"
 tags:
   - LearningIT
