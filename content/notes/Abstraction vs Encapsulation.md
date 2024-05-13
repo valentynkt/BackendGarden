@@ -1,10 +1,9 @@
 ---
 created: 2024-04-19 20:33
 aliases: 
-  - 
 tags:
-  - seed🌱
   - LearningIT
+  - bud🌿
 links: "[[Object Oriented Programming|OOP]]"
 ---
 

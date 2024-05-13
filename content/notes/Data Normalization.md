@@ -4,7 +4,7 @@ aliases:
   - Normalization
 tags:
   - LearningIT
-  - seed🌱
+  - evergreen🌳
 links:
 ---
 
@@ -297,6 +297,6 @@ Normalization offers several advantages that contribute to more efficient and ma
 
 # References
 
-https://guides.visual-paradigm.com/a-comprehensive-guide-to-database-normalization-with-examples/#Why_Normalize_a_Database
+[A Comprehensive Guide to Database Normalization with Examples - Visual Paradigm Guides](https://guides.visual-paradigm.com/a-comprehensive-guide-to-database-normalization-with-examples/#Why_Normalize_a_Database)
 
-https://www.freecodecamp.org/news/database-normalization-1nf-2nf-3nf-table-examples/
+[Database Normalization – Normal Forms 1nf 2nf 3nf Table Examples](https://www.freecodecamp.org/news/database-normalization-1nf-2nf-3nf-table-examples/)

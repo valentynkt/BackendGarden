@@ -5,7 +5,7 @@ aliases:
   - FTP (File Transfer Protocol)
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 links:
 ---
 
@@ -14,7 +14,7 @@ Link: [[Web Communication Protocols]]
 
 ## Overview
 
-FTP is a standard network protocol used for the transfer of computer files between a client and server on a computer network. It is built on a client-server model architecture and uses separate control and data connections between the client and the server.
+FTP is a standard network protocol used for the transfer of computer files between a client and server on a computer network. It is built on a [[Client-Server Architecture Pattern|Client-Server Model]] architecture and uses separate control and data connections between the client and the server.
 
 ## Key Features of FTP
 

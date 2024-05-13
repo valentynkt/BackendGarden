@@ -4,7 +4,7 @@ aliases:
   - HTTP/1.1
 tags:
   - LearningIT
-  - seed🌱
+  - evergreen🌳
 links:
 ---
 
@@ -16,7 +16,7 @@ HTTP/1.1, released in 1997, represents the first major update to the HTTP protoc
 
 ## Enhancements Introduced by HTTP/1.1
 
-HTTP/1.1 brought several key advancements that are still influential in web communications:
+HTTP/1.1 brought several key advancements that are still influential in [[Web|web]] communications:
 
 > [!summary]- Key Enhancements
 > - **Persistent Connections**: This feature allows multiple requests and responses to travel over a single [[TCP]] connection, reducing the latency and overhead associated with opening new connections for each transaction.

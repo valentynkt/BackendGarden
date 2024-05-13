@@ -6,8 +6,8 @@ aliases:
   - database
 tags:
   - LearningIT
-  - seed🌱
   - "#moc"
+  - bud🌿
 links:
 ---
 

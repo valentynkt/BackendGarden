@@ -5,8 +5,8 @@ aliases:
   - APIs
 tags:
   - LearningIT
-  - seed🌱
   - "#moc"
+  - bud🌿
 links:
 ---
 
@@ -49,7 +49,7 @@ APIs can be broadly categorized by accessibility or by their architectural desig
 
 ## [[API Security]]
 ![[API Security#API Security]]
-!
+
 
 # References
 

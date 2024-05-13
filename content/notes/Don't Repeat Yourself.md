@@ -4,7 +4,7 @@ aliases:
   - DRY
 tags:
   - LearningIT
-  - seed🌱
+  - evergreen🌳
 links:
 ---
 

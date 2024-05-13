@@ -1,13 +1,13 @@
 ---
 created: 2024-04-26 18:49
-aliases: 
-- Externalized Config 
-- Configuration Management 
-- Service Configuration Externalization
+aliases:
+  - Externalized Config
+  - Configuration Management
+  - Service Configuration Externalization
 links: "[[Microservices Architecture Pattern|Microservice Architecture]]"
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 ---
 link: [[Microservices Architecture Pattern|Microservice Architecture]]
 

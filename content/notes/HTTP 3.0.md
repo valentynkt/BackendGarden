@@ -6,7 +6,7 @@ aliases:
   - HTTP 3
 tags:
   - LearningIT
-  - seed🌱
+  - evergreen🌳
 links:
 ---
 

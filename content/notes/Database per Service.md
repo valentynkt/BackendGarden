@@ -1,12 +1,12 @@
 ---
 created: 2024-04-26 18:41
-aliases: 
-- Per-Service Database Model 
-- Microservice Database Isolation - Independent Database Architecture
+aliases:
+  - Per-Service Database Model
+  - Microservice Database Isolation - Independent Database Architecture
 links: "[[Microservices Architecture Pattern|Microservice Architecture]]"
 tags:
   - LearningIT
-  - seed🌱
+  - evergreen🌳
 ---
 link: [[Microservices Architecture Pattern|Microservice Architecture]]
 
@@ -18,7 +18,7 @@ link: [[Microservices Architecture Pattern|Microservice Architecture]]
 
 ## Overview
 
-In microservices architecture, each microservice managing its own database is a foundational pattern called "Database per Service." This pattern addresses the challenges of data management in distributed systems by ensuring that each service has exclusive control over its database.
+In [[Microservices Architecture Pattern|Microservices]] architecture, each microservice managing its own database is a foundational pattern called "Database per Service." This pattern addresses the challenges of data management in distributed systems by ensuring that each service has exclusive control over its database.
 
 > [!abstract] 
 > The Database per Service pattern enhances the autonomy and scalability of microservices by allowing each service to manage its own database schema and lifecycle independently.
@@ -27,7 +27,7 @@ In microservices architecture, each microservice managing its own database is a 
 
 ### Key Concepts
 
-The Database per Service pattern is critical for achieving true modularity and independence among services in a microservices architecture. Here are the core principles:
+The [[Database]] per Service pattern is critical for achieving true modularity and independence among services in a microservices architecture. Here are the core principles:
 
 > [!important]
 > 

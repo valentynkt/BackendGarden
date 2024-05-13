@@ -6,7 +6,7 @@ aliases:
   - gRPC Achitecture
 tags:
   - LearningIT
-  - seed🌱
+  - evergreen🌳
 links:
 ---
 

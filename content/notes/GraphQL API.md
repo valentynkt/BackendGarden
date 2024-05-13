@@ -4,7 +4,7 @@ aliases:
   - GraphQL
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 links:
 ---
 

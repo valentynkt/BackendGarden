@@ -5,8 +5,8 @@ aliases:
   - API Styles
 tags:
   - LearningIT
-  - seed🌱
   - moc
+  - bud🌿
 links:
 ---
 

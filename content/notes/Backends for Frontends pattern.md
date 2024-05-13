@@ -1,14 +1,12 @@
 ---
 created: 2024-04-26 19:20
-aliases: 
-- Backend for Each Frontend
-- Frontend-Specific Backend Services
-- Client-Specific Backend Architecture
-- Tailored Backend Services
+aliases:
+  - Backend for Each Frontend
+  - Tailored Backend Services
 links: "[[Microservices Architecture Pattern|Microservice Architecture]]"
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 ---
 link: [[Microservices Architecture Pattern|Microservice Architecture]]
 

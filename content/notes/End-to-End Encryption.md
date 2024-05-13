@@ -4,7 +4,7 @@ aliases:
   - E2EE
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 links:
 ---
 

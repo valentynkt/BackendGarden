@@ -1,10 +1,13 @@
 ---
 created: 2024-04-18 18:42
-aliases: ["Client-Server Model", "Networked Application Design", "Request-Response System Architecture"]
+aliases:
+  - Client-Server Model
+  - Networked Application Design
+  - Request-Response System Architecture
 links: "[[Architectural Patterns]]"
 tags:
-  - seed🌱
   - LearningIT
+  - bud🌿
 ---
 link: [[Architectural Patterns]]
 

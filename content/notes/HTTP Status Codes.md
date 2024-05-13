@@ -4,7 +4,7 @@ aliases:
   - HTTP Status Code
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 links:
 ---
 

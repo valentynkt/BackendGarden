@@ -7,7 +7,7 @@ aliases:
 links: 
 tags:
   - LearningIT
-  - seed🌱
+  - evergreen🌳
 ---
 link: [[HTTP]]
 
@@ -17,7 +17,7 @@ Introduced in 2015, HTTP/2.0 is a significant evolution of the [[HTTP]] protocol
 
 ## Overview
 
-HTTP/2.0 optimizes web page delivery over the internet through key enhancements:
+HTTP/2.0 optimizes [[Web|web]] page delivery over the internet through key enhancements:
 
 - **Binary Protocol**: Switches from HTTP/1.1's textual format to a binary framing layer, enhancing parsing efficiency and reducing overhead.
 - **Multiplexing**: Supports multiple request and response messages over a single [[TCP]] connection, substantially cutting latency and improving resource utilization.

@@ -4,7 +4,7 @@ aliases:
 links: 
 tags:
   - LearningIT
-  - seed🌱
+  - evergreen🌳
 ---
 link: [[Non-Relational Databases|NoSQL]]
 
@@ -56,6 +56,6 @@ NoSQL databases are great for distributed networks. They allow for **horizontal
 
 # References
 
-https://www.educative.io/blog/what-is-cap-theorem
+[System design fundamentals: What is the CAP theorem?](https://www.educative.io/blog/what-is-cap-theorem)
 
 

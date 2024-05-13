@@ -5,7 +5,7 @@ aliases:
 links: 
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 ---
 link: [[Database]]
 

@@ -1,14 +1,14 @@
 ---
 created: 2024-04-26 18:30
-aliases: 
-- Fault Handling Pattern
-- Service Protection Pattern
-- Resilience Pattern
-- System Stability Pattern
+aliases:
+  - Fault Handling Pattern
+  - Service Protection Pattern
+  - Resilience Pattern
+  - System Stability Pattern
 links: "[[Microservices Architecture Pattern|Microservice Architecture]]"
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 ---
 link: [[Microservices Architecture Pattern|Microservice Architecture]]
 

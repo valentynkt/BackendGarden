@@ -5,7 +5,7 @@ aliases:
   - API-First Design
 tags:
   - LearningIT
-  - seed🌱
+  - evergreen🌳
 links:
 ---
 
@@ -19,7 +19,7 @@ link: [[System Design Methodologies]]
 
 ## Introduction
 
-The API-First approach centers on designing and developing APIs before any other application components. This strategic method ensures that APIs, which are crucial for both internal and external functionalities, are treated as foundational elements, optimizing integration and scalability from the start.
+The API-First approach centers on designing and developing [[API|APIs]] before any other application components. This strategic method ensures that APIs, which are crucial for both internal and external functionalities, are treated as foundational elements, optimizing integration and scalability from the start.
 
 ## Why API-First Matters
 
@@ -33,7 +33,7 @@ Adopting an API-first approach helps build robust and flexible systems, improvin
 ## Implementing API-First
 
 ### Steps:
-1. **Define API Types**: Identify necessary API types (public, private, partner).
+1. **Define [[API]] Types**: Identify necessary API types (public, private, partner).
 2. **Understand the API Lifecycle**: Establish a standard lifecycle approach within the organization.
 3. **Design Before Coding**: Prioritize API design before backend implementation to ensure alignment and functionality.
 

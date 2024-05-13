@@ -5,7 +5,7 @@ aliases:
   - Domain Name System (DNS)
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 links:
 ---
 
@@ -16,7 +16,7 @@ link: [[Web Communication Protocols]]
 ![[H9PGiVvOX8.png]]
 ## Overview
 
-The Domain Name System (DNS) is a hierarchical and decentralized naming system used to resolve human-readable domain names (like www.example.com) into machine-readable [[Internet Protocol]] addresses (like 192.0.2.1), which are necessary for locating and identifying computer services and devices with the underlying network protocols. It functions as the "phone book" of the Internet, allowing users to access information online through domain names rather than [[Internet Protocol|IP]] addresses.
+The Domain Name System (DNS) is a hierarchical and decentralized naming system used to resolve human-readable domain names (like www.example.com) into machine-readable [[Internet Protocol]] addresses (like 192.0.2.1), which are necessary for locating and identifying computer services and devices with the underlying network protocols. It functions as the "phone book" of the [[Web|Internet]], allowing users to access information online through domain names rather than [[Internet Protocol|IP]] addresses.
 
 > [!important]- Key Features of DNS
 > DNS provides a vital service on the Internet, and its operation hinges on several key features:

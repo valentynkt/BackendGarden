@@ -6,7 +6,7 @@ aliases:
   - CDNs
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 links:
 ---
 
@@ -41,7 +41,7 @@ CDNs manage the delivery of web content through a process designed to ensure eff
 
 ### Benefits of Using CDNs
 
-Using a CDN can significantly enhance the performance and reliability of a website or web service:
+Using a CDN can significantly enhance the performance and reliability of a website or [[Web|web]] service:
 
 > [!success]- **Advantages of CDNs**:
 > - **Improved Load Times**: Faster page loads from using the nearest server to the user.

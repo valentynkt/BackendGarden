@@ -4,7 +4,7 @@ aliases:
   - Database-First Approach
 tags:
   - LearningIT
-  - seed🌱
+  - evergreen🌳
 links:
 ---
 

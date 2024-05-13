@@ -5,7 +5,7 @@ aliases:
   - Code-First Design
 tags:
   - LearningIT
-  - seed🌱
+  - evergreen🌳
 links:
 ---
 
