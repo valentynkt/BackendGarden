@@ -20,6 +20,7 @@ link: [[Web]]
 >
 > - **[[XML]]**: A flexible text format that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable. Widely used in complex data structures across various web technologies.
 > - **[[JSON]]**: Lightweight data-interchange format that is easy for humans to read and write, and easy for machines to parse and generate. Predominantly used in web applications as it is natively supported by JavaScript.
+> - [[Protocol Buffers|Protobuf]]: Compared to [[JSON]], which uses text, Protobuf's binary format significantly reduces payload size, enhancing both transmission speed and efficiency.
 
 
 > [!summary]- MIME Types

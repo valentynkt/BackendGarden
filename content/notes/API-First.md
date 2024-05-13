@@ -43,7 +43,7 @@ Adopting an API-first approach helps build robust and flexible systems, improvin
 
 ## API-First Design Principles
 
-> [!example]-
+> [!summary]-
 > - **Alignment with Goals**: Ensure APIs support organizational objectives.
 > - **Reusability and Interoperability**: Design APIs to be reusable and compatible with other systems.
 > - **Evolvability**: APIs should accommodate future changes without disruptions.

@@ -6,6 +6,7 @@ aliases:
 tags:
   - LearningIT
   - seed🌱
+  - moc
 links:
 ---
 
