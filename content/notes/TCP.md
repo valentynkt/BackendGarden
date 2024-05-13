@@ -5,7 +5,7 @@ aliases:
   - TCP/IP
 tags:
   - LearningIT
-  - seed🌱
+  - evergreen🌳
 links:
 ---
 

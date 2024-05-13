@@ -5,8 +5,8 @@ aliases:
   - Web Data
 tags:
   - LearningIT
-  - seed🌱
   - "#moc"
+  - evergreen🌳
 links:
 ---
 

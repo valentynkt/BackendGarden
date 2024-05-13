@@ -7,7 +7,7 @@ aliases:
   - Websockets
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 links:
 ---
 

@@ -2,8 +2,8 @@
 created: 2024-05-02 14:36
 aliases: 
 tags:
-  - seed🌱
   - "#Productivity"
+  - evergreen🌳
 links:
 ---
 

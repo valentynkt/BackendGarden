@@ -4,7 +4,7 @@ aliases:
   - User Datagram Protocol
 tags:
   - LearningIT
-  - seed🌱
+  - evergreen🌳
 links:
 ---
 

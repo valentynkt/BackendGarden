@@ -1,6 +1,7 @@
 ---
 created: 2024-05-10 18:37
-aliases: 
+aliases:
+  - API Security Testing
 tags:
   - LearningIT
   - seed🌱

@@ -4,7 +4,7 @@ aliases:
   - YAGNI
 tags:
   - LearningIT
-  - seed🌱
+  - evergreen🌳
 links:
 ---
 

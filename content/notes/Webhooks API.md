@@ -5,7 +5,7 @@ aliases:
   - Webhook
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 links:
 ---
 

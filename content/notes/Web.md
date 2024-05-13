@@ -5,8 +5,8 @@ aliases:
   - Internet
 tags:
   - LearningIT
-  - seed🌱
   - "#moc"
+  - evergreen🌳
 links:
 ---
 

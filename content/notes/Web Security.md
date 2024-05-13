@@ -3,8 +3,8 @@ created: 2024-05-08 20:46
 aliases: 
 tags:
   - LearningIT
-  - seed🌱
   - "#moc"
+  - bud🌿
 links:
 ---
 

@@ -7,7 +7,7 @@ aliases:
   - SSL/TLS protocols
 tags:
   - LearningIT
-  - seed🌱
+  - evergreen🌳
 links:
 ---
 

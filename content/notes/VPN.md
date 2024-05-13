@@ -5,7 +5,7 @@ aliases:
   - Virtual Private Network(VPN)
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 links:
 ---
 
