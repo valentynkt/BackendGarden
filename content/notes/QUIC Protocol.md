@@ -4,7 +4,7 @@ aliases:
   - QUIC
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 links:
 ---
 

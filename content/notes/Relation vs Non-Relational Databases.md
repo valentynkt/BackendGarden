@@ -4,7 +4,7 @@ aliases:
   - SQL vs NoSQL
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 links:
 ---
 

@@ -5,7 +5,7 @@ aliases:
   - Multipurpose Internet Mail Extensions(MIME)
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 links:
 ---
 

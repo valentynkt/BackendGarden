@@ -7,7 +7,7 @@ aliases:
 links: "[[Microservices Architecture Pattern|Microservice Architecture]]"
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 ---
 link: [[Microservices Architecture Pattern|Microservice Architecture]]
 

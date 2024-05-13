@@ -5,7 +5,7 @@ aliases:
   - .proto
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 links:
 ---
 

@@ -4,7 +4,7 @@ aliases:
 links: 
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 ---
 link: [[Database]]
 
@@ -40,7 +40,6 @@ Indexes are essential for enhancing the performance of database queries, particu
 >```
 >
 >![[../Files/Images/Pasted image 20240430180701.png]]
-
 
 > [!important]- Non-Clustered Indexes
 >

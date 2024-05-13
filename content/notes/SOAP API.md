@@ -5,7 +5,7 @@ aliases:
   - Simple Object Access Protocol
 tags:
   - LearningIT
-  - seed🌱
+  - evergreen🌳
 links:
 ---
 

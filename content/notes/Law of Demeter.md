@@ -4,7 +4,7 @@ aliases:
   - LoD
 tags:
   - LearningIT
-  - seed🌱
+  - evergreen🌳
 links:
 ---
 

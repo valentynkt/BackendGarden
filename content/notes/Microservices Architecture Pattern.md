@@ -6,9 +6,9 @@ aliases:
   - Microservices
 links: "[[Architectural Patterns]]"
 tags:
-  - seed🌱
   - LearningIT
   - "#moc"
+  - bud🌿
 ---
 link: [[Architectural Patterns]]
 

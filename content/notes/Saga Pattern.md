@@ -1,13 +1,13 @@
 ---
 created: 2024-04-26 19:06
-aliases: 
-- Transaction Management Pattern 
-- Long-Running Transactions Pattern 
-- Process Coordinator Pattern
+aliases:
+  - Transaction Management Pattern
+  - Long-Running Transactions Pattern
+  - Process Coordinator Pattern
 links: "[[Microservices Architecture Pattern|Microservice Architecture]]"
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 ---
 link: [[Microservices Architecture Pattern|Microservice Architecture]]
 

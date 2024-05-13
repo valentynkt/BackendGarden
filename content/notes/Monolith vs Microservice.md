@@ -1,10 +1,12 @@
 ---
 created: 2024-04-28 16:03
-aliases: 
+aliases:
+  - Monolithic vs Microservices
+  - Monolithic Architecture vs Microservices Architecture
 links: 
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 ---
 link: [[Architectural Patterns]], [[Monolithic Architecture Pattern|Monolith]], [[Microservices Architecture Pattern|Microservices]]
 

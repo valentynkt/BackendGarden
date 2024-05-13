@@ -5,7 +5,7 @@ aliases:
   - Internet Protocol(IP)
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 links:
 ---
 

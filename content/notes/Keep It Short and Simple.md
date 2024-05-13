@@ -4,7 +4,7 @@ aliases:
   - KISS
 tags:
   - LearningIT
-  - seed🌱
+  - evergreen🌳
 links:
 ---
 

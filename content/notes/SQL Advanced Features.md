@@ -7,7 +7,7 @@ aliases:
 links: 
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 ---
 link: [[SQL Operations]]
 

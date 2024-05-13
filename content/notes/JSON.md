@@ -5,7 +5,7 @@ aliases:
   - JavaScript Object Notation(JSON)
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 links:
 ---
 

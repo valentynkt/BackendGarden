@@ -5,7 +5,7 @@ aliases:
   - Model First Design
 tags:
   - LearningIT
-  - seed🌱
+  - evergreen🌳
 links:
 ---
 

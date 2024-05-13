@@ -6,9 +6,9 @@ aliases:
   - General Overview
   - List of Topics
 tags:
-  - seed🌱
   - LearningIT
   - moc
+  - bud🌿
 links: "[[Digital Garden]]"
 ---
 

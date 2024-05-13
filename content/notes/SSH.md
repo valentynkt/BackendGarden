@@ -3,7 +3,7 @@ created: 2024-05-08 21:03
 aliases: 
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 links:
 ---
 
@@ -18,7 +18,7 @@ Secure Shell (SSH) is a cryptographic network protocol for operating network ser
 ## Key Features of SSH
 
 - **Encryption**: SSH uses strong encryption to protect the data transmitted over the network, ensuring that sensitive information remains confidential.
-- **Authentication**: SSH supports various forms of authentication, including password-based, public key, and host-based authentication. This flexibility helps ensure that only authorized users can access the server.
+- **[[Authentication]]**: SSH supports various forms of authentication, including password-based, public key, and host-based authentication. This flexibility helps ensure that only authorized users can access the server.
 - **Integrity**: SSH employs cryptographic checksums to ensure data integrity, verifying that the data sent is the same as the data received.
 
 ## SSH Flow

@@ -3,7 +3,7 @@ created: 2024-05-08 18:53
 aliases: 
 tags:
   - LearningIT
-  - seed🌱
+  - evergreen🌳
 links:
 ---
 

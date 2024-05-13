@@ -4,7 +4,7 @@ aliases:
   - RPC
 tags:
   - LearningIT
-  - seed🌱
+  - evergreen🌳
 links:
 ---
 

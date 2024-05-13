@@ -1,12 +1,12 @@
 ---
 created: 2024-04-28 15:58
-aliases: 
-- Monolith
-- Mononolith Architecture
+aliases:
+  - Monolith
+  - Mononolith Architecture
 links: "[[Architectural Patterns]]"
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 ---
 link: [[Architectural Patterns]]
 
@@ -59,7 +59,7 @@ Monolithic architecture is best suited for:
 - **Applications with Limited Scope**: That are unlikely to benefit from being broken into microservices.
 
 ## [[Monolith vs Microservice]]
-![[Monolith vs Microservice#Monolithic vs Microservices Architecture]]
+![[Monolith vs Microservice#Monolithic vs Microservices Architecture Pattern]]
 
 ## Summary
 
