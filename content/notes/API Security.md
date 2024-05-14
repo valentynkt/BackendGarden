@@ -4,6 +4,7 @@ aliases:
 tags:
   - LearningIT
   - bud🌿
+  - moc
 links:
 ---
 

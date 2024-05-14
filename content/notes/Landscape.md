@@ -56,8 +56,8 @@ The "Landscape" serves as a comprehensive guide and overarching map for explorin
 > - **HTTP Protocols**
 > 	- [[HTTP]]
 > 	- [[HTTP 1.1]]
-> 	- [[HTTP 2.0|HTTP/2]]
-> 	- [[HTTP 3.0|HTTP/3]]
+> 	- [[HTTP 2.0]]
+> 	- [[HTTP 3.0]]
 > - **Protocols and Technologies**
 > 	- [[QUIC Protocol]]
 > 	- [[TCP]]

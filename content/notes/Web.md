@@ -58,4 +58,4 @@ link:
 
 # References
 
-https://blog.bytebytego.com/p/network-protocols-run-the-internet?utm_source=profile&utm_medium=reader2
+[Network Protocols Run the Internet - by Alex Xu](https://blog.bytebytego.com/p/network-protocols-run-the-internet?utm_source=profile&utm_medium=reader2)
