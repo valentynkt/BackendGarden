@@ -26,12 +26,10 @@ Developed to surpass the capabilities of HTTP/1 and HTTP/2, HTTP/3 utilizes [[UD
 
 HTTP/3 enhances web communication by leveraging QUIC's innovations, offering several key advantages:
 
-> [!summary]- **Distinctive Features of HTTP/3**:
-> - **Efficient Multiplexing**: Implements multiplexing to allow many requests and responses to share a single connection, which reduces the overhead and delays associated with HTTP/2.
-> - **Default Security**: Integrates [[SSL and TLS Protocols|TLS]] encryption inherently within its protocol, akin to [[QUIC Protocol|QUIC]], enhancing security measures across all communications.
-> - **Minimized Latency**: By utilizing [[UDP]], HTTP/3 reduces the overall latency for connection setups and data transfer, which significantly speeds up web interactions.
-> - **Robust Connection Handling**: Facilitates connection migration, which is essential for maintaining stable connections even when network interfaces change, thus supporting a seamless mobile user experience.
-> - **Advanced Congestion Control**: Employs sophisticated congestion control techniques that enable more effective handling of network density and variability, improving data throughput and stability.
+> [!summary]- **[[QUIC Protocol|QUIC]] Innovations**:
+> 
+> ![[QUIC Protocol#Key Features of QUIC]]
+
 
 HTTP/3 marks a major evolution in web protocols, transforming how data is transmitted to better meet the modern demands for speed, reliability, and security. It's on track to become the new standard, widely supported across browsers and platforms.
 
@@ -39,4 +37,4 @@ The shift to HTTP/3 will greatly affect web development, prioritizing faster and
 
 # References
 
-https://kinsta.com/blog/http3/
+[What Is HTTP/3: Lowdown on the Fast New UDP-Based Protocol](https://kinsta.com/blog/http3/)

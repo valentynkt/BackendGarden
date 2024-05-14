@@ -35,6 +35,7 @@ HTTP/2.0 optimizes [[Web|web]] page delivery over the internet through key enhan
 > [!Danger]- Cons
 > - **TLS Requirement**: Although not mandatory, HTTP/2.0 commonly employs [[SSL and TLS Protocols|TLS]] for security, introducing potential complexity and resource overhead, particularly for smaller or shared-hosting environments.
 > - **Browser and Server Compatibility**: Some older browsers and web servers do not fully support HTTP/2.0, which may restrict its use.
+> - **HOL at the [[TCP]] layer**: Multiplexing, eliminates HOL blocking at the application layer, but HOL still exists at the transport ([[TCP]]) layer.
 
 HTTP/2.0 offers a substantial upgrade over HTTP/1.1, improving performance, reducing latency, and facilitating a better user experience. Its adoption is recommended for modern web environments and is well-supported by contemporary browsers and servers.
 
@@ -66,6 +67,6 @@ By incorporating these advanced features, HTTP/2 significantly outperforms its p
 
 # References
 
-https://medium.com/javarevisited/everything-you-need-to-know-about-http-2-protocol-e64bfffafe47
+[Everything you need to know about HTTP/2 Protocol | Medium](https://medium.com/javarevisited/everything-you-need-to-know-about-http-2-protocol-e64bfffafe47)
 
 

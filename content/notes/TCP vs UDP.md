@@ -51,6 +51,7 @@ Below is a table that contrasts the characteristics and typical use cases of [[T
 > This analogy illustrates the fundamental trade-offs between TCP and UDP: reliability and order versus speed and efficiency.
 
 # References
-https://nordvpn.com/blog/tcp-or-udp-which-is-better/
-https://www.avast.com/c-tcp-vs-udp-difference#:~:text=The%20main%20difference%20between%20TCP,reliable%20but%20works%20more%20quickly.
 
+[TCP vs UDP: What’s the main difference? | NordVPN](https://nordvpn.com/blog/tcp-or-udp-which-is-better/)
+
+[TCP vs UDP: Differences Between TCP & UDP Protocols | Avast](https://www.avast.com/c-tcp-vs-udp-difference#:~:text=The%20main%20difference%20between%20TCP,reliable%20but%20works%20more%20quickly.)

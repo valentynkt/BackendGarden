@@ -15,7 +15,7 @@ link: [[Web Communication Protocols]], [[TCP vs UDP]]
 
 ## Overview
 
-Transmission Control Protocol (TCP) is a core protocol of the Internet Protocol Suite, often referred to as TCP/IP. TCP is vital for managing data transmission between computers in a network, ensuring reliability and order, making it fundamental for internet communications.
+Transmission Control Protocol (TCP) is a core protocol of the [[Internet Protocol|Internet Protocol(IP)]] Suite, often referred to as TCP/IP. TCP is vital for managing data transmission between computers in a network, ensuring reliability and order, making it fundamental for internet communications.
 
 ## Key Features of TCP
 
@@ -57,7 +57,7 @@ TCP connections are initiated with a three-way handshake, which is crucial for e
 > [!example]- Examples of TCP Usage
 > - **Web Browsing**: TCP is used to load websites reliably, ensuring all resources are properly loaded and displayed.
 > - **Email Transmission**: Ensures all components of an email are correctly sent and received.
-> - **File Transfers**: In applications like FTP, TCP ensures files are correctly sent and received without corruption.
+> - **File Transfers**: In applications like [[File Transfer Protocol|FTP]], TCP ensures files are correctly sent and received without corruption.
 
 
 > [!warning]- Limitations and Vulnerabilities

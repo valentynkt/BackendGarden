@@ -36,4 +36,4 @@ IPv4 is the fourth version of the Internet Protocol and a core protocol that rou
 
 # References
 
-https://blog.bytebytego.com/p/a-crash-course-in-ipv4-addressing?utm_source=publication-search
+[A Crash Course in IPv4 Addressing - ByteByteGo Newsletter](https://blog.bytebytego.com/p/a-crash-course-in-ipv4-addressing?utm_source=publication-search)

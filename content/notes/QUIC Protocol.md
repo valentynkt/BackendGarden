@@ -13,7 +13,7 @@ link: [[HTTP 3.0|HTTP/3.0]]
 # QUIC Protocol
 ## Overview
 
-QUIC (Quick [[UDP]] Internet Connections) is a next-generation transport layer protocol developed by Google. It operates over [[UDP]] (User Datagram Protocol) and is designed to enhance web performance by addressing some of the inherent limitations in [[TCP]] (Transmission Control Protocol) and [[TLS]] (Transport Layer Security).
+QUIC (Quick [[UDP]] Internet Connections) is a next-generation transport layer protocol developed by Google. It operates over [[UDP]] (User Datagram Protocol) and is designed to enhance web performance by addressing some of the inherent limitations in [[TCP]] (Transmission Control Protocol) and [[SSL and TLS Protocols|TLS]] (Transport Layer Security).
 
 ## Introduction to QUIC
 

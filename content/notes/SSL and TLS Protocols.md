@@ -148,8 +148,8 @@ SSL and TLS protocols are indispensable for securing online communications. By e
 
 # References
 
-https://medium.com/@karan99/system-design-ssl-tls-mtls-ed126cf58287
-SSL/TLS HandShake
-https://www.cloudflare.com/en-gb/learning/ssl/what-happens-in-a-tls-handshake/
-MLS
-https://medium.com/asecuritysite-when-bob-met-alice/ssl-tls-the-dinosaur-protocols-97584c953580
+[System Design: SSL, TLS, mTLS | Medium](https://medium.com/@karan99/system-design-ssl-tls-mtls-ed126cf58287)
+
+[What happens in a TLS handshake? | SSL handshake | Cloudflare](https://www.cloudflare.com/en-gb/learning/ssl/what-happens-in-a-tls-handshake/)
+
+[SSL/TLS: The Dinosaur Protocols? Meet Message Layer Security (MLS) | Medium](https://medium.com/asecuritysite-when-bob-met-alice/ssl-tls-the-dinosaur-protocols-97584c953580)

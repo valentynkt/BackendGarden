@@ -44,9 +44,9 @@ HTTP’s functionality revolves around several key components:
 
 ## Conclusion
 
-HTTP is essential for the functioning of the World Wide Web, facilitating a structured and efficient exchange of data between clients and servers. Its methodical framework, characterized by a robust request-response model and clear protocols for managing transactions, is fundamental for web developers and network communication specialists.
+HTTP is essential for the functioning of the World Wide [[Web]], facilitating a structured and efficient exchange of data between clients and servers. Its methodical framework, characterized by a robust request-response model and clear protocols for managing transactions, is fundamental for web developers and network communication specialists.
 
 # References
 
-https://blog.bytebytego.com/p/http1-vs-http2-vs-http3-a-deep-dive
-https://blog.bytebytego.com/p/the-foundation-of-rest-api-http?utm_source=publication-search
+[HTTP1 vs HTTP2 vs HTTP3 - A Deep Dive](https://blog.bytebytego.com/p/http1-vs-http2-vs-http3-a-deep-dive)
+[The Foundation of REST API: HTTP - ByteByteGo Newsletter](https://blog.bytebytego.com/p/the-foundation-of-rest-api-http?utm_source=publication-search)
