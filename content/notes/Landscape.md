@@ -20,36 +20,6 @@ link: [[Digital Garden]]
 
 The "Landscape" serves as a comprehensive guide and overarching map for exploring various topics within software development and database management. This central hub categorizes knowledge into structured sections, each dedicated to a specific domain. It is designed to provide a high-level overview and easy navigation across related topics, making it an essential starting point for deep dives into each subject area.
 
-> [!important]- [[API]] (MoC)
-> - **[[API-First]]**: Emphasizes designing the APIs before implementing functionality to ensure robust integration and scalability.
-> - **[[API Architectures]] (MoC)**
-> 	- [[REST API]]
-> 	- [[SOAP API]]
-> 	- [[GraphQL API]]
-> 	- [[WebHooks API]]
-> 	- [[WebSockets]]
-> 	- [[gRPC API]]
-> 		- [[Remote Procedure Call]]
-> 		- [[Protocol Buffers|Protobuf]]
-> - **[[API Security]] (MoC)**
-> 	- **Authentication and Authorization**
-> 		- [[Authentication]]
-> 		- [[Authorization]]
-> 		- [[Access Control Lists]]
-> 		- [[Json Web Tokens]]
-> 		- [[OAuth 2.0]]
-> 		- [[OpenID Connect]]
-> 	- **Security Protocols and Policies**
-> 		- [[Content Security Policy]] (CSP)
-> 		- [[Cross-Origin Resource Sharing]] (CORS)
-> 	- **Threat Management**
-> 		- [[Intrusion Detection Systems]] (IDS)
-> 		- [[Rate Limiting]]
-> 		- [[OWASP API Security]]
-> 	- **Security Practices**
-> 		- [[API Gateway Security]]
-> 		- [[API Security Testing]]
-
 
 > [!important]- [[Web]] (MoC)
 > - [[OSI Model]]
@@ -84,6 +54,37 @@ The "Landscape" serves as a comprehensive guide and overarching map for explorin
 > 	- [[SSH]] (Secure Shell)
 > - **Web Session Management**
 > 	- [[Cookies and Sessions]]
+
+
+> [!important]- [[API]] (MoC)
+> - **[[API-First]]**: Emphasizes designing the APIs before implementing functionality to ensure robust integration and scalability.
+> - **[[API Architectures]] (MoC)**
+> 	- [[REST API]]
+> 	- [[SOAP API]]
+> 	- [[GraphQL API]]
+> 	- [[WebHooks API]]
+> 	- [[WebSockets]]
+> 	- [[gRPC API]]
+> 		- [[Remote Procedure Call]]
+> 		- [[Protocol Buffers|Protobuf]]
+> - **[[API Security]] (MoC)**
+> 	- **Authentication and Authorization**
+> 		- [[Authentication]]
+> 		- [[Authorization]]
+> 		- [[Access Control Lists]]
+> 		- [[Json Web Tokens]]
+> 		- [[OAuth 2.0]]
+> 		- [[OpenID Connect]]
+> 	- **Security Protocols and Policies**
+> 		- [[Content Security Policy]] (CSP)
+> 		- [[Cross-Origin Resource Sharing]] (CORS)
+> 	- **Threat Management**
+> 		- [[Intrusion Detection Systems]] (IDS)
+> 		- [[Rate Limiting]]
+> 		- [[OWASP API Security]]
+> 	- **Security Practices**
+> 		- [[API Gateway Security]]
+> 		- [[API Security Testing]]
 
   
 > [!important]- [[Design Patterns]] (MoC)
