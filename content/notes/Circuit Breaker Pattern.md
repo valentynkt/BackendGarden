@@ -5,6 +5,7 @@ aliases:
   - Service Protection Pattern
   - Resilience Pattern
   - System Stability Pattern
+  - Circuit Breaker
 links: "[[Microservices Architecture Pattern|Microservice Architecture]]"
 tags:
   - LearningIT

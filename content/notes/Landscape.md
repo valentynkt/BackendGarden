@@ -115,15 +115,24 @@ The "Landscape" serves as a comprehensive guide and overarching map for explorin
 
 
 > [!important]- [[Architectural Patterns]] (MoC)
-> - [[Client-Server Architecture Pattern]]
-> - [[Event-driven Architecture Pattern]]
-> - [[Layered Architecture Pattern]]
-> - [[Microservices Architecture Pattern]]
+> - [[Monolithic Architecture Pattern|Mononolith Architecture]]
+> - [[Client-Server Architecture Pattern|Clien-Server Architecture]]
+> - [[Event-driven Architecture Pattern|Event-Driven Architecture]]
+> - [[Layered Architecture Pattern|Layered Architecture]]
+> - [[Model-View-Controller Pattern]]
+> - [[Onion Architecture Pattern|Onion Architecture]]
+> - [[Microservices Architecture Pattern|Microservices Architecture]]
 >   - [[API Gateway]]
+>   - [[Circuit Breaker Pattern]]
 >   - [[Backends for Frontends Pattern]]
 >   - [[Database per Service]]
+>   - [[CQRS]]
+>   - [[Externalized Configuration]]
+>   - [[Saga Pattern]]
+>   - [[Bulkhead Pattern]]
+>   - [[Backends for Frontends pattern]]
 >   - [[Service Registry Pattern]]
-> - [[Model-View-Controller Pattern]]
+> - [[Serverless Architecture Pattern|Serverless Architecture]]
 
 
 > [!important]- [[Design Principles]] (MoC)

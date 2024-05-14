@@ -4,6 +4,7 @@ aliases:
   - Microservice Design Pattern
   - Distributed Services Architecture
   - Microservices
+  - Microservices Architecture
 links: "[[Architectural Patterns]]"
 tags:
   - LearningIT

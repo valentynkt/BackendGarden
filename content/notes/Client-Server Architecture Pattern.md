@@ -4,6 +4,8 @@ aliases:
   - Client-Server Model
   - Networked Application Design
   - Request-Response System Architecture
+  - Clien-Server Architecture
+  - Client-Server
 links: "[[Architectural Patterns]]"
 tags:
   - LearningIT
