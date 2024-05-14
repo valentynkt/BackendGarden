@@ -27,7 +27,7 @@ The "Landscape" serves as a comprehensive guide and overarching map for explorin
 > 	- [[SOAP API]]
 > 	- [[GraphQL API]]
 > 	- [[WebHooks API]]
-> 	- [[WebSockets API]]
+> 	- [[WebSockets]]
 > 	- [[gRPC API]]
 > 		- [[Remote Procedure Call]]
 > 		- [[Protocol Buffers|Protobuf]]
