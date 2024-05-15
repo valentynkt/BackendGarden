@@ -40,6 +40,8 @@ The SSL/TLS handshake process is the cornerstone of setting up a secure session.
 
 ![[Pasted image 20231028205803.png]]
 
+![[HTTPS#Flow]]
+
 This process uses asymmetric cryptography to verify server identity and symmetric cryptography for secure data transfer, ensuring a seamless and secure communication experience.
 
 > [!example] **RSA and EC Handshakes**:
@@ -132,7 +134,7 @@ This example outlines the steps involved in the SSL/TLS handshake process, using
 > - **Legacy Cryptography**: Supports outdated cryptographic methods like Diffie-Hellman and SHA-1, which are vulnerable to attacks.
 > - **Single-Sided Authentication**: Typically, only servers are authenticated, leaving client authentication as a potential weak spot.
 > - **Vulnerability to Proxies**: Proxies can intercept SSL/TLS encrypted traffic, compromising data privacy.
-> - **Potential for Traffic Inspection**: Encrypted channels can be inspected by entities like Web Application Firewalls, raising privacy concerns.
+> - **Potential for Traffic Inspection**: Encrypted channels can be inspected by entities like [[Web Application Firewalls]], raising privacy concerns.
 > 
 > These challenges underscore the need for stronger encryption solutions, such as end-to-end encryption (E2EE).
 

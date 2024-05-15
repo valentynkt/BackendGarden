@@ -15,7 +15,12 @@ link: [[API]]
 # API Architectures
 ## Diagram
 
-![[aa5a976f-6264-4731-b214-210d5a8bd43b_2628x3513.webp]]
+> [!important]- Visual Diagrams
+> 
+> ![[aa5a976f-6264-4731-b214-210d5a8bd43b_2628x3513.webp]]
+> 
+> ![[5754e211-8ddb-46ed-8a05-6a4b6ebc553e_1200x1512.gif]]
+> 
 
 ## Overview
 

@@ -22,6 +22,9 @@ Architectural patterns are high-level strategies that guide the overall layout a
 >[!abstract]
 >Architectural patterns are key to developing well-organized software architectures. They provide a tested roadmap for building systems that are adaptable to changing requirements and capable of handling various scalability challenges.
 
+## Diagrams
+
+![[1715520971118.gif]]
 ## Content
 
 ### Key Concepts
@@ -63,7 +66,6 @@ Implementing architectural patterns involves several critical considerations to 
     
 - **Integration Testing**: Rigorously test the system to ensure that all components interact as expected according to the architectural design. Pay special attention to interfaces and data flow between components.
 
-
 ## Summary
 
 >[!summary] **Cheat Sheet**
@@ -71,5 +73,6 @@ Implementing architectural patterns involves several critical considerations to 
 
 # References
 
-https://www.simform.com/blog/software-architecture-patterns/
-https://radixweb.com/blog/software-architecture-patterns
+[10 Software Architecture Patterns You Must Know About](https://www.simform.com/blog/software-architecture-patterns/)
+
+[Software Architecture Patterns: Types, Benefits and Comparison](https://radixweb.com/blog/software-architecture-patterns)

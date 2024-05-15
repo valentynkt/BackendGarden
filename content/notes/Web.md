@@ -42,14 +42,15 @@ link:
 
 ![[Web Communication Protocols#Content]]
 
-## [[Web Data Handling and Formats]]
-
-![[Web Data Handling and Formats#Web Data Handling and Formats]]
-
-
 ## [[Web Security]]
 
 ![[Web Security#Web Security]]
+
+
+
+## [[Web Data Handling and Formats]]
+
+![[Web Data Handling and Formats#Web Data Handling and Formats]]
 
 
 ## Session Management

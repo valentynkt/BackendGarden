@@ -70,5 +70,6 @@ WebSockets revolutionize the way web applications interact with servers and clie
 
 
 # References
-https://ably.com/topic/websocket-vs-rest
+
+[WebSocket vs REST: Key differences and which to use](https://ably.com/topic/websocket-vs-rest)
 

@@ -45,6 +45,10 @@ TCP connections are initiated with a three-way handshake, which is crucial for e
 > 3. **ACK**: The client sends an ACK (acknowledge) packet back to the server, after which the connection is established, and data transfer can begin.
 >    
 >    ![[Pasted image 20231029150852.png]]
+>    
+>    ![[HTTPS#Flow]]
+
+
 
 
 > [!info]-  Data Transmission and Termination
