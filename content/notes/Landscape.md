@@ -72,7 +72,7 @@ The "Landscape" serves as a comprehensive guide and overarching map for explorin
 > 		- [[Authentication]]
 > 		- [[Authorization]]
 > 		- [[Access Control Lists]]
-> 		- [[Json Web Tokens]]
+> 		- [[JSON Web Tokens]]
 > 		- [[OAuth 2.0]]
 > 		- [[OpenID Connect]]
 > 	- **Security Protocols and Policies**

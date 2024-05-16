@@ -1,6 +1,6 @@
 Date and Time: <u> 2023-10-21 20:05 </u>
 Status: #LearningIT
-Tags: [[API]], [[Authentication and Authorization]], [[Json Web Tokens]]
+Tags: [[API]], [[Authentication and Authorization]], [[JSON Web Tokens]]
 
 # OAuth 2.0
 Below we will take a look on OAuth 2.0 and how it works
@@ -25,7 +25,7 @@ OAuth 2.0 enables the resource owner (user) to give the client (the third-party 
 
 ### Access and Refresh Tokens
 
-Access tokens can be stored in different formats, the most common being the [[Json Web Tokens|Json Web Tokens]] (JSON Web Token) format. This format allows the token to contain encrypted data, which can be securely retrieved before the token expires.
+Access tokens can be stored in different formats, the most common being the [[JSON Web Tokens|JSON Web Tokens]] (JSON Web Token) format. This format allows the token to contain encrypted data, which can be securely retrieved before the token expires.
 Access tokens are often short-lived and therefore need to be re-generated upon expiration. Refresh tokens are used to obtain new access tokens and often have a longer lifespan than access tokens.
 
 ---

@@ -1,11 +1,11 @@
 Date and Time: <u> 2023-10-20 17:07 </u>
 Status: #LearningIT
-Tags: [[CSharp]], [[NET]] , [[API]], [[Authentication and Authorization]], [[Json Web Tokens]]
+Tags: [[CSharp]], [[NET]] , [[API]], [[Authentication and Authorization]], [[JSON Web Tokens]]
 
 # JWT in .NET Core
 
 ## Intro
-In this article, I will show you how to implement an ASP.NET Core web [[API]] application using [[Json Web Tokens|JWT]] authentication and authorization. This web API application implements processes such as login, logout, refresh token, impersonation, and so on. The following screenshot shows the API endpoints that we are going to walk through in this article.
+In this article, I will show you how to implement an ASP.NET Core web [[API]] application using [[JSON Web Tokens|JWT]] authentication and authorization. This web API application implements processes such as login, logout, refresh token, impersonation, and so on. The following screenshot shows the API endpoints that we are going to walk through in this article.
 ![[Pasted image 20231020194326.png]]
 
 ## JWT workflow
@@ -17,7 +17,7 @@ In this article, I will show you how to implement an ASP.NET Core web [[API]] ap
 4. The website validates the JWT and decides if the resource is accessible, then processes the request accordingly.
 ```
 
-Usually, a random string, refresh token, is generated along with the [[Json Web Tokens|JWT]] access token in step 2. When the [[Json Web Tokens|JWT]] access token is about to expire, the client sends the refresh token to the server-side to get a new [[Json Web Tokens|JWT]] access token. It is recommended that the system should return a new refresh token together with the new access token. Therefore, the application no longer has a long-lived refresh token. This technique is known as [Refresh Token Rotation](https://auth0.com/docs/tokens/concepts/refresh-token-rotation).
+Usually, a random string, refresh token, is generated along with the [[JSON Web Tokens|JWT]] access token in step 2. When the [[JSON Web Tokens|JWT]] access token is about to expire, the client sends the refresh token to the server-side to get a new [[JSON Web Tokens|JWT]] access token. It is recommended that the system should return a new refresh token together with the new access token. Therefore, the application no longer has a long-lived refresh token. This technique is known as [Refresh Token Rotation](https://auth0.com/docs/tokens/concepts/refresh-token-rotation).
 
 ## JWT Authentication Configuration
  A set of common configurations is defined in the following `JwtTokenConfig` class
@@ -32,11 +32,11 @@ public class JwtTokenConfig
 }
 ```
 
-The property `Secret` is a string that needs to be kept in a secure place, for example, the app pool user’s environment variables, or a cloud secret store or key vault. The `AccessTokenExpiration` and `RefreshTokenExpiration` are two integers representing the total lifetimes of the tokens since they were generated. The times are in minutes based on the implementation of this demo project. For simplicity purposes, we will store the parameters in the `appsettings.json` file. Then we are ready to pass the values into the [[Json Web Tokens|JWT]] Bearer configurations.
+The property `Secret` is a string that needs to be kept in a secure place, for example, the app pool user’s environment variables, or a cloud secret store or key vault. The `AccessTokenExpiration` and `RefreshTokenExpiration` are two integers representing the total lifetimes of the tokens since they were generated. The times are in minutes based on the implementation of this demo project. For simplicity purposes, we will store the parameters in the `appsettings.json` file. Then we are ready to pass the values into the [[JSON Web Tokens|JWT]] Bearer configurations.
 
-The good news is that authenticating with [[Json Web Tokens|JWT]] tokens is straightforward, and the `Microsoft.AspNetCore.Authentication.JwtBearer` NuGet package does most of the work for us. After we have installed the latest version of this NuGet package, we have two choices to configure [[Json Web Tokens|JWT]] authentication: (1) use the `app.UseJwtBearerAuthentication()` middleware in the `Startup.Configure` method; (2) call the `services.AddJwtBearer()` method to register the [[Json Web Tokens|JWT]] authentication scheme in the `Startup.ConfigureServices` method.
+The good news is that authenticating with [[JSON Web Tokens|JWT]] tokens is straightforward, and the `Microsoft.AspNetCore.Authentication.JwtBearer` NuGet package does most of the work for us. After we have installed the latest version of this NuGet package, we have two choices to configure [[JSON Web Tokens|JWT]] authentication: (1) use the `app.UseJwtBearerAuthentication()` middleware in the `Startup.Configure` method; (2) call the `services.AddJwtBearer()` method to register the [[JSON Web Tokens|JWT]] authentication scheme in the `Startup.ConfigureServices` method.
 
-Here, we will configure the [[Json Web Tokens|JWT]] Bearer authentication via the second approach. The following code snippet shows an example `ConfigureServices` method.
+Here, we will configure the [[JSON Web Tokens|JWT]] Bearer authentication via the second approach. The following code snippet shows an example `ConfigureServices` method.
 
 ``` csharp
 public void ConfigureServices(IServiceCollection services)
@@ -70,10 +70,10 @@ public void ConfigureServices(IServiceCollection services)
 In the code above, line 3 read our settings and register the `JwtTokenConfig` as a [[Singleton Pattern|Singleton]] in the [[Dependency Injection]] (DI) container.
 
 Lines 5 to 8 set the default to authenticate and challenge schemes to `Bearer` in this application.
-Lines 9 to 24 configure the [[Json Web Tokens|JWT]] Bearer token, especially the token validation parameters. I would like to point out the following attributes.
+Lines 9 to 24 configure the [[JSON Web Tokens|JWT]] Bearer token, especially the token validation parameters. I would like to point out the following attributes.
 
 - `RequireHttpsMetadata`: the default value is `true`, which means that the authentication requires HTTPS for the metadata address or authority.
-- `SaveToken`: the default value is `true`, which saves the [[Json Web Tokens|JWT]] access token in the current `HttpContext`, so that we can retrieve it using the method `await HttpContext.GetTokenAsync(“Bearer”, “access_token”)` or something similar. If we want to set the `SaveToken` to be `false`, then we can save the [[Json Web Tokens|JWT]] access token in claims, and then retrieve its value using the method: `User.FindFirst("access_token")?.Value`.
+- `SaveToken`: the default value is `true`, which saves the [[JSON Web Tokens|JWT]] access token in the current `HttpContext`, so that we can retrieve it using the method `await HttpContext.GetTokenAsync(“Bearer”, “access_token”)` or something similar. If we want to set the `SaveToken` to be `false`, then we can save the [[JSON Web Tokens|JWT]] access token in claims, and then retrieve its value using the method: `User.FindFirst("access_token")?.Value`.
 - `TokenValidationParameters`: this object sets the parameters used to validate identity tokens. The meaning for each property is self-explanatory. One thing I want to mention is the `ClockSkew` property. I set its value to be one minute, which gives an allowance time for the token expiration validation. I have an integration test for this property, and you can play with it.
 
 Then we move on and add the `app.UseAuthentication()` method in the `Startup.Configure` method like below.
@@ -93,11 +93,11 @@ public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
 }
 ```
 
-The `Authentication` middleware, line 5, is critical to make the registered authentication schemes ([[Json Web Tokens|JWT]] Bearer, in this case) work. On the other hand, the `Authorization` middleware, line 6, is critical to make the registered authorization mechanisms work. In this project, we use the default role-based authorization. Both lines 5 and 6 are needed so that we can use the `[Authorize]` attribute over controllers and action methods. In addition, please note that **the order of the middleware is important**.
+The `Authentication` middleware, line 5, is critical to make the registered authentication schemes ([[JSON Web Tokens|JWT]] Bearer, in this case) work. On the other hand, the `Authorization` middleware, line 6, is critical to make the registered authorization mechanisms work. In this project, we use the default role-based authorization. Both lines 5 and 6 are needed so that we can use the `[Authorize]` attribute over controllers and action methods. In addition, please note that **the order of the middleware is important**.
 
 ## Token Generation and Login
 
-We will create a `JwtAuthManager` class to put together all utilities related to the [[Json Web Tokens|JWT]] access tokens and refresh tokens.
+We will create a `JwtAuthManager` class to put together all utilities related to the [[JSON Web Tokens|JWT]] access tokens and refresh tokens.
 
 ### JwtAuthManager
 ``` csharp
@@ -153,9 +153,9 @@ public class JwtAuthManager : IJwtAuthManager
 
 In the `JwtAuthManager` class, we save a dictionary `_usersRefreshTokens` as a cache for refresh tokens. Alternatively, we can save the refresh tokens in a database or a distributed cache storage. Keeping a copy of refresh tokens on the server-side allows the system to validate the refresh tokens and look up metadata about user sessions.
 
-The `GenerateTokens` method creates a [[Json Web Tokens|JWT]] access token and a refresh token. We pass the user claims into the payload in the [[Json Web Tokens|JWT]] access token and set proper values for [[Json Web Tokens|JWT]] token validation parameters. The refresh token is simply a random string, but we also enrich the `RefreshToken` object with an expiration time and username. We can further attach other metadata to the `RefreshToken` objects, for example, client [[Internet Protocol|IP]], user agent, device ID, and so on, so that we can identify and monitor user sessions, and detect fraudulent tokens.
+The `GenerateTokens` method creates a [[JSON Web Tokens|JWT]] access token and a refresh token. We pass the user claims into the payload in the [[JSON Web Tokens|JWT]] access token and set proper values for [[JSON Web Tokens|JWT]] token validation parameters. The refresh token is simply a random string, but we also enrich the `RefreshToken` object with an expiration time and username. We can further attach other metadata to the `RefreshToken` objects, for example, client [[Internet Protocol|IP]], user agent, device ID, and so on, so that we can identify and monitor user sessions, and detect fraudulent tokens.
 
-Notice lines 17 and 20 will prevent the token from being lengthy when the token is refreshed multiple times. The reason why the [[Json Web Tokens|JWT]] token gets longer is that the `aud` claim is an array and keeps appending new values to it. For sure, there are other ways to keep the `aud` claim clean.
+Notice lines 17 and 20 will prevent the token from being lengthy when the token is refreshed multiple times. The reason why the [[JSON Web Tokens|JWT]] token gets longer is that the `aud` claim is an array and keeps appending new values to it. For sure, there are other ways to keep the `aud` claim clean.
 
 ### AccountController
 Since the `JwtAuthManager` class doesn’t have Scoped or Transient dependencies, we can register it as a [[Singleton Pattern|Singleton]] in the [[Dependency Injection]] container. Then we can inject the `JwtAuthManager` to the `AccountController`, which performs the `Login` action. The following code snippet shows the `AccountController` and the `Login` action method.
@@ -215,7 +215,7 @@ In the code above, we first validate the login credentials in lines 26 to 29 usi
 
 ## Logout
 
-After the [[Json Web Tokens|JWT]] tokens are sent back to the client, they are stored on the client-side. When the client wants to logout, we can remove the token by deleting the tokens in cookie or localStorage. However, a user may still be able to hold the access token. Usually, the risk is low because the access token will be expired after a small time frame.
+After the [[JSON Web Tokens|JWT]] tokens are sent back to the client, they are stored on the client-side. When the client wants to logout, we can remove the token by deleting the tokens in cookie or localStorage. However, a user may still be able to hold the access token. Usually, the risk is low because the access token will be expired after a small time frame.
 
 We will leave the access token alone, but we will invalidate the refresh token on the server-side. In the `AccountController`, we add the `Logout` method as follows.
 
@@ -239,7 +239,7 @@ Removing refresh tokens based on a username is not ideal because it will log out
 
 ## Refresh the JWT Access Token
 
-Some mobile apps only need to login once, so refreshing the [[Json Web Tokens|JWT]] access tokens is not that significant. But for most web apps, refreshing access tokens is mandatory. The client usually triggers the refresh token action when the access token is about to expire. When that happens, the client sends a `RefreshToken` to the API endpoint. The following code snippet shows an example API action method in the `AccountController` class.
+Some mobile apps only need to login once, so refreshing the [[JSON Web Tokens|JWT]] access tokens is not that significant. But for most web apps, refreshing access tokens is mandatory. The client usually triggers the refresh token action when the access token is about to expire. When that happens, the client sends a `RefreshToken` to the API endpoint. The following code snippet shows an example API action method in the `AccountController` class.
 
 ``` csharp
 [HttpPost("refresh-token")]
@@ -323,11 +323,11 @@ public (ClaimsPrincipal, JwtSecurityToken) DecodeJwtToken(string token)
 }
 ```
 
-In the code above, we first decode the [[Json Web Tokens|JWT]] access token to confirm that we get an authentic identity. The parameters in the `DecodeJwtToken` method should match the `TokenValidationParameters` in the `Startup.cs` file.
+In the code above, we first decode the [[JSON Web Tokens|JWT]] access token to confirm that we get an authentic identity. The parameters in the `DecodeJwtToken` method should match the `TokenValidationParameters` in the `Startup.cs` file.
 
-Another reason why we need to decode the original [[Json Web Tokens|JWT]] access token is that we need to recover all claims in the original token. Then we can generate a new access token with a proper payload.
+Another reason why we need to decode the original [[JSON Web Tokens|JWT]] access token is that we need to recover all claims in the original token. Then we can generate a new access token with a proper payload.
 # Reference:
-https://codeburst.io/[[Json Web Tokens|[[Json Web Tokens|JWT]]]]-auth-in-asp-net-core-148fb72bed03
+https://codeburst.io/[[Json Web Tokens|[[JSON Web Tokens|JWT]]]]-auth-in-asp-net-core-148fb72bed03
 
 
  

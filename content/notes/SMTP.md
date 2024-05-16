@@ -28,7 +28,7 @@ SMTP, or Simple Mail Transfer Protocol, is the standard protocol used on the Int
 > 2. **SMTP Handshake**: Once connected, the SMTP server and client exchange greetings, and the server identifies itself.
 > 3. **Mail Transmission**: The client begins the mail transmission process using SMTP commands.
 > 4. **Queue and Forward**: The server queues the email for delivery. If the recipient is outside the server's domain, the email is forwarded to another SMTP server.
-> 5. **Session Termination**: After emails are queued or sent, the session is terminated with a QUIT command.
+> 5. **[[Session Management|Session]] Termination**: After emails are queued or sent, the session is terminated with a QUIT command.
 > 
 > ![[Pasted image 20231029172030.png]]
 > 

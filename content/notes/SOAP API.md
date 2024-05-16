@@ -42,7 +42,7 @@ SOAP defines a set of rules for structuring messages that can be processed by an
 > - **Standardization**: SOAP ensures strict compliance with standards, making it suitable for formal enterprise environments.
 > - **Security**: Features comprehensive security protocols like WS-Security for authentication, authorization, and encryption.
 > - **[[Extensibility]]**: Can be extended with protocols such as WS-ReliableMessaging for enhanced capabilities.
-> - **Stateful Operations**: Supports operations that require the server to maintain client session state.
+> - **Stateful Operations**: Supports operations that require the server to maintain client [[Session Management|session]] state.
 > - **Language and Platform Independence**: Uses [[XML]], allowing use across different platforms and programming languages.
 > - **[[ACID Properties|ACID]] Compliance**: Facilitates reliable transaction processing by supporting ACID-compliant transactions.
 

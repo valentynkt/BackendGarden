@@ -21,7 +21,7 @@ Transmission Control Protocol (TCP) is a core protocol of the [[Internet Protoco
 
 TCP is designed to provide a reliable, ordered flow of data between hosts. Here are some of its primary features:
 
-- **Reliable Delivery**: TCP ensures that data sent during a communication session will reach its destination without errors and in the same order it was sent.
+- **Reliable Delivery**: TCP ensures that data sent during a communication [[Session Management|session]] will reach its destination without errors and in the same order it was sent.
 - **Sequencing and Ordering**: Data packets are sequenced so that they can be reassembled in the correct order upon reaching their destination.
 - **Error Detection**: Includes checksums in the header for error-checking data as it arrives at the destination.
 - **Flow Control**: Uses windowing techniques to control the volume of data that a sender can send before needing acknowledgment from the receiver.

@@ -28,11 +28,11 @@ Developed by Netscape in the mid-1990s, SSL was the first protocol designed to s
 > - **Encryption**: Uses cryptographic algorithms to secure data, ensuring confidentiality.
 > - **Authentication**: Provides mechanisms to verify the identities of the communicating parties, safeguarding against impersonation.
 > - **Integrity**: Employs hash functions to maintain data integrity, protecting against alterations.
-> - **Forward Secrecy**: Ensures that session keys are not compromised even if the long-term keys are breached in the future.
+> - **Forward Secrecy**: Ensures that [[Session Management|session]] keys are not compromised even if the long-term keys are breached in the future.
 > - **Compatibility**: Supports a wide range of applications and services due to its broad acceptance in the industry.
 ## SSL/TLS Handshake Process
 
-The SSL/TLS handshake process is the cornerstone of setting up a secure session. This multi-step protocol involves:
+The SSL/TLS handshake process is the cornerstone of setting up a secure [[Session Management|session]]. This multi-step protocol involves:
 
 1. **Acknowledgment and Verification**: Exchange of messages to establish each other's presence and verify identities.
 2. **Algorithm Negotiation**: Agreement on the cryptographic algorithms to ensure compatibility and security.
@@ -64,7 +64,7 @@ The exact steps of the TLS handshake may vary based on the chosen key exchange a
 >     
 > 5. **Key Derivation**: The server decrypts the premaster secret using its private key and generates session keys.
 >     
-> 6. **Session Keys**: Both client and server independently calculate session keys using the client and server random strings and the premaster secret.
+> 6. **[[Session Management|Session]] Keys**: Both client and server independently calculate session keys using the client and server random strings and the premaster secret.
 >     
 > 7. **Finished Messages**: The client and server exchange "finished" messages, confirming that the handshake is complete and encrypted communication can begin.
 

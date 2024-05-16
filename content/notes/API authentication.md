@@ -5,7 +5,7 @@ Tags: [[API]], [[Authentication and Authorization]]
 # API authentication
 ## Intro
 
-API authentication is the process of verifying the identity of a user who is making an API request, and it is a crucial pillar of [[API Security]]. There are many types of API authentication, such as HTTP basic authentication, API key authentication, [[Json Web Tokens|JWT]], and OAuth, and each one has its own benefits, trade-offs, and ideal use cases. Nevertheless, all API authentication mechanisms share the goal of protecting sensitive data and ensuring the API is not misused.
+API authentication is the process of verifying the identity of a user who is making an API request, and it is a crucial pillar of [[API Security]]. There are many types of API authentication, such as HTTP basic authentication, API key authentication, [[JSON Web Tokens|JWT]], and OAuth, and each one has its own benefits, trade-offs, and ideal use cases. Nevertheless, all API authentication mechanisms share the goal of protecting sensitive data and ensuring the API is not misused.
 
 ## Types of API authentication
 There are many API authentication mechanisms, and each one operates differently. These four methods are among the most common:
@@ -17,9 +17,9 @@ HTTP basic authentication is the most rudimentary way to implement API authentic
 ### API key authentication
 ![[Pasted image 20231019204219.png]]
 An [API key](https://www.postman.com/api-glossary/#api-key) is a unique identifier that an API provider issues to registered users in order to control usage and monitor access. The API key must be sent with every request—either in the query string, as a request header, or as a cookie. Like HTTP basic authentication, API key authentication must be used with HTTPS to ensure the API key remains secure.
-### [[Json Web Tokens]]
+### [[JSON Web Tokens]]
 ![[Pasted image 20231019204318.png]]
-[[Json Web Tokens|JWT]], which stands for JSON Web Token, is a compact, stateless mechanism for API authentication. When a user logs into an application, the API server creates a digitally signed and encrypted [[Json Web Tokens|JWT]] that includes the user's identity. The client then includes the [[Json Web Tokens|JWT]] in every subsequent request, which the server deserializes and validates. The user's data is therefore not stored on the server's side, which improves scalability.
+[[JSON Web Tokens|JWT]], which stands for JSON Web Token, is a compact, stateless mechanism for API authentication. When a user logs into an application, the API server creates a digitally signed and encrypted [[JSON Web Tokens|JWT]] that includes the user's identity. The client then includes the [[JSON Web Tokens|JWT]] in every subsequent request, which the server deserializes and validates. The user's data is therefore not stored on the server's side, which improves scalability.
 
 ### [[OAuth 2.0]]
 ![[Pasted image 20231019204643.png]]

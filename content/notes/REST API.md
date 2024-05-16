@@ -29,7 +29,7 @@ REST is built on six foundational principles which ensure that APIs are scalable
 
 > [!info]-
 > - **Uniform Interface**: The interface between client and server remains consistent across different parts of an application, simplifying and decoupling the architecture.
-> - **Stateless**: Each request from the client to the server must contain all the information the server needs to understand the request. The server does not store any state about the client session.
+> - **Stateless**: Each request from the client to the server must contain all the information the server needs to understand the request. The server does not store any state about the client [[Session Management|session]].
 > - **Cacheable**: Responses must define themselves as cacheable or not, to prevent clients from reusing stale or inappropriate data.
 > - **Client-Server Architecture**: Separating the user interface concerns from the data storage concerns improves the portability of the user interface across multiple platforms and scalability by simplifying the server components.
 > - **Layered System**: The client cannot ordinarily tell whether it is connected directly to the end server or to an intermediary along the way.
@@ -47,7 +47,7 @@ REST is built on six foundational principles which ensure that APIs are scalable
 
 
 > [!danger]- Cons
-> - **Statelessness**: While it increases scalability, statelessness means that REST cannot use server memory to store anything about the client’s session. This can be a limitation for applications requiring complex transactions.
+> - **Statelessness**: While it increases scalability, statelessness means that REST cannot use server memory to store anything about the client’s [[Session Management|session]]. This can be a limitation for applications requiring complex transactions.
 > - **Over-fetching and Under-fetching**: REST might require multiple round trips to the server to gather complete data or may fetch more data than needed, impacting performance and efficiency.
 > - **Security**: RESTful APIs must carefully implement security measures, as the stateless nature requires that each call be authenticated and authorized independently.
 > - **Limited Methods**: The standard methods in REST (GET, POST, PUT, DELETE) might limit the actions that can be performed via the API, potentially complicating implementations that require actions outside these norms.

@@ -26,8 +26,8 @@ API Security involves implementing measures to protect [[API|APIs]] from unautho
 > - **[[Access Control Lists]]**: Define which users can access which resources, providing a fine-grained security control.
 
 
-> [!summary]- **Token-Based Authentication**
-> - **[[Json Web Tokens|Json Web Tokens (JWT)]]**: A method for securely transmitting information as a JSON object.
+> [!summary]- **[[Web Tokens|Token-Based]] Authentication**
+> - **[[JSON Web Tokens|Json Web Tokens (JWT)]]**: A method for securely transmitting information as a JSON object.
 > - **[[OAuth 2.0]]**: A protocol for authorization, providing a secure delegated access to server resources.
 > - **[[OAuth 2.0 Flows]]**: Different authentication flows for varying application scenarios.
 > - **[[OAuth PKCE]]**: Enhancement for public clients on mobile or desktop applications.

@@ -29,7 +29,7 @@ Secure Shell (SSH) is a cryptographic network protocol for operating network ser
 > 1. **Connection Establishment**: The SSH client initiates a connection to the SSH server using the [[TCP|TCP/IP]] protocol, usually on port 22.
 > 2. **Key Exchange**: Upon connecting, the client and server negotiate to establish a secure channel by exchanging cryptographic keys.
 > 3. **Authentication**: The client must authenticate itself to the server. This can be done using one of several methods, such as a password, SSH key pair, or Kerberos tickets.
-> 4. **Session**: Once authenticated, the user can execute commands on the server, forward local ports, manage files, and more, all within the encrypted SSH session.
+> 4. **[[Session Management|Session]]**: Once authenticated, the user can execute commands on the server, forward local ports, manage files, and more, all within the encrypted SSH [[Session Management|session]].
 
 
 > [!example]- Example of an SSH Command

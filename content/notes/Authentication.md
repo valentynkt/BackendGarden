@@ -1,6 +1,7 @@
 ---
 created: 2024-05-09 18:46
-aliases: 
+aliases:
+  - Authenticate
 tags:
   - LearningIT
   - seed🌱

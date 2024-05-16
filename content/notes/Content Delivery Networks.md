@@ -86,3 +86,6 @@ Using a CDN can significantly enhance the performance and reliability of a websi
 Content Delivery Networks are vital for maintaining fast, reliable, and secure delivery of digital content. They are especially crucial for websites with a global audience, ensuring that all users, no matter their location, have a consistent and secure experience. Integrating a CDN can drastically improve site performance, manage bandwidth more efficiently, and bolster security measures.
 
 
+# References
+
+[What Is A CDN? How Does It Work? - YouTube](https://www.youtube.com/watch?v=RI9np1LWzqw&embeds_referring_euri=https%3A%2F%2Fblog.bytebytego.com%2F&feature=emb_title)

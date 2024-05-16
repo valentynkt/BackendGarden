@@ -52,7 +52,7 @@ Authorization: Basic c3RhY2s6c3RhY2tfcGFzcw==
 
 grant_type=authorization_code&code=d34ut6f83h744fn374tf38f939
 ```
-7. Now OAuth server checks the validity of the authorization code and validity of clientid and clientsecret. If they are valid OAuth server generates and stores an access key and a refresh key (can be used together with [[Json Web Tokens]]  but it is not necessary) . Then both of them are sent back to the client with the expiration time. This access token and refresh token is stored in client application for future usage.
+7. Now OAuth server checks the validity of the authorization code and validity of clientid and clientsecret. If they are valid OAuth server generates and stores an access key and a refresh key (can be used together with [[JSON Web Tokens]]  but it is not necessary) . Then both of them are sent back to the client with the expiration time. This access token and refresh token is stored in client application for future usage.
 **_Sample response_**
 ```
 > HTTP/1.1 200 OK Content-Type: application/jason

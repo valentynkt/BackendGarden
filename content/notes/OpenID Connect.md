@@ -51,7 +51,7 @@ The client uses the `UserInfo` endpoint when it needs more information (i.e., 
 ![[OAuth 2.0#OAuth 2.0 and OpenID Connect]]
 
 
-## OpenID and [[Json Web Tokens]]
+## OpenID and [[JSON Web Tokens]]
 
 JWTs contain [claims](https://auth0.com/docs/secure/tokens/json-web-tokens/json-web-token-claims), which are statements (such as name or email address) about an entity (typically, the user) and additional metadata. The [OpenID Connect specification](https://openid.net/specs/openid-connect-core-1_0.html) defines a set of [standard claims](https://openid.net/specs/openid-connect-core-1_0.html#StandardClaims). The set of standard claims include name, email, gender, birth date, and so on. However, if you want to capture information about a user and there currently isn't a standard claim that best reflects this piece of information, you can create custom claims and add them to your tokens.
 

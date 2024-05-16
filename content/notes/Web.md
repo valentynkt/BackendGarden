@@ -55,7 +55,7 @@ link:
 
 ## Session Management
 > [!summary]- Session Management
-> - **Cookies and Session Management** ([[Cookies and Sessions]]): Overview of how web applications maintain user state and session information using cookies and other session management techniques.
+> - **Cookies and Session Management** ([[Session Management]]): Overview of how web applications maintain user state and session information using cookies and other session management techniques.
 
 # References
 
