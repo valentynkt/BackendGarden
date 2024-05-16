@@ -21,7 +21,7 @@ Web tokens are a mechanism used in web development for securely transmitting inf
 
 There are several types of web tokens, each with unique features and use cases:
 
-> [!summary] **Types of Web Tokens**
+> [!summary]- **Types of Web Tokens**
 > 
 > - **[[JSON Web Tokens|Json Web Tokens (JWT)]]**: A compact, URL-safe token format that is widely used for authentication and authorization. JWTs contain three parts: a header, a payload, and a signature, and are designed to be self-contained and stateless.
 > - **Security Assertion Markup Language (SAML) Tokens**: XML-based tokens used primarily for single sign-on (SSO) in enterprise environments. SAML tokens facilitate the exchange of authentication and authorization data between parties.
@@ -30,7 +30,7 @@ There are several types of web tokens, each with unique features and use cases:
 
 ## How Web Tokens Work
 
-> [!info] **How Web Tokens Work**
+> [!info]- **How Web Tokens Work**
 > 
 > 1. **Client [[Authentication]]**: The client application sends authentication credentials (e.g., username and password) to the server.
 > 2. **Token Issuance**: Upon successful authentication, the server generates a web token and sends it back to the client.
@@ -40,28 +40,25 @@ There are several types of web tokens, each with unique features and use cases:
 
 ## Pros/Cons
 
-> [!success] **Pros**
+> [!success]- **Pros**
 > - **Stateless Authentication**: Web tokens enable stateless authentication, improving scalability and reducing server load.
 > - **Compact and URL-Safe**: Tokens are small and can be easily transmitted via URLs, POST parameters, or HTTP headers.
 > - **Interoperability**: Web tokens can be used across different platforms and technologies, facilitating seamless integration.
 > - **Security**: Properly implemented tokens ensure secure communication by encapsulating authentication and authorization data.
 
 
-> [!danger] **Cons**
+> [!danger]- **Cons**
 > - **Security Risks**: Storing sensitive information in tokens can be risky. Always encrypt sensitive data and validate tokens on the server side.
 > - **Token Revocation**: Revoking tokens can be challenging, especially with stateless tokens like JWTs.
 > - **Complexity**: Implementing secure token management and handling can add complexity to the application.
 
 ## Use Cases
 
-> [!example] **Use Cases**
+> [!example]- **Use Cases**
 > 
 > - **[[Authentication]]**: Tokens are commonly used for user authentication in web and mobile applications.
 > - **[[Authorization]]**: Tokens help control access to resources, ensuring only authorized users can perform specific actions.
 > - **Information Exchange**: Securely transmitting information between parties in a compact and standardized format.
 
-## Conclusion
-
-Web tokens are essential tools in modern web development, providing a secure and efficient way to handle authentication, authorization, and information exchange. While JSON Web Tokens (JWT) are the most widely used, other token types like SAML and OAuth tokens play crucial roles in various contexts. By understanding the advantages and limitations of web tokens, developers can effectively integrate them into their applications to enhance security and functionality.
 
 

@@ -33,7 +33,7 @@ Web local storage, also known as browser local storage, is a feature of HTML5 th
 
 
 > [!danger]- Cons
-> - **[[BackendGarden/node_modules/tslib/SECURITY]]**: Data stored in local storage can be accessed by any script running on the same domain, making it vulnerable to cross-site scripting (XSS) attacks.
+> - **[[Security]]**: Data stored in local storage can be accessed by any script running on the same domain, making it vulnerable to cross-site scripting (XSS) attacks.
 > - **Limited Storage**: Although larger than cookies, local storage still has storage limits that might not be sufficient for some applications.
 > - **No Expiration**: Unlike [[Web Cookies|Cookies]], local storage data does not expire automatically and must be managed by the application.
 
