@@ -88,6 +88,7 @@ The "Landscape" serves as a comprehensive guide and overarching map for explorin
 
   
 > [!important]- [[Design Patterns]] (MoC)
+> - [[Design Patterns Cheatsheet]]
 > - [[Creational Patterns]]
 >   - [[Abstract Factory Pattern]]
 >   - [[Builder Pattern]]
