@@ -20,7 +20,7 @@ A Virtual Private Network (VPN) is a technology that creates a safe and encrypte
 
 ## Key Features of VPN
 
-- **Encryption**: VPNs encrypt data traffic, which prevents eavesdropping and makes communication secure over public networks.
+- **[[Encryption]]**: VPNs encrypt data traffic, which prevents eavesdropping and makes communication secure over public networks.
 - **Remote Access**: Allows users to connect to a private network from anywhere that has internet access.
 - **Anonymity**: By masking the user's [[Internet Protocol|IP]] address, VPNs can enhance online anonymity and protect users from being tracked.
 
@@ -62,4 +62,6 @@ A Virtual Private Network (VPN) is a technology that creates a safe and encrypte
 VPNs are essential for enhancing online security, protecting personal privacy, and enabling remote access to resources over the internet. Whether for individual privacy or corporate security, VPN technology plays a crucial role in creating a secure and private online experience.
 
 
+# References
 
+[How VPN Encryption Works](https://www.howtogeek.com/895349/how-vpn-encryption-works/)

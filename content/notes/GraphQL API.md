@@ -12,6 +12,13 @@ link: [[API Architectures]]
 
 # GraphQL
 ![[Pasted image 20240510192622.jpg]]
+## Diagram
+
+
+> [!important]- GraphQL Diagram
+> ![[Pasted image 20240516132104.png]]
+
+
 ## Overview
 
 ![[Pasted image 20231029184027.png]]

@@ -15,6 +15,10 @@ link: [[Web]], [[API Architectures]]
 
 # WebSockets
 
+## Diagram
+
+![[9f2ff945-1c60-4e43-9252-474e74dc4fe7_1600x1303.webp]]
+
 ## Overview
 
 [[HTTP]] and WebSocket are both communication protocols used in client-server communication. Unlike [[HTTP]], which is designed for short-lived connections, WebSockets provide a way to open a bi-directional, persistent communication channel. This allows for real-time data transfer and interaction, enhancing web applications that require live updates like chat applications, live notifications, and collaborative platforms.
@@ -35,9 +39,23 @@ link: [[Web]], [[API Architectures]]
 
 > [!question]- How WebSockets Work
 > The WebSocket protocol facilitates interactive communication sessions between a user's browser (the client) and a server. The process involves:
-> 1. **Handshake**: Initiated by the client with a WebSocket handshake request that includes an 'Upgrade' header to switch protocols.
+> 1. **Handshake**: Initiated by the client with a WebSocket handshake request that includes an 'Upgrade' header to switch protocols. (These headers tell the browser to switch to the WebSocket protocol. A randomly generated base64-encoded key (_Sec-WebSocket-Key_) is sent to the server.)
+>	``` http
+>	Connection: Upgrade 
+>	Upgrade: WebSocket
+>	Sec-WebSocket-Key: T2a6wZlAwhgQNqruZ2YUyg=\r\n
+>	```
 > 2. **Connection Establishment**: The server responds with a handshake response if it supports WebSockets, establishing a persistent connection.
+>	  ``` http
+>	  HTTP/1.1 101 Switching Protocols\r\n
+>	  Sec-WebSocket-Accept: iBJKv/ALIW2DobfoA4dmr3JHBCY=\r\n
+>	  Upgrade: WebSocket\r\n
+>	  Connection: Upgrade\r\n
+>	  ```
 > 3. **Data Transfer**: Data is exchanged in full duplex after the connection is established, allowing for interactive communication with minimal overhead.
+> After this extra handshake, a WebSocket connection is established, as illustrated in the diagram below.
+> 
+>  
 
 ## Usage Scenarios
 

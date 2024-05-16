@@ -69,7 +69,7 @@ REST APIs are extensively used in many applications and services:
 > - **Versioning**: Always version your APIs to avoid breaking changes and maintain backward compatibility. This helps in evolving the [[API]] without affecting existing consumers. 
 > - **Error Handling**: Implement consistent and informative error handling. Use standard [[HTTP Status Codes]] and provide clear error messages to help clients understand what went wrong.
 > - Managing Long Running REST Processes:
->	- **HTTP Polling**: Client periodically checks server for status.
+>	- **[[HTTP Polling]]**: Client periodically checks server for status.
 >	- **Message Queues**: Decouple processing from response.
 >	- [[WebSockets]]: Real-time, bidirectional communication.
 
