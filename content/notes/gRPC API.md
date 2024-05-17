@@ -16,7 +16,7 @@ link: [[API Architectures]]
 
 ## Overview
 
-gRPC is a modern, high-performance framework that enables efficient communication between services in a distributed system. Developed by Google, it is built on the foundation of traditional [[Remote Procedure Call]] (RPC) technology but enhanced with advanced features from [[HTTP 2.0|HTTP/2.0]].
+gRPC is a modern, high-performance framework that enables efficient communication between services in a distributed system. Developed by Google, it is built on the foundation of traditional [[Remote Procedure Call]] (RPC) technology but enhanced with advanced features from [[HTTP 2.0]].
 
 **gRpc is [[API]]-Oriented**
 
@@ -25,7 +25,7 @@ gRPC is a modern, high-performance framework that enables efficient communicatio
 gRPC is designed for low latency and high throughput communication, making it an excellent choice for lightweight [[Microservices Architecture Pattern|Microservices]] and scalable applications.
 
 > [!info]-
-> - **[[HTTP 2.0|HTTP/2.0]] Based**: Utilizes HTTP/2 for transport, which supports multiplexing multiple requests over a single connection.
+> - **[[HTTP 2.0]] Based**: Utilizes HTTP/2 for transport, which supports multiplexing multiple requests over a single connection.
 > - **Interface Definition Language (IDL)**: Uses [[Protocol Buffers]] (often abbreviated as ProtoBuf), Google’s language-neutral, platform-neutral, extensible mechanism for serializing structured data.
 > - **Streaming Support**: Provides support for streaming requests and responses, allowing bidirectional and [[Asynchronous]] communication.
 > - **Language Agnostic**: Offers [[API]] stubs in various programming languages, enabling easy implementation across different systems.
@@ -44,11 +44,11 @@ gRPC allows developers to define service methods that can be called remotely wit
 > - **Compatibility**: Ensures forward and backward compatibility of the API interfaces.
 
 
-> [!info]- Utilization Of [[HTTP 2.0|HTTP/2]]
-> - **Single [[TCP]] Connection**: Unlike [[HTTP 1.1|HTTP/1.1]], [[HTTP 2.0|HTTP/2]] can transmit multiple streams of data bidirectionally over a single [[TCP]] connection without closing it.
-> - **Stream Multiplexing**: Each [[Remote Procedure Call|RPC]] call corresponds to a distinct stream in [[HTTP 2.0|HTTP/2]], allowing simultaneous data exchanges across multiple calls without interference.
+> [!info]- Utilization Of [[HTTP 2.0]]
+> - **Single [[TCP]] Connection**: Unlike [[HTTP 1.1]], [[HTTP 2.0]] can transmit multiple streams of data bidirectionally over a single [[TCP]] connection without closing it.
+> - **Stream Multiplexing**: Each [[Remote Procedure Call|RPC]] call corresponds to a distinct stream in [[HTTP 2.0]], allowing simultaneous data exchanges across multiple calls without interference.
 > - **Frame Management**: Data is divided into frames, each tagged with a unique stream ID, facilitating concurrent message handling and reducing latency.
-> - **Efficient Resource Management**: By managing multiple requests and responses concurrently, [[HTTP 2.0|HTTP/2]] minimizes the need for multiple connections, conserves resources, and enhances communication speed.
+> - **Efficient Resource Management**: By managing multiple requests and responses concurrently, [[HTTP 2.0]] minimizes the need for multiple connections, conserves resources, and enhances communication speed.
 > 
 > ![[Pasted image 20231030182830.png]]
 >
@@ -100,7 +100,7 @@ In a typical microservices setup, as shown in the diagram below, an API Gateway 
 ## Pros/Cons of gRPC API
 
 > [!success]- Pros
-> - **High Performance**: Uses [[HTTP 2.0|HTTP/2]] for faster, more efficient communication.
+> - **High Performance**: Uses [[HTTP 2.0]] for faster, more efficient communication.
 > - **Efficient Data Transfer**: Binary [[Data Serialization|Serialization]] reduces latency and bandwidth usage.
 > - **Real-time Communication**: Supports bidirectional streaming for immediate data exchange.
 > - **Strong Typing**: [[Protocol Buffers]] enhance reliability and robustness.
@@ -115,7 +115,7 @@ In a typical microservices setup, as shown in the diagram below, an API Gateway 
 
 ## Conclusion
 
-gRPC offers a sophisticated, modern approach to building distributed applications and services, particularly where performance and efficiency are paramount. By leveraging the power of [[HTTP 2.0|HTTP/2]] and [[Protocol Buffers]], it provides a robust framework for high-speed service-to-service communication.
+gRPC offers a sophisticated, modern approach to building distributed applications and services, particularly where performance and efficiency are paramount. By leveraging the power of [[HTTP 2.0]] and [[Protocol Buffers]], it provides a robust framework for high-speed service-to-service communication.
 
 # References
 

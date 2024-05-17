@@ -82,4 +82,4 @@ GraphQL revolutionizes data fetching in modern applications, offering unparallel
 
 # Reference:
 
-https://www.apollographql.com/blog/graphql/basics/what-is-graphql-introduction/
+[What is GraphQL? GraphQL introduction | Apollo GraphQL Blog](https://www.apollographql.com/blog/graphql/basics/what-is-graphql-introduction/)

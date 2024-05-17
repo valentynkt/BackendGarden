@@ -21,7 +21,7 @@ link: [[API Architectures]]
 
 ## Overview
 
-REST, or Representational State Transfer, is an architectural style that defines a set of constraints for creating web services. It is one of the most popular approaches to developing [[API]] (Application Programming Interfaces) that facilitate communication between client and server applications over the internet. RESTful APIs are designed to be stateless, leveraging standard [[HTTP]] methods and adhering to client-server architecture.
+REST, or Representational State Transfer, is an architectural style that defines a set of constraints for creating web services. It is one of the most popular approaches to developing [[API]] (Application Programming Interfaces) that facilitate communication between client and server applications over the internet. RESTful APIs are designed to be stateless, leveraging standard [[HTTP]] methods and adhering to [[Client-Server Architecture Pattern|Client-Server]] architecture.
 
 ## Principles of REST
 

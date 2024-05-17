@@ -8,7 +8,7 @@ tags:
 links:
 ---
 
-link: [[HTTP 3.0|HTTP/3.0]]
+link: [[HTTP 3.0]]
 
 # QUIC Protocol
 ## Overview

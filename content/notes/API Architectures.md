@@ -37,7 +37,7 @@ API architectural styles are designed to suit specific scenarios and requirement
 > - **[[GraphQL API]]**: Enables clients to precisely define the data they need, reducing the number of requests and improving efficiencies in dynamic web applications.
 > - **[[Webhooks API]]**: Facilitates real-time data push through [[HTTP]] callbacks, ideal for applications that require instant updates.
 > - **[[WebSockets]]**: Establishes a full-duplex communication channel that remains open, allowing real-time, bi-directional interactions over a single [[TCP]] between client and server. Ideal for features like live chat and online gaming.
-> - **[[gRPC API]]**: Uses [[HTTP 2.0|HTTP/2.0]] and [[Protocol Buffers|Protobuf]] for efficient, high-performance communication in microservices architectures, supporting advanced features like streaming.
+> - **[[gRPC API]]**: Uses [[HTTP 2.0]] and [[Protocol Buffers|Protobuf]] for efficient, high-performance communication in microservices architectures, supporting advanced features like streaming.
 
 
 > [!summary]- Comparison

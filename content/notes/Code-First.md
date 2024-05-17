@@ -15,7 +15,7 @@ link: [[System Design Methodologies]]
 
 ## Overview
 
-The Code-First approach is a methodology used in software development where the design of the software solution starts with the coding phase rather than the traditional method of [[Database]] or system design. This approach is particularly popular in object-oriented programming, where developers can focus on the domain design and business logic first, without worrying about the database schema until later.
+The Code-First approach is a methodology used in software development where the design of the software solution starts with the coding phase rather than the traditional method of [[Database]] or system design. This approach is particularly popular in [[Object Oriented Programming]], where developers can focus on the domain design and business logic first, without worrying about the database schema until later.
 
 ## Key Features of Code-First
 

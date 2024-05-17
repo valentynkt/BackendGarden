@@ -14,7 +14,7 @@ link: [[gRPC API]]
 
 # gRPC Communication Patterns
 
-gRPC, built on the modern [[HTTP 2.0|HTTP/2]] protocol, supports various communication patterns that cater to different needs in distributed system communications.
+gRPC, built on the modern [[HTTP 2.0]] protocol, supports various communication patterns that cater to different needs in distributed system communications.
 
 
 > [!summary]- Simple [[Remote Procedure Call|RPC]]

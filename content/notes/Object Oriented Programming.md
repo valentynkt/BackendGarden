@@ -3,6 +3,7 @@ created: 2024-04-19 19:24
 aliases:
   - OOP
   - Four Pillars
+  - object-oriented programming
 links: 
 tags:
   - LearningIT

@@ -40,8 +40,8 @@ Implementing HTTPS involves several key steps:
 
 > [!example]-
 > **Protocol Compatibility**:
-> - **Mandatory**: HTTPS is required for [[HTTP 2.0|HTTP/2.0]] and [[HTTP 3.0|HTTP/3.0]], ensuring enhanced security for these protocols.
-> - **Optional**: While HTTPS is not required for HTTP/1.0 and [[HTTP 1.1|HTTP/1.1]], its use is strongly recommended to protect user data and privacy.
+> - **Mandatory**: HTTPS is required for [[HTTP 2.0]] and [[HTTP 3.0]], ensuring enhanced security for these protocols.
+> - **Optional**: While HTTPS is not required for HTTP/1.0 and [[HTTP 1.1]], its use is strongly recommended to protect user data and privacy.
 
 HTTPS not only secures web transactions but also plays a critical role in maintaining privacy, integrity, and trust across the web, making it essential for modern internet usage.
 
