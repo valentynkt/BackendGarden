@@ -31,7 +31,6 @@ WebHooks are user-defined [[HTTP]] callbacks that are triggered by specific even
 > 2. **Event Occurs**: When the specified event happens, the server makes an [[HTTP]] request to the registered URL.
 > 3. **Action**: The client receives the [[HTTP]] request and acts upon the data received.
 
-![[sbsu8jdq0lzjgilm8m2a.avif]]
 
 ## Common Uses
 
