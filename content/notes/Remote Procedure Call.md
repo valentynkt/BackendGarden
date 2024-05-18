@@ -20,6 +20,8 @@ _RPC follows the [[Client-Server Architecture Pattern|Client-Server Model]]_
 
 ## How It Works
 
+![[Pasted image 20231030181709.png]]
+
 RPC operates by providing a communication layer capable of transmitting procedure calls and data between processes on different computers. Here's a simplified flow:
 
 1. **Client Stubs**: When the client application calls a function, the call is directed to a local stub procedure instead of the remote function. This stub is responsible for packing the function parameters into a message and sending it to the server.
@@ -38,4 +40,4 @@ RPC operates by providing a communication layer capable of transmitting procedur
 > [!example]-
 > **Synchronous and Asynchronous Calls**: RPC can be designed to operate synchronously, where the client blocks until the server completes the procedure and sends a response, or asynchronously, where the client proceeds without waiting for the server's response.
 
-![[Pasted image 20231030181709.png]]
+

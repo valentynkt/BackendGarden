@@ -14,4 +14,5 @@ link:
 > [!note]- TODO
 > Here should be compared different Compilers
 > 
-> ![[Pasted image 20240517190630.png]]
+
+ ![[Pasted image 20240517190630.png]]
