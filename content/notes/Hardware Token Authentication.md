@@ -1,6 +1,9 @@
 ---
 created: 2024-05-20 18:56
-aliases: 
+aliases:
+  - Hardware Token
+  - Hardware Auth
+  - Hardware Authentication
 tags:
   - LearningIT
   - seed🌱

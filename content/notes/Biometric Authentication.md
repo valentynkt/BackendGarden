@@ -1,6 +1,7 @@
 ---
 created: 2024-05-20 18:22
-aliases: 
+aliases:
+  - Biometric Auth
 tags:
   - LearningIT
   - seed🌱

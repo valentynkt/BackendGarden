@@ -42,9 +42,6 @@ Various methods are employed to authenticate users and systems. These methods ra
 >      - [[Push Notification Authentication]]
 >      - [[Hardware Token Authentication]]
 >  - **[[Multi-Factor Authentication]] (MFA)**
->      - Two-Factor Authentication (2FA)
->      - One-Time Password (OTP)
->      - [[Hardware Token Authentication]]
 >  - **Single Sign-On (SSO)**
 >      - OAuth 2.0
 >      - OpenID Connect

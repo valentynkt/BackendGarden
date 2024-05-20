@@ -1,6 +1,10 @@
 ---
 created: 2024-05-20 18:53
-aliases: 
+aliases:
+  - Push Notification Auth
+  - Notification Authentication
+  - Push Auth
+  - Push Authentication
 tags:
   - LearningIT
   - seed🌱

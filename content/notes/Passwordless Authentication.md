@@ -1,6 +1,7 @@
 ---
 created: 2024-05-20 17:59
-aliases: 
+aliases:
+  - Passwordless
 tags:
   - LearningIT
   - seed🌱
