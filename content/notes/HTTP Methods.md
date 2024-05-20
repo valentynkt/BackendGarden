@@ -13,6 +13,10 @@ link: [[HTTP]]
 
 HTTP methods are standardized actions that clients can use to interact with servers via HTTP requests. Each method tells the server what action to perform, ranging from fetching a resource to processing data.
 
+## Diagram
+
+![[HttpMethods.gif]]
+
 ## Overview
 
 HTTP methods are fundamental to HTTP request-response cycles, allowing web clients (such as browsers) and servers to communicate actions clearly. These methods are part of the request line in an HTTP request, which also includes the URI and HTTP version.

@@ -16,6 +16,10 @@ link: [[HTTP]]
 
 HTTP/3 is the latest evolution of the Hypertext Transfer Protocol ([[HTTP]]), integrating the benefits of [[HTTP 2.0|HTTP/2.0]] with the advanced capabilities of the [[QUIC Protocol]] to push web performance and security to new heights.
 
+## Diagram
+
+ ![[unnamed.png]]
+
 ## Introduction to HTTP/3
 
 Developed to surpass the capabilities of HTTP/1 and HTTP/2, HTTP/3 utilizes [[UDP]] instead of [[TCP]] for data transmission, incorporating the efficiency and speed of QUIC. This adoption marks a significant shift aimed at overcoming the traditional challenges associated with [[TCP]] connections.

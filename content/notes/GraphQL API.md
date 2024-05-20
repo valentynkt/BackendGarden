@@ -82,4 +82,6 @@ GraphQL revolutionizes data fetching in modern applications, offering unparallel
 
 # Reference:
 
+[A Crash Course in GraphQL - ByteByteGo Newsletter](https://blog.bytebytego.com/p/a-crash-course-in-graphql)
+
 [What is GraphQL? GraphQL introduction | Apollo GraphQL Blog](https://www.apollographql.com/blog/graphql/basics/what-is-graphql-introduction/)

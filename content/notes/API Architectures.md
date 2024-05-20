@@ -22,6 +22,10 @@ link: [[API]]
 > ![[5754e211-8ddb-46ed-8a05-6a4b6ebc553e_1200x1512.gif]]
 > 
 
+
+> [!important]- General API Protocols Overview
+> ![[Pasted image 20240520125706.png]]
+
 ## Overview
 
 Choosing the right [[API]] architecture is crucial for the success of any application, influencing how effectively it communicates internally and with external systems. Various architectural styles cater to different needs, from simple data transfer to complex real-time interactions.

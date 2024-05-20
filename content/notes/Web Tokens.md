@@ -1,7 +1,8 @@
 ---
 created: 2024-05-16 18:00
 aliases:
-  - Token-Based Authentication, Web Token Types
+  - Token-Based Authentication
+  - Web Token Types
   - Token-Based
 tags:
   - LearningIT
@@ -9,13 +10,17 @@ tags:
 links:
 ---
 
-link: [[Session Management]]
+link: [[Password-Based Authentication]] ,[[Session Management]]
 
 # Web Tokens
 
 ## Overview
 
 Web tokens are a mechanism used in web development for securely transmitting information between parties. They are commonly used for [[Authentication]], [[Authorization]], and information exchange. Web tokens can encapsulate various types of claims and metadata, making them versatile tools for ensuring secure and efficient communication in [[Web]] applications.
+
+
+> [!important] Token-Based Authentication
+> Token-based authentication is a modern approach to secure user access in web applications and native mobile apps. It addresses some limitations of [[Session-Cookie Authentication]] and offers advantages such as stateless server-side handling and better compatibility with various platforms.
 
 ## Types of Web Tokens
 
@@ -29,19 +34,28 @@ There are several types of web tokens, each with unique features and use cases:
 > - **Simple Web Tokens (SWT)**: A lightweight token format used for authentication and authorization, often replaced by JWTs in modern applications due to the latter's enhanced features.
 
 ## How Web Tokens Work
+![[76c97c7b-7afa-46ff-854e-1ea264884ff7_1600x1142.webp]]
 
 > [!info]- **How Web Tokens Work**
 > 
-> 1. **Client [[Authentication]]**: The client application sends authentication credentials (e.g., username and password) to the server.
-> 2. **Token Issuance**: Upon successful authentication, the server generates a web token and sends it back to the client.
-> 3. **Token Storage**: The client stores the token, typically in [[Web Local Storage|Local Storage]] or a [[Web Cookies|cookie]].
-> 4. **Token Usage**: For subsequent requests, the client includes the token in the [[Authorization]] header (e.g., `Bearer <token>`).
-> 5. **Token Verification**: The server verifies the token's validity before granting access to the requested resources.
+>1. The client sends a request to access a protected resource on the server. If the client hasn't yet authenticated, the server responds with a login prompt. The client submits their username and password to the server.
+>    
+>2. The server verifies the provided credentials and, if valid, issues a unique token.
+>    
+>3. The token is sent back to the client.
+>    
+>4. The client stores the token in local storage. 
+>    
+>5. Subsequent requests include the token in the HTTP header.
+>    
+>6. The server validates the received token.
+>    
+>7. The server grants access to the requested resource.
 
 ## Pros/Cons
 
 > [!success]- **Pros**
-> - **Stateless Authentication**: Web tokens enable stateless authentication, improving scalability and reducing server load.
+> - **Stateless [[Authentication]]**: Web tokens enable stateless authentication, improving scalability and reducing server load.
 > - **Compact and URL-Safe**: Tokens are small and can be easily transmitted via URLs, POST parameters, or HTTP headers.
 > - **Interoperability**: Web tokens can be used across different platforms and technologies, facilitating seamless integration.
 > - **Security**: Properly implemented tokens ensure secure communication by encapsulating authentication and authorization data.

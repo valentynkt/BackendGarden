@@ -25,7 +25,7 @@ This table provides a concise comparison of the two versions of the Internet Pro
 | **Fragmentation**                     | Performed by senders and forwarding routers.                                                   | Performed only by senders.                                   |
 | **Packet Header**                     | Contains several fields not necessarily required for every packet, leading to more processing. | Simplified header for more efficient processing.             |
 
-![[1715096711053.gif]]
+![[Pasted image 20240520115609.png]]
 
 ## Key Differences Explained
 

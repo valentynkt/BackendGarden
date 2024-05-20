@@ -3,6 +3,8 @@ Status: #LearningIT
 Tags: [[API]], [[Authentication and Authorization]], [[JSON Web Tokens]]
 
 # OAuth 2.0
+
+![[Pasted image 20231019204643.png]]
 Below we will take a look on OAuth 2.0 and how it works
 
 OAuth 2.0 is an authorization framework that defines a token-based authorization process for how third-party applications can get consented access to users’ data. OAuth 2.0 is a very powerful protocol for user authorization, but it does not define a clear and secure way to handle user authentication.
