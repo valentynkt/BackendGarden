@@ -15,17 +15,17 @@ link: [[Microservices Architecture Pattern|Microservice Architecture]]
 
 ## Diagram
 
-![[../Files/Images/Pasted image 20240426191406.jpg]]
-![[../Files/Images/Pasted image 20240426191634.png]]
+![[Pasted image 20240426191406.jpg]]
+![[Pasted image 20240426191634.png]]
+
 ## Overview
 
-The Bulkhead pattern is a resilience strategy used in microservices architecture to prevent failures in one part of a system from cascading to other parts. Named after the watertight compartments (bulkheads) of a ship, this pattern isolates elements of an application into pools so that if one fails, the others can continue to function independently.
+The Bulkhead pattern is a resilience strategy used in [[Microservices Architecture Pattern|microservices architecture]] to prevent failures in one part of a system from cascading to other parts. Named after the watertight compartments (bulkheads) of a ship, this pattern isolates elements of an application into pools so that if one fails, the others can continue to function independently.
 
-> [!abstract]
->  The Bulkhead pattern isolates system components to prevent failures from cascading, thereby increasing resilience and ensuring system stability.
+> [!abstract] 
+> The Bulkhead pattern isolates system components to prevent failures from cascading, thereby increasing resilience and ensuring system stability.
 
-## Content
-### Key Concepts
+## Key Concepts
 
 The Bulkhead pattern helps in managing system resources and failures by dividing the application into isolated compartments:
 
@@ -35,17 +35,17 @@ The Bulkhead pattern helps in managing system resources and failures by dividing
 > - **Resource Management**: Limits are set on the number of concurrent requests to a service, ensuring that failure in one instance doesn’t overwhelm and bring down other instances.
 > - **Fault Tolerance**: Helps the system stay responsive during high loads or failures, as unaffected compartments can still handle requests.
 
-### Implementation Overview
+## Implementation Overview
 
 To implement the Bulkhead pattern effectively:
 
-- **Define Resource Limits**: Assign specific resources like CPU, memory, or network connections to different parts of the system to ensure they operate independently.
-- **Service Partitioning**: Organize services into logical groups that can operate independently, minimizing the impact of any single group’s failure on others.
-- **Concurrency Management**: Utilize threading and connection pools to control how many requests a service instance can handle simultaneously.
+> [!example]
+> 
+> - **Define Resource Limits**: Assign specific resources like CPU, memory, or network connections to different parts of the system to ensure they operate independently.
+> - **Service Partitioning**: Organize services into logical groups that can operate independently, minimizing the impact of any single group’s failure on others.
+> - **Concurrency Management**: Utilize threading and connection pools to control how many requests a service instance can handle simultaneously.
 
 ## Summary
 
 > [!summary] 
 > The Bulkhead pattern is crucial for creating fault-tolerant microservices architectures. By partitioning services and resources, it ensures that failures are contained within small areas, allowing the rest of the application to continue functioning. This approach enhances the overall stability and reliability of the system.
-
-

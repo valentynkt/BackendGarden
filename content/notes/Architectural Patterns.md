@@ -40,6 +40,7 @@ The following are some of the primary architectural patterns used in system desi
 > - [[Microservices Architecture Pattern]]
 > - [[Client-Server Architecture Pattern]]
 > - [[Serverless Architecture Pattern]]
+> - [[Event Sourcing Architecture Pattern]]
 > - Microkernel Architecture Pattern
 > - Space-Based Architecture Pattern
 > - Master-Slave Architecture Pattern

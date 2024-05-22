@@ -128,7 +128,7 @@ The "Landscape" serves as a comprehensive guide and overarching map for explorin
 >   - [[Circuit Breaker Pattern]]
 >   - [[Backends for Frontends Pattern]]
 >   - [[Database per Service]]
->   - [[CQRS]]
+>   - [[Command Query Responsibility Segregation]]
 >   - [[Externalized Configuration]]
 >   - [[Saga Pattern]]
 >   - [[Bulkhead Pattern]]

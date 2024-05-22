@@ -24,9 +24,10 @@ The Saga pattern is essential in [[Microservices Architecture Pattern|microservi
 > [!abstract] 
 > A saga is a sequence of local transactions where each transaction updates data within a single service and publishes events or messages that trigger the next transaction in the saga.
 
-## Content
+> [!example] **Saga Pattern and [[Event Sourcing Architecture Pattern|Event Sourcing]]**
+> [[Event Sourcing Architecture Pattern|Event Sourcing]] can complement the Saga pattern by maintaining a detailed log of all state changes across services. This log facilitates the coordination of complex transactions, as each step of the saga can be tracked as an event. In case of a failure, compensating transactions can be triggered based on the recorded events, ensuring data consistency and reliability across the distributed system.
 
-### Key Concepts
+## Key Concepts
 
 The Saga pattern provides a way to ensure data consistency across services in a microservices architecture without relying on two-phase commit transactions:
 
@@ -36,19 +37,31 @@ The Saga pattern provides a way to ensure data consistency across services in a 
 > - **Compensation Transactions**: If a step in a saga fails, compensating transactions are executed to undo the changes made by the preceding successful steps, maintaining data consistency.
 > - **Event/Message-Driven**: Sagas coordinate transactions through a series of domain events or messages, which ensures each transaction is triggered by the completion of the previous one.
 
-### Implementation Overview
+## Implementation Overview
 
 Implementing a saga involves:
 
-- **Defining Events and Commands**: Identify and design the events that each service will publish and the commands they will listen for as part of the saga.
-- **Handling Failures**: Implement compensation mechanisms for each transaction part of the saga to reverse its effects in case of failure.
-- **Eventual Consistency**: Design the system to handle the fact that data consistency is maintained eventually, not immediately, as it relies on the successful completion of all involved transactions.
+> [!summary] **Implementation Steps**
+> 
+> - **Defining Events and Commands**: Identify and design the events that each service will publish and the commands they will listen for as part of the saga.
+> - **Handling Failures**: Implement compensation mechanisms for each transaction part of the saga to reverse its effects in case of failure.
+> - **Eventual Consistency**: Design the system to handle the fact that data consistency is maintained eventually, not immediately, as it relies on the successful completion of all involved transactions.
+
+## Additional Considerations
+
+> [!info]-
+>  **[[Orchestration and Choreography]]**: There are two primary approaches to managing sagas—choreography and orchestration. In choreography, each service listens for and reacts to events independently. In orchestration, a central coordinator (orchestrator) tells each participant what local transaction to execute.
+> 
+> **Error Handling**: Properly define and implement error handling mechanisms to deal with scenarios where compensation transactions may also fail.
+> 
+> **Idempotency**: Ensure that each transaction and compensation transaction in the saga is idempotent, meaning they can be safely retried without causing unintended side effects.
+> 
+> **Monitoring and Logging**: Implement comprehensive monitoring and logging to track the progress and status of sagas, facilitating easier debugging and maintenance.
 
 ## Summary
 
 > [!summary] 
-> The Saga pattern is a powerful strategy for maintaining data consistency across a distributed system, allowing for complex business transactions to be handled in a microservices architecture. It mitigates the limitations of distributed transactions by ensuring that each service can independently manage its transactions while coordinating with others through events or messages.
-
+> The Saga pattern is a powerful technique for ensuring data consistency in a microservices architecture. By breaking down distributed transactions into a series of coordinated local transactions, it provides a robust solution for managing complex workflows and maintaining data integrity across services, even in the face of failures.
 
 > [!note]- Personal Notes
 > It reminds me about one of my examples for Design Patterns:

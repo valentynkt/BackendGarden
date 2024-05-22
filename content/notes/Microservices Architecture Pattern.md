@@ -65,7 +65,7 @@ These communication strategies ensure that services can operate and interact eff
 >    - _Explanation:_ Enhances decoupling and scalability by facilitating asynchronous communication and reducing dependencies between services.
 >5. **[[Database per Service]]**
 >    - _Explanation:_ Supports service autonomy and scalability by isolating databases per service, essential for data isolation and operational independence.
->6. **[[CQRS|Command Query Responsibility Segregation (CQRS)]]**
+>6. **[[Command Query Responsibility Segregation|Command Query Responsibility Segregation (CQRS)]]**
 >    - _Explanation:_ Optimizes read and write operations through separate paths, improving performance but increasing complexity; suitable for high-demand environments.
 >7. **[[Externalized Configuration]]**
 >    - _Explanation:_ Increases flexibility and eases management in dynamic environments; particularly beneficial for environments with complex configurations.
@@ -75,6 +75,10 @@ These communication strategies ensure that services can operate and interact eff
 >    - _Explanation:_ Provides fault isolation within microservices architectures, crucial for enhancing system resilience by limiting failures to isolated areas.
 >10. **[[Backends for Frontends pattern]] (BFF)**
 >     - _Explanation:_ Tailors backend services to specific client needs, improving user experience and performance, though it may introduce redundancy and complexity in some cases.
+>11. **[[Orchestration and Choreography]]**
+>     - _Explanation:_ Defines how microservices interact to complete a business process, with Orchestration having a central controller and Choreography using decentralized events.
+>12. **[[Event Sourcing Architecture Pattern|Event Sourcing]]**
+>     - _Explanation:_ Maintains a log of changes to the application state (events), allowing full reconstruction of the state by replaying the events. This pattern enhances auditability and traceability, though it can increase complexity and storage requirements.
 
 
 ### Pros and Cons
