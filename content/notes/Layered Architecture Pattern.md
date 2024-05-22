@@ -78,4 +78,4 @@ The Layered Architecture Pattern is best suited for:
 
 # References
 
-https://radixweb.com/blog/software-architecture-patterns
+[Software Architecture Patterns: Types, Benefits and Comparison](https://radixweb.com/blog/software-architecture-patterns)

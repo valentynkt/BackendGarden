@@ -13,6 +13,17 @@ link: [[Multi-Factor Authentication]]
 
 # One-Time Password
 
+## Diagram
+
+> [!example] OTP Diagram
+> 
+> ![[b27865df-e833-47c8-9340-cba5510a90a0_1600x1069.webp]]
+> 
+
+
+> [!example]- Time-Based OTP Diagram
+> 
+
 ## Overview
 
 A One-Time Password (OTP) is a unique, temporary code that is used for a single [[Authentication]] session or transaction. OTPS are an effective way to enhance security by mitigating the risks associated with static passwords. They are widely used in two-factor authentication (2FA) and [[Multi-Factor Authentication]] (MFA) systems.

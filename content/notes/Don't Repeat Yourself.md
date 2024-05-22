@@ -12,7 +12,7 @@ link: [[Design Principles]]
 
 # Don't Repeat Yourself
 
-The DRY (Don't Repeat Yourself) principle is a fundamental concept in software development aimed at reducing repetition of software patterns, replacing it with abstractions or using [[data normalization]] to avoid redundancy. Its main intent is to enhance software maintainability and readability, which in turn reduces the chance of errors or bugs.
+The DRY (Don't Repeat Yourself) principle is a fundamental concept in software development aimed at reducing repetition of software patterns, replacing it with abstractions or using data normalization to avoid redundancy. Its main intent is to enhance software maintainability and readability, which in turn reduces the chance of errors or bugs.
 
 > [!important] Key Prinicples
 > - **[[Code reuse|Code Reusability]]**: Encourages the use of functions, classes, and other constructs to avoid repetitive code.

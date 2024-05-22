@@ -11,7 +11,9 @@ links:
 
 link: [[Web Security]]
 
-# Authentication
+# Authentication                                                    
+
+![[ced6562d-3be6-4dd4-a141-fed9e6b02182_1600x1226.webp]]
 
 ## Overview
 
@@ -42,12 +44,10 @@ Various methods are employed to authenticate users and systems. These methods ra
 >      - [[Push Notification Authentication]]
 >      - [[Hardware Token Authentication]]
 >  - **[[Multi-Factor Authentication]] (MFA)**
->  - **Single Sign-On (SSO)**
+>  - **[[Single Sign-On]] (SSO)**
 >      - OAuth 2.0
 >      - OpenID Connect
->  - **Context-Based Authentication**
->      - Behavioral Biometrics
->      - Contextual Information (location, device, time)
+
 
 ## How Authentication Works
 

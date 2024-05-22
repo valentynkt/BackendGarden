@@ -44,10 +44,10 @@ Understanding the communication patterns and operational dynamics is crucial in 
 
 > [!important]
 > 
-> - **API Gateway**: A single entry point that routes requests to the appropriate microservices. It handles request routing, composition, and protocol translation, simplifying the client interface.
-> - **Service Discovery**: Mechanisms for services to find and communicate with each other. This can be either client-side or server-side (using a service registry).
-> - **Synchronous Communication**: Often implemented using REST or gRPC for direct service-to-service communication.
-> - **Asynchronous Communication**: Utilizes message queues and event streams, where services communicate via events. This method decouples service dependencies and enhances resilience.
+> - **[[API Gateway]]**: A single entry point that routes requests to the appropriate microservices. It handles request routing, composition, and protocol translation, simplifying the client interface.
+> **[[Service Registry Pattern|Service Discovery]]**: Mechanisms for services to find and communicate with each other. This can be either client-side or server-side (using a service registry).
+> - **Synchronous Communication**: Often implemented using [[REST]] or [[gRPC API|gRPC]] for direct service-to-service communication.
+> - **[[Asynchronous]] Communication**: Utilizes message queues and event streams, where services communicate via events. This method decouples service dependencies and enhances resilience. Utilizes use of [[Message broker]]
 
 These communication strategies ensure that services can operate and interact effectively without tight coupling, maintaining the integrity and agility of the application architecture.
 
@@ -74,7 +74,7 @@ These communication strategies ensure that services can operate and interact eff
 >9. **[[Bulkhead Pattern]]**
 >    - _Explanation:_ Provides fault isolation within microservices architectures, crucial for enhancing system resilience by limiting failures to isolated areas.
 >10. **[[Backends for Frontends pattern]] (BFF)**
->	- _Explanation:_ Tailors backend services to specific client needs, improving user experience and performance, though it may introduce redundancy and complexity in some cases.
+>     - _Explanation:_ Tailors backend services to specific client needs, improving user experience and performance, though it may introduce redundancy and complexity in some cases.
 
 
 ### Pros and Cons

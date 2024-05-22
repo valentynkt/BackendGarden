@@ -60,8 +60,8 @@ Each SOLID principle focuses on a different aspect of how to design software, wo
 # References
 
 Pictures  from -
-https://medium.com/backticks-tildes/the-s-o-l-i-d-principles-in-pictures-b34ce2f1e898
+[The S.O.L.I.D Principles in Pictures |  Medium](https://medium.com/backticks-tildes/the-s-o-l-i-d-principles-in-pictures-b34ce2f1e898)
 
 Examples from -
-https://refactoring.guru/design-patterns
+[Refactoring and Design Patterns](https://refactoring.guru)
  

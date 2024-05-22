@@ -28,6 +28,3 @@ link: [[Design Principles]]
 >[!important] 
 > Extensibility is a fundamental aspect of modern software development that ensures systems are prepared to evolve. By designing software with extensibility in mind, developers can reduce the need for complete rewrites and ensure that their applications remain relevant and robust over time.
 
-# Revision History
-- **CreatedAt**: 19-04-2024 02:02
-- **UpdatedAt**: `$= dv.current().file.mtime`

@@ -87,10 +87,3 @@ To prevent a class from being inherited, C# uses the [[Sealed Keyword]]. Attempt
 
 This use of `sealed` ensures that the class cannot be extended, maintaining control over the inheritance chain and behavior customization.
 
-## Summary
-
->[!summary]
->Inheritance in object-oriented programming allows for the creation of new classes based on existing ones, facilitating code reuse and system scalability. By extending classes, developers can enhance or modify functionalities without rewriting existing code. Inheritance structures help maintain a clean and manageable codebase, making systems easier to develop and maintain. The use of inheritance also supports the polymorphic use of objects, where a base class reference can be used to refer to any subclass object, promoting flexibility in the application's code.
->
->The `sealed` keyword in C# is a specific feature that prevents a class from being extended, thus safeguarding the design intentions of the original class developers against unintended derivations.
-

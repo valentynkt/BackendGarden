@@ -22,6 +22,9 @@ Abstraction is a core concept in object-oriented programming that simplifies the
 >[!abstract] 
 >Abstraction is a general concept which you can find in the real world as well as in [[Object Oriented Programming|OOP]] language
 
+> [!warning] Reduce Performance
+> A lot of level of abstractions can significantly reduce performance. Be careful with it and try to avoid a huge hierarchy of inheritance
+
 ## Content
 
 Abstraction allows programmers to handle complexity by providing a simplified model that highlights an object's interactions without revealing the internal processes. It helps in reducing complexity and isolating impacts of changes, making the system easier to understand and modify.
@@ -172,6 +175,7 @@ Abstraction in programming is crucial for managing complexity. It allows develop
 
 # References
 
-https://www.youtube.com/watch?v=dtZ-o96bH9A - Barbara Liskov About Abstraction
+["The Power of Abstraction" with Prof. Barbara Liskov - YouTube](https://www.youtube.com/watch?v=dtZ-o96bH9A)
+
 [Abstraction](https://www.w3schools.com/cs/cs_abstract.php) - w3school
 

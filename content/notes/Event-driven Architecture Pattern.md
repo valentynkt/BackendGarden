@@ -40,7 +40,7 @@ Event-driven Architecture facilitates asynchronous communication and operation w
 > - **Events**: Actions or occurrences recognized by software that might be important for business processes.
 > - **Producers**: Components or services that generate events and send them out to be handled.
 > - **Consumers**: Components that listen for and act upon events.
-> - **Event Bus**: A mechanism that routes events from producers to consumers, decoupling the two and allowing for greater scalability and flexibility.
+> - **Event Bus([[Message broker]])**: A mechanism that routes events from producers to consumers, decoupling the two and allowing for greater scalability and flexibility.
 
 ### Implementation Overview
 

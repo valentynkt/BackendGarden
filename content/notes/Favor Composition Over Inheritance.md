@@ -14,7 +14,7 @@ link: [[Design Principles]]
 
 ## Overview
 
-"Favor Composition Over Inheritance" is a design principle in object-oriented programming that emphasizes the use of composition to combine behaviors at runtime rather than [[inheritance]] hierarchies, which can be rigid and less modular.
+"Favor Composition Over Inheritance" is a design principle in object-oriented programming that emphasizes the use of [[Composition relationships]] to combine behaviors at runtime rather than [[inheritance]] hierarchies, which can be rigid and less modular.
 
 > [!abstract] 
 > This principle is pivotal in creating flexible software structures where objects are composed of other objects with specific behaviors, allowing for easy behavior exchange and extension without altering the object's source code.
@@ -25,7 +25,7 @@ The principle highlights two fundamental ways of reusing functionality in object
 > [!important]
 > 
 > - **[[Inheritance]]**: An "is a" relationship that can lead to rigid class structures and complicate future changes.
-> - **Composition**: A "has a" relationship that provides greater flexibility by assembling objects to get complex behavior.
+> - **[[Composition relationships|Composition]]**: A "has a" relationship that provides greater flexibility by assembling objects to get complex behavior.
 
 > [!example]- Examples and Best Practices
 > 
@@ -43,5 +43,5 @@ The principle highlights two fundamental ways of reusing functionality in object
 
 # References
 
-https://refactoring.guru/design-patterns
+[Refactoring and Design Patterns](https://refactoring.guru)
 

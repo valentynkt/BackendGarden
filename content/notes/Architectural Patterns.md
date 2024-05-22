@@ -29,16 +29,16 @@ Architectural patterns are high-level strategies that guide the overall layout a
 
 ### Key Concepts
 
-The following are some of the primary architectural patterns used in system design, each addressing specific [[Structural patterns|Structural]] and operational needs:
+The following are some of the primary architectural patterns used in system design, each addressing specific Structural and operational needs:
 
 > [!important]
 > - [[Monolithic Architecture Pattern]]
 > - [[Layered Architecture Pattern]]
-> - [[Event-driven Architecture Pattern]]
 > - [[Model-View-Controller Pattern]]
+> - [[Onion Architecture Pattern]]
+> - [[Event-driven Architecture Pattern]]
 > - [[Microservices Architecture Pattern]]
 > - [[Client-Server Architecture Pattern]]
-> - [[Onion Architecture Pattern]]
 > - [[Serverless Architecture Pattern]]
 > - Microkernel Architecture Pattern
 > - Space-Based Architecture Pattern

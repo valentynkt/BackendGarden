@@ -89,9 +89,7 @@ Class hierarchies provide a way to organize related classes through parent-child
 
 # References
 
-https://blog.sigma-star.io/2024/01/people-dont-understand-oop/#comments - Highly recommend for reading and understanding OOP more deeply.
+[People Don’t Understand OOP – Sigma's Blog](https://blog.sigma-star.io/2024/01/people-dont-understand-oop)
 
-https://www.youtube.com/watch?v=dtZ-o96bH9A - Barbara Liskov About abstraction
-
-https://refactoring.guru/design-patterns
+["The Power of Abstraction" with Prof. Barbara Liskov - YouTube](https://www.youtube.com/watch?v=dtZ-o96bH9A) 
 

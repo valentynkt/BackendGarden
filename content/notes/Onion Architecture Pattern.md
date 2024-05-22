@@ -58,7 +58,7 @@ Onion Architecture is a software architectural pattern that prioritizes the main
 
 ## Difference from [[Layered Architecture Pattern]]
 
-> [!important - **Differences from N-Layer Architecture**
+> [!important]- **Differences from N-Layer Architecture**
 > 
 > - **Dependency Direction**: Onion Architecture features dependencies that flow inward, with the domain model at the core and independent of external layers. In contrast, [[Layered Architecture Pattern|N-Layer Architecture]] often exhibits a top-down dependency where higher layers depend on lower layers.
 > - **Data Flow Flexibility**: Onion Architecture encourages flexible interactions between layers through interfaces, permitting adaptability without impacting the core domain. N-Layer is typically more rigid, with structured and hierarchical layer interactions.

@@ -64,5 +64,5 @@ The relationships between objects in object-oriented programming are essential f
 
 # References
 
-https://refactoring.guru/design-patterns
+[Design Patterns](https://refactoring.guru/design-patterns)
 

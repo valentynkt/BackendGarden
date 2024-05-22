@@ -5,6 +5,7 @@ aliases:
   - Serverless Architecture
   - Function-as-a-Service
   - FaaS
+  - Pay As You Go
 tags:
   - LearningIT
   - bud🌿
