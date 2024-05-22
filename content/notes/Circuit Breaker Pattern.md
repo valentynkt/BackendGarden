@@ -55,6 +55,6 @@ The implementation of the Circuit Breaker pattern requires integrating it with t
 
 # References
 
-https://www.geeksforgeeks.org/what-is-circuit-breaker-pattern-in-microservices/
+[What is Circuit Breaker Pattern in Microservices? - GeeksforGeeks](https://www.geeksforgeeks.org/what-is-circuit-breaker-pattern-in-microservices/)
 
 
