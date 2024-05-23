@@ -22,41 +22,21 @@ The Actor Pattern is a conceptual model used to build highly concurrent and dist
 
 ## Key Concepts
 
-### Actors
 
-> [!important]
+> [!summary] 
 > 
 > - **Actors**: Fundamental units of computation that encapsulate state and behavior. Each actor processes messages sequentially and independently, ensuring that there is no shared state between actors.
-
-### Messaging
-
-> [!important]
 > 
 > - **Messaging**: Actors communicate through asynchronous message passing. This decouples actors from each other and avoids the need for locks, as each actor handles its own messages independently.
-
-### Actor Creation
-
-> [!important]
 > 
 > - **Actor Creation**: Actors can create new actors. This allows the system to dynamically adapt and scale by spawning new actors as needed.
-
-### State Management
-
-> [!important]
 > 
 > - **State Management**: Each actor manages its own state. This encapsulation of state ensures that state is not shared between actors, reducing the complexity of concurrency control.
-
-### Supervision
-
-> [!important]
 > 
 > - **Supervision**: Actors can supervise other actors. If a supervised actor fails, the supervisor can take action, such as restarting the actor or escalating the failure.
-
-### Location Transparency
-
-> [!important]
 > 
 > - **Location Transparency**: Actors communicate with each other without needing to know the physical location of other actors. This allows actors to be distributed across multiple nodes in a cluster seamlessly.
+
 
 ## How It Works
 

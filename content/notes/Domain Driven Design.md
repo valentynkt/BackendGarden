@@ -25,53 +25,27 @@ Domain-Driven Design (DDD) is an approach to software development that emphasize
 
 ## Key Concepts
 
-### Ubiquitous Language
 
-> [!important]
+> [!summary] 
 > 
 > - **Ubiquitous Language**: A shared language created by developers and domain experts to ensure that everyone involved in the project understands the domain concepts in the same way. This language is used consistently throughout the code, documentation, and discussions to avoid misunderstandings and ensure clarity.
-
-### Bounded Contexts
-
-> [!important]
 > 
 > - **Bounded Context**: Defines the boundaries within which a particular model is defined and applicable. Different parts of the system may have different models, and bounded contexts help manage these differences by isolating them. Each bounded context has its own ubiquitous language and is clearly separated from other contexts.
-
-### Entities and Value Objects
-
-> [!important]
 > 
 > - **Entities**: Objects that have a distinct identity that runs through time and different states. They are uniquely identifiable and are often mutable. Examples include a customer or an order in an e-commerce system.
 >     
 > - **Value Objects**: Immutable objects that describe certain aspects of the domain and do not have a distinct identity. They are defined by their attributes rather than an identity. Examples include a date range, an address, or a money amount.
->     
-
-### Aggregates and Repositories
-
-> [!important]
 > 
 > - **Aggregates**: A cluster of related entities and value objects that are treated as a single unit for data changes. Each aggregate has a root entity (aggregate root) that is responsible for controlling access to its members.
 >     
 > - **Repositories**: Mechanisms for encapsulating storage, retrieval, and search behavior which emulates a collection of objects. They provide a way to manage aggregates and handle database operations.
->     
-
-### Domain Services
-
-> [!important]
 > 
 > - **Domain Services**: Operations that do not naturally fit within the lifecycle of an entity or value object. These are stateless services that contain domain logic and can operate across multiple entities or aggregates.
-
-### Factories
-
-> [!important]
 > 
 > - **Factories**: Responsible for creating complex objects and aggregates. They encapsulate the creation logic and ensure that the created objects are in a valid state.
-
-### ### Domain Events
-
-> [!important]
 > 
 > - **Domain Events**: Events that represent something that happened in the domain. They are used to capture changes in state and can trigger side effects or other operations. Domain events help in maintaining consistency and can be used for integrating bounded contexts. Additionally, domain events are a crucial component of the [[Event Sourcing Architecture Pattern|Event Sourcing]] pattern, where the state of an entity is derived from a sequence of events.
+
 
 ### Example
 
