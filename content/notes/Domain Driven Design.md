@@ -151,3 +151,7 @@ Domain-Driven Design (DDD) is a powerful approach to building complex software s
 [An introduction to Domain-Driven Design | Medium](https://medium.com/inato/an-introduction-to-domain-driven-design-386754392465)
 
 [Domain-Driven Design](https://devopedia.org/domain-driven-design)
+
+[Using the Actor Model with Domain-Driven Design (DDD) in Reactive Systems - YouTube](https://www.youtube.com/watch?v=rMv4sul0RwU)
+
+[DDD, Event Sourcing and Actors - Alexey Zimarev - KanDDDinsky 2019 - YouTube](https://www.youtube.com/watch?v=58_Ehl3oETY)

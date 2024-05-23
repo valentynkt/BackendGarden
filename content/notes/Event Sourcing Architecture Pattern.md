@@ -3,6 +3,8 @@ created: 2024-05-22 19:38
 aliases:
   - Event Sourcing
   - Event Sourcing Architecture
+  - Event Design
+  - Event Sourcing Design
 tags:
   - LearningIT
   - seed🌱

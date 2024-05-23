@@ -36,13 +36,15 @@ The following are some of the primary architectural patterns used in system desi
 > - [[Layered Architecture Pattern]]
 > - [[Model-View-Controller Pattern]]
 > - [[Onion Architecture Pattern]]
-> - [[Event-driven Architecture Pattern]]
-> - [[Microservices Architecture Pattern]]
 > - [[Client-Server Architecture Pattern]]
+> - [[Microservices Architecture Pattern]]
 > - [[Serverless Architecture Pattern]]
+> - [[Event-driven Architecture Pattern]]
+> - [[Message-driven Architecture Pattern]]
 > - [[Event Sourcing Architecture Pattern]]
 > - [[Domain Driven Design]]
 > - [[Actor Architecture Pattern]]
+> - [[Reactive Architecture]]
 > - Microkernel Architecture Pattern
 > - Space-Based Architecture Pattern
 > - Master-Slave Architecture Pattern
