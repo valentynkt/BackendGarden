@@ -47,7 +47,7 @@ Understanding the communication patterns and operational dynamics is crucial in 
 > - **[[API Gateway]]**: A single entry point that routes requests to the appropriate microservices. It handles request routing, composition, and protocol translation, simplifying the client interface.
 > **[[Service Registry Pattern|Service Discovery]]**: Mechanisms for services to find and communicate with each other. This can be either client-side or server-side (using a service registry).
 > - **Synchronous Communication**: Often implemented using [[REST]] or [[gRPC API|gRPC]] for direct service-to-service communication.
-> - **[[Asynchronous]] Communication**: Utilizes message queues and event streams, where services communicate via events. This method decouples service dependencies and enhances resilience. Utilizes use of [[Message broker]]
+> - **[[Asynchronous]] Communication**: Utilizes message queues and event streams, where services communicate via events. This method decouples service dependencies and enhances resilience. Utilizes use of [[Message brokers]]
 
 These communication strategies ensure that services can operate and interact effectively without tight coupling, maintaining the integrity and agility of the application architecture.
 

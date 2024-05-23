@@ -35,7 +35,7 @@ Event-driven Architecture facilitates asynchronous communication and operation w
 > - **Events**: Actions or occurrences recognized by software that might be important for business processes.
 > - **Producers**: Components or services that generate events and send them out to be handled.
 > - **Consumers**: Components that listen for and act upon events.
-> - **Event Bus ([[Message broker]])**: A mechanism that routes events from producers to consumers, decoupling the two and allowing for greater scalability and flexibility.
+> - **Event Bus ([[Message brokers]])**: A mechanism that routes events from producers to consumers, decoupling the two and allowing for greater scalability and flexibility.
 
 ### Implementation Overview
 
@@ -79,7 +79,7 @@ EDA is ideal for environments that demand quick, efficient reactions to complex 
 > [!summary] **Related Patterns and Principles**
 > 
 > - **[[Event Sourcing Architecture Pattern|Event Sourcing]]**: Captures all changes to an application state as a sequence of events, ensuring that state changes are traceable and replayable.
-> - **[[Message broker]]**: Centralized components that manage the routing of messages between producers and consumers, ensuring decoupled and scalable communication.
+> - **[[Message brokers]]**: Centralized components that manage the routing of messages between producers and consumers, ensuring decoupled and scalable communication.
 > - **[[Reactive Architecture]]**: Builds on event-driven principles to create systems that are responsive, resilient, and elastic.
 > - **[[Command Query Responsibility Segregation]] (CQRS)**: Separates read and write operations, often used alongside [[Event Sourcing Architecture Pattern|Event Sourcing]] to optimize performance and scalability.
 
