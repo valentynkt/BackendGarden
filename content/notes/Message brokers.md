@@ -49,51 +49,37 @@ Message Brokers are integral to [[Message-driven Architecture Pattern|Message-dr
 
 ### Messaging Patterns
 
-- **Point-to-Point Messaging**: Messages are sent to a specific queue and consumed by a single receiver. This ensures that each message is processed only once.
+- **Point-to-Point Messaging ([[Message Queues]])**: Messages are sent to a specific queue and consumed by a single receiver. This ensures that each message is processed only once.
     
     ![[Pasted image 20240526143657.png]]
     
-- **Publish/Subscribe Messaging**: Messages are published to a topic and can be consumed by multiple subscribers, allowing for broad distribution of information.
+- **Publish/Subscribe Messaging ([[Message Topics]])**: Messages are published to a topic and can be consumed by multiple subscribers, allowing for broad distribution of information.
     
     ![[Pasted image 20240526143742.png]]
     
 
 ## Types of Message Brokers
 
-> [!summary]
+
+>[!summary]
 > 
-> - [[Azure Service Bus]]
-> - [[Apache Kafka]]
-> - [[Apache ActiveMQ]]
-> - [[RabbitMQ]]
-> - [[Redis]]
-> - [[Amazon MQ]]
-> - [[AWS SNS]]
-> - [[AWS  SQS]]
-
-### Overview of Common Message Brokers
-
-1. **Azure Service Bus**: A fully managed enterprise message broker with message queues and publish/subscribe topics.
-2. **Apache Kafka**: A distributed streaming platform known for high throughput, durability, and scalability.
-3. **RabbitMQ**: An open-source message broker known for its flexibility and reliability, supporting various messaging protocols.
-4. **Redis**: An in-memory data structure store that can function as a message broker with its pub/sub capabilities.
-5. **Amazon MQ**: A managed message broker service for Apache ActiveMQ.
-6. **Amazon SNS**: A fully managed pub/sub messaging service.
-7. **Amazon SQS**: A fully managed message queuing service that supports both standard and FIFO queues.
-
-## Pros and Cons
-
-> [!success]- Pros
+> - **[[Apache Kafka]]**:  An [[Event Streaming]] platform (is not a message broker) for high-throughput, low-latency data streaming, supporting both publish-subscribe and point-to-point models.
 > 
-> - **Decoupling**: Allows services to communicate without being tightly coupled, enhancing flexibility and maintainability.
-> - **Scalability**: Can handle high volumes of messages and scale horizontally to accommodate increased load.
-> - **Reliability**: Ensures messages are reliably delivered and processed, even in the event of service failures.
-
-> [!danger]- Cons
+> - **[[RabbitMQ]]**: An open-source message broker supporting multiple protocols, including [[AMQP]], with various queue types for different needs.
 > 
-> - **Complexity**: Introduces additional infrastructure and operational complexity.
-> - **Latency**: Can introduce latency due to the asynchronous nature of message delivery.
-> - **Management Overhead**: Requires ongoing monitoring and management to ensure optimal performance and reliability.
+> - **[[Azure Service Bus]]**: A managed enterprise message broker with queues and publish-subscribe topics, offering advanced features like sessions and dead-lettering.
+> 
+> - **Google Cloud Pub/Sub**: A real-time messaging service for sending and receiving messages between independent applications, supporting topics and subscriptions.
+> 
+> - **[[Database Backed Queue]]**: Uses a relational or NoSQL database as a queue. Suitable for applications that already use a database and need a simple queueing mechanism.
+> 
+> - **[[Redis]]**: An in-memory data structure store that can be used as a message broker with support for publish-subscribe and list-based queues, offering high performance and low latency.
+> 
+> - **[[Amazon MQ]]**: A managed message broker service for Apache ActiveMQ and RabbitMQ that supports both pub/sub and point-to-point messaging patterns.
+> 
+> - **[[AWS  SQS]], [[AWS SNS]]**: A fully managed service that decouples and scales microservices, distributed systems, and serverless applications.
+> 
+> - **[[Apache ActiveMQ]]**: An open-source message broker that supports pub/sub and point-to-point messaging, along with advanced features for reliable messaging.
 
 ## [[Quality of Service]]
 ![[Quality of Service#Quality of Service]]

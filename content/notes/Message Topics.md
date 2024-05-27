@@ -2,6 +2,7 @@
 created: 2024-05-26 14:36
 aliases:
   - Publish-Subscriber
+  - Pub/Sub
 tags:
   - LearningIT
   - seed🌱
@@ -18,7 +19,10 @@ link: [[Message brokers]]
 
 ## Overview
 
-A Message Topic is a form of [[Asynchronous]] service-to-service communication used in publish-subscribe (pub/sub) messaging systems. Unlike [[Message Queues]], where each message is processed by a single consumer, message topics allow multiple consumers to receive and process each message. This enables efficient broadcasting of messages to multiple subscribers, facilitating scalable and decoupled communication between different components of an application.
+A Message Topic is a form of [[Asynchronous]] service-to-service communication used in publish-subscribe (pub/sub) messaging systems. Unlike [[Message Queues]], where each message is processed by a single consumer, message topics allow multiple consumers to receive and process each message. This enables efficient broadcasting of messages to multiple subscribers, facilitating scalable and decoupled communication between different components of an application. 
+
+> [!note] 
+> This pattern is closely related to the [[Observer Pattern|Observer]] Design Pattern, where subscribers (observers) are notified of events (messages) published by producers (subjects).
 
 ## Key Concepts
 
@@ -43,22 +47,6 @@ A Message Topic is a form of [[Asynchronous]] service-to-service communication u
 4. **Message Processing**: Subscribers process the message independently.
 5. **Message Acknowledgment**: Depending on the system, subscribers may acknowledge receipt of the message to ensure reliable delivery.
 
-## Types of Message Topics
-
-Message topics come in various implementations, each suited for different use cases and offering distinct features.
-
-> [!summary]
-> 
-> - **[[AWS SNS]]**: A fully managed publish-subscribe service that allows you to send notifications to multiple subscribers using various protocols, including HTTP/HTTPS, email, SMS, and AWS Lambda.
->     
-> - **[[Apache Kafka]]**: A distributed streaming platform that supports high-throughput, low-latency data streaming with robust pub/sub capabilities, enabling scalable data processing.
->     
-> - **[[RabbitMQ]]**: An open-source message broker that supports multiple messaging protocols, including AMQP, with versatile exchange types for different pub/sub needs.
->     
-> - **[[Azure Service Bus]]**: A managed enterprise messaging service that provides robust publish-subscribe capabilities with support for advanced features like sessions and dead-lettering.
->     
-> - **Google Cloud Pub/Sub**: A fully managed real-time messaging service for sending and receiving messages between independent applications, supporting topics and subscriptions.
->     
 
 ## Implementation Steps
 
@@ -69,20 +57,3 @@ Message topics come in various implementations, each suited for different use ca
 5. **Process Messages**: Subscribers retrieve and process messages independently.
 6. **Manage Subscriptions**: Use the management tools to monitor and manage topic subscriptions.
 
-## Pros and Cons
-
-> [!success] Pros
-> 
-> - **Scalability**: Efficiently broadcasts messages to multiple subscribers, supporting large-scale applications.
-> - **Decoupling**: Facilitates loose coupling between components, enhancing system modularity.
-> - **Flexibility**: Allows multiple consumers to process the same message independently, supporting various use cases.
-
-> [!danger] Cons
-> 
-> - **Complexity**: Managing subscriptions and ensuring reliable delivery can be complex.
-> - **Latency**: Depending on the system, message delivery latency may be higher than direct messaging.
-> - **Resource Usage**: Broadcasting messages to multiple subscribers can consume more resources compared to point-to-point messaging.
-
-## Related Topics
-
-- [[Observer Pattern]]

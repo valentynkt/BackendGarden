@@ -9,7 +9,7 @@ tags:
 links:
 ---
 
-link: [[AWS]], [[Message brokers]]
+link: [[AWS]], [[Message Topics]]
 
 # AWS SNS
 

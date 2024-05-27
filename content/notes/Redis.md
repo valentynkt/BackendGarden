@@ -7,7 +7,7 @@ tags:
 links:
 ---
 
-link: [[Database]], [[Message brokers]]
+link: [[Message brokers]]
 
 # Redis
 

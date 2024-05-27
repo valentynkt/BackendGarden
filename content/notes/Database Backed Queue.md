@@ -9,7 +9,7 @@ tags:
 links:
 ---
 
-link: [[Message Queues]], [[Database]]
+link: [[Message brokers]], [[Database]]
 
 # Database Backed Queue
 ## Overview

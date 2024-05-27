@@ -37,7 +37,7 @@ Amazon MQ is a managed message broker service provided by [[AWS]] that simplifie
 
 ## Comparison with Other AWS Messaging Services
 
-| Feature      | [[AWS  SQS]]                   | [[AWS SNS]]                                         | Amazon MQ                                                       |
+| Feature      | [[AWS  SQS]]                     | [[AWS SNS]]                                            | Amazon MQ                                                       |
 | ------------ | -------------------------------- | ------------------------------------------------------ | --------------------------------------------------------------- |
 | **Type**     | Queue-based                      | Pub/Sub                                                | Managed message broker                                          |
 | **Use Case** | Simple, scalable queuing         | Broadcast to multiple subscribers                      | Complex messaging patterns, legacy integration                  |

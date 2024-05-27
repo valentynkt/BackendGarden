@@ -7,7 +7,7 @@ tags:
 links:
 ---
 
-link: [[Message brokers]]
+link: [[Message brokers]], [[Event Streaming]]
 
 # Message Topic vs Event Streaming
 
@@ -36,6 +36,6 @@ Both message brokers and event streaming platforms facilitate communication betw
 
 **Event Streaming Platforms**:
 
-- **Event Sourcing**: Captures and stores all changes to the state as a series of events, which can be replayed to reconstruct past states.
+- **[[Event Sourcing Architecture Pattern|Event Sourcing]]**: Captures and stores all changes to the state as a series of events, which can be replayed to reconstruct past states.
 - **Real-time Analytics**: Processes streams of data in real-time for analytics and monitoring.
 - **Data Pipeline**: Facilitates the flow of data across various stages of processing, ensuring that data can be consumed by multiple downstream systems independently.
