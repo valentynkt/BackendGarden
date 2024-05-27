@@ -134,8 +134,7 @@ Each layer of the OSI Model has a specific function and interacts with the layer
 
 
 ## OSI Model Flow
-
-![[qELQuFRmbu.png]]
+![[7299acf4-5774-49b3-8a90-d73c6bc689af_1280x1664.webp]]
 
 > [!example]- Real Flow
 > Mr. Cooper uses his email application to compose a message to Ms. Palmer. When he hits 'send', the email application passes the message to the application layer.
@@ -156,7 +155,6 @@ Each layer of the OSI Model has a specific function and interacts with the layer
 > Finally, Ms. Palmer's email software presents the human-readable message on her laptop screen.
 
 ## Network Security
-
 
 > [!danger]- Network Attacks
 >

@@ -11,3 +11,6 @@ link: [[Database]], [[Message brokers]]
 
 # Redis
 
+
+## [[Redis-Backed Queue]]
+![[Redis-Backed Queue#Diagram]]

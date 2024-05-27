@@ -12,3 +12,7 @@ link:
 
 # AWS
 
+
+> [!summary] Services
+> - [[AWS  SQS]]
+> - [[AWS SNS]]

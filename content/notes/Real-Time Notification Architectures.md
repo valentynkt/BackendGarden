@@ -35,7 +35,8 @@ Real-time notification architectures are crucial in software development for app
 > - [[WebSockets]]
 > - [[gRPC API|gRPC]]
 > - [[Server-Sent Events]] (SSE)
-> - MQTT
+> - [[MQTT]]
+> - [[AMQP]]
 > - [[HTTP Polling]]
 
 
