@@ -52,7 +52,7 @@ The following are some of the primary architectural patterns used in system desi
 > - [[Broker Architecture Pattern]]
 > - [[Peer-to-Peer Architecture Pattern]]
 >   
->   ![[Pasted image 20240418183740.png]]
+
 
 ![[../Files/Images/Pasted image 20240426160412.png]]
 ### Implementation Overview

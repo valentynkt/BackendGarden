@@ -23,21 +23,17 @@ link: [[Architectural Patterns]]
 
 Microservices Architecture is a design approach where an application is divided into small, autonomous services, each designed around specific business capabilities. This architectural style is preferred for its scalability, flexibility, and ability to facilitate agile development and deployment practices.
 
-> [!abstract] 
-> The Microservices Architecture Pattern organizes complex applications into smaller, independent units that communicate over well-defined APIs. These units, or services, are independently deployable, highly maintainable, and scalable
-
-## Content
-
-### Key Concepts
+## Key Concepts
 
 Microservices Architecture promotes a decentralized approach to software development with the following core principles:
 
 > [!important]
->
-> - **Independent Deployment**: Each microservice operates independently which allows for individual scaling, deployment, and updating without affecting other components of the application.
-> - **Decentralized Data Management**: Each microservice manages its own database, thereby ensuring loose coupling and data encapsulation.
-> - **Polyglot Programming**: Services can be developed using different programming languages and technologies that are best suited for their specific requirements.
+> 
+> - **Independent Deployment**: Each microservice operates independently, allowing for individual scaling, deployment, and updating without affecting other components of the application.
+> - **Decentralized Data Management**: Each microservice manages its own database, ensuring loose coupling and data encapsulation.
+> - **Polyglot Programming**: Services can be developed using different programming languages and technologies best suited for their specific requirements.
 > - **Simplified Scaling**: Independent services allow for targeted scaling of application components as needed, enhancing resource efficiency.
+
 ### Communication
 
 Understanding the communication patterns and operational dynamics is crucial in a Microservices Architecture:
@@ -45,41 +41,32 @@ Understanding the communication patterns and operational dynamics is crucial in 
 > [!important]
 > 
 > - **[[API Gateway]]**: A single entry point that routes requests to the appropriate microservices. It handles request routing, composition, and protocol translation, simplifying the client interface.
-> **[[Service Registry Pattern|Service Discovery]]**: Mechanisms for services to find and communicate with each other. This can be either client-side or server-side (using a service registry).
-> - **Synchronous Communication**: Often implemented using [[REST]] or [[gRPC API|gRPC]] for direct service-to-service communication.
-> - **[[Asynchronous]] Communication**: Utilizes message queues and event streams, where services communicate via events. This method decouples service dependencies and enhances resilience. Utilizes use of [[Message brokers]]
+> - **[[Service Registry Pattern|Service Discovery]]**: Mechanisms for services to find and communicate with each other. This can be either client-side or server-side (using a service registry).
+> - **Synchronous Communication**: Often implemented using REST or gRPC API for direct service-to-service communication.
+> - **Asynchronous Communication**: Utilizes message queues and event streams, where services communicate via events. This method decouples service dependencies and enhances resilience, often using [[Message brokers]].
 
 These communication strategies ensure that services can operate and interact effectively without tight coupling, maintaining the integrity and agility of the application architecture.
 
 ### Microservice Patterns
 
-
->[!important]
->1. **[[Service Registry Pattern]]**
->    - _Explanation:_ Essential for dynamic [[Service Registry Pattern|service discovery]] and communication in microservices, ensuring effective interaction among services.
->2. **[[Circuit Breaker Pattern]]**
->    - _Explanation:_ Crucial for fault tolerance in distributed systems, this pattern helps maintain stability by isolating failures and preventing cascading failures.
->3. **[[API Gateway]]**
->    - _Explanation:_ Simplifies client-side code and centralizes routing. While beneficial, it may not be necessary in simpler microservices architectures.
->4. **[[Event-driven Architecture Pattern|Event-based Architecture]]**
->    - _Explanation:_ Enhances decoupling and scalability by facilitating asynchronous communication and reducing dependencies between services.
->5. **[[Database per Service]]**
->    - _Explanation:_ Supports service autonomy and scalability by isolating databases per service, essential for data isolation and operational independence.
->6. **[[Command Query Responsibility Segregation|Command Query Responsibility Segregation (CQRS)]]**
->    - _Explanation:_ Optimizes read and write operations through separate paths, improving performance but increasing complexity; suitable for high-demand environments.
->7. **[[Externalized Configuration]]**
->    - _Explanation:_ Increases flexibility and eases management in dynamic environments; particularly beneficial for environments with complex configurations.
->8. **[[Saga Pattern]]**
->    - _Explanation:_ Vital for maintaining data consistency across distributed transactions within microservices, it replaces traditional transaction protocols with a more flexible approach.
->9. **[[Bulkhead Pattern]]**
->    - _Explanation:_ Provides fault isolation within microservices architectures, crucial for enhancing system resilience by limiting failures to isolated areas.
->10. **[[Backends for Frontends pattern]] (BFF)**
->     - _Explanation:_ Tailors backend services to specific client needs, improving user experience and performance, though it may introduce redundancy and complexity in some cases.
->11. **[[Orchestration and Choreography]]**
->     - _Explanation:_ Defines how microservices interact to complete a business process, with Orchestration having a central controller and Choreography using decentralized events.
->12. **[[Event Sourcing Architecture Pattern|Event Sourcing]]**
->     - _Explanation:_ Maintains a log of changes to the application state (events), allowing full reconstruction of the state by replaying the events. This pattern enhances auditability and traceability, though it can increase complexity and storage requirements.
-
+> [!important]
+> 
+> - **[[Scaling|Scalability]]**: Enhances the ability of a system to handle increased loads by adding resources, ensuring that microservices can scale independently.
+> - **[[Fault Tolerance]]**: Ensures that the system can continue operating properly even in the event of failures, often using redundancy and failover strategies.
+> - **[[High Availability]]**: Measures the uptime of the system, ensuring that services remain accessible to users even in the face of failures.
+> - **[[Data Replication]]**: Duplicates data across multiple nodes or locations to ensure data availability and consistency, aiding in fault tolerance and disaster recovery.
+> - **[[Load Balancing]]**: Distributes incoming network traffic across multiple servers to ensure no single server becomes overwhelmed, enhancing performance and reliability.
+> - **[[API Gateway]]**: A single entry point that routes requests to the appropriate microservices, handling request routing, composition, and protocol translation.
+> - **[[Service Registry Pattern]]**: Maintains a registry of services and their instances, enabling efficient service discovery.
+> - **[[Circuit Breaker Pattern]]**: Protects services from cascading failures by breaking the circuit and preventing calls to a service when failures reach a certain threshold.
+> - **[[Event-driven Architecture Pattern]]**: Facilitates asynchronous communication and decoupling of services by using events as the primary form of communication.
+> - **[[Database per Service]]**: Each microservice manages its own database, promoting loose coupling and data encapsulation.
+> - **[[Command Query Responsibility Segregation]]**: Separates read and write operations into different models to optimize performance and scalability.
+> - **[[Externalized Configuration]]**: Manages application settings outside the deployable artifacts, allowing dynamic changes without redeployment.
+> - **[[Saga Pattern]]**: Manages data consistency across multiple services in distributed transactions using a sequence of local transactions and compensating actions.
+> - **[[Bulkhead Pattern]]**: Isolates system components to prevent failures from cascading, enhancing resilience by limiting the impact of a failure.
+> - **[[Backends for Frontends pattern]]**: Creates specific backends for different frontends (e.g., mobile, web) to optimize performance and user experience.
+> - **[[Orchestration and Choreography]]**: Defines how microservices interact to complete a business process, with Orchestration having a central controller and Choreography using decentralized events.
 
 ### Pros and Cons
 
@@ -106,7 +93,9 @@ Microservices are well-suited for:
 - **Complex Systems with Rapidly Changing Technologies**: Allows for the easy adoption of new technologies and quick updates to individual components without significant downtime or rework.
 
 ## [[Monolith vs Microservice]]
+
 ![[Monolith vs Microservice#Monolithic vs Microservices Architecture Pattern]]
+
 ## Summary
 
 > [!summary] 

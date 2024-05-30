@@ -19,9 +19,9 @@ A distributed system is a collection of independent computers that appear to the
 Distributed systems encompass several fundamental concepts that enable their functionality and efficiency:
 
 > [!important]
-> 
-> - **Scalability**: The ability to handle increased load by adding more nodes to the system.
-> - **Fault Tolerance**: The system's ability to continue functioning even if some components fail.
+> - **Transparency**: The system should hide the complexity of distribution from users and applications, making it appear as a single system.
+> - **[[Scaling|Scalability]]**: The ability to handle increased load by adding more nodes to the system.
+> - **[[Fault Tolerance]]**: The system's ability to continue functioning even if some components fail.
 > - **Concurrency**: Multiple components can process tasks simultaneously, improving performance.
 > - **Consistency**: Ensuring data consistency across distributed components, often achieved through consensus algorithms and data replication.
 
