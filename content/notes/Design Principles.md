@@ -37,6 +37,7 @@ Effective software design encompasses a set of core principles that guide develo
 > - [[Keep It Short and Simple]] (KISS)
 > - [[You Ain't Gonna Need It]] (YAGNI)
 > - [[Law of Demeter]] (LoD)
+> - [[Fault Tolerance]]
 
 
 > [!summary]- Design Principles vs Design Patterns

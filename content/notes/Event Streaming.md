@@ -47,8 +47,8 @@ Event Streaming systems typically follow this workflow:
 >- **[[Azure Stream Analytics]]**: A real-time analytics service that uses a SQL-like query language to process streams of data from various sources like Event Hubs, IoT Hub, and Blob Storage.
 >    
 >- **[[Azure IoT Hub]]**: A fully managed service for secure and reliable bi-directional communications between IoT applications and devices.
->- 
-> - **[[Amazon Kinesis]]**: A fully managed service for real-time data streaming and analytics, enabling you to process and analyze data as it arrives.
+>
+> - **[[AWS Kinesis]]**: A fully managed service for real-time data streaming and analytics, enabling you to process and analyze data as it arrives.
 >     
 > - **Google Cloud Pub/Sub**: A messaging service that provides durable message storage and real-time event streaming.
 >     

@@ -45,12 +45,12 @@ The following are some of the primary architectural patterns used in system desi
 > - [[Domain Driven Design]]
 > - [[Actor Architecture Pattern]]
 > - [[Reactive Architecture]]
-> - Microkernel Architecture Pattern
-> - Space-Based Architecture Pattern
-> - Master-Slave Architecture Pattern
-> - Pipe-Filter Architecture Pattern
-> - Broker Architecture Pattern
-> - Peer-to-Peer Architecture Pattern
+> - [[Microkernel Architecture Pattern]]
+> - [[Space-Based Architecture Pattern]]
+> - [[Master-Slave Architecture Pattern]]
+> - [[Pipe-Filter Architecture Pattern]]
+> - [[Broker Architecture Pattern]]
+> - [[Peer-to-Peer Architecture Pattern]]
 >   
 >   ![[Pasted image 20240418183740.png]]
 

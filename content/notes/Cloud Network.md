@@ -3,6 +3,7 @@ created: 2024-05-20 12:28
 aliases:
   - cloud-native
   - Cloud Solutions
+  - Cloud Services
 tags:
   - LearningIT
   - seed🌱

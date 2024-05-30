@@ -80,7 +80,7 @@ Message Brokers are integral to [[Message-driven Architecture Pattern|Message-dr
 > - **[[AWS  SQS]], [[AWS SNS]]**: A fully managed service that decouples and scales microservices, distributed systems, and serverless applications.
 > 
 > - **[[Apache ActiveMQ]]**: An open-source message broker that supports pub/sub and point-to-point messaging, along with advanced features for reliable messaging.
-
+         
 ## [[Quality of Service]]
 ![[Quality of Service#Quality of Service]]
 
