@@ -12,3 +12,9 @@ link:
 # Caching
 
 ![[3d4f861a-82b2-4b8f-b9c7-d926f079a108_2163x3153.webp]]
+
+## Use Cases
+
+
+> [!question] Where do we Cache Data
+> ![[Pasted image 20240531132824.png]]

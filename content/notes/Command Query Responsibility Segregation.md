@@ -8,7 +8,7 @@ tags:
 links:
 ---
 
-link: [[Architectural Patterns]]
+link: [[Microservices Architecture Pattern|Microservices Architecture]]
 
 # CQRS (Command Query Responsibility Segregation)
 

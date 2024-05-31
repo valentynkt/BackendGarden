@@ -8,7 +8,7 @@ tags:
 links:
 ---
 
-link: [[Scaling]]
+link: [[Scalability]]
 
 # Vertical Scaling
 

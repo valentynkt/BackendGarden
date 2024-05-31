@@ -47,27 +47,6 @@ Understanding the communication patterns and operational dynamics is crucial in 
 
 These communication strategies ensure that services can operate and interact effectively without tight coupling, maintaining the integrity and agility of the application architecture.
 
-### Microservice Patterns
-
-> [!important]
-> 
-> - **[[Scaling|Scalability]]**: Enhances the ability of a system to handle increased loads by adding resources, ensuring that microservices can scale independently.
-> - **[[Fault Tolerance]]**: Ensures that the system can continue operating properly even in the event of failures, often using redundancy and failover strategies.
-> - **[[High Availability]]**: Measures the uptime of the system, ensuring that services remain accessible to users even in the face of failures.
-> - **[[Data Replication]]**: Duplicates data across multiple nodes or locations to ensure data availability and consistency, aiding in fault tolerance and disaster recovery.
-> - **[[Load Balancing]]**: Distributes incoming network traffic across multiple servers to ensure no single server becomes overwhelmed, enhancing performance and reliability.
-> - **[[API Gateway]]**: A single entry point that routes requests to the appropriate microservices, handling request routing, composition, and protocol translation.
-> - **[[Service Registry Pattern]]**: Maintains a registry of services and their instances, enabling efficient service discovery.
-> - **[[Circuit Breaker Pattern]]**: Protects services from cascading failures by breaking the circuit and preventing calls to a service when failures reach a certain threshold.
-> - **[[Event-driven Architecture Pattern]]**: Facilitates asynchronous communication and decoupling of services by using events as the primary form of communication.
-> - **[[Database per Service]]**: Each microservice manages its own database, promoting loose coupling and data encapsulation.
-> - **[[Command Query Responsibility Segregation]]**: Separates read and write operations into different models to optimize performance and scalability.
-> - **[[Externalized Configuration]]**: Manages application settings outside the deployable artifacts, allowing dynamic changes without redeployment.
-> - **[[Saga Pattern]]**: Manages data consistency across multiple services in distributed transactions using a sequence of local transactions and compensating actions.
-> - **[[Bulkhead Pattern]]**: Isolates system components to prevent failures from cascading, enhancing resilience by limiting the impact of a failure.
-> - **[[Backends for Frontends pattern]]**: Creates specific backends for different frontends (e.g., mobile, web) to optimize performance and user experience.
-> - **[[Orchestration and Choreography]]**: Defines how microservices interact to complete a business process, with Orchestration having a central controller and Choreography using decentralized events.
-
 ### Pros and Cons
 
 The adoption of Microservices Architecture brings notable advantages and challenges:
@@ -84,13 +63,26 @@ The adoption of Microservices Architecture brings notable advantages and challen
 > - **Data Consistency**: Ensuring consistency across services can be challenging and may require sophisticated synchronization mechanisms.
 > - **Network Latency**: Inter-service communication over networks can introduce delays and reliability issues.
 
-### Best Use Cases
+## Related Topics
 
-Microservices are well-suited for:
-
-- **Dynamic and Large-Scale Applications**: Where different components have varying requirements and scalability needs.
-- **Organizations with Small Development Teams**: Teams can focus on specific services independently, enhancing development speed and product focus.
-- **Complex Systems with Rapidly Changing Technologies**: Allows for the easy adoption of new technologies and quick updates to individual components without significant downtime or rework.
+> [!important]
+> 
+> - **[[Scalability|Scalability]]**: Enhances the ability of a system to handle increased loads by adding resources, ensuring that microservices can scale independently.
+> - **[[Fault Tolerance]]**: Ensures that the system can continue operating properly even in the event of failures, often using redundancy and failover strategies.
+> - **[[High Availability]]**: Measures the uptime of the system, ensuring that services remain accessible to users even in the face of failures.
+> - **[[Data Replication]]**: Duplicates data across multiple nodes or locations to ensure data availability and consistency, aiding in fault tolerance and disaster recovery.
+> - **[[Load Balancing]]**: Distributes incoming network traffic across multiple servers to ensure no single server becomes overwhelmed, enhancing performance and reliability.
+> - **[[API Gateway]]**: A single entry point that routes requests to the appropriate microservices, handling request routing, composition, and protocol translation.
+> - **[[Service Registry Pattern]]**: Maintains a registry of services and their instances, enabling efficient service discovery.
+> - **[[Circuit Breaker Pattern]]**: Protects services from cascading failures by breaking the circuit and preventing calls to a service when failures reach a certain threshold.
+> - **[[Event-driven Architecture Pattern]]**: Facilitates asynchronous communication and decoupling of services by using events as the primary form of communication.
+> - **[[Database per Service]]**: Each microservice manages its own database, promoting loose coupling and data encapsulation.
+> - **[[Command Query Responsibility Segregation]]**: Separates read and write operations into different models to optimize performance and scalability.
+> - **[[Externalized Configuration]]**: Manages application settings outside the deployable artifacts, allowing dynamic changes without redeployment.
+> - **[[Saga Pattern]]**: Manages data consistency across multiple services in distributed transactions using a sequence of local transactions and compensating actions.
+> - **[[Bulkhead Pattern]]**: Isolates system components to prevent failures from cascading, enhancing resilience by limiting the impact of a failure.
+> - **[[Backends for Frontends pattern]]**: Creates specific backends for different frontends (e.g., mobile, web) to optimize performance and user experience.
+> - **[[Orchestration and Choreography]]**: Defines how microservices interact to complete a business process, with Orchestration having a central controller and Choreography using decentralized events.
 
 ## [[Monolith vs Microservice]]
 

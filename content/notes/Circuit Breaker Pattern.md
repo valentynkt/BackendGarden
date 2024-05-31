@@ -11,7 +11,7 @@ tags:
   - LearningIT
   - bud🌿
 ---
-link: [[Microservices Architecture Pattern|Microservice Architecture]]
+link: [[Microservices Architecture Pattern|Microservice Architecture]], [[Cloud Architecture]]]]
 
 # Circuit Breaker
 ## Diagram

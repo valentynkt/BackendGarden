@@ -7,7 +7,7 @@ tags:
 links:
 ---
 
-link: [[Database]]
+link: [[Cloud Architecture]], [[Distributed Systems]], [[Database]]
 
 # Data Replication
 

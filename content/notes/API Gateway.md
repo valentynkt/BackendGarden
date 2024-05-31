@@ -8,7 +8,7 @@ tags:
   - LearningIT
   - bud🌿
 ---
-link: [[Microservices Architecture Pattern|Microservice Architecture]]
+link: [[Microservices Architecture Pattern|Microservice Architecture]], [[Cloud Architecture]]
 
 # API Gateway
 

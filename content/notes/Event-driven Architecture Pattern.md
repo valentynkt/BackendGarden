@@ -11,7 +11,7 @@ tags:
   - LearningIT
   - bud🌿
 ---
-link: [[Architectural Patterns]]
+link: [[Architectural Patterns]],
 
 # Event-driven Architecture Pattern
 

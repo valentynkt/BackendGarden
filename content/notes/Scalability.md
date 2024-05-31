@@ -1,17 +1,16 @@
 ---
 created: 2024-05-29 18:03
 aliases:
-  - Scalability
+  - Scaling
 tags:
   - LearningIT
   - seed🌱
 links:
 ---
 
-link:
+link: [[Cloud Architecture]], [[Distributed Systems]]
 
 # Scaling
-
 
 > [!summary] 
 > - [[Horizontal Scaling]]

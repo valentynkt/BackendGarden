@@ -1,13 +1,16 @@
 ---
 created: 2024-05-30 16:59
-aliases: 
+aliases:
+  - Distributed Computing
+  - Decentralized Systems
+  - Networked Systems
 tags:
   - LearningIT
   - seed🌱
 links:
 ---
 
-link:
+link: [[Architectural Patterns]]
 
 # Distributed Systems
 
@@ -20,7 +23,7 @@ Distributed systems encompass several fundamental concepts that enable their fun
 
 > [!important]
 > - **Transparency**: The system should hide the complexity of distribution from users and applications, making it appear as a single system.
-> - **[[Scaling|Scalability]]**: The ability to handle increased load by adding more nodes to the system.
+> - **[[Scalability|Scalability]]**: The ability to handle increased load by adding more nodes to the system.
 > - **[[Fault Tolerance]]**: The system's ability to continue functioning even if some components fail.
 > - **Concurrency**: Multiple components can process tasks simultaneously, improving performance.
 > - **Consistency**: Ensuring data consistency across distributed components, often achieved through consensus algorithms and data replication.
@@ -68,7 +71,7 @@ Distributed systems are used in various applications where scalability, reliabil
 > - **Data Centers**: Large-scale data centers for cloud providers like AWS, Google Cloud, and Azure.
 > - **Big Data Processing**: Systems like Hadoop and Spark for processing large datasets.
 > - **[[Content Delivery Networks|Content Delivery Networks (CDNs)]]**: Distributing content to users globally for faster access.
-> - **IoT Systems**: Managing and processing data from numerous interconnected devices.
+> - **[[Internet Of Things|IoT Systems]]**: Managing and processing data from numerous interconnected devices.
 > - **Financial Services**: Ensuring high availability and consistency for transactions and data.
 
 ## Pros/Cons

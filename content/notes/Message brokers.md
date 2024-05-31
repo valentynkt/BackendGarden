@@ -1,13 +1,14 @@
 ---
 created: 2024-05-24 18:34
-aliases: []
+aliases: 
 tags:
   - LearningIT
   - seed🌱
+  - "#moc"
 links:
 ---
 
-link: 
+link:  [[Cloud Architecture]]
 
 # Message brokers
 

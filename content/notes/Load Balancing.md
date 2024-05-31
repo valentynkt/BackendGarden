@@ -1,10 +1,11 @@
 ---
 created: 2024-05-30 17:37
-aliases: 
-- Traffic Distribution
-- Load Distribution
-- Request Balancing
-- Traffic Management
+aliases:
+  - Traffic Distribution
+  - Load Distribution
+  - Request Balancing
+  - Traffic Management
+  - Load Balancer
 tags:
   - LearningIT
   - seed🌱
@@ -24,7 +25,7 @@ Load balancing is a technique used to distribute network or application traffic 
 > 
 > - **Distribution**: Evenly distributes incoming traffic among multiple servers.
 > - **[[High Availability]]**: Ensures continuous operation by redirecting traffic to healthy servers if one fails.
-> - **[[Scaling|Scalability]]**: Facilitates horizontal scaling by adding more servers to handle increased load.
+> - **[[Scalability|Scalability]]**: Facilitates horizontal scaling by adding more servers to handle increased load.
 > - **Health Monitoring**: Continuously checks the health of servers to route traffic only to those that are operational.
 
 ## Types of Load Balancers

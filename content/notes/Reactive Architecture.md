@@ -56,7 +56,7 @@ Implementing Reactive Architecture typically involves several strategies and tec
 > [!important]
 > 
 > - **Service Isolation**: Isolate services to prevent failures from cascading across the system, promoting resilience.
-> - **[[Asynchronous Messaging]]**: Use [[Message brokers]] and asynchronous communication to decouple components and enhance scalability.
+> - **Asynchronous Messaging**: Use [[Message brokers]] and asynchronous communication to decouple components and enhance scalability.
 > - **Elastic Infrastructure**: Employ [[Cloud Network|cloud-native]] technologies and container orchestration platforms to automatically scale resources based on demand.
 > - **Monitoring and Management**: Implement robust monitoring and management tools to observe system health, detect issues early, and respond proactively.
 

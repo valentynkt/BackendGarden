@@ -32,6 +32,7 @@ Architectural patterns are high-level strategies that guide the overall layout a
 The following are some of the primary architectural patterns used in system design, each addressing specific Structural and operational needs:
 
 > [!important]
+> 
 > - [[Monolithic Architecture Pattern]]
 > - [[Layered Architecture Pattern]]
 > - [[Model-View-Controller Pattern]]
@@ -51,7 +52,8 @@ The following are some of the primary architectural patterns used in system desi
 > - [[Pipe-Filter Architecture Pattern]]
 > - [[Broker Architecture Pattern]]
 > - [[Peer-to-Peer Architecture Pattern]]
->   
+> - [[Cloud Architecture]]
+> - [[Distributed Systems]]
 
 
 ![[../Files/Images/Pasted image 20240426160412.png]]

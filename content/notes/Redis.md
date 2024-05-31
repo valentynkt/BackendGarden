@@ -54,8 +54,8 @@ Redis (Remote Dictionary Server) is an open-source, in-memory data structure sto
 > 
 > Redis offers robust security features:
 > 
-> - **[[Authentication]]**: Requires clients to authenticate with a password.
-> - **[[Encryption]]**: Supports TLS for encrypted connections.
+> - **Authentication**: Requires clients to authenticate with a password.
+> - **Encryption**: Supports TLS for encrypted connections.
 > - **[[Access Control Lists]] (ACLs)**: Fine-grained access control to commands and data.
 
 ## ## Use Cases
