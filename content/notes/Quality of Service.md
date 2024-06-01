@@ -3,9 +3,10 @@ created: 2024-05-27 12:21
 aliases:
   - Delivery Semantics
   - QoS
+  - Reliability and Delivery Guarantees
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 links:
 ---
 
