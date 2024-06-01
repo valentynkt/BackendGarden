@@ -29,6 +29,15 @@ Caching is a technique used to store copies of data in temporary storage (cache)
 > - **Consistency**: Ensuring that the cache and the primary data store remain in sync.
 > - **Latency**: The time delay between a user's action and the response from the system.
 
+
+> [!info]- Caching Tools
+>
+> - **[[Redis]]**: An in-memory data structure store used as a database, cache, and message broker. Known for its high performance and support for various data structures. 
+> - **Memcached**: A distributed memory caching system, commonly used to speed up dynamic web applications by alleviating database load. 
+> - **Varnish**: A web application accelerator also known as a caching HTTP reverse proxy, designed to handle high traffic websites.
+> - **Ehcache**: An open-source, standards-based cache that boosts performance, offloads the database, and simplifies scalability. 
+> - **Hazelcast**: An in-memory data grid that provides distributed data structures, caching, and computing.
+
 ## Implementation Considerations
 
 > [!note]
@@ -53,6 +62,7 @@ Caching is a technique used to store copies of data in temporary storage (cache)
 
 >[!question] Where do we Cache Data 
 > ![[Pasted image 20240531132824.png]]
+
 
 ## Conclusion
 

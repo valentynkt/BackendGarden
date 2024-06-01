@@ -6,7 +6,7 @@ aliases:
   - Networked Systems
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 links:
 ---
 
@@ -16,19 +16,21 @@ link: [[Architectural Patterns]]
 
 ## Overview
 
-A distributed system is a collection of independent computers that appear to the users as a single coherent system. These systems work together to achieve a common goal and are connected by a network. Distributed systems are designed to share resources, data, and tasks across multiple nodes, enhancing scalability, reliability, and performance.
+A distributed system is a collection of independent computers that appear to users as a single coherent system. These systems work together to achieve a common goal and are connected by a network. Distributed systems are designed to share resources, data, and tasks across multiple nodes, enhancing scalability, reliability, and performance.
+
 ## Key Concepts
 
 Distributed systems encompass several fundamental concepts that enable their functionality and efficiency:
 
 > [!important]
+> 
 > - **Transparency**: The system should hide the complexity of distribution from users and applications, making it appear as a single system.
 > - **[[Scalability|Scalability]]**: The ability to handle increased load by adding more nodes to the system.
 > - **[[Fault Tolerance]]**: The system's ability to continue functioning even if some components fail.
 > - **Concurrency**: Multiple components can process tasks simultaneously, improving performance.
 > - **Consistency**: Ensuring data consistency across distributed components, often achieved through consensus algorithms and data replication.
 
-### Components
+## Components
 
 Distributed systems consist of several key components that interact to provide a unified service:
 
@@ -76,15 +78,14 @@ Distributed systems are used in various applications where scalability, reliabil
 
 ## Pros/Cons
 
-
-> [!success]- **Pros**
+> [!success] Pros
 > 
 > - **Scalability**: Easily handle increased workloads by adding more nodes.
 > - **Reliability**: Continue operating correctly even if some components fail.
 > - **Performance**: Improved performance through parallel processing and resource sharing.
 > - **Flexibility**: Ability to adapt to changing workloads and requirements.
 
-> [!danger]- **Cons**
+> [!danger] Cons
 > 
 > - **Complexity**: Designing and managing a distributed system can be complex.
 > - **Consistency**: Ensuring data consistency across distributed components is challenging.
@@ -95,7 +96,8 @@ Distributed systems are used in various applications where scalability, reliabil
 
 > [!summary]
 > 
-> - **[[Microservices Architecture Pattern]]**: Distributed systems often use microservices to decompose applications into smaller, independent services.
+> - **[[Microservices Architecture Pattern]]**: Distributed systems often use microservices to decompose applications into smaller, independent services. 
+> - **[[Actor Architecture Pattern|Actor Model]]**: The Actor Model is well-suited for distributed systems as it encapsulates state and behavior within actors, which communicate asynchronously. This model naturally supports distribution across nodes, enabling scalability and fault tolerance.
 > - **[[Event-driven Architecture Pattern]]**: Events can be used to trigger actions and state changes across distributed systems, enabling real-time processing and responsiveness.
 > - **[[Message-driven Architecture Pattern]]**: Messaging systems facilitate asynchronous communication between components in a distributed system, enhancing decoupling and scalability.
 > - **[[CAP Theorem]]**: A principle that highlights the trade-offs between Consistency, Availability, and Partition Tolerance in distributed data stores.

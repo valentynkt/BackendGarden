@@ -47,8 +47,9 @@ APIs can be broadly categorized by accessibility or by their architectural desig
 ### [[API Architectures]]
 ![[API Architectures#API Architectural Styles]]
 
-## [[API Security]]
-![[API Security#API Security]]
+## [[Web Security]]
+![[Web Security#Diagram]]
+![[Web Security#Content]]
 
 
 # References
