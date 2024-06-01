@@ -5,7 +5,7 @@ aliases:
   - Amazon SQS
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 links:
 ---
 

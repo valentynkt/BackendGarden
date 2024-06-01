@@ -4,7 +4,7 @@ aliases:
   - ActiveMQ
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 links:
 ---
 

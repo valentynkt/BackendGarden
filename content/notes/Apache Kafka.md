@@ -3,7 +3,7 @@ created: 2024-05-26 14:40
 aliases: 
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 links:
 ---
 
@@ -63,6 +63,7 @@ Apache Kafka is a distributed event streaming platform capable of handling high-
 3. **Consumers**: Subscribe to the topic and read messages from the partitions.
 
 ### [[Quality of Service]]
+Supports three Quality Of Service
 
 ![[Quality of Service#Diagram]]
 ## Use Cases

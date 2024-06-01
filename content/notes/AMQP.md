@@ -4,7 +4,7 @@ aliases:
   - Advanced Message Queuing Protocol
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 links:
 ---
 

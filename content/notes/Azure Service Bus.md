@@ -57,19 +57,6 @@ Azure Service Bus is a fully managed enterprise message broker offered by [[Azur
 > - **[[Message Queues|Point-to-Point]] ([[Azure Service Bus Queue]])**: Using queues, messages are sent from one producer to one consumer. This ensures that each message is processed by only one consumer.
 > - **[[Message Topics|Publish-Subscriber]] ([[Azure Service Bus Topic]])**: Using topics and subscriptions, messages are published to a topic and can be received by multiple subscribers. Each subscriber can receive its own copy of the message.
 
-## Pros and Cons
-
-> [!success] Pros
-> 
-> - **Reliability**: Ensures guaranteed message delivery with advanced features like dead-lettering and duplicate detection.
-> - **Scalability**: Easily scales to handle high volumes of messages.
-> - **Security**: Robust security features, including RBAC and TLS.
-
-> [!danger] Cons
-> 
-> - **Complexity**: Can be complex to configure and manage for large-scale deployments.
-> - **Cost**: Costs can add up with high message volumes and advanced features.
-
 ## Related Topics
 
 > [!summary]

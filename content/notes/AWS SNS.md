@@ -5,7 +5,7 @@ aliases:
   - Amazon SNS
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 links:
 ---
 

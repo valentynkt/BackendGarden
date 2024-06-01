@@ -7,7 +7,7 @@ tags:
 links:
 ---
 
-link:
+link: [[Web Security]]
 
 # Encryption
 
