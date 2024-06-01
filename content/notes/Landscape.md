@@ -177,7 +177,7 @@ The "Landscape" serves as a comprehensive guide and overarching map for explorin
 > 		- [[SQL Triggers and Events]]
 > 		- [[Advanced Querying Techniques]]
 > 	- [[Data Integrity and Transactions]]
-> 	- [[Indexing and Query Performance]]
+> 	- [[Database Indexing]]
 > 	- [[Data Normalization]]
 > 	- [[SQL Session]]
 > - [[Non-Relational Databases]]

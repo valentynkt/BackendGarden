@@ -57,7 +57,7 @@ Implementing a relational database involves several critical steps:
 - **[[SQL Session]]**: Refers to a connection established between a database and a client that lasts for the duration of the user's interaction with the database.
 - **[[Data Integrity and Transactions]]**: Ensure the accuracy and integrity of data through constraints, and manage multiple database actions with transactions that are atomic, consistent, isolated, and durable ([[ACID Properties|ACID]]).
 - [[Data Normalization]] - Data normalization is a design approach used to reduce redundancy and improve data integrity by organizing fields and table relationships in databases.
-- **[[Indexing and Query Performance]]**: Strategies for optimizing data retrieval and database performance.
+- **[[Database Indexing]]**: Strategies for optimizing data retrieval and database performance.
 ## Summary
 
 > [!summary] 

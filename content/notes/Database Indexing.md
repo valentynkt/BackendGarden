@@ -1,6 +1,7 @@
 ---
 created: 2024-04-30 17:17
-aliases: 
+aliases:
+  - Database Query Performance
 links: 
 tags:
   - LearningIT
@@ -8,7 +9,7 @@ tags:
 ---
 link: [[Database]]
 
-# Indexing and Query Performance
+# Database Indexing
 
 
 Indexing is a crucial feature in [[database]] management that enhances the performance of data retrieval operations by creating quick access paths to the data stored in a database. By effectively using indexes, databases can significantly reduce the amount of data they need to sift through when performing queries, leading to faster search times and improved application performance.
@@ -72,6 +73,7 @@ Indexes are essential for enhancing the performance of database queries, particu
 
 # References
 
-https://medium.com/towards-data-engineering/understanding-indexing-in-sql-improve-query-performance-with-data-structures-99e275f29c7d - simply
-https://dev.to/abaron10/optimizing-database-performance-exploring-indexing-techniques-in-dbms-1emj - A lot of details and types of indexes
+[Understanding Indexing in SQL: Improve Query Performance with Data Structures  | Medium](https://medium.com/towards-data-engineering/understanding-indexing-in-sql-improve-query-performance-with-data-structures-99e275f29c7d) - simply
+
+[Optimizing Database Performance: Exploring Indexing Techniques in DBMS - DEV Community](https://dev.to/abaron10/optimizing-database-performance-exploring-indexing-techniques-in-dbms-1emj) - A lot of details and types of indexes
 
