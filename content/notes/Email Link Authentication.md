@@ -5,33 +5,34 @@ aliases:
   - Email Authentication
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 links:
 ---
 
 link: [[Passwordless Authentication]]
 
 # Email Link Authentication
+
 ## Overview
 
 Email Link Authentication is a [[Passwordless Authentication]] method where users log in by clicking a one-time link sent to their email address. This method enhances security by eliminating the need for passwords and simplifying the user login process.
 
-## How Email Link Authentication Works
+## How It Works
 
 1. **User Initiates Login**: The user enters their email address on the login page.
 2. **Send Authentication Link**: The server generates a one-time link and sends it to the user's email.
 3. **User Clicks Link**: The user clicks the link in their email, which redirects them to the application.
 4. **Access Granted**: The server verifies the link and grants the user access.
 
-## Pros/Cons
+## Pros and Cons
 
-> [!success] **Pros**
+> [!success] Pros
 > 
 > - **Simple User Experience**: No need to remember or enter passwords.
 > - **Enhanced Security**: Reduces the risk of password-related attacks.
 > - **Easy Implementation**: Straightforward to set up and integrate.
 
-> [!danger] **Cons**
+> [!danger] Cons
 > 
 > - **Email Dependency**: Requires users to have access to their email.
 > - **Potential Delays**: Email delivery can sometimes be slow or unreliable.

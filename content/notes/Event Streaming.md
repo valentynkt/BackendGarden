@@ -1,19 +1,24 @@
 ---
 created: 2024-05-27 18:45
-aliases: 
+aliases:
+  - Stream Processing
+  - Real-time Event Streaming
+  - Event Stream Processing
+  - Data Streaming
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 links:
 ---
 
-link:
+link: [[Cloud Architecture]]
 
 # Event Streaming
 
 ## Overview
 
 Event Streaming is a powerful architectural pattern that involves capturing data in real-time from event sources like databases, sensors, mobile devices, cloud services, and software applications in the form of event streams. These streams can then be stored, processed, and acted upon in real-time or at a later time. Event streaming facilitates the continuous flow of data and is essential for building responsive and resilient systems.
+
 ## Key Concepts
 
 Event Streaming revolves around several core principles:
@@ -40,41 +45,28 @@ Event Streaming systems typically follow this workflow:
 > [!summary] **Tools for Event Streaming**
 > 
 > - **[[Apache Kafka]]**: A distributed event streaming platform capable of handling trillions of events a day. It is designed for high throughput, low latency, fault tolerance, and scalability.
->     
 > - **[[Apache Pulsar]]**: A multi-tenant, high-performance solution for server-to-server messaging and event streaming. It features a flexible messaging model and integrates seamlessly with Apache BookKeeper for persistence.
 > - **[[Azure Event Hubs]]**: A fully managed, real-time data ingestion service that can stream millions of events per second. It is designed for high scalability and integrates seamlessly with other Azure services.
->    
->- **[[Azure Stream Analytics]]**: A real-time analytics service that uses a SQL-like query language to process streams of data from various sources like Event Hubs, IoT Hub, and Blob Storage.
->    
->- **[[Azure IoT Hub]]**: A fully managed service for secure and reliable bi-directional communications between IoT applications and devices.
->
+> - **[[Azure Stream Analytics]]**: A real-time analytics service that uses a SQL-like query language to process streams of data from various sources like Event Hubs, IoT Hub, and Blob Storage.
+> - **[[Azure IoT Hub]]**: A fully managed service for secure and reliable bi-directional communications between IoT applications and devices.
 > - **[[AWS Kinesis]]**: A fully managed service for real-time data streaming and analytics, enabling you to process and analyze data as it arrives.
->     
 > - **Google Cloud Pub/Sub**: A messaging service that provides durable message storage and real-time event streaming.
->     
 
 ## Relation to Patterns and Approaches
 
 > [!summary] **Relation to Patterns and Approaches**
 > 
-> - **[[Event-driven Architecture Pattern]]**: Event Streaming is a fundamental part of event-driven architectures, enabling components to communicate and react to events asynchronously.
->     
+> - **[[Event-driven Architecture Pattern|Event-Driven Architecture]]**: Event Streaming is a fundamental part of event-driven architectures, enabling components to communicate and react to events asynchronously.
 > - **[[Command Query Responsibility Segregation|CQRS]]**: CQRS can leverage event streaming to handle event sourcing, ensuring that commands and queries are processed independently and efficiently.
->     
 > - **[[Reactive Architecture]]**: Reactive systems benefit from event streaming by providing real-time responsiveness and scalability.
->     
-> - **[[Message-driven Architecture Pattern|Message-Driven Architecture]]**: Event Streaming aligns with message-driven architectures, where systems communicate through asynchronous message passing.
->     
+> - **[[Message-Driven Architecture Pattern|Message-Driven Architecture]]**: Event Streaming aligns with message-driven architectures, where systems communicate through asynchronous message passing.
 > - **[[Event Sourcing Architecture Pattern|Event Sourcing]]**: Event Streaming is closely related to event sourcing, where state changes are stored as a sequence of events, allowing systems to reconstruct past states and ensure consistency.
->     
 
 ## Use Cases
 
 - **Real-time Analytics**: Process and analyze data as it is generated for immediate insights.
-- **Microservices Communication**: Enable decoupled communication between microservices.
-- **Data Replication**: Synchronize data across different systems in real-time.
+- **[[Microservices Architecture Pattern|Microservices]] Communication**: Enable decoupled communication between microservices.
+- **[[Data Replication]]**: Synchronize data across different systems in real-time.
 - **Monitoring and Alerts**: Detect and respond to events in real-time, improving operational awareness.
 
-## Summary
 
-Event Streaming is a crucial pattern for modern data architectures, enabling real-time data processing and analytics. Tools like Apache Kafka, Apache Pulsar, Amazon Kinesis, and Google Cloud Pub/Sub provide robust platforms for implementing event streaming, supporting a wide range of use cases from real-time analytics to microservices communication. By integrating with various architectural patterns, event streaming enhances the responsiveness, scalability, and resilience of distributed systems.

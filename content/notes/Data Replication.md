@@ -7,7 +7,7 @@ aliases:
   - Data Duplication
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 links:
 ---
 

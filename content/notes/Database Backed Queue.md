@@ -5,16 +5,17 @@ aliases:
   - Database as Queue
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 links:
 ---
 
 link: [[Message brokers]], [[Database]]
 
 # Database Backed Queue
+
 ## Overview
 
-A database-backed queue leverages a relational or NoSQL database to implement a queueing mechanism. This approach is ideal for applications that already use a database and need a straightforward way to handle asynchronous processing and ensure persistence.
+A database-backed queue leverages a relational or NoSQL database to implement a queuing mechanism. This approach is ideal for applications that already use a database and need a straightforward way to handle asynchronous processing and ensure persistence.
 
 ## Key Features
 
@@ -26,17 +27,15 @@ A database-backed queue leverages a relational or NoSQL database to implement a 
 
 ## How It Works
 
-Using a Starbucks example, the two most critical requirements are asynchronous processing and persistence. In this scenario:
-
-
-The diagram illustrates the process flow:
+Using a Starbucks example, the two most critical requirements are asynchronous processing and persistence. In this scenario, the process flow is as follows:
 
 1. **Cashier**: Creates a new order in the database-backed queue.
-2. **Coffee Maker**: Picks up the new order, update state to IN_PROGRESS
-3. **Coffee Maker Response**: Processes it, and updates the status to done.
-4. **Customer**: Picks up the completed order. 
+2. **Coffee Maker**: Picks up the new order, updates the state to IN_PROGRESS.
+3. **Coffee Maker Response**: Processes the order and updates the status to DONE.
+4. **Customer**: Picks up the completed order.
 
 ![[9ec6440f-9fd5-40c2-b32f-36b3caaac3e7_1262x770.webp]]
+
 ## Pros and Cons
 
 > [!success] Pros
