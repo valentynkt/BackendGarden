@@ -2,6 +2,7 @@
 created: 2024-05-23 14:10
 aliases:
   - DDD
+  - Domain-Driven Design
 tags:
   - LearningIT
   - seed🌱

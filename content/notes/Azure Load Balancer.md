@@ -7,7 +7,7 @@ tags:
 links:
 ---
 
-link: [[Azure]]
+link: [[Azure]], [[Load Balancing|Load Balancer]]
 
 # Azure Load Balancer
 

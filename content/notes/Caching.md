@@ -1,12 +1,12 @@
 ---
 created: 2024-05-29 17:40
-aliases: 
-- Cache 
-- Data Caching 
-- Cache Management
+aliases:
+  - Cache
+  - Data Caching
+  - Cache Management
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 links:
 ---
 
@@ -29,13 +29,14 @@ Caching is a technique used to store copies of data in temporary storage (cache)
 > - **Consistency**: Ensuring that the cache and the primary data store remain in sync.
 > - **Latency**: The time delay between a user's action and the response from the system.
 
+## Caching Tools
 
-> [!info]- Caching Tools
+> [!info]
 >
-> - **[[Redis]]**: An in-memory data structure store used as a database, cache, and message broker. Known for its high performance and support for various data structures. 
-> - **Memcached**: A distributed memory caching system, commonly used to speed up dynamic web applications by alleviating database load. 
+> - **[[Redis]]**: An in-memory data structure store used as a database, cache, and message broker. Known for its high performance and support for various data structures.
+> - **Memcached**: A distributed memory caching system, commonly used to speed up dynamic web applications by alleviating database load.
 > - **Varnish**: A web application accelerator also known as a caching HTTP reverse proxy, designed to handle high traffic websites.
-> - **Ehcache**: An open-source, standards-based cache that boosts performance, offloads the database, and simplifies scalability. 
+> - **Ehcache**: An open-source, standards-based cache that boosts performance, offloads the database, and simplifies scalability.
 > - **Hazelcast**: An in-memory data grid that provides distributed data structures, caching, and computing.
 
 ## Implementation Considerations
@@ -49,20 +50,18 @@ Caching is a technique used to store copies of data in temporary storage (cache)
 
 ## [[Caching Strategies]]
 ![[Caching Strategies#Diagram]]
+## Use Cases
 
-## Use Cases 
+- **Web Applications**: To store frequently accessed web pages, API responses, and static resources.
+- **Database Queries**: To cache results of expensive database queries, reducing load on the database.
+- **[[Content Delivery Networks|Content Delivery Networks (CDNs)]]**: To cache and deliver content closer to users, reducing load times and bandwidth costs.
+- **[[Session Management]]**: Caching session data to improve the performance of user session handling.
+- **[[Database Indexing]]**: Both caching and indexing improve data retrieval times but use different approaches.
+- **[[Load Balancing]]**: Often used in conjunction with caching to distribute loads efficiently across servers.
+- **[[Distributed Systems]]**: Caching is crucial in distributed systems to reduce latency and improve performance.
 
-- **Web Applications**: To store frequently accessed web pages, API responses, and static resources. 
-- **Database Queries**: To cache results of expensive database queries, reducing load on the database. 
-- **[[Content Delivery Networks|Content Delivery Networks (CDNs)]]**: To cache and deliver content closer to users, reducing load times and bandwidth costs. 
-- **[[Session Management]]**: Caching session data to improve the performance of user session handling. 
-- **[[Database Indexing]]**: Both caching and indexing improve data retrieval times but use different approaches. 
-- **[[Load Balancing]]**: Often used in conjunction with caching to distribute loads efficiently across servers. 
-- **[[Distributed Systems]]**: Caching is crucial in distributed systems to reduce latency and improve performance. 
-
->[!question] Where do we Cache Data 
+> [!question] **Where do we Cache Data?**
 > ![[Pasted image 20240531132824.png]]
-
 
 ## Conclusion
 

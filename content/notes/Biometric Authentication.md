@@ -2,9 +2,12 @@
 created: 2024-05-20 18:22
 aliases:
   - Biometric Auth
+  - Biometric Verification
+  - Biometric Identification
+  - Biometric Login
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 links:
 ---
 
@@ -36,7 +39,7 @@ Biometric Authentication is a [[Passwordless Authentication]] method that uses u
 4. **Comparison**: The system compares the new sample with the stored template.
 5. **Access Granted**: If the samples match, the user is authenticated and granted access.
 
-## Pros/Cons
+## Pros and Cons
 
 > [!success] **Pros**
 > 
@@ -49,3 +52,7 @@ Biometric Authentication is a [[Passwordless Authentication]] method that uses u
 > - **Privacy Concerns**: Potential risks if biometric data is compromised.
 > - **Equipment Requirements**: Requires specialized hardware for capturing biometric data.
 > - **False Rejections**: Environmental factors or changes in the user's biometric traits can lead to false rejections.
+
+
+
+
