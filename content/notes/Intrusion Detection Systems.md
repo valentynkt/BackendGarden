@@ -8,7 +8,7 @@ tags:
 links:
 ---
 
-link: [[API Security]]
+link: [[Web Security]]
 
 # Intrusion Detection Systems
 

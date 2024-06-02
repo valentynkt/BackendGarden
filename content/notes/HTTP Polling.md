@@ -4,7 +4,7 @@ aliases:
   - Polling
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 links:
 ---
 

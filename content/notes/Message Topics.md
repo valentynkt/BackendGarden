@@ -5,7 +5,7 @@ aliases:
   - Pub/Sub
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 links:
 ---
 

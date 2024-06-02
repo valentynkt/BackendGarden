@@ -5,7 +5,7 @@ aliases:
   - Json Web Tokens (JWT)
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 links:
 ---
 

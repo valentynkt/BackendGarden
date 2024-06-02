@@ -6,7 +6,7 @@ aliases:
   - Queue-based
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 links:
 ---
 

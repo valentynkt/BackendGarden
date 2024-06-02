@@ -35,7 +35,7 @@ AMQP (Advanced Message Queuing Protocol) is an open standard protocol for messag
 5. **Queues**: Buffers that store messages until they are processed by consumers.
 6. **Bindings**: Rules that define the relationship between exchanges and queues.
 
-## AMQP vs. [[MQTT]]
+## AMQP vs. [[Message Queuing Telemetry Transport]]
 
 | Feature                | AMQP                                                             | MQTT                                                                |
 | ---------------------- | ---------------------------------------------------------------- | ------------------------------------------------------------------- |

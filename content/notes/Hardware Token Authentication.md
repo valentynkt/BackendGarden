@@ -6,7 +6,7 @@ aliases:
   - Hardware Authentication
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 links:
 ---
 
@@ -28,19 +28,19 @@ Hardware Token Authentication is a method of authenticating users using a physic
 
 ## Examples of Hardware Tokens
 
-- **YubiKey**: A small USB or NFC device that supports OTP, FIDO U2F, FIDO2, and smart card functionalities. Used widely for securing online accounts, system logins, and other sensitive applications.
+- **YubiKey**: A small USB or NFC device that supports OTP, FIDO U2F, FIDO2, and smart card functionalities. It is widely used for securing online accounts, system logins, and other sensitive applications.
 - **RSA SecurID**: A key fob or software-based token that generates a new OTP every 60 seconds, used for secure access to enterprise networks and applications.
 - **Google Titan Security Key**: A physical security key that supports FIDO U2F and FIDO2 standards, providing strong protection for Google accounts and other compatible services.
 
-## Pros/Cons
+## Pros and Cons
 
-> [!success] **Pros**
+> [!success] Pros
 > 
 > - **High Security**: Hardware tokens provide strong security as they are resistant to phishing and other forms of online attacks.
 > - **Offline Functionality**: Many hardware tokens generate codes without needing an internet connection, making them reliable even when offline.
 > - **Simplicity**: Easy for users to understand and use, often just requiring the input of a code.
 
-> [!danger] **Cons**
+> [!danger] Cons
 > 
 > - **Cost**: Requires purchasing and distributing physical tokens to users.
 > - **Loss or Theft**: Users may lose their hardware tokens, potentially locking them out of their accounts until a new token is issued.
@@ -50,4 +50,5 @@ Hardware Token Authentication is a method of authenticating users using a physic
 
 - **Enterprise Security**: Securing access to corporate networks, VPNs, and sensitive applications.
 - **Online Banking**: Providing additional security for online banking transactions and account access.
-- **Government and Military**: Ensuring secure access to classified systems and information
+- **Government and Military**: Ensuring secure access to classified systems and information.
+
