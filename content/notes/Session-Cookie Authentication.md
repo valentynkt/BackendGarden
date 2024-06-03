@@ -6,7 +6,7 @@ aliases:
   - Cookie Authentication
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 links:
 ---
 

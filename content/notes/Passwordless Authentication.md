@@ -4,14 +4,13 @@ aliases:
   - Passwordless
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 links:
 ---
 
 link: [[Authentication]]
 
 # Passwordless Authentication
-
 ## Overview
 
 Passwordless authentication is a method of verifying a user's identity without the need for a password. Instead of traditional passwords, it uses alternative methods such as biometric data, hardware tokens, or one-time codes sent to an email or phone. This approach enhances security and user convenience by eliminating the risks associated with password management and breaches.
@@ -32,7 +31,14 @@ Passwordless authentication is a method of verifying a user's identity without t
 > - **User Convenience**: Simplifies the login process by removing the need to remember and enter passwords.
 > - **Reduced IT Overhead**: Decreases the need for password resets and management, saving time and resources.
 
-## Pros/Cons of Passwordless Authentication
+## How Passwordless Authentication Works
+
+1. **User Request**: The user initiates a login request by providing an identifier, such as an email address or phone number.
+2. **Authentication Method**: The system sends a one-time code, link, or notification to the user's registered device or account.
+3. **User Action**: The user takes the required action, such as clicking a link, entering a code, or approving a push notification.
+4. **Verification**: The system verifies the user's action and grants access if the authentication is successful.
+
+## Pros/Cons
 
 > [!success]- **Pros**
 > 
@@ -48,4 +54,4 @@ Passwordless authentication is a method of verifying a user's identity without t
 
 ## Conclusion
 
-Passwordless authentication provides a secure, user-friendly alternative to traditional password-based methods. By leveraging modern technologies such as biometrics, one-time codes, and hardware tokens, it enhances security and reduces the risks associated with password management. Implementing passwordless authentication can significantly improve the user experience and overall security posture of your applications.
+Passwordless authentication provides a secure, user-friendly alternative to traditional password-based methods. By leveraging modern technologies such as biometrics, one-time codes, and hardware tokens, it enhances security and reduces the risks associated with password management. Implementing passwordless authentication can significantly improve the user experience and overall security posture of your applications.cations.

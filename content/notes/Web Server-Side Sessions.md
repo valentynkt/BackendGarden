@@ -4,7 +4,7 @@ aliases:
   - Server-Side Sessions
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 links:
 ---
 

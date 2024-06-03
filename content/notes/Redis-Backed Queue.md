@@ -5,7 +5,7 @@ aliases:
   - Redis as Queue
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 links:
 ---
 
@@ -20,8 +20,6 @@ link: [[Redis]], [[Message Queues]]
 A Redis-backed queue leverages [[Redis]], an in-memory data structure store, to implement message queuing mechanisms. Redis can be used as a message queue in three main ways: Pub/Sub, List, and Stream. Each method offers different features and trade-offs, making Redis a versatile option for various queuing needs.
 
 ## Key Concepts
-
-![[#Diagram]]
 
 ### Pub/Sub
 

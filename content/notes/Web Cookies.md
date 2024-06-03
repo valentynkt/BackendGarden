@@ -5,7 +5,7 @@ aliases:
   - cookie
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 links:
 ---
 

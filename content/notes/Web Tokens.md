@@ -6,7 +6,7 @@ aliases:
   - Token-Based
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 links:
 ---
 
@@ -29,7 +29,7 @@ There are several types of web tokens, each with unique features and use cases:
 > [!summary]- **Types of Web Tokens**
 > 
 > - **[[JSON Web Tokens|Json Web Tokens (JWT)]]**: A compact, URL-safe token format that is widely used for authentication and authorization. JWTs contain three parts: a header, a payload, and a signature, and are designed to be self-contained and stateless.
-> - **Security Assertion Markup Language (SAML) Tokens**: XML-based tokens used primarily for single sign-on (SSO) in enterprise environments. SAML tokens facilitate the exchange of authentication and authorization data between parties.
+> - **[[Security Assertion Markup Language]] (SAML) Tokens**: XML-based tokens used primarily for single sign-on (SSO) in enterprise environments. SAML tokens facilitate the exchange of authentication and authorization data between parties.
 > - **OAuth Tokens**: Tokens used in the [[OAuth 2.0]] framework to grant access to resources without sharing user credentials. OAuth tokens can be in the form of access tokens, refresh tokens, or ID tokens (when used with [[OpenID Connect]]).
 > - **Simple Web Tokens (SWT)**: A lightweight token format used for authentication and authorization, often replaced by JWTs in modern applications due to the latter's enhanced features.
 

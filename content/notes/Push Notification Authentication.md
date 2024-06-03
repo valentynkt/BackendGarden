@@ -7,7 +7,7 @@ aliases:
   - Push Authentication
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 links:
 ---
 

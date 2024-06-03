@@ -6,7 +6,7 @@ aliases:
   - Redis Cache
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 links:
 ---
 link: [[Message brokers]], [[Key-Value Databases]]

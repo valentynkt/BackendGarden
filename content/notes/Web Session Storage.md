@@ -5,7 +5,7 @@ aliases:
   - Session-Storage
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 links:
 ---
 

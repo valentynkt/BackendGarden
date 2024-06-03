@@ -10,5 +10,5 @@ links:
 
 link: [[Web Security]]
 
-# Web Application Firewalls
+# Web Application Firewalls (WAF)
 

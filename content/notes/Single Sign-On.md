@@ -8,7 +8,7 @@ tags:
 links:
 ---
 
-link: [[Web Security]]
+link: [[Web Security]], [[Authentication]]
 
 # Single Sign-On
 

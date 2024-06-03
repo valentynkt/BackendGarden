@@ -8,7 +8,7 @@ aliases:
   - Password-Based
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 links:
 ---
 
@@ -20,13 +20,11 @@ link: [[Authentication]]
 
 Password-based authentication is one of the most common methods for verifying user identity. It involves a user providing a secret combination of characters, known only to them, to gain access to a system or application. Despite its widespread use, this method has both advantages and limitations.
 
-
-
->[!summary]- **Common Types**
->
->- **[[HTTP Basic Authentication]]**: A simple authentication scheme built into the HTTP protocol where the user credentials are encoded and sent with each request.
->- **[[Session-Cookie Authentication]]**: Involves creating a session on the server side after the user logs in. The server stores session information and sends a session identifier (session cookie) to the client, which is included in subsequent requests to maintain the session.
->- **[[Web Tokens|Token-Based Authentication]]**: Involves the user providing credentials to receive a token, which is then used for subsequent requests instead of resending the username and password.
+> [!summary]- **Common Types**
+> 
+> - **[[HTTP Basic Authentication]]**: A simple authentication scheme built into the HTTP protocol where the user credentials are encoded and sent with each request.
+> - **[[Session-Cookie Authentication]]**: Involves creating a session on the server side after the user logs in. The server stores session information and sends a session identifier (session cookie) to the client, which is included in subsequent requests to maintain the session.
+> - **[[Web Tokens|Token-Based Authentication]]**: Involves the user providing credentials to receive a token, which is then used for subsequent requests instead of resending the username and password.
 
 ## How Password-Based Authentication Works
 
@@ -48,12 +46,13 @@ Password-based authentication is one of the most common methods for verifying us
 ## Pros and Cons
 
 > [!success]- **Pros**
+> 
 > - **Simplicity**: Easy to implement and use.
 > - **Ubiquity**: Supported by nearly all systems and applications.
 > - **Cost-Effective**: Requires minimal additional infrastructure or technology.
 
 > [!danger]- **Cons**
+> 
 > - **Security Risks**: Susceptible to attacks such as brute-force, phishing, and credential stuffing.
 > - **User Management**: Can be cumbersome to manage, especially with password resets and recoveries.
 > - **Password Fatigue**: Users often struggle with remembering multiple complex passwords, leading to poor practices like reusing passwords.
-

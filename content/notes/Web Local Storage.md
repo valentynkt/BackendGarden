@@ -5,7 +5,7 @@ aliases:
   - Local-Storage
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 links:
 ---
 
