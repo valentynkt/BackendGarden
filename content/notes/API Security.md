@@ -36,7 +36,6 @@ API Security involves implementing measures to protect [[API|APIs]] from unautho
 
 > [!summary]- **Security Protocols and Practices**
 > - **[[SSL and TLS Protocols|SSL/TLS]]**: Protocols for securing communications over a computer network.
-> - **[[Content Security Policy]]**: Helps prevent cross-site scripting (XSS) and data injection attacks.
 > - **[[Cross-Origin Resource Sharing]]**: A mechanism that allows or restricts requested resources on a web server depending on where the HTTP request was initiated.
 
 

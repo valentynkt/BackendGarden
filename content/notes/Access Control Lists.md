@@ -35,6 +35,7 @@ Access Control Lists (ACLs) are a security mechanism used to define and manage t
 > [!summary]-
 > 
 > - **Standard ACLs**: Basic ACLs that allow or deny traffic based on source IP addresses. These are simpler and have limited criteria for filtering.
+> ![[9517abd1-c28f-4336-80e1-e74e381d2cb8_588x663.webp]]
 > - **Extended ACLs**: More advanced ACLs that provide greater control by allowing or denying traffic based on multiple criteria, including source and destination IP addresses, protocol types, and port numbers.
 > - **File System ACLs**: Control access to files and directories on a file system.
 > - **Network ACLs**: Manage access to network devices, routers, and switches.
@@ -57,14 +58,14 @@ Access Control Lists (ACLs) are a security mechanism used to define and manage t
 - **Network Security**: Using network ACLs to regulate traffic flow and restrict access to network devices.
 - **Database Security**: Applying ACLs to databases to control access to data and ensure only authorized users can perform certain operations.
 - **Application Security**: Using ACLs within applications to manage user permissions and access to different functionalities.
-- **Cloud Environments**: Utilizing [[AWS Security Groups|AWS SG]]], [[Azure Network Security Groups|Azure NSG]] , and Firewall Rules (Google Cloud) to manage and secure access to cloud resources.
+- **Cloud Environments**: Utilizing [[AWS Security Groups|AWS SG]], [[Azure Network Security Groups|Azure NSG]] , and Firewall Rules (Google Cloud) to manage and secure access to cloud resources.
 
 ## Related Topics 
 
 > [!summary] 
 > - **[[Authentication]]**: Ensures that only authorized users can access a system or resource. ACLs work in conjunction with authentication mechanisms to verify the identity of users before checking their permissions. 
 > - **[[Authorization]]**: Determines what authenticated users are allowed to do. ACLs are a key component of the authorization process, specifying the actions permitted for different users or groups. 
-> - **[[Role-Based Access Control (RBAC)]]**: A method of restricting access based on roles assigned to users. While ACLs specify permissions for individual users or groups, RBAC assigns permissions to roles, which are then assigned to users. Both can be used together to enhance security.
+> - **[[Role-Based Access Control]]**: A method of restricting access based on roles assigned to users. While ACLs specify permissions for individual users or groups, RBAC assigns permissions to roles, which are then assigned to users. Both can be used together to enhance security.
 
 
 ## Conclusion

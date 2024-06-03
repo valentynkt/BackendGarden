@@ -211,5 +211,5 @@ These examples underscore the distinct functionalities and suitable scenarios fo
 
 # References
 
-https://www.youtube.com/watch?v=HR2DJYE0Kss - SQL Stored Procedures, Functions, and Views
-https://www.youtube.com/watch?v=NrBJmtD0kEw - SQL Stored Procedures
+[SQL Stored Procedures, Functions, and Views - YouTube](https://www.youtube.com/watch?v=HR2DJYE0Kss)
+[Advanced SQL Tutorial | Stored Procedures + Use Cases - YouTube](https://www.youtube.com/watch?v=NrBJmtD0kEw)

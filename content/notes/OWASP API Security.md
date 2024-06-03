@@ -7,7 +7,7 @@ tags:
 links:
 ---
 
-link: [[API Security]]
+link: [[Web Security]]
 
 # OWASP API Security
 

@@ -56,7 +56,6 @@ Security in [[Web]] and [[API]] development involves implementing measures to pr
 > [!summary]  Security Protocols and Practices
 > 
 > - **[[SSL and TLS Protocols|SSL/TLS]]**: Protocols for securing communications over a computer network.
-> - **[[Content Security Policy]]**: Helps prevent cross-site scripting (XSS) and data injection attacks.
 > - **[[Cross-Origin Resource Sharing]]**: A mechanism that allows or restricts requested resources on a web server depending on where the HTTP request was initiated.
 
 
@@ -71,7 +70,7 @@ Security in [[Web]] and [[API]] development involves implementing measures to pr
 > 
 > - **[[OWASP API Security]]**: Check for more recommendations and cheatsheets from OWASP.
 > - **[[API Gateway]] Security**: Uses gateways as an additional layer of security to enforce API policies and reduce the risk of attacks.
-> - **[[API Testing]]**: Regular penetration testing, vulnerability assessments, and security audits to identify and mitigate risks.
+> - **[[Software Testing]]**: Regular penetration testing, vulnerability assessments, and security audits to identify and mitigate risks.
 > - **[[IPv4 vs IPv6]]**: Details the functionalities and improvements brought by IPv6 over IPv4, enhancing security capabilities and simplifying network configuration.
 
 ## Conclusion
