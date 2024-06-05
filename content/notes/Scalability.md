@@ -15,3 +15,9 @@ link: [[Cloud Architecture]], [[Distributed Systems]]
 > [!summary] 
 > - [[Horizontal Scaling]]
 > - [[Vertical Scaling]]
+
+## Related Topics
+
+
+> [!summary] Related Topics
+>  - [[Database Scaling]]

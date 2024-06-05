@@ -3,8 +3,8 @@ created: 2024-05-31 11:46
 aliases: 
 tags:
   - LearningIT
-  - seed🌱
   - moc
+  - bud🌿
 links:
 ---
 
@@ -25,7 +25,6 @@ Cloud Architecture is built upon several core principles and components that ena
 > - **[[Scalability]]**: The ability to scale resources up or down based on demand, ensuring optimal performance and cost efficiency.
 > - **[[Fault Tolerance]]**: The capability to continue operating properly in the event of the failure of some components, using redundancy and failover mechanisms.
 > - **[[High Availability]]**: Ensures that cloud services are available when needed, often achieved through multiple data centers and redundant resources.
-> - **[[Data Replication]]**: Copies data across multiple locations to ensure high availability and disaster recovery.
 > - **[[Load Balancing]]**: Distributes incoming network traffic across multiple servers to ensure no single server becomes overwhelmed.
 > - **Security**: Protects data and applications through encryption, access controls, and secure authentication mechanisms.
 > - **Multi-Tenancy**: Allows multiple users to share a single instance of a software application while maintaining data isolation.
@@ -58,6 +57,8 @@ Cloud Architecture encompasses various concepts and is closely related to severa
 > - **[[Circuit Breaker Pattern]]**: Prevents cascading failures in distributed systems by stopping the flow of requests to failing services.
 > - **[[Externalized Configuration]]**: Manages configuration settings outside of the application, allowing dynamic updates and environment-specific configurations.
 > - **[[Serverless Architecture Pattern]]**: Allows developers to build and run applications without managing infrastructure, focusing on writing code and deploying functions.
+> - [[Cloud Network|Cloud Solutions]]
+> 
 
 ## Summary
 

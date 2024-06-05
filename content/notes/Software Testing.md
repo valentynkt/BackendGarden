@@ -4,7 +4,7 @@ aliases:
   - Testing
 tags:
   - LearningIT
-  - seed🌱
+  - bud🌿
 links:
 ---
 
@@ -38,7 +38,7 @@ Software Testing can be categorized into various types, each serving a specific 
 > [!summary] **Types of Software Testing**
 > 
 > - **Smoke Testing**: Preliminary testing to check if the basic functionality of the application works correctly.
-> - **[[Functional Testing]]**: Verifies that the application functions as expected, covering all possible scenarios and inputs([[Unit Testing]], [[Integration Testing]]).
+> - **[[Functional Testing]]**: Verifies that the application functions as expected, covering all possible scenarios and inputs([[Unit Testing]], [ntegration Testing).
 > - **[[Regression Testing]]**: Revalidates the application after changes or updates to ensure that existing functionality remains unaffected.
 > - **[[Stress Testing]]**: Tests the application's behavior under extreme load conditions to identify breaking points and ensure stability.
 > - **[[Security Testing]]**: Assesses the application for vulnerabilities, ensuring that data is protected and unauthorized access is prevented.

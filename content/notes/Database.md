@@ -55,6 +55,12 @@ Effective database implementation requires:
 - **Structured [[Database Design]]**: Employ a logical schema based on data relationships and business rules to structure data effectively within the chosen DBMS.
 - **Managing Data**: Implement best practices for data integrity, security, and efficiency within the DBMS framework.
 
+## Related Topics
+
+> [!summary] Related Topics
+> - [[CAP Theorem]]
+> - [[Database Scaling]]
+
 ## Summary
 
 > [!summary]
