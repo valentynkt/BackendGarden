@@ -53,7 +53,8 @@ The "Landscape" serves as a comprehensive guide and overarching map for explorin
 > 	- [[IPSec]] (Internet Protocol Security)
 > 	- [[SSH]] (Secure Shell)
 > - **Web Session Management**
-> 	- [[Cookies and Sessions]]
+> 	- [[Session Management]]
+> 	- [[Web Cookies|Cookies]]
 
 
 > [!important]- [[API]] (MoC)
@@ -67,7 +68,7 @@ The "Landscape" serves as a comprehensive guide and overarching map for explorin
 > 	- [[gRPC API]]
 > 		- [[Remote Procedure Call]]
 > 		- [[Protocol Buffers|Protobuf]]
-> - **[[API Security]] (MoC)**
+> - **API Security **
 > 	- **Authentication and Authorization**
 > 		- [[Authentication]]
 > 		- [[Authorization]]
@@ -76,17 +77,108 @@ The "Landscape" serves as a comprehensive guide and overarching map for explorin
 > 		- [[OAuth 2.0]]
 > 		- [[OpenID Connect]]
 > 	- **Security Protocols and Policies**
-> 		- [[Content Security Policy]] (CSP)
+> 		- [[Security Policies]] 
 > 		- [[Cross-Origin Resource Sharing]] (CORS)
 > 	- **Threat Management**
 > 		- [[Intrusion Detection Systems]] (IDS)
 > 		- [[Rate Limiting]]
 > 		- [[OWASP API Security]]
 > 	- **Security Practices**
-> 		- [[API Gateway Security]]
-> 		- [[API Security Testing]]
+> 		- [[API Gateway]]
+> 		- [[Security Testing]]
 
-  
+## System Design
+
+
+> [!important]- [[Architectural Patterns]] (MoC)
+> - [[Monolithic Architecture Pattern]]
+> - [[Layered Architecture Pattern]]
+> - [[Model-View-Controller Pattern]]
+> - [[Onion Architecture Pattern]]
+> - [[Client-Server Architecture Pattern]]
+> - [[Microservices Architecture Pattern]]
+> - [[Serverless Architecture Pattern]]
+> - [[Event-driven Architecture Pattern]]
+> - [[Message-driven Architecture Pattern]]
+> - [[Event Sourcing Architecture Pattern]]
+> - [[Domain Driven Design]]
+> - [[Actor Architecture Pattern]]
+> - [[Reactive Architecture]]
+> - [[Microkernel Architecture Pattern]]
+> - [[Space-Based Architecture Pattern]]
+> - [[Master-Slave Architecture Pattern]]
+> - [[Pipe-Filter Architecture Pattern]]
+> - [[Broker Architecture Pattern]]
+> - [[Peer-to-Peer Architecture Pattern]]
+> - [[Cloud Architecture]]
+> - [[Distributed Systems]]
+
+
+> [!important]- [[Microservices Architecture Pattern]]
+> - **[[Scalability|Scalability]]**
+> - **[[Fault Tolerance]]**
+> - **[[High Availability]]**
+> - **[[Data Replication]]**
+> - **[[Load Balancing]]**
+> - **[[API Gateway]]**
+> - **[[Service Registry Pattern]]**
+> - **[[Circuit Breaker Pattern]]**
+> - **[[Event-driven Architecture Pattern]]**
+> - **[[Database per Service]]**
+> - **[[Command Query Responsibility Segregation]]**
+> - **[[Externalized Configuration]]**
+> - **[[Saga Pattern]]**
+> - **[[Bulkhead Pattern]]**
+> - **[[Backends for Frontends pattern]]**
+> - **[[Orchestration and Choreography]]**
+
+
+> [!important]- [[Distributed Systems]]
+>- **[[Microservices Architecture Pattern]]**
+>- **[[Actor Architecture Pattern|Actor Model]]**
+>- **[[Event-driven Architecture Pattern]]**
+>- **[[Message-driven Architecture Pattern]]**
+>- **[[CAP Theorem]]**
+>- **[[Consensus Algorithms]]**
+>- **[[Load Balancing]]**
+>- **[[Fault Tolerance]]**
+>- **[[Data Replication]]**
+
+## Code Design
+
+> [!important]- [[Object Oriented Programming]] (MoC)
+>- [[Object Oriented Programming]]
+>  - Core Principles
+>    - [[Abstraction]]
+>    - [[Encapsulation]]
+>    - [[Inheritance]]
+>    - [[Polymorphism]]
+>- Relationships
+> 	 - [[Association relationships]]
+> 	 - [[Aggregation relationships]]
+> 	 - [[Composition relationships]]
+> 	 - [[Dependency relationships]]
+
+
+> [!important]- [[Design Principles]] (MoC)
+> - [[Code reuse]]
+> - [[Extensibility]]
+> - [[Encapsulate What Varies]]
+> - [[Depend on Abstraction]]
+> - [[Favor Composition Over Inheritance]]
+> - [[SOLID Principles]]
+>   - [[Single Responsibility Principle]]
+>   - [[Open Closed Principle]]
+>   - [[Liskov Substitution Principle]]
+>   - [[Interface Segregation Principle]]
+>   - [[Dependency Inversion Principle]]
+> - [[Don't Repeat Yourself|DRY]]
+> - [[Keep It Short and Simple|KISS]]
+> - [[You Ain't Gonna Need It|YAGNI]]
+> - [[Law of Demeter]]
+> - [[Design Principle vs Design Pattern]]
+
+
 > [!important]- [[Design Patterns]] (MoC)
 > - [[Design Patterns Cheatsheet]]
 > - [[Creational Patterns]]
@@ -116,59 +208,12 @@ The "Landscape" serves as a comprehensive guide and overarching map for explorin
 >   - [[Visitor Pattern]]
 
 
-> [!important]- [[Architectural Patterns]] (MoC)
-> - [[Monolithic Architecture Pattern|Mononolith Architecture]]
-> - [[Client-Server Architecture Pattern|Clien-Server Architecture]]
-> - [[Event-driven Architecture Pattern|Event-Driven Architecture]]
-> - [[Layered Architecture Pattern|Layered Architecture]]
-> - [[Model-View-Controller Pattern]]
-> - [[Onion Architecture Pattern|Onion Architecture]]
-> - [[Microservices Architecture Pattern|Microservices Architecture]]
->   - [[API Gateway]]
->   - [[Circuit Breaker Pattern]]
->   - [[Backends for Frontends Pattern]]
->   - [[Database per Service]]
->   - [[Command Query Responsibility Segregation]]
->   - [[Externalized Configuration]]
->   - [[Saga Pattern]]
->   - [[Bulkhead Pattern]]
->   - [[Backends for Frontends pattern]]
->   - [[Service Registry Pattern]]
-> - [[Serverless Architecture Pattern|Serverless Architecture]]
 
+> [!important] [[Cloud Network|Cloud Solutions]]
+> [[Azure]]
+> [[AWS]]
 
-> [!important]- [[Design Principles]] (MoC)
-> - [[Code reuse]]
-> - [[Extensibility]]
-> - [[Encapsulate What Varies]]
-> - [[Depend on Abstraction]]
-> - [[Favor Composition Over Inheritance]]
-> - [[SOLID Principles]]
->   - [[Single Responsibility Principle]]
->   - [[Open Closed Principle]]
->   - [[Liskov Substitution Principle]]
->   - [[Interface Segregation Principle]]
->   - [[Dependency Inversion Principle]]
-> - [[Don't Repeat Yourself|DRY]]
-> - [[Keep It Short and Simple|KISS]]
-> - [[You Ain't Gonna Need It|YAGNI]]
-> - [[Law of Demeter]]
-> - [[Design Principle vs Design Pattern]]
-
-
-> [!important]- [[Object Oriented Programming]] (MoC)
->- [[Object Oriented Programming]]
->  - Core Principles
->    - [[Abstraction]]
->    - [[Encapsulation]]
->    - [[Inheritance]]
->    - [[Polymorphism]]
->- Relationships
-> 	 - [[Association relationships]]
-> 	 - [[Aggregation relationships]]
-> 	 - [[Composition relationships]]
-> 	 - [[Dependency relationships]]
-
+## Others
 
 > [!important]- [[Database]] (MoC)
 > - [[Relational Databases]]

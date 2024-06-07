@@ -57,6 +57,7 @@ The following are some of the primary architectural patterns used in system desi
 
 
 ![[../Files/Images/Pasted image 20240426160412.png]]
+
 ### Implementation Overview
 
 Implementing architectural patterns involves several critical considerations to ensure that the system's design aligns with its intended functions and requirements:
