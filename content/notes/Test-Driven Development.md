@@ -6,10 +6,11 @@ aliases:
 tags:
   - LearningIT
   - seed🌱
+  - ToBeImplemented
 links:
 ---
 
-link: [[Architectural Patterns]]
+link: [[Architectural Patterns]], [[Software Testing|Testing]]
 
 # Test-Driven Development
 

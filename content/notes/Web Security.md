@@ -1,6 +1,7 @@
 ---
 created: 2024-05-08 20:46
-aliases: 
+aliases:
+  - Security
 tags:
   - LearningIT
   - "#moc"
@@ -18,61 +19,66 @@ link: [[Web]], [[API]]
 
 ## Overview
 
-Security in [[Web]] and [[API]] development involves implementing measures to protect data, communications, and resources from unauthorized access and attacks. This note consolidates key security concepts, strategies, and tools essential for safeguarding web applications and APIs.
+Web security involves implementing practices and tools to protect web applications, APIs, and data from unauthorized access, misuse, and attacks. This note provides an expanded map covering key security concepts, tools, and strategies necessary for securing web environments.
 
 ## Content
 
-> [!summary] Encryption and Data Protection
+> [!primary] **Core Security Concepts**
 > 
-> - **[[End-to-End Encryption]]**: Ensures data sent between two parties cannot be intercepted or tampered with, providing confidentiality and integrity.
-> - **[[SSL and TLS Protocols]]**: Secure internet communications by encrypting data exchanged over the web, essential for web browsing, email, and more.
-> - **[[Data Cryptography]]**: Secures data by transforming it into a format that cannot be easily understood by unauthorized users, using cryptographic algorithms and keys.
+> - **[[Authentication]]**: Verifies the identity of users through credentials like passwords, biometrics, or two-factor authentication.
+> - **[[Authorization]]**: Grants or denies permissions, defining user roles and access rights after authentication.
+> - **[[Access Control Lists|ACLs]]**: Specifies detailed permissions for different users or groups on resources, providing fine-grained access control.
+> - **[[Single Sign-On|SSO]]**: Enables a single login for multiple applications, improving user experience and centralizing authentication.
+> - **[[Zero Trust Security]]**: Assumes threats can originate anywhere, requiring continuous verification and access control, even within the network.
 
-
-> [!summary] Network and Communication Security
+> [!data] **Data Protection and Encryption**
 > 
-> - **[[VPN]]**: Virtual Private Networks secure and encrypt connections over less secure networks like the internet, protecting sensitive data and user identities.
-> - **[[IPSec]] (Internet Protocol Security)**: A suite of protocols used to secure Internet communications by authenticating and encrypting each IP packet of a communication session.
-> - **[[SSH]] (Secure Shell)**: Provides a secure channel over an unsecured network, offering strong authentication and encrypted data communications between two computers.
+> - **[[End-to-End Encryption]]**: Protects data in transit between sender and receiver, ensuring confidentiality and integrity.
+> - **[[Cryptography]]**: Secures data by transforming it into an unreadable format for unauthorized users through algorithms and keys.
+> - **[[SSL and TLS Protocols|SSL/TLS]]**: Protocols that encrypt data transmission over the internet, securing communication for web browsing, email, and other applications.
+> - **[[Data Masking]]**: Hides sensitive data elements (e.g., credit card numbers) by obfuscating or transforming parts of the data, reducing exposure risk.
 
-
-> [!summary] Authentication and Authorization
+> [!access] **Network and Communication Security**
 > 
-> - **[[Authentication]]**: Techniques that ensure only authorized users can access a network or a resource, including methods like passwords, biometrics, two-factor authentication (2FA), and digital certificates.
-> - **[[Authorization]]**: The process of granting or denying specific permissions to users, groups, or roles to access resources or perform operations within a network or application environment.
-> - **[[Single Sign-On|SSO]] (Single Sign-On)**: Allows users to authenticate once and gain access to multiple systems without re-entering credentials.
-> - **[[Access Control Lists]]**: Define which users can access which resources, providing a fine-grained security control.
+> - **[[VPN]] (Virtual Private Network)**: Creates a secure, encrypted connection over public networks, protecting data privacy and user identity.
+> - **[[IPSec]]**: Authenticates and encrypts IP packets for secure communication over IP networks.
+> - **[[SSH]] (Secure Shell)**: Establishes an encrypted channel between devices, securing remote access and file transfers.
+> - **[[Network Firewall]]**: Filters incoming and outgoing network traffic, controlling access to prevent unauthorized entry.
+> - **[[Local Area Network|LAN]] / [[Wide Area Network|WAN]] (Local and Wide Area Networks)**: Understanding these network types is essential for securing data flow in internal and extended networks.
+> - **[[DNS Security Extensions|DNSSEC]]**: Adds cryptographic authentication to DNS responses, preventing attacks like DNS spoofing and enhancing network reliability.
 
-
-> [!summary] Token-Based Authentication
+> [!token] **Token-Based and Delegated Authentication**
 > 
-> - **[[JSON Web Tokens|JSON Web Tokens (JWT)]]**: A method for securely transmitting information as a JSON object.
-> - **[[OAuth 2.0]]**: A protocol for authorization, providing a secure delegated access to server resources.
-> - **[[OAuth 2.0 Flows]]**: Different authentication flows for varying application scenarios.
-> - **[[OAuth PKCE]]**: Enhancement for public clients on mobile or desktop applications.
-> - **[[OpenID Connect]]**: An identity layer on top of OAuth 2.0 for authentication.
+> - **[[JSON Web Tokens|JWT]]**: A compact, URL-safe token used for transmitting claims between parties, commonly for API authentication.
+> - **[[OAuth 2.0]]**: An authorization protocol that allows secure delegated access without exposing user credentials.
+> - **[[OpenID Connect]]**: An identity layer built on OAuth 2.0 for handling authentication and retrieving user profile information.
+> - **[[Session Management]]**: Manages user sessions with tokens or cookies, ensuring that authenticated sessions are secure and properly terminated.
 
-
-> [!summary]  Security Protocols and Practices
+> [!risk] **Threat Detection and Mitigation**
 > 
-> - **[[SSL and TLS Protocols|SSL/TLS]]**: Protocols for securing communications over a computer network.
-> - **[[Cross-Origin Resource Sharing]]**: A mechanism that allows or restricts requested resources on a web server depending on where the HTTP request was initiated.
+> - **[[Intrusion Detection Systems|Intrusion Detection Systems (IDS)]]**: Monitors network or system activities to detect suspicious behavior and unauthorized access.
+> - **[[Rate Limiting]]**: Controls the number of requests users can make to prevent abuse and ensure fair resource usage.
+> - **[[Web Application Firewalls|WAF]]**: Filters and monitors HTTP traffic to protect web applications from common threats like SQL injection and XSS.
+> - **[[Cross-Origin Resource Sharing|CORS]]**: Controls resource sharing across web origins, helping prevent unauthorized access from foreign domains.
+> - **[[Bot Detection and Management]]**: Identifies and mitigates malicious bots attempting automated attacks or scraping, reducing risks like DDoS and data theft.
 
-
-> [!summary] Threat Detection and Management
+> [!compliance] **Compliance and Security Standards**
 > 
-> - **[[Intrusion Detection Systems]]**: Detects unauthorized access or anomalies in API usage.
-> - **[[Rate Limiting]]**: Prevents abuse and ensures fair use by limiting how often each user can call the API.
-> - **[[Web Application Firewalls]] (WAF)**: Protects web applications from attacks by filtering and monitoring HTTP traffic, effective against threats like XSS and SQL injection.
+> - **[[OWASP API Security]]**: Recommendations and best practices from OWASP to protect APIs from common vulnerabilities.
+> - **[[API Gateway]]**: Uses API gateways to enforce security policies, monitor traffic, and reduce the risk of unauthorized access.
+> - **[[Software Testing]]**: Conducts penetration tests, vulnerability assessments, and security audits to identify and fix potential weaknesses.
+> - **[[IPv4 vs IPv6]]**: Highlights IPv6’s enhanced security features, such as simplified IPsec configuration, compared to IPv4.
+> - **[[Data Privacy Regulations]]**: Enforces privacy compliance by adhering to standards like GDPR, HIPAA, and CCPA, protecting user data rights and enhancing trust.
 
-
-> [!summary] Compliance and Best Practices
+> [!threat] **Common Web Vulnerabilities** 
 > 
-> - **[[OWASP API Security]]**: Check for more recommendations and cheatsheets from OWASP.
-> - **[[API Gateway]] Security**: Uses gateways as an additional layer of security to enforce API policies and reduce the risk of attacks.
-> - **[[Software Testing]]**: Regular penetration testing, vulnerability assessments, and security audits to identify and mitigate risks.
-> - **[[IPv4 vs IPv6]]**: Details the functionalities and improvements brought by IPv6 over IPv4, enhancing security capabilities and simplifying network configuration.
-
+>- **[[Denial of Service]] (DoS)**: Overloads a server with excessive requests, causing it to become unavailable to legitimate users. 
+>- **[[SQL Injection]]**: Exploits vulnerabilities in input fields to execute malicious SQL commands, compromising the database. 
+>- **[[Cross-Site Scripting|Cross-Site Scripting (XSS)]]** : Injects malicious scripts into web pages, affecting users by running unwanted actions in their browsers. 
+>- **[[Cross-Site Request Forgery|Cross-Site Request Forgery (CSRF)]]**: Tricks authenticated users into performing unwanted actions on a site by exploiting their logged-in session. 
+>- **Insecure Deserialization**: Manipulates serialized objects to execute arbitrary code or access sensitive data within an application. 
+>- **[[Man-in-the-Middle|Man-in-the-Middle (MITM)]]**: Intercepts and potentially alters communication between two parties, capturing sensitive information in transit.
+> 
 ## Conclusion
 
-Consolidating web and API security into a unified approach provides a comprehensive understanding of the measures required to protect applications and data. By implementing robust encryption, network security, access control, and threat management strategies, developers can ensure the security and integrity of their systems.
+A comprehensive approach to web security involves combining data encryption, network protection, secure access management, and active threat detection. By following best practices across these areas, developers can build secure, resilient applications that protect data integrity, ensure user trust, and meet compliance standards.

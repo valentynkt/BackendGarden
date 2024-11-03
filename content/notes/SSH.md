@@ -28,7 +28,7 @@ Secure Shell (SSH) is a cryptographic network protocol for operating network ser
 > 
 > 1. **Connection Establishment**: The SSH client initiates a connection to the SSH server using the [[TCP|TCP/IP]] protocol, usually on port 22.
 > 2. **Key Exchange**: Upon connecting, the client and server negotiate to establish a secure channel by exchanging cryptographic keys.
-> 3. **Authentication**: The client must authenticate itself to the server. This can be done using one of several methods, such as a password, SSH key pair, or Kerberos tickets.
+> 3. **Authentication**: The client must authenticate itself to the server. This can be done using one of several methods, such as a password, SSH key pair, or [[Kerberos tickets]].
 > 4. **[[Session Management|Session]]**: Once authenticated, the user can execute commands on the server, forward local ports, manage files, and more, all within the encrypted SSH [[Session Management|session]].
 
 
@@ -44,7 +44,7 @@ Secure Shell (SSH) is a cryptographic network protocol for operating network ser
 > [!info]- Common Uses of SSH
 > 
 > - **Remote Server Management**: System administrators use SSH extensively for managing servers remotely.
-> - **Secure File Transfer**: SSH is often used for secure file transfers using SCP (Secure Copy Protocol) or [[SFTP]] (SSH File Transfer Protocol), which build on SSH to provide secure file transfer capabilities.
+> - **Secure File Transfer**: SSH is often used for secure file transfers using SCP (Secure Copy Protocol) or [[SSH File Transfer Protocol|SFTP]] (SSH File Transfer Protocol), which build on SSH to provide secure file transfer capabilities.
 > - **Port Forwarding/Tunneling**: SSH can forward local ports to the remote host and vice versa or create a secure tunnel for other application protocols.
 
 ## Advantages of SSH

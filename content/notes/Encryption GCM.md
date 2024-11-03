@@ -1,0 +1,2 @@
+**Galois/counter mode (GCM)** – Uses an incremental counter that generates a universal hash over a finite binary field (Galois field) to generate message authentication codes before encryption and decryption. 
+![[Pasted image 20231026025311.png]]

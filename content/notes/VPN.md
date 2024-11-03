@@ -2,7 +2,9 @@
 created: 2024-05-08 19:34
 aliases:
   - Virtual Private Network
-  - Virtual Private Network(VPN)
+  - Virtual Private Network (VPN)
+  - VPNs
+  - Virtual Private Networks
 tags:
   - LearningIT
   - bud🌿
@@ -20,7 +22,7 @@ A Virtual Private Network (VPN) is a technology that creates a safe and encrypte
 
 ## Key Features of VPN
 
-- **[[Encryption]]**: VPNs encrypt data traffic, which prevents eavesdropping and makes communication secure over public networks.
+- **[[Cryptography Encryption]]**: VPNs encrypt data traffic, which prevents eavesdropping and makes communication secure over public networks.
 - **Remote Access**: Allows users to connect to a private network from anywhere that has internet access.
 - **Anonymity**: By masking the user's [[Internet Protocol|IP]] address, VPNs can enhance online anonymity and protect users from being tracked.
 

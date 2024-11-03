@@ -8,7 +8,7 @@ tags:
 links:
 ---
 
-link: [[Azure]]
+link: [[Azure]], [[Identity Management]]
 
 # Role-Based Access Control
 

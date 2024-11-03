@@ -27,7 +27,7 @@ gRPC is designed for low latency and high throughput communication, making it an
 > [!info]-
 > - **[[HTTP 2.0]] Based**: Utilizes HTTP/2 for transport, which supports multiplexing multiple requests over a single connection.
 > - **Interface Definition Language (IDL)**: Uses [[Protocol Buffers]] (often abbreviated as ProtoBuf), Google’s language-neutral, platform-neutral, extensible mechanism for serializing structured data.
-> - **Streaming Support**: Provides support for streaming requests and responses, allowing bidirectional and [[Asynchronous]] communication.
+> - **Streaming Support**: Provides support for streaming requests and responses, allowing bidirectional and [[Asynchronous CSharp]] communication.
 > - **Language Agnostic**: Offers [[API]] stubs in various programming languages, enabling easy implementation across different systems.
 
 ## How gRPC Works
@@ -113,6 +113,9 @@ In a typical microservices setup, as shown in the diagram below, an API Gateway 
 > - **Browser Compatibility**: Inconsistent support in [[Web|web]] browsers, potentially complicating client-side implementation.
 > - **Network Configuration**: May encounter issues with traditional network setups like firewalls and proxies.
 
+## Related Topics
+> [!summary] Related Topics
+> - [[gRPC in .NET]]
 ## Conclusion
 
 gRPC offers a sophisticated, modern approach to building distributed applications and services, particularly where performance and efficiency are paramount. By leveraging the power of [[HTTP 2.0]] and [[Protocol Buffers]], it provides a robust framework for high-speed service-to-service communication.

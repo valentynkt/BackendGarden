@@ -19,7 +19,7 @@ link: [[Message brokers]]
 
 ## Overview
 
-A Message Topic is a form of [[Asynchronous]] service-to-service communication used in publish-subscribe (pub/sub) messaging systems. Unlike [[Message Queues]], where each message is processed by a single consumer, message topics allow multiple consumers to receive and process each message. This enables efficient broadcasting of messages to multiple subscribers, facilitating scalable and decoupled communication between different components of an application. 
+A Message Topic is a form of [[Asynchronous CSharp]] service-to-service communication used in publish-subscribe (pub/sub) messaging systems. Unlike [[Message Queues]], where each message is processed by a single consumer, message topics allow multiple consumers to receive and process each message. This enables efficient broadcasting of messages to multiple subscribers, facilitating scalable and decoupled communication between different components of an application. 
 
 > [!note] 
 > This pattern is closely related to the [[Observer Pattern|Observer]] Design Pattern, where subscribers (observers) are notified of events (messages) published by producers (subjects).

@@ -44,7 +44,7 @@ The architecture of IPSec includes several components that ensure secure communi
 
 > [!info]- Architectural Components
 > - **Security Associations (SA)**: Defines the parameters for how IPSec will operate between devices.
-> - **SA Database (SADb)**: Stores the parame[[Database|ters for]] each SA.
+> - **SA Database (SADb)**: Stores the parameters for each SA.
 > - **Key Management**: Often handled by IKE, which securely manages key generation and exchange.
 
 ## Common Uses of IPSec

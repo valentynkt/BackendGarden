@@ -17,42 +17,39 @@ link: [[Passwordless Authentication]]
 
 ## Overview
 
-Biometric Authentication is a [[Passwordless Authentication]] method that uses unique biological characteristics of an individual, such as fingerprints, facial recognition, or iris scans, to verify their identity. This method provides a high level of security by relying on unique physical traits that are difficult to replicate.
+Biometric Authentication uses unique physical traits like fingerprints, facial recognition, or iris scans to verify identity, providing high security and ease of use without passwords.
 
 ## Types of Biometric Authentication
 
-> [!summary] **Types of Biometric Authentication**
+> [!summary] **Types**
 > 
-> - **Fingerprint Recognition**: Uses unique patterns on an individual's fingertips to authenticate identity.
-> - **Facial Recognition**: Analyzes facial features and matches them against stored data.
-> - **Iris Recognition**: Scans the unique patterns in the colored ring of the eye.
-> - **Voice Recognition**: Identifies individuals based on their unique vocal characteristics.
-> - **Retina Scanning**: Examines the unique pattern of blood vessels at the back of the eye.
-> - **Hand Geometry**: Measures the shape and size of the hand and fingers.
-> - **[[Behavioral Biometrics]]**: Analyzes patterns in the user's behavior, such as typing rhythm or gait.
+> - **Fingerprint Recognition**: Scans unique patterns on fingertips.
+> - **Facial Recognition**: Matches facial features to stored data.
+> - **Iris Recognition**: Verifies unique patterns in the eye.
+> - **Voice Recognition**: Identifies users by their voice.
+> - **Retina Scanning**: Analyzes the blood vessel pattern at the back of the eye.
+> - **Hand Geometry**: Measures the shape and size of the hand.
+> - **[[Behavioral Biometrics]]**: Analyzes user behavior, like typing rhythm or gait.
 
-## How Biometric Authentication Works
+## How It Works
 
-1. **Enrollment**: The user provides a biometric sample (e.g., fingerprint, face scan) to the system during the initial setup.
-2. **Storage**: The biometric data is converted into a digital template and securely stored.
-3. **[[Authentication]] Request**: When the user attempts to log in, they provide a new biometric sample.
-4. **Comparison**: The system compares the new sample with the stored template.
-5. **Access Granted**: If the samples match, the user is authenticated and granted access.
+1. **Enrollment**: Users provide a biometric sample for initial setup.
+2. **Data Storage**: Biometric data is securely stored as a digital template.
+3. **Authentication**: Users provide a fresh biometric sample.
+4. **Verification**: The system compares the sample with the stored template.
+5. **Access Granted**: If matched, access is provided.
 
 ## Pros and Cons
 
 > [!success] **Pros**
 > 
-> - **High Security**: Difficult to forge or replicate biometric data.
-> - **Convenience**: No need to remember passwords or carry tokens.
-> - **Quick Authentication**: Fast and efficient login process.
+> - **High Security**: Hard to forge or duplicate.
+> - **Convenient**: No need for passwords or physical tokens.
+> - **Fast Authentication**: Quick and efficient.
 
 > [!danger] **Cons**
 > 
-> - **Privacy Concerns**: Potential risks if biometric data is compromised.
-> - **Equipment Requirements**: Requires specialized hardware for capturing biometric data.
-> - **False Rejections**: Environmental factors or changes in the user's biometric traits can lead to false rejections.
-
-
-
+> - **Privacy Concerns**: Risk if biometric data is compromised.
+> - **Device Requirements**: Requires special hardware.
+> - **Environmental Impact**: Variations can lead to false rejections.
 

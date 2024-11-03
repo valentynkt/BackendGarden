@@ -1,13 +1,14 @@
 ---
 created: 2024-06-01 20:31
-aliases: 
+aliases:
+  - Azure Event Hubs
 tags:
   - LearningIT
   - seed🌱
 links:
 ---
 
-link: [[Azure]]
+link: [[Azure]], [[Event Streaming]]
 
 # Azure Event Hub
 

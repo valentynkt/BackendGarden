@@ -1,0 +1,2 @@
+**Electronic codebook (ECB)** – In this mode, plaintext messages are divided into blocks where encryption is applied to each block separately. The ECB cipher mode does not hide data patterns well since it lacks diffusion and is usually not recommended for security frameworks.
+![[Pasted image 20231026024127.png]]

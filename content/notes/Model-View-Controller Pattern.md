@@ -4,6 +4,7 @@ aliases:
   - MVC Pattern
   - Model-View-Controller Framework
   - MVC Architecture
+  - MVC
 links: "[[Architectural Patterns]]"
 tags:
   - LearningIT

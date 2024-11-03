@@ -8,7 +8,7 @@ tags:
 links:
 ---
 
-link: [[Web Security]], [[Encryption]]
+link: [[Web Security]], [[Cryptography Encryption]]
 
 # End-to-End Encryption
 

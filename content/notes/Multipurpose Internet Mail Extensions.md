@@ -21,7 +21,7 @@ link: [[Web Data Handling and Formats]]
 
 > [!info]- Key Features of MIME
 > - **Support for Multiple Media Types**: MIME types describe the nature of content—whether it's an image, text, video, or any other kind of data—allowing the email client or web browser to understand how to handle each piece.
-> - **[[Extensibility]]**: New MIME types can be defined and registered, making the system adaptable to new kinds of files and applications.
+> - **Extensibility**: New MIME types can be defined and registered, making the system adaptable to new kinds of files and applications.
 > - **Compatibility**: MIME is designed to work with existing email protocols like [[SMTP]], ensuring backward compatibility with the traditional email system which only supported [[ASCII]] text.
 
 

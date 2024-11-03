@@ -65,7 +65,7 @@ Azure Service Bus is a fully managed enterprise message broker offered by [[Azur
 > - **[[Azure Event Hub]]**: Another Azure messaging service, designed for large-scale event ingestion and stream processing, complementing Azure Service Bus in handling different messaging scenarios.
 > - **[[Azure Event Grid]]**: Azure service for managing events in a reactive programming model, often used in conjunction with Service Bus to handle complex event-driven scenarios.
 > - **[[Quality of Service]]**: Concepts related to ensuring reliable message delivery and processing in distributed systems, critical for Azure Service Bus implementations.
-> - **[[AMQP]]**: Advanced Message Queuing Protocol supported by Azure Service Bus for standard-based messaging.
+> - **[[Advanced Message Queuing Protocol]]**: Advanced Message Queuing Protocol supported by Azure Service Bus for standard-based messaging.
 
 ## Summary
 

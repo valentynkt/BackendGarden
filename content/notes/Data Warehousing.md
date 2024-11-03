@@ -6,10 +6,11 @@ aliases:
 tags:
   - LearningIT
   - seed🌱
+  - ToBeImplemented
 links:
 ---
 
-link:
+link: [[Database]]
 
 # Data Warehousing
 

@@ -34,7 +34,7 @@ link:
 > This structure not only simplifies the interaction between disparate computing devices but also underpins the functionality of the internet, allowing for scalable, distributed, and flexible communication pathways. This connectivity is essential for the vast array of online activities, from simple browsing and shopping to complex cloud-based applications and services
 
 
-> [!summary]- Connection to [[OSI model]]
+> [!summary]- Connection to [[OSI Model]]
 > The OSI (Open Systems Interconnection) model provides a layered framework that explains the different stages data goes through from physical transmission to application processing on the web. This structured approach helps clarify how various networking technologies interact to deliver web services. For an in-depth look at each layer's role in web communications, see [[OSI model]].
 
 
@@ -55,7 +55,7 @@ link:
 
 ## Session Management
 > [!summary]- Session Management
-> - **[[Web Cookies|Cookies]] and [[Session Management]]**: Overview of how web applications maintain user state and session information using cookies and other session management techniques.
+> - **[[Web Cookies|Cookies]] and [[Session Management]]**: Overview of how[](OSI%20Model.md)ions maintain user state and session information using cookies and other session management techniques.
 
 # References
 

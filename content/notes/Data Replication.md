@@ -5,6 +5,7 @@ aliases:
   - Database Replication
   - Data Synchronization
   - Data Duplication
+  - Replication Strategies
 tags:
   - LearningIT
   - bud🌿

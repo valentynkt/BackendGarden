@@ -4,13 +4,13 @@ aliases:
   - Design Pattern Fundamentals
   - Common Design Patterns
   - Design Pattern Templates
-links: "[[Patterns In General]]"
+links: "[[Intro to Design Patterns]]"
 tags:
   - LearningIT
   - moc
   - evergreen🌳
 ---
-link: [[Object Oriented Programming]], [[Patterns In General]]
+link: [[Object Oriented Programming]], [[Intro to Design Patterns]]
 
 # Design Patterns
 

@@ -3,7 +3,6 @@ created: 2024-04-26 18:30
 aliases:
   - Fault Handling Pattern
   - Service Protection Pattern
-  - Resilience Pattern
   - System Stability Pattern
   - Circuit Breaker
 links: "[[Microservices Architecture Pattern|Microservice Architecture]]"
@@ -11,7 +10,7 @@ tags:
   - LearningIT
   - bud🌿
 ---
-link: [[Microservices Architecture Pattern|Microservice Architecture]], [[Cloud Architecture]]]]
+link: [[Microservices Architecture Pattern|Microservice Architecture]], [[Cloud Architecture]]
 
 # Circuit Breaker
 ## Diagram

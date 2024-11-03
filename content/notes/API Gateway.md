@@ -2,7 +2,8 @@
 created: 2024-04-26 17:59
 aliases:
   - Microservice Gateway
-  - Unified Service Entry Point - Service Facade
+  - Unified Service Entry Point 
+  - Service Facade
 links: "[[Microservices Architecture Pattern|Microservice Architecture]]"
 tags:
   - LearningIT

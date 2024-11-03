@@ -1,0 +1,2 @@
+**Propagating cipher block chaining (PCBC)** – In this mode, the encryption scheme performs an [[XOR Operation]] between the current plaintext, the previous plaintext, and the previous ciphertext before running the encryption algorithm. This causes minor changes in the ciphertext to propagate indefinitely during encryption and decryption.
+![[Pasted image 20231026024513.png]]

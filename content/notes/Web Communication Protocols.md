@@ -34,9 +34,10 @@ Web communication protocols are foundational technologies that enable data excha
 
 > [!summary]- Additional Protocols
 > This section explores other essential protocols used in various aspects of internet communications:
-> - **[[Internet Protocol|IP]]**: The fundamental protocol for sending data across the internet, IP is responsible for addressing and routing packets of data so they can travel across networks and arrive at the correct destination.
+> - **[[Internet Protocol|IP]]**: The fundamental protocol for sending data across the internet, IP is responsible for addressing and routing packets of data so they can travel across networks and arrive at the correct destination. ([[IPSec]])
 > - **[[Domain Name System|Domain Name System (DNS)]]**: Translates domain names into [[Internet Protocol|IP]] addresses, allowing users to access websites using familiar names instead of numerical IP addresses.
-> - **[[SSL and TLS Protocols]]**: Protocols that secure communications over computer networks, widely used for web browsing, email, and other data transfer applications.
+> - [[Internet Service Provider|Internet Service Provider(ISP)]]
+> - **[[SSL and TLS Protocols]]**: Protocols that secure communications over computer networks, widely used for web browsing, email, and other data transfer applications. 
 > - **[[WebSockets]]**: Enables real-time communication between user browsers and web servers, which is particularly useful for live messaging and gaming applications.
 > - **[[Content Delivery Networks|Content Delivery Networks (CDNs)]]**: Networks of servers that work together to distribute web content efficiently to users based on their geographic location, improving site speed and reducing latency.
 

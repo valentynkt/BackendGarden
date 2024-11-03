@@ -1,0 +1,2 @@
+**Cipher block chaining mode (CBC)** – This mode combines ciphertext from the previous block with current plaintext blocks using an [[XOR Operation]] operation before performing the encryption. An IV is applied to the first plaintext block in a CBC mode to ensure uniqueness.
+![[Pasted image 20231026024021.png]]

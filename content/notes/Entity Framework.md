@@ -13,7 +13,7 @@ link:
 
 ## Code-First with [[Entity Framework]] in .NET
 
-Entity Framework (EF) is a powerful Object-Relational Mapping (ORM) framework for [[NET|.NET]] developers that fully supports the Code-First approach. Using EF, developers can define their database schema through C# classes, and EF handles all the database operations based on the defined models.
+Entity Framework (EF) is a powerful Object-Relational Mapping (ORM) framework for [[BackendGarden/content/notes/NET|.NET]] developers that fully supports the Code-First approach. Using EF, developers can define their database schema through C# classes, and EF handles all the database operations based on the defined models.
 
 ### How Entity Framework Supports Code-First
 

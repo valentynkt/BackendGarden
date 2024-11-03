@@ -1,5 +1,13 @@
-Date and Time: <u> 2023-10-18 01:32 </u>
-Tags: 
+---
+created: 2024-11-02 00:57
+aliases: 
+tags:
+  - LearningIT
+  - seed🌱
+  - ToBeImplemented
+---
+
+link:
 
 # DevOps lifecycle
 

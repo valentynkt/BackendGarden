@@ -60,4 +60,4 @@ Web session management is essential for maintaining user state and session infor
 > - **[[Authentication]]**: The process of verifying user identity, which often leads to the creation of a session.
 > - **[[Authorization]]**: Determines what authenticated users are allowed to do, often managed through session data.
 > - **[[Security Policies]]**: Guidelines and practices for maintaining secure session management and protecting user data.
-> - **[[Encryption]]**: Essential for protecting session data, especially in tokens and cookies, to prevent unauthorized access.
+> - **[[Cryptography Encryption]]**: Essential for protecting session data, especially in tokens and cookies, to prevent unauthorized access.

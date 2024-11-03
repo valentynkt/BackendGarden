@@ -1,6 +1,7 @@
 ---
 created: 2024-05-08 19:44
-aliases: 
+aliases:
+  - SFTP
 tags:
   - LearningIT
   - bud🌿
@@ -19,7 +20,7 @@ SFTP, part of the [[SSH]] protocol suite, provides a secure method for transferr
 ## Key Features of SFTP
 
 - **Secure Transfers**: Utilizes SSH to encrypt all transfers, protecting against interception and tampering.
-- **Single Connection**: Uses a single, encrypted connection to transfer files, which simplifies firewall configuration and reduces potential points of failure.
+- **Single Connection**: Uses a single, encrypted connection to transfer files, which simplifies [[Network Firewall]] configuration and reduces potential points of failure.
 - **Comprehensive Functionality**: Supports a range of operations on remote files including resuming interrupted transfers, directory listings, and remote file removal.
 
 ## Usage

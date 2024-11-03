@@ -95,7 +95,8 @@ Distributed systems are used in various applications where scalability, reliabil
 ## Related Topics
 
 > [!summary]
-> 
+> - [[Distributed Databases]]
+> - [[Distributed Caching]]
 > - **[[Microservices Architecture Pattern]]**: Distributed systems often use microservices to decompose applications into smaller, independent services. 
 > - **[[Actor Architecture Pattern|Actor Model]]**: The Actor Model is well-suited for distributed systems as it encapsulates state and behavior within actors, which communicate asynchronously. This model naturally supports distribution across nodes, enabling scalability and fault tolerance.
 > - **[[Event-driven Architecture Pattern]]**: Events can be used to trigger actions and state changes across distributed systems, enabling real-time processing and responsiveness.

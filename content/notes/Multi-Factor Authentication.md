@@ -15,39 +15,40 @@ links:
 link: [[Authentication]]
 
 # Multi-Factor Authentication (MFA)
+
 ## Overview
 
-Multi-Factor Authentication (MFA) is a security mechanism that requires users to provide multiple forms of identification to verify their identity before granting access to a system, application, or service. This approach enhances security by combining two or more independent credentials: what the user knows, what the user has, and what the user is.
+Multi-Factor Authentication (MFA) is a security approach that requires users to provide multiple forms of identification to verify their identity before accessing a system, application, or service. This method enhances security by combining independent credentials categorized as **something you know**, **something you have**, and **something you are**.
 
-MFA significantly reduces the risk of unauthorized access by making it more difficult for attackers to compromise an account. Even if one factor is compromised, additional authentication factors are needed to gain access.
+MFA significantly reduces the risk of unauthorized access, making it challenging for attackers to breach accounts. Even if one factor is compromised, the other required factors help maintain security.
 
 > [!abstract] 
-> MFA enhances security by requiring multiple forms of identification, ensuring that only authorized users can access sensitive information.
+> MFA strengthens security by requiring multiple identifiers, ensuring that only authorized users gain access to sensitive systems and data.
 
 ## Key Concepts
 
 > [!important]
 > 
 > - **Something You Know**: A password or PIN.
-> - **Something You Have**: A [[Hardware Token Authentication|Hardware Token]], a smartphone, or a smart card.
-> - **Something You Are**: [[Biometric Authentication|Biometric Verification]], such as a fingerprint or facial recognition.
+> - **Something You Have**: A [[Hardware Token Authentication|hardware token]], smartphone, or smart card.
+> - **Something You Are**: [[Biometric Authentication|biometric verification]], like a fingerprint or facial recognition.
 
 ## Types of MFA
 
 ### Two-Factor Authentication (2FA)
 
-Two-Factor Authentication (2FA) involves verifying the user's identity using two different factors from the common authentication factors:
+Two-Factor Authentication (2FA) uses two distinct factors from the MFA categories:
 
 > [!example] **2FA Example**
 > 
 > - **Something You Know**: Password
-> - **Something You Have**: OTP sent to a mobile phone
+> - **Something You Have**: OTP sent to a mobile device
 > 
-> The user logs in with their password and then enters the OTP received on their phone to gain access.
+> The user logs in with a password and confirms access with an OTP received on their phone.
 
 ### Three-Factor Authentication (3FA)
 
-Three-Factor Authentication (3FA) adds an additional layer of security by incorporating three different factors from the common authentication factors:
+Three-Factor Authentication (3FA) increases security by incorporating three unique factors:
 
 > [!example] **3FA Example**
 > 
@@ -55,11 +56,11 @@ Three-Factor Authentication (3FA) adds an additional layer of security by incorp
 > - **Something You Have**: Smart card
 > - **Something You Are**: Fingerprint scan
 > 
-> The user must provide all three forms of authentication to access the system.
+> All three forms of authentication are required for system access.
 
 ### Four-Factor Authentication (4FA)
 
-Four-Factor Authentication (4FA) further increases security by requiring four different factors, often incorporating an additional "somewhere you are" verification:
+Four-Factor Authentication (4FA) offers maximum security, often adding a location-based verification:
 
 > [!example] **4FA Example**
 > 
@@ -68,19 +69,18 @@ Four-Factor Authentication (4FA) further increases security by requiring four di
 > - **Something You Are**: Fingerprint scan
 > - **Somewhere You Are**: Location-based verification
 > 
-> All four forms of authentication are required to gain access.
+> Access requires all four authentication factors.
 
 ## How MFA Works
 
-1. **User Login Attempt**: The user initiates a login attempt by entering their username and password.
-2. **Initial Authentication**: The system verifies the user's credentials (username and password).
-3. **Additional Verification**: The system requests additional authentication factors, such as:
-    - A **[[One-Time Password]] (OTP)** sent to the user's mobile device.
-    - A **[[Biometric Authentication|biometric scan]]**, such as a fingerprint or facial recognition.
-    - A **[[Hardware Token Authentication|Hardware Token]]** that generates an OTP.
-4. **Access Granted**: If the additional authentication factors are verified, the user is granted access.
-
+1. **Login Attempt**: The user initiates login by entering their primary credentials (e.g., username and password).
+2. **Primary Authentication**: The system verifies initial credentials.
+3. **Additional Verification**: The system requests further verification, such as:
+    - An **[[One-Time Password]] (OTP)** sent to the user’s mobile device.
+    - A **[[Biometric Authentication|biometric scan]]**, like a fingerprint or face scan.
+    - A **[[Hardware Token Authentication|hardware token]]** that generates an OTP.
+4. **Access Granted**: Upon verifying all factors, the user gains access.
 
 ## Summary
 
-Multi-Factor Authentication (MFA) is a critical security measure that enhances protection by requiring multiple forms of identification from users. While it introduces some complexity and potential costs, its benefits in terms of enhanced security and user trust make it an essential component of modern security strategies.
+Multi-Factor Authentication (MFA) is essential for modern security strategies, providing robust protection by requiring multiple identifiers. While MFA can introduce added complexity, its security benefits make it a critical tool in safeguarding sensitive information.

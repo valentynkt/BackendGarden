@@ -6,6 +6,7 @@ aliases:
   - Permission Lists
   - Access Control Entries
   - Resource Permissions
+  - Access Control Lists (ACLs)
 tags:
   - LearningIT
   - bud🌿
@@ -18,58 +19,51 @@ link: [[Web Security]]
 
 ## Overview
 
-Access Control Lists (ACLs) are a security mechanism used to define and manage the permissions granted to various users, groups, or systems for accessing specific resources within a computing environment. ACLs provide a fine-grained control over who can perform what actions on resources, enhancing security and ensuring that only authorized entities have the necessary access.
+Access Control Lists (ACLs) define permissions for users, groups, or systems to control access to resources. By specifying who can perform actions like reading, writing, or executing, ACLs add a layer of security, allowing only authorized access to sensitive resources.
 
 ## Key Concepts
 
 > [!important]
 > 
-> - **Access Control Entry (ACE)**: An individual entry in an ACL that defines the permissions for a specific user or group.
-> - **Permissions**: The specific actions that are allowed or denied by an ACE, such as read, write, execute, or delete.
-> - **Resource**: Any object that can be accessed, such as files, directories, network devices, or applications.
-> - **DACL (Discretionary ACL)**: Specifies the access rights granted or denied to users and groups.
-> - **SACL (System ACL)**: Used to specify the actions that should be audited when performed by a user or group.
+> - **Access Control Entry (ACE)**: A specific permission rule within an ACL.
+> - **Permissions**: Actions allowed or denied, such as read, write, execute.
+> - **DACL (Discretionary ACL)**: Lists access rights granted/denied to users.
+> - **SACL (System ACL)**: Tracks and audits specific user actions.
 
 ## Types of ACLs
 
 > [!summary]-
 > 
-> - **Standard ACLs**: Basic ACLs that allow or deny traffic based on source IP addresses. These are simpler and have limited criteria for filtering.
-> ![[9517abd1-c28f-4336-80e1-e74e381d2cb8_588x663.webp]]
-> - **Extended ACLs**: More advanced ACLs that provide greater control by allowing or denying traffic based on multiple criteria, including source and destination IP addresses, protocol types, and port numbers.
-> - **File System ACLs**: Control access to files and directories on a file system.
-> - **Network ACLs**: Manage access to network devices, routers, and switches.
-> - **Database ACLs**: Define access permissions for database objects such as tables, views, and procedures.
-> - **Application ACLs**: Control access to application resources and functionalities.
+> - **Standard ACLs**: Basic filtering based on source IP.
+> - **Extended ACLs**: Advanced filtering by IP, protocols, and ports.
+> - **File System ACLs**: Manage access to files and directories.
+> - **Network ACLs**: Control access on network devices.
+> - **Database ACLs**: Set permissions for database objects.
+> - **Application ACLs**: Manage user access within applications.
 
-## How It Works 
+## How ACLs Work 
 
-> [!summary] 
-> 
->1. **Define ACLs**: ACLs are defined and associated with resources, specifying which users or groups have what types of access. 
->2. **Access Request**: When a user attempts to access a resource, the system checks the ACL associated with that resource. 
->3. **Evaluate ACEs**: The system evaluates each Access Control Entry (ACE) in the ACL to determine if the requested access should be allowed or denied. 
->4. **Grant or Deny Access**: Based on the evaluation of ACEs, the system either grants or denies access to the resource. 
->5. **Log Actions (SACL)**: If a System ACL (SACL) is in place, the action (whether granted or denied) may be logged for auditing purposes.
+1. **Define Permissions**: Specify user or group access for each resource.
+2. **Request Evaluation**: On access attempt, ACL checks permissions.
+3. **Grant or Deny**: Based on ACEs, access is approved or rejected.
+4. **Audit (SACL)**: Logs actions if auditing is configured.
 
 ## Best Use Cases
 
-- **File System Security**: Implementing ACLs to control access to sensitive files and directories.
-- **Network Security**: Using network ACLs to regulate traffic flow and restrict access to network devices.
-- **Database Security**: Applying ACLs to databases to control access to data and ensure only authorized users can perform certain operations.
-- **Application Security**: Using ACLs within applications to manage user permissions and access to different functionalities.
-- **Cloud Environments**: Utilizing [[AWS Security Groups|AWS SG]], [[Azure Network Security Groups|Azure NSG]] , and Firewall Rules (Google Cloud) to manage and secure access to cloud resources.
+- **File Security**: Restrict access to sensitive files and directories.
+- **Network Security**: Filter traffic and restrict device access.
+- **Database Security**: Enforce permissions on database resources.
+- **Application Security**: Control user functions within apps.
+- **Cloud Environments**: Use ACL-like rules (e.g., AWS Security Groups, Azure NSGs) for resource access control.
 
 ## Related Topics 
 
 > [!summary] 
-> - **[[Authentication]]**: Ensures that only authorized users can access a system or resource. ACLs work in conjunction with authentication mechanisms to verify the identity of users before checking their permissions. 
-> - **[[Authorization]]**: Determines what authenticated users are allowed to do. ACLs are a key component of the authorization process, specifying the actions permitted for different users or groups. 
-> - **[[Role-Based Access Control]]**: A method of restricting access based on roles assigned to users. While ACLs specify permissions for individual users or groups, RBAC assigns permissions to roles, which are then assigned to users. Both can be used together to enhance security.
-
+> 
+> - **[[Authentication]]**: Verifies user identity before ACL checks permissions.
+> - **[[Authorization]]**: Defines allowed actions post-authentication.
+> - **[[Role-Based Access Control]]**: Simplifies access by assigning roles, used alongside ACLs.
 
 ## Conclusion
 
-Access Control Lists (ACLs) are a critical component of a robust security strategy, offering fine-grained control over who can access resources and what actions they can perform. By implementing and managing ACLs effectively, organizations can enhance security, ensure compliance, and protect sensitive data and systems from unauthorized access.
-
-
+ACLs are essential for granular access control, allowing organizations to protect resources by defining user-specific permissions. They are a foundational security measure for ensuring compliance and protecting data.

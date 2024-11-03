@@ -36,7 +36,7 @@ Real-time notification architectures are crucial in software development for app
 > - [[gRPC API|gRPC]]
 > - [[Server-Sent Events]] (SSE)
 > - [[Message Queuing Telemetry Transport]]
-> - [[AMQP]]
+> - [[Advanced Message Queuing Protocol]]
 > - [[HTTP Polling]]
 
 

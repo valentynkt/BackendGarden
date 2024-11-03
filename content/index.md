@@ -9,7 +9,7 @@ aliases:
 
 
 # Welcome to BackendGarden! 🎉
-
+![[DALL·E 2024-04-22 12.20.25 - 'BackendMasteryHub'.n.jpg]]
 ![[DALL·E 2024-04-22 12.20.25 - A welcoming and educational website banner for 'BackendMasteryHub'. The image should depict a modern, digital learning environment, symbolizing backen(2).jpg]]
 
 Welcome! If you're diving into backend development or looking to sharpen your skills, you've landed in the perfect spot. I’m a software engineer who has spent years learning, structuring, and summarizing complex backend concepts. Backend Garden is my personal [[Digital Garden]] designed to make learning straightforward and engaging.
@@ -31,7 +31,7 @@ Here at Backend Garden, the content is always expanding:
 - **Focus on .NET and C#:** A lot of what you’ll find here revolves around .NET and C# because that’s where I spend most of my coding hours. But that's not all there is.
 - **Broadly Applicable Knowledge**: While I often focus on .NET and C#, the principles and strategies discussed here extend far beyond any single technology. This site is rich with language-agnostic content that is crucial for any backend developer. Topics include, but are not limited to:
     - **[[Object Oriented Programming]] (OOP)**: Understand the fundamental concepts that form the backbone of software design across various languages.
-    - **[[Patterns In General|Software Architectures]]**: Explore diverse architectural patterns—from Microservices to Monolithic designs and beyond—that influence how applications are structured and scaled.
+    - **[[Intro to Design Patterns|Software Architectures]]**: Explore diverse architectural patterns—from Microservices to Monolithic designs and beyond—that influence how applications are structured and scaled.
     - **[[Design Principles]]**: Dive into essential design principles that ensure code quality and maintainability, such as SOLID and DRY principles.
     - **Data Structures and Algorithms**: Gain insights into efficient data handling and algorithmic strategies critical for performance optimization.
     - **Cloud Solutions**: Learn about the integration and deployment of cloud technologies that are pivotal in modern backend infrastructures. Whether you program in Java, Python, Ruby, or any other development environment, you will find the content here immensely valuable for enhancing your technical skills and broadening your understanding of backend development.

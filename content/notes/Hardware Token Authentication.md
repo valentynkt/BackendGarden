@@ -16,39 +16,37 @@ link: [[Passwordless Authentication]]
 
 ## Overview
 
-Hardware Token Authentication is a method of authenticating users using a physical device, known as a hardware token, which generates one-time passwords (OTPs) or other forms of secure authentication codes. These tokens are typically used as part of two-factor authentication (2FA) or [[Multi-Factor Authentication]] (MFA) systems to enhance security by requiring possession of the physical token in addition to a password or other authentication factor.
+Hardware Token Authentication uses a physical device that generates one-time codes for login. Often part of multi-factor authentication (MFA), it adds a strong layer of security by requiring a physical token.
 
-## How Hardware Token Authentication Works
+## How It Works
 
-1. **User Initiates Login**: The user attempts to log in to an application or service.
-2. **Token Generation**: The hardware token generates a one-time password or authentication code.
-3. **User Enters Code**: The user enters the generated code into the login interface.
-4. **Server Verification**: The authentication server verifies the code against its own copy of the token's algorithm.
-5. **Access Granted**: If the code is correct, the user is granted access to the system.
+1. **Login Attempt**: The user initiates login.
+2. **Token Generation**: The hardware token produces a one-time code.
+3. **Code Entry**: The user enters the code.
+4. **Verification**: The system checks the code for access.
 
-## Examples of Hardware Tokens
+## Common Hardware Tokens
 
-- **YubiKey**: A small USB or NFC device that supports OTP, FIDO U2F, FIDO2, and smart card functionalities. It is widely used for securing online accounts, system logins, and other sensitive applications.
-- **RSA SecurID**: A key fob or software-based token that generates a new OTP every 60 seconds, used for secure access to enterprise networks and applications.
-- **Google Titan Security Key**: A physical security key that supports FIDO U2F and FIDO2 standards, providing strong protection for Google accounts and other compatible services.
+- **YubiKey**: Provides OTP, FIDO U2F, FIDO2, and smart card functions.
+- **RSA SecurID**: Generates OTPs every 60 seconds, ideal for enterprise security.
+- **Google Titan**: Security key supporting FIDO U2F and FIDO2, often used for Google accounts.
 
 ## Pros and Cons
 
-> [!success] Pros
+> [!success] **Pros**
 > 
-> - **High Security**: Hardware tokens provide strong security as they are resistant to phishing and other forms of online attacks.
-> - **Offline Functionality**: Many hardware tokens generate codes without needing an internet connection, making them reliable even when offline.
-> - **Simplicity**: Easy for users to understand and use, often just requiring the input of a code.
+> - **High Security**: Resistant to phishing and online attacks.
+> - **Offline Access**: Works without an internet connection.
+> - **Easy for Users**: Simple code-based login.
 
-> [!danger] Cons
+> [!danger] **Cons**
 > 
-> - **Cost**: Requires purchasing and distributing physical tokens to users.
-> - **Loss or Theft**: Users may lose their hardware tokens, potentially locking them out of their accounts until a new token is issued.
-> - **Management**: Organizations need to manage the issuance, replacement, and deactivation of tokens.
+> - **Costly**: Requires distributing physical tokens.
+> - **Token Loss**: Risk of users losing access if token is misplaced.
+> - **Administrative Overhead**: Tokens need management and maintenance.
 
 ## Use Cases
 
-- **Enterprise Security**: Securing access to corporate networks, VPNs, and sensitive applications.
-- **Online Banking**: Providing additional security for online banking transactions and account access.
-- **Government and Military**: Ensuring secure access to classified systems and information.
-
+- **Corporate Security**: Secures enterprise networks and VPNs.
+- **Online Banking**: Protects online accounts with an added layer.
+- **High-Security Environments**: Used in government and military for secure access.

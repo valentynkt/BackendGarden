@@ -20,7 +20,7 @@ link: [[Message brokers]]
 
 ## Overview
 
-A Message Queue is a form of [[Asynchronous]] service-to-service communication. Messages are stored in the queue until they are processed and deleted. Each message is processed [[Quality of Service#Exactly Once|only once]], by a single consumer. This decouples the producer from the consumer, allowing for reliable and scalable communication between different components of an application.
+A Message Queue is a form of [[Asynchronous CSharp]] service-to-service communication. Messages are stored in the queue until they are processed and deleted. Each message is processed [[Quality of Service#Exactly Once|only once]], by a single consumer. This decouples the producer from the consumer, allowing for reliable and scalable communication between different components of an application.
 
 ## Key Concepts
 

@@ -46,7 +46,7 @@ Event Streaming systems typically follow this workflow:
 > 
 > - **[[Apache Kafka]]**: A distributed event streaming platform capable of handling trillions of events a day. It is designed for high throughput, low latency, fault tolerance, and scalability.
 > - **[[Apache Pulsar]]**: A multi-tenant, high-performance solution for server-to-server messaging and event streaming. It features a flexible messaging model and integrates seamlessly with Apache BookKeeper for persistence.
-> - **[[Azure Event Hubs]]**: A fully managed, real-time data ingestion service that can stream millions of events per second. It is designed for high scalability and integrates seamlessly with other Azure services.
+> - **[[Azure Event Hub]]**: A fully managed, real-time data ingestion service that can stream millions of events per second. It is designed for high scalability and integrates seamlessly with other Azure services.
 > - **[[Azure Stream Analytics]]**: A real-time analytics service that uses a SQL-like query language to process streams of data from various sources like Event Hubs, IoT Hub, and Blob Storage.
 > - **[[Azure IoT Hub]]**: A fully managed service for secure and reliable bi-directional communications between IoT applications and devices.
 > - **[[AWS Kinesis]]**: A fully managed service for real-time data streaming and analytics, enabling you to process and analyze data as it arrives.

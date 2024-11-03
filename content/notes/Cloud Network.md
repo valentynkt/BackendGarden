@@ -4,6 +4,7 @@ aliases:
   - cloud-native
   - Cloud Solutions
   - Cloud Services
+  - Cloud Computing
 tags:
   - LearningIT
   - moc

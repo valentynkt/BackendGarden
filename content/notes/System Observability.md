@@ -1,6 +1,8 @@
 ---
 created: 2024-05-27 16:20
-aliases: 
+aliases:
+  - Monitoring
+  - Observability
 tags:
   - LearningIT
   - seed🌱
@@ -12,9 +14,9 @@ link:
 # System Observability
 
 > [!summary] Key Concepts
-> - [[Logging]]
+> - [[Monitoring and Logging]]
 > - [[Tracing]]
-> - [[Metrics]]
+> - [[Performance Metrics]]
 
 ![[acb7970f-cb94-46c0-a01a-33b91b9b3767_1536x1536.webp]]
 

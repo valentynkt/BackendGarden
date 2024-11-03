@@ -15,30 +15,30 @@ link: [[Passwordless Authentication]]
 
 ## Overview
 
-Email Link Authentication is a [[Passwordless Authentication]] method where users log in by clicking a one-time link sent to their email address. This method enhances security by eliminating the need for passwords and simplifying the user login process.
+Email Link Authentication is a passwordless method where users log in by clicking a one-time link sent to their email. This approach enhances security and simplifies the login process by eliminating passwords.
 
 ## How It Works
 
-1. **User Initiates Login**: The user enters their email address on the login page.
-2. **Send Authentication Link**: The server generates a one-time link and sends it to the user's email.
-3. **User Clicks Link**: The user clicks the link in their email, which redirects them to the application.
-4. **Access Granted**: The server verifies the link and grants the user access.
+1. **User Login Request**: The user enters their email on the login page.
+2. **Link Generation**: The server creates a one-time link and sends it to the user’s email.
+3. **User Clicks Link**: The user clicks the link in their email, redirecting them to the application.
+4. **Access Granted**: The server verifies the link and grants access.
 
 ## Pros and Cons
 
-> [!success] Pros
+> [!success] **Pros**
 > 
-> - **Simple User Experience**: No need to remember or enter passwords.
-> - **Enhanced Security**: Reduces the risk of password-related attacks.
-> - **Easy Implementation**: Straightforward to set up and integrate.
+> - **Simplified Login**: Users don’t need to remember passwords.
+> - **Improved Security**: Reduces risks like phishing and credential stuffing.
+> - **Easy Setup**: Simple to integrate with existing systems.
 
-> [!danger] Cons
+> [!danger] **Cons**
 > 
-> - **Email Dependency**: Requires users to have access to their email.
-> - **Potential Delays**: Email delivery can sometimes be slow or unreliable.
-> - **Link Expiry**: One-time links need to be carefully managed to ensure they expire after a short period for security reasons.
+> - **Email Dependency**: Users must access their email to log in.
+> - **Delivery Delays**: Email latency can impact user experience.
+> - **Link Expiry**: Links need to expire quickly for security.
 
 ## Use Cases
 
-- **Account Login**: Simplifies the login process for applications and websites.
-- **Password Recovery**: Can be used as a method for recovering access to accounts.
+- **User Login**: Quick, secure login for web and mobile apps.
+- **Account Recovery**: Effective alternative for password recovery.

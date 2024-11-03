@@ -16,43 +16,43 @@ link: [[Authentication]]
 
 # Password-Based Authentication
 
-## Overview
+### Overview
 
-Password-based authentication is one of the most common methods for verifying user identity. It involves a user providing a secret combination of characters, known only to them, to gain access to a system or application. Despite its widespread use, this method has both advantages and limitations.
+Password-based authentication is a common user identity verification method where users provide a password to gain system access. This method, while simple, has both advantages and limitations.
 
-> [!summary]- **Common Types**
+> [!summary] **Types of Password-Based Authentication**
 > 
-> - **[[HTTP Basic Authentication]]**: A simple authentication scheme built into the HTTP protocol where the user credentials are encoded and sent with each request.
-> - **[[Session-Cookie Authentication]]**: Involves creating a session on the server side after the user logs in. The server stores session information and sends a session identifier (session cookie) to the client, which is included in subsequent requests to maintain the session.
-> - **[[Web Tokens|Token-Based Authentication]]**: Involves the user providing credentials to receive a token, which is then used for subsequent requests instead of resending the username and password.
+> - **[[HTTP Basic Authentication]]**: Sends encoded credentials with each request.
+> - **[[Session-Cookie Authentication]]**: Uses server-side sessions with cookies for ongoing access.
+> - **[[Web Tokens|Token-Based Authentication]]**: Replaces credentials with a token for session management.
 
-## How Password-Based Authentication Works
+### How It Works
 
-1. **User Request**: The user attempts to access a system or application.
-2. **Credentials Submission**: The user enters their username and password.
-3. **Verification**: The system verifies the credentials against stored information.
-4. **Access Granted**: If the credentials match, the user is granted access.
+1. **User Request**: User tries to access the system.
+2. **Credentials Submission**: User enters username and password.
+3. **Verification**: System checks credentials.
+4. **Access Granted**: Matching credentials allow access.
 
-## Best Practices
+### Best Practices
 
-> [!important]- **Best Practices**
+> [!important] **Best Practices for Password-Based Authentication**
 > 
-> - **Enforce Strong Passwords**: Require passwords to meet complexity criteria (e.g., length, special characters).
-> - **[[Cryptography Hashing|Hashing]] and [[Cryptography Salt|Salt]]**: Store passwords securely by hashing and salting them.
-> - **Regular Updates**: Encourage users to update passwords regularly.
-> - **Monitor and Alert**: Implement monitoring and alerting for suspicious login attempts.
-> - **Account Lockout Mechanism**: Lock accounts after multiple failed login attempts to prevent brute-force attacks.
+> - **Strong Passwords**: Enforce complexity requirements.
+> - **Hashing and Salting**: Store passwords securely.
+> - **Regular Updates**: Encourage frequent password changes.
+> - **Monitoring**: Alert on suspicious login attempts.
+> - **Account Lockout**: Prevent brute-force attacks by locking accounts after multiple failures.
 
-## Pros and Cons
+### Pros and Cons
 
-> [!success]- **Pros**
+> [!success] **Pros**
 > 
 > - **Simplicity**: Easy to implement and use.
-> - **Ubiquity**: Supported by nearly all systems and applications.
-> - **Cost-Effective**: Requires minimal additional infrastructure or technology.
+> - **Ubiquity**: Supported universally across systems.
+> - **Cost-Effective**: Minimal additional infrastructure needed.
 
-> [!danger]- **Cons**
+> [!danger] **Cons**
 > 
-> - **Security Risks**: Susceptible to attacks such as brute-force, phishing, and credential stuffing.
-> - **User Management**: Can be cumbersome to manage, especially with password resets and recoveries.
-> - **Password Fatigue**: Users often struggle with remembering multiple complex passwords, leading to poor practices like reusing passwords.
+> - **Security Risks**: Susceptible to attacks like phishing and brute-force.
+> - **User Management**: Requires frequent resets and management.
+> - **Password Fatigue**: Users often reuse passwords, leading to vulnerabilities.

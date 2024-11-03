@@ -58,4 +58,4 @@ The Domain Name System (DNS) is a hierarchical and decentralized naming system u
 DNS is a foundational technology for the internet that allows users and services to locate computers and services through user-friendly domain names instead of [[Internet Protocol|IP]] addresses. It enhances the usability and functionality of the web by making the Internet accessible and navigable for humans.
 
 
-
+----------

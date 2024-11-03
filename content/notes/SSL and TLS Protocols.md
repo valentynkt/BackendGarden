@@ -96,8 +96,8 @@ SSL and TLS have evolved through several versions, each improving on its predece
 
 > [!summary] **Encryption Across Versions**:
 > 
-> - Early SSL versions used basic encryption algorithms like RC4 and DES.
-> - TLS versions introduced more advanced algorithms such as AES and ChaCha20 for robust encryption
+> - Early SSL versions used basic encryption algorithms like RC4 and [[Encryption DES|DES]].
+> - TLS versions introduced more advanced algorithms such as [[Encryption AES|AES]] and ChaCha20 for robust encryption
 
 ## Real-World Example of SSL/TLS Handshake
 

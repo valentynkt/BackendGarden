@@ -21,7 +21,7 @@ link: [[Architectural Patterns]],
 
 ## Overview
 
-Event-driven Architecture (EDA) is a design pattern that orchestrates interactions between software components based on events. This architecture is particularly effective in systems where responsiveness and scalability are critical, such as in interactive applications or real-time data processing environments. It also facilitates [[Asynchronous]] programming, enabling applications to respond quickly to state changes and enhancing both user experience and system performance.
+Event-driven Architecture (EDA) is a design pattern that orchestrates interactions between software components based on events. This architecture is particularly effective in systems where responsiveness and scalability are critical, such as in interactive applications or real-time data processing environments. It also facilitates [[Asynchronous CSharp]] programming, enabling applications to respond quickly to state changes and enhancing both user experience and system performance.
 
 > [!abstract]
 >  EDA revolves around components that produce and react to events, enabling applications to respond quickly to state changes, enhancing both user experience and system performance.

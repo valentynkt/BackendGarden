@@ -19,7 +19,7 @@ Apache ActiveMQ is an open-source message broker that supports a wide range of m
 > [!summary]- **Protocol Support**
 > 
 > - **[[AMQP]]**: Advanced Message Queuing Protocol for robust messaging.
-> - **[[Message Queuing Telemetry Transport]]**: Lightweight messaging protocol for IoT and mobile applications.
+> - **[](Advanced%20Message%20Queuing%20Protocol.md)e Queuing Telemetry Transport]]**: Lightweight messaging protocol for IoT and mobile applications.
 > - **STOMP**: Simple Text Oriented Messaging Protocol.
 > - **OpenWire**: Native ActiveMQ protocol for optimal performance.
 

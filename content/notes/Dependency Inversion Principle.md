@@ -3,6 +3,8 @@ created: 2024-04-19 18:01
 aliases:
   - DIP
   - DIP in OOP
+  - IoC
+  - Inversion of Control
 links: "[[SOLID Principles]]"
 tags:
   - LearningIT

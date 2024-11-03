@@ -41,7 +41,7 @@ Amazon MQ is a managed message broker service provided by [[AWS]] that simplifie
 | ------------ | -------------------------------- | ------------------------------------------------------ | --------------------------------------------------------------- |
 | **Type**     | Queue-based                      | Pub/Sub                                                | Managed message broker                                          |
 | **Use Case** | Simple, scalable queuing         | Broadcast to multiple subscribers                      | Complex messaging patterns, legacy integration                  |
-| **Protocol** | HTTP/HTTPS                       | HTTP/HTTPS, Email, SMS, Lambda                         | JMS, [[AMQP]], STOMP, [[Message Queuing Telemetry Transport]], WebSocket                       |
+| **Protocol** | HTTP/HTTPS                       | HTTP/HTTPS, Email, SMS, Lambda                         | JMS, [[Advanced Message Queuing Protocol]], STOMP, [[Message Queuing Telemetry Transport]], WebSocket                       |
 | **Pros**     | Easy, scalable, fully managed    | Broad protocol support, scalable, easy AWS integration | Supports complex patterns, legacy compatibility, multi-protocol |
 | **Cons**     | Limited to queue-based messaging | Not for complex message patterns                       | More configuration needed compared to SQS and SNS               |
 

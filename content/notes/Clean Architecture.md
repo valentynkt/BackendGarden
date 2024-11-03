@@ -134,7 +134,7 @@ Clean Architecture, proposed by Robert C. Martin (Uncle Bob), is a software desi
 > [!summary] **Related Topics**
 > 
 > - **[[Hexagonal Architecture]]**: Shares similar goals of separating concerns and promoting maintainability and testability.
-> - **[[Onion Architecture Pattern]]**: Another architectural pattern that emphasizes keeping the core business logic isolated from external concerns.
+> - **[](Hexagonal%20Architecture%20Pattern.md)rn]]**: Another architectural pattern that emphasizes keeping the core business logic isolated from external concerns.
 > - **[[Domain Driven Design|Domain-Driven Design]]**: Often used in conjunction with Clean Architecture to model complex business domains.
 > - **[[SOLID Principles]]**: Clean Architecture heavily relies on SOLID principles to ensure a robust, maintainable design.
 > - **[[Microservices Architecture Pattern]]**: Can benefit from the decoupling principles of Clean Architecture.

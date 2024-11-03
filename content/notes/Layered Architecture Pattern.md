@@ -21,6 +21,10 @@ link: [[Architectural Patterns]]
 ## Overview
 
 The Layered Architecture Pattern organizes software into clear, hierarchical layers, each dedicated to a specific role within the application. Commonly used in various types of applications—from enterprise systems to web applications—this pattern simplifies development and improves system manageability and scalability.
+
+> [!abstract] 
+> The Layered Architecture Pattern structures an application into distinct layers, such as presentation, business logic, and data access. This setup helps modularize code, simplifying updates and maintenance.
+
 ## Content
 
 ### Key Concepts

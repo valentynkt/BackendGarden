@@ -66,7 +66,7 @@ Message Brokers are integral to [[Message-driven Architecture Pattern|Message-dr
 > 
 > - **[[Apache Kafka]]**:  An [[Event Streaming]] platform (is not a message broker) for high-throughput, low-latency data streaming, supporting both publish-subscribe and point-to-point models.
 > 
-> - **[[RabbitMQ]]**: An open-source message broker supporting multiple protocols, including [[AMQP]], with various queue types for different needs.
+> - **[[RabbitMQ]]**: An open-source message broker supporting multiple protocols, including [[Advanced Message Queuing Protocol]], with various queue types for different needs.
 > 
 > - **[[Azure Service Bus]]**: A managed enterprise message broker with queues and publish-subscribe topics, offering advanced features like sessions and dead-lettering.
 > 
